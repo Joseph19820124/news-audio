@@ -170,7 +170,7 @@ def main():
                 })
             except Exception as e:
                 print(f"  ERROR [{idx:03d}]: {e}")
-            time.sleep(6)  # 10 RPM limit = 1 req per 6s
+            time.sleep(0.2)
         date_entry['categories'].append(cat_entry)
 
     manifest.setdefault('dates', []).insert(0, date_entry)
