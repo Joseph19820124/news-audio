@@ -136,10 +136,13 @@ def main():
     print(f"Date: {date}, categories: {len(categories)}")
 
     manifest = load_manifest()
-    existing = {d['date'] for d in manifest.get('dates', [])}
-    if date in existing:
-        print(f"{date} already processed, skipping.")
-        return
+    # 只跳过已完整生成的日期
+    for d in manifest.get('dates', []):
+        if d['date'] == date and d.get('complete'):
+            print(f"{date} already complete, skipping.")
+            return
+    # 移除当天不完整的旧记录
+    manifest['dates'] = [d for d in manifest.get('dates', []) if d['date'] != date]
 
     date_dir = AUDIO_DIR / date
     date_dir.mkdir(parents=True, exist_ok=True)
@@ -170,9 +173,10 @@ def main():
                 })
             except Exception as e:
                 print(f"  ERROR [{idx:03d}]: {e}")
-            time.sleep(0.2)
+            time.sleep(6)  # gemini-2.5-flash-preview-tts: 10 RPM hard limit
         date_entry['categories'].append(cat_entry)
 
+    date_entry['complete'] = True
     manifest.setdefault('dates', []).insert(0, date_entry)
     manifest = cleanup_old_dates(manifest)
     manifest['updated_at'] = datetime.datetime.now(tz_cst).isoformat()
