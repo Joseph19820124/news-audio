@@ -349,6 +349,7 @@ function renderDate(dateEntry) {
 
     const section = document.createElement('div');
     section.className = 'category';
+    section.dataset.ci = ci;
 
     const hdr = document.createElement('div');
     hdr.className = 'category-header';
@@ -404,8 +405,27 @@ function renderDate(dateEntry) {
     if (catOk) {
       hdr.querySelector('.cat-play-btn').addEventListener('click', e => {
         e.stopPropagation();
-        const firstInSection = flatItems.findIndex(f => f.ci === ci);
-        if (firstInSection >= 0) playFlat(firstInSection);
+        const btn = e.currentTarget;
+        const inThisSection = currentFlat >= 0 && flatItems[currentFlat]?.ci === ci;
+        if (inThisSection && !audio.paused) {
+          // 正在播本节 → 暂停
+          audio.pause();
+          btn.textContent = '▶'; btn.classList.remove('section-playing');
+          pbBtn.textContent = '▶';
+          document.querySelector(`.item[data-flat="${currentFlat}"] .play-btn`)?.textContent !== undefined &&
+            (document.querySelector(`.item[data-flat="${currentFlat}"] .play-btn`).textContent = '▶');
+        } else if (inThisSection && audio.paused) {
+          // 本节已暂停 → 恢复
+          audio.play();
+          btn.textContent = '⏸'; btn.classList.add('section-playing');
+          pbBtn.textContent = '⏸';
+          document.querySelector(`.item[data-flat="${currentFlat}"] .play-btn`)?.textContent !== undefined &&
+            (document.querySelector(`.item[data-flat="${currentFlat}"] .play-btn`).textContent = '⏸');
+        } else {
+          // 非本节 → 从本节第一条开始
+          const firstInSection = flatItems.findIndex(f => f.ci === ci);
+          if (firstInSection >= 0) playFlat(firstInSection);
+        }
       });
     }
 
@@ -460,17 +480,9 @@ function playFlat(flatIdx) {
 
   // 高亮当前 section 的播放按钮
   document.querySelectorAll('.cat-play-btn').forEach(btn => {
-    btn.classList.remove('section-playing');
-    btn.textContent = '▶';
+    btn.classList.remove('section-playing'); btn.textContent = '▶';
   });
-  const curSection = flatItems[flatIdx];
-  const sectionHdrs = document.querySelectorAll('.category-header');
-  let sectionIdx = 0;
-  document.querySelectorAll('.category').forEach((cat, i) => {
-    const firstFlat = flatItems.findIndex(f => f.ci === curSection.ci);
-    if (flatItems[firstFlat]?.ci === curSection.ci) sectionIdx = i;
-  });
-  const catBtn = sectionHdrs[curSection.ci]?.querySelector('.cat-play-btn');
+  const catBtn = document.querySelector(`.category[data-ci="${flatItems[flatIdx].ci}"] .cat-play-btn`);
   if (catBtn) { catBtn.classList.add('section-playing'); catBtn.textContent = '⏸'; }
 }
 
@@ -503,13 +515,18 @@ audio.addEventListener('ended', () => {
 });
 
 pbBtn.addEventListener('click', () => {
+  const ci = flatItems[currentFlat]?.ci;
+  const catBtn = ci != null ? document.querySelector(`.category[data-ci="${ci}"] .cat-play-btn`) : null;
+  const row = document.querySelector(`.item[data-flat="${currentFlat}"]`);
   if (audio.paused) {
-    audio.play(); pbBtn.textContent = '⏸';
-    const row = document.querySelector(`.item[data-flat="${currentFlat}"]`);
+    audio.play();
+    pbBtn.textContent = '⏸';
+    if (catBtn) { catBtn.textContent = '⏸'; catBtn.classList.add('section-playing'); }
     if (row) row.querySelector('.play-btn').textContent = '⏸';
   } else {
-    audio.pause(); pbBtn.textContent = '▶';
-    const row = document.querySelector(`.item[data-flat="${currentFlat}"]`);
+    audio.pause();
+    pbBtn.textContent = '▶';
+    if (catBtn) { catBtn.textContent = '▶'; catBtn.classList.remove('section-playing'); }
     if (row) row.querySelector('.play-btn').textContent = '▶';
   }
 });
