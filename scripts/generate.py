@@ -11,7 +11,7 @@ from pathlib import Path
 DATA_URL = "https://x.deepsrt.cc/index.txt"
 GOOGLE_API_KEY = os.environ["GEMINI_API_KEY"]
 TTS_URL = f"https://texttospeech.googleapis.com/v1/text:synthesize?key={GOOGLE_API_KEY}"
-TTS_VOICE = "zh-TW-Neural2-A"
+TTS_VOICE = "cmn-TW-Wavenet-A"
 DOCS_DIR = Path("docs")
 AUDIO_DIR = DOCS_DIR / "audio"
 MANIFEST_PATH = DOCS_DIR / "manifest.json"
@@ -60,7 +60,7 @@ def text_to_mp3(text, output_path, max_retries=5):
     payload = {
         "input": {"text": text},
         "voice": {
-            "languageCode": "zh-TW",
+            "languageCode": "cmn-TW",
             "name": TTS_VOICE,
         },
         "audioConfig": {
