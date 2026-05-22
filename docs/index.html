@@ -13,12 +13,15 @@
     --surface2: #22263a;
     --border: #2d3150;
     --accent: #6c8fff;
-    --accent2: #a78bfa;
     --text: #e2e8f0;
     --muted: #7c85a0;
-    --playing: #1e3a5f;
+    --pending-bg: #1e1a2e;
+    --pending-border: #3d2f6e;
+    --pending-text: #9d87cc;
+    --playing-bg: #1e3a5f;
     --playing-border: #6c8fff;
     --radius: 10px;
+    --warn: #f59e0b;
   }
 
   body {
@@ -28,53 +31,71 @@
     font-size: 14px;
     line-height: 1.6;
     min-height: 100vh;
-    padding-bottom: 100px;
+    padding-bottom: 110px;
   }
 
+  /* ── Header ── */
   header {
     background: var(--surface);
     border-bottom: 1px solid var(--border);
-    padding: 16px 24px;
+    padding: 14px 20px;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 12px;
     position: sticky;
     top: 0;
     z-index: 100;
+    flex-wrap: wrap;
   }
 
-  header h1 {
-    font-size: 18px;
-    font-weight: 700;
-    color: var(--accent);
-    white-space: nowrap;
-  }
+  header h1 { font-size: 17px; font-weight: 700; color: var(--accent); white-space: nowrap; }
 
   #date-select {
     background: var(--surface2);
     border: 1px solid var(--border);
     color: var(--text);
-    padding: 6px 12px;
+    padding: 5px 10px;
     border-radius: var(--radius);
-    font-size: 14px;
+    font-size: 13px;
     cursor: pointer;
   }
 
-  #stats {
-    margin-left: auto;
-    color: var(--muted);
-    font-size: 12px;
+  #stats { color: var(--muted); font-size: 12px; white-space: nowrap; }
+  #stats span.ok { color: #4ade80; }
+  #stats span.missing { color: var(--warn); }
+
+  /* ── Compensation bar ── */
+  #comp-bar {
+    display: none;
+    background: #1c1700;
+    border-bottom: 1px solid #3d2f00;
+    padding: 10px 20px;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+  #comp-bar.visible { display: flex; }
+  #comp-bar p { font-size: 13px; color: var(--warn); flex: 1; }
+  #regen-btn {
+    background: var(--warn);
+    color: #000;
+    border: none;
+    padding: 6px 16px;
+    border-radius: var(--radius);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
     white-space: nowrap;
   }
+  #regen-btn:hover { opacity: 0.85; }
+  #regen-btn:disabled { opacity: 0.5; cursor: default; }
+  #regen-msg { font-size: 12px; color: var(--muted); }
 
-  main {
-    max-width: 860px;
-    margin: 24px auto;
-    padding: 0 16px;
-  }
+  /* ── Main ── */
+  main { max-width: 860px; margin: 20px auto; padding: 0 16px; }
 
   .category {
-    margin-bottom: 24px;
+    margin-bottom: 20px;
     background: var(--surface);
     border: 1px solid var(--border);
     border-radius: var(--radius);
@@ -82,7 +103,7 @@
   }
 
   .category-header {
-    padding: 12px 16px;
+    padding: 10px 16px;
     background: var(--surface2);
     display: flex;
     align-items: center;
@@ -90,190 +111,130 @@
     cursor: pointer;
     user-select: none;
   }
-
-  .category-header h2 {
-    font-size: 14px;
-    font-weight: 600;
-    flex: 1;
-  }
-
-  .category-header .count {
-    background: var(--border);
-    color: var(--muted);
+  .category-header h2 { font-size: 13px; font-weight: 600; flex: 1; }
+  .cat-counts { display: flex; gap: 6px; }
+  .badge {
     font-size: 11px;
-    padding: 2px 8px;
+    padding: 1px 7px;
     border-radius: 20px;
   }
-
-  .category-header .toggle {
-    color: var(--muted);
-    transition: transform 0.2s;
-  }
-
+  .badge-ok { background: #0d2d1a; color: #4ade80; }
+  .badge-miss { background: #2d1f00; color: var(--warn); }
+  .toggle { color: var(--muted); font-size: 12px; transition: transform 0.2s; }
   .category-header.collapsed .toggle { transform: rotate(-90deg); }
 
   .items { display: flex; flex-direction: column; }
   .items.hidden { display: none; }
 
+  /* ── Item row ── */
   .item {
     display: flex;
     align-items: flex-start;
-    gap: 12px;
-    padding: 12px 16px;
+    gap: 10px;
+    padding: 10px 16px;
     border-top: 1px solid var(--border);
-    transition: background 0.15s;
-    cursor: pointer;
+    transition: background 0.12s;
   }
 
-  .item:hover { background: var(--surface2); }
+  /* items WITH audio */
+  .item.has-audio { cursor: pointer; }
+  .item.has-audio:hover { background: var(--surface2); }
+  .item.playing { background: var(--playing-bg); border-left: 3px solid var(--playing-border); padding-left: 13px; }
 
-  .item.playing {
-    background: var(--playing);
-    border-left: 3px solid var(--playing-border);
-    padding-left: 13px;
-  }
+  /* items WITHOUT audio */
+  .item.no-audio { background: var(--pending-bg); cursor: default; }
 
-  .item-num {
-    color: var(--muted);
-    font-size: 11px;
-    min-width: 28px;
-    padding-top: 2px;
-    text-align: right;
-  }
+  .item-num { color: var(--muted); font-size: 11px; min-width: 28px; padding-top: 3px; text-align: right; flex-shrink: 0; }
 
   .play-btn {
-    width: 32px;
-    height: 32px;
+    width: 30px; height: 30px;
     border-radius: 50%;
     border: 1px solid var(--border);
     background: var(--surface2);
     color: var(--text);
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: flex; align-items: center; justify-content: center;
     cursor: pointer;
     flex-shrink: 0;
-    transition: background 0.15s, border-color 0.15s;
+    font-size: 12px;
+    transition: background 0.12s, border-color 0.12s;
   }
-
   .play-btn:hover { border-color: var(--accent); color: var(--accent); }
   .item.playing .play-btn { background: var(--accent); border-color: var(--accent); color: #fff; }
 
-  .item-text {
-    flex: 1;
-    font-size: 13.5px;
-    line-height: 1.65;
-    color: var(--text);
+  /* pending icon (no audio) */
+  .pending-icon {
+    width: 30px; height: 30px;
+    border-radius: 50%;
+    border: 1px dashed var(--pending-border);
+    color: var(--pending-text);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    font-size: 13px;
   }
 
-  .item.playing .item-text { color: #fff; }
+  .item-text { flex: 1; font-size: 13.5px; line-height: 1.65; }
+  .item.has-audio .item-text { color: var(--text); }
+  .item.no-audio  .item-text { color: var(--pending-text); }
+  .item.playing   .item-text { color: #fff; }
+
+  .pending-label {
+    font-size: 10px;
+    color: var(--pending-text);
+    background: var(--pending-border);
+    padding: 1px 6px;
+    border-radius: 4px;
+    white-space: nowrap;
+    align-self: flex-start;
+    margin-top: 4px;
+    flex-shrink: 0;
+  }
 
   .tweet-link {
-    color: var(--muted);
-    font-size: 11px;
-    text-decoration: none;
-    flex-shrink: 0;
-    padding-top: 3px;
-    opacity: 0.6;
-    transition: opacity 0.15s;
+    color: var(--muted); font-size: 11px; text-decoration: none;
+    flex-shrink: 0; padding-top: 3px; opacity: 0.5;
+    transition: opacity 0.12s;
   }
-
   .tweet-link:hover { opacity: 1; color: var(--accent); }
 
-  /* Bottom player bar */
+  /* ── Player bar ── */
   #player-bar {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    position: fixed; bottom: 0; left: 0; right: 0;
     background: var(--surface);
     border-top: 1px solid var(--border);
     padding: 10px 20px;
-    display: none;
-    align-items: center;
-    gap: 14px;
+    display: none; align-items: center; gap: 12px;
     z-index: 200;
   }
-
   #player-bar.active { display: flex; }
 
   #pb-btn {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    background: var(--accent);
-    border: none;
-    color: #fff;
-    font-size: 16px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    width: 38px; height: 38px; border-radius: 50%;
+    background: var(--accent); border: none; color: #fff;
+    font-size: 15px; cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
     flex-shrink: 0;
   }
 
-  #pb-info {
-    flex: 1;
-    min-width: 0;
-  }
-
-  #pb-title {
-    font-size: 12px;
-    color: var(--text);
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-  }
+  #pb-info { flex: 1; min-width: 0; }
+  #pb-title { font-size: 12px; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
   #pb-progress-wrap {
-    height: 3px;
-    background: var(--border);
-    border-radius: 2px;
-    margin-top: 5px;
-    cursor: pointer;
-    position: relative;
+    height: 3px; background: var(--border); border-radius: 2px;
+    margin-top: 5px; cursor: pointer;
   }
+  #pb-progress { height: 100%; background: var(--accent); border-radius: 2px; width: 0%; transition: width 0.2s linear; }
 
-  #pb-progress {
-    height: 100%;
-    background: var(--accent);
-    border-radius: 2px;
-    width: 0%;
-    transition: width 0.2s linear;
-  }
-
-  #pb-time {
-    color: var(--muted);
-    font-size: 11px;
-    white-space: nowrap;
-    flex-shrink: 0;
-  }
+  #pb-time { color: var(--muted); font-size: 11px; white-space: nowrap; flex-shrink: 0; }
 
   #pb-next {
-    background: none;
-    border: 1px solid var(--border);
-    color: var(--muted);
-    padding: 6px 12px;
-    border-radius: var(--radius);
-    font-size: 12px;
-    cursor: pointer;
-    white-space: nowrap;
+    background: none; border: 1px solid var(--border);
+    color: var(--muted); padding: 5px 12px;
+    border-radius: var(--radius); font-size: 12px; cursor: pointer;
   }
-
   #pb-next:hover { color: var(--text); border-color: var(--accent); }
 
-  #loading {
-    text-align: center;
-    color: var(--muted);
-    padding: 60px 20px;
-    font-size: 16px;
-  }
-
-  #error {
-    text-align: center;
-    color: #f87171;
-    padding: 60px 20px;
-  }
+  #loading, #error { text-align: center; padding: 60px 20px; color: var(--muted); font-size: 15px; }
+  #error { color: #f87171; }
 </style>
 </head>
 <body>
@@ -284,6 +245,12 @@
   <span id="stats"></span>
 </header>
 
+<div id="comp-bar">
+  <p id="comp-msg"></p>
+  <button id="regen-btn">🔄 重新生成缺失音頻</button>
+  <span id="regen-msg"></span>
+</div>
+
 <main id="main">
   <div id="loading">載入中…</div>
 </main>
@@ -292,9 +259,7 @@
   <button id="pb-btn">▶</button>
   <div id="pb-info">
     <div id="pb-title"></div>
-    <div id="pb-progress-wrap">
-      <div id="pb-progress"></div>
-    </div>
+    <div id="pb-progress-wrap"><div id="pb-progress"></div></div>
   </div>
   <span id="pb-time">0:00</span>
   <button id="pb-next">下一條</button>
@@ -303,40 +268,40 @@
 <audio id="audio"></audio>
 
 <script>
-const audio = document.getElementById('audio');
+// ── 配置：填入你的 n8n webhook URL，留空则显示手动触发提示 ──
+const REGEN_WEBHOOK_URL = '';
+
+// ── State ──
+const audio   = document.getElementById('audio');
 const playerBar = document.getElementById('player-bar');
-const pbBtn = document.getElementById('pb-btn');
+const pbBtn   = document.getElementById('pb-btn');
 const pbTitle = document.getElementById('pb-title');
 const pbProgress = document.getElementById('pb-progress');
 const pbProgressWrap = document.getElementById('pb-progress-wrap');
-const pbTime = document.getElementById('pb-time');
-const pbNext = document.getElementById('pb-next');
+const pbTime  = document.getElementById('pb-time');
+const pbNext  = document.getElementById('pb-next');
 const dateSelect = document.getElementById('date-select');
-const mainEl = document.getElementById('main');
+const mainEl  = document.getElementById('main');
 const statsEl = document.getElementById('stats');
+const compBar = document.getElementById('comp-bar');
+const compMsg = document.getElementById('comp-msg');
+const regenBtn = document.getElementById('regen-btn');
+const regenMsg = document.getElementById('regen-msg');
 
 let manifest = null;
-let currentDate = null;
-let flatItems = [];  // [{catIndex, itemIndex, item}] for current date
+let flatItems = [];   // only items with audio, for playback
 let currentFlat = -1;
 
 function fmt(s) {
   const m = Math.floor(s / 60);
-  const sec = Math.floor(s % 60).toString().padStart(2, '0');
-  return `${m}:${sec}`;
-}
-
-async function loadManifest() {
-  const resp = await fetch('./manifest.json?t=' + Date.now());
-  if (!resp.ok) throw new Error('Failed to load manifest');
-  return resp.json();
+  return `${m}:${Math.floor(s % 60).toString().padStart(2,'0')}`;
 }
 
 function buildFlatItems(dateEntry) {
   const flat = [];
   dateEntry.categories.forEach((cat, ci) => {
     cat.items.forEach((item, ii) => {
-      flat.push({ ci, ii, item });
+      if (item.file) flat.push({ ci, ii, item });
     });
   });
   return flat;
@@ -346,43 +311,59 @@ function renderDate(dateEntry) {
   mainEl.innerHTML = '';
   flatItems = buildFlatItems(dateEntry);
 
-  let total = 0;
+  let totalOk = 0, totalMiss = 0;
+
   dateEntry.categories.forEach((cat, ci) => {
     if (!cat.items.length) return;
-    total += cat.items.length;
+
+    const catOk   = cat.items.filter(i => i.file).length;
+    const catMiss = cat.items.filter(i => !i.file).length;
+    totalOk   += catOk;
+    totalMiss += catMiss;
 
     const section = document.createElement('div');
     section.className = 'category';
 
     const hdr = document.createElement('div');
     hdr.className = 'category-header';
-    hdr.innerHTML = `<h2>${cat.name}</h2><span class="count">${cat.items.length}</span><span class="toggle">▾</span>`;
+    hdr.innerHTML = `
+      <h2>${cat.name}</h2>
+      <div class="cat-counts">
+        ${catOk   ? `<span class="badge badge-ok">▶ ${catOk}</span>` : ''}
+        ${catMiss ? `<span class="badge badge-miss">⏳ ${catMiss}</span>` : ''}
+      </div>
+      <span class="toggle">▾</span>`;
 
     const itemsDiv = document.createElement('div');
     itemsDiv.className = 'items';
 
     cat.items.forEach((item, ii) => {
-      const flatIdx = flatItems.findIndex(f => f.ci === ci && f.ii === ii);
       const row = document.createElement('div');
-      row.className = 'item';
-      row.dataset.flat = flatIdx;
 
-      const tweetHref = item.tweet_id
-        ? `https://x.com/i/web/status/${item.tweet_id}`
-        : '#';
+      if (item.file) {
+        // ── Item WITH audio ──
+        const flatIdx = flatItems.findIndex(f => f.ci === ci && f.ii === ii);
+        row.className = 'item has-audio';
+        row.dataset.flat = flatIdx;
+        row.innerHTML = `
+          <span class="item-num">${item.index}</span>
+          <button class="play-btn">▶</button>
+          <span class="item-text">${item.text}</span>
+          ${item.tweet_id ? `<a class="tweet-link" href="https://x.com/i/web/status/${item.tweet_id}" target="_blank" rel="noopener" title="原推文" onclick="event.stopPropagation()">𝕏</a>` : ''}`;
 
-      row.innerHTML = `
-        <span class="item-num">${item.index}</span>
-        <button class="play-btn" title="播放">▶</button>
-        <span class="item-text">${item.text}</span>
-        ${item.tweet_id ? `<a class="tweet-link" href="${tweetHref}" target="_blank" rel="noopener" title="原推文" onclick="event.stopPropagation()">𝕏</a>` : ''}
-      `;
+        row.addEventListener('click', () => playFlat(flatIdx));
+        row.querySelector('.play-btn').addEventListener('click', e => { e.stopPropagation(); playFlat(flatIdx); });
 
-      row.addEventListener('click', () => playFlat(flatIdx));
-      row.querySelector('.play-btn').addEventListener('click', e => {
-        e.stopPropagation();
-        playFlat(flatIdx);
-      });
+      } else {
+        // ── Item WITHOUT audio ──
+        row.className = 'item no-audio';
+        row.innerHTML = `
+          <span class="item-num">${item.index}</span>
+          <div class="pending-icon">⏳</div>
+          <span class="item-text">${item.text}</span>
+          <span class="pending-label">待生成</span>
+          ${item.tweet_id ? `<a class="tweet-link" href="https://x.com/i/web/status/${item.tweet_id}" target="_blank" rel="noopener" title="原推文">𝕏</a>` : ''}`;
+      }
 
       itemsDiv.appendChild(row);
     });
@@ -397,13 +378,22 @@ function renderDate(dateEntry) {
     mainEl.appendChild(section);
   });
 
-  statsEl.textContent = `${dateEntry.date} · 共 ${total} 條`;
+  // Stats
+  statsEl.innerHTML = `${dateEntry.date} · <span class="ok">▶ ${totalOk}</span> / <span class="missing">⏳ ${totalMiss}</span>`;
+
+  // Compensation bar
+  if (totalMiss > 0) {
+    compMsg.textContent = `有 ${totalMiss} 條缺少音頻，可重新觸發生成。`;
+    compBar.classList.add('visible');
+  } else {
+    compBar.classList.remove('visible');
+  }
 }
 
+// ── Playback ──
 function playFlat(flatIdx) {
   if (flatIdx < 0 || flatIdx >= flatItems.length) return;
 
-  // Deselect old
   document.querySelectorAll('.item.playing').forEach(el => {
     el.classList.remove('playing');
     el.querySelector('.play-btn').textContent = '▶';
@@ -453,13 +443,11 @@ audio.addEventListener('ended', () => {
 
 pbBtn.addEventListener('click', () => {
   if (audio.paused) {
-    audio.play();
-    pbBtn.textContent = '⏸';
+    audio.play(); pbBtn.textContent = '⏸';
     const row = document.querySelector(`.item[data-flat="${currentFlat}"]`);
     if (row) row.querySelector('.play-btn').textContent = '⏸';
   } else {
-    audio.pause();
-    pbBtn.textContent = '▶';
+    audio.pause(); pbBtn.textContent = '▶';
     const row = document.querySelector(`.item[data-flat="${currentFlat}"]`);
     if (row) row.querySelector('.play-btn').textContent = '▶';
   }
@@ -477,16 +465,35 @@ pbProgressWrap.addEventListener('click', e => {
 
 dateSelect.addEventListener('change', () => {
   currentFlat = -1;
-  audio.pause();
-  audio.src = '';
+  audio.pause(); audio.src = '';
   playerBar.classList.remove('active');
   const dateEntry = manifest.dates.find(d => d.date === dateSelect.value);
   if (dateEntry) renderDate(dateEntry);
 });
 
+// ── Compensation button ──
+regenBtn.addEventListener('click', async () => {
+  if (!REGEN_WEBHOOK_URL) {
+    regenMsg.textContent = '請在 index.html 中設定 REGEN_WEBHOOK_URL（n8n webhook）';
+    return;
+  }
+  regenBtn.disabled = true;
+  regenMsg.textContent = '正在觸發…';
+  try {
+    await fetch(REGEN_WEBHOOK_URL, { method: 'POST', mode: 'no-cors' });
+    regenMsg.textContent = '✅ 已觸發，請稍候幾分鐘後刷新頁面';
+  } catch(e) {
+    regenMsg.textContent = '❌ 觸發失敗：' + e.message;
+    regenBtn.disabled = false;
+  }
+});
+
+// ── Init ──
 (async () => {
   try {
-    manifest = await loadManifest();
+    const resp = await fetch('./manifest.json?t=' + Date.now());
+    if (!resp.ok) throw new Error('Failed to load manifest');
+    manifest = await resp.json();
     if (!manifest.dates || !manifest.dates.length) {
       mainEl.innerHTML = '<div id="loading">尚無音頻資料，請等待每日更新。</div>';
       return;
@@ -499,7 +506,7 @@ dateSelect.addEventListener('change', () => {
       dateSelect.appendChild(opt);
     });
     renderDate(manifest.dates[0]);
-  } catch (e) {
+  } catch(e) {
     mainEl.innerHTML = `<div id="error">載入失敗：${e.message}</div>`;
   }
 })();

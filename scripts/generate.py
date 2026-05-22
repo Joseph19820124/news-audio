@@ -116,13 +116,14 @@ def main():
 
     manifest = load_manifest()
 
-    # 找到已有的当天记录，提取已成功生成的文件集合
+    # 找到已有的当天记录，提取已成功生成的文件集合（file 非 null）
     existing_entry = next((d for d in manifest.get('dates', []) if d['date'] == date), None)
     existing_files = set()
     if existing_entry:
         for cat in existing_entry.get('categories', []):
             for item in cat.get('items', []):
-                existing_files.add(item['file'])
+                if item.get('file'):
+                    existing_files.add(item['file'])
         already_done = len(existing_files)
         if existing_entry.get('complete') and already_done >= total_expected:
             print(f"{date} already complete ({already_done}/{total_expected}), skipping.")
@@ -174,6 +175,13 @@ def main():
                 success += 1
             except Exception as e:
                 print(f"  ERROR [{idx:03d}]: {e}")
+                # 失败的条目 file 设为 null，仍写入 manifest 供前端显示
+                cat_entry['items'].append({
+                    'index': idx,
+                    'text': item['text'],
+                    'tweet_id': item['tweet_id'],
+                    'file': None,
+                })
             time.sleep(0.2)
 
         date_entry['categories'].append(cat_entry)
