@@ -123,6 +123,21 @@
   .toggle { color: var(--muted); font-size: 12px; transition: transform 0.2s; }
   .category-header.collapsed .toggle { transform: rotate(-90deg); }
 
+  .cat-play-btn {
+    background: none;
+    border: 1px solid var(--border);
+    color: var(--muted);
+    width: 26px; height: 26px;
+    border-radius: 50%;
+    font-size: 11px;
+    cursor: pointer;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    transition: border-color 0.12s, color 0.12s;
+  }
+  .cat-play-btn:hover { border-color: var(--accent); color: var(--accent); }
+  .cat-play-btn.section-playing { background: var(--accent); border-color: var(--accent); color: #fff; }
+
   .items { display: flex; flex-direction: column; }
   .items.hidden { display: none; }
 
@@ -301,10 +316,21 @@ function buildFlatItems(dateEntry) {
   const flat = [];
   dateEntry.categories.forEach((cat, ci) => {
     cat.items.forEach((item, ii) => {
-      if (item.file) flat.push({ ci, ii, item });
+      if (item.file) flat.push({ ci, ii, item, sectionName: cat.name });
     });
   });
   return flat;
+}
+
+function announceSectionEnd(sectionName) {
+  if (!('speechSynthesis' in window)) return;
+  // 去掉 emoji，保留文字
+  const clean = sectionName.replace(/[\p{Emoji_Presentation}\p{Extended_Pictographic}]/gu, '').trim();
+  speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(`${clean}，本小節播報完畢`);
+  utter.lang = 'zh-TW';
+  utter.rate = 0.9;
+  speechSynthesis.speak(utter);
 }
 
 function renderDate(dateEntry) {
@@ -332,6 +358,7 @@ function renderDate(dateEntry) {
         ${catOk   ? `<span class="badge badge-ok">▶ ${catOk}</span>` : ''}
         ${catMiss ? `<span class="badge badge-miss">⏳ ${catMiss}</span>` : ''}
       </div>
+      ${catOk ? `<button class="cat-play-btn" title="播放本節">▶</button>` : ''}
       <span class="toggle">▾</span>`;
 
     const itemsDiv = document.createElement('div');
@@ -368,10 +395,19 @@ function renderDate(dateEntry) {
       itemsDiv.appendChild(row);
     });
 
-    hdr.addEventListener('click', () => {
+    hdr.addEventListener('click', e => {
+      if (e.target.classList.contains('cat-play-btn')) return;
       hdr.classList.toggle('collapsed');
       itemsDiv.classList.toggle('hidden');
     });
+
+    if (catOk) {
+      hdr.querySelector('.cat-play-btn').addEventListener('click', e => {
+        e.stopPropagation();
+        const firstInSection = flatItems.findIndex(f => f.ci === ci);
+        if (firstInSection >= 0) playFlat(firstInSection);
+      });
+    }
 
     section.appendChild(hdr);
     section.appendChild(itemsDiv);
@@ -421,6 +457,21 @@ function playFlat(flatIdx) {
   pbTitle.textContent = `${item.index}. ${item.text}`;
   pbBtn.textContent = '⏸';
   playerBar.classList.add('active');
+
+  // 高亮当前 section 的播放按钮
+  document.querySelectorAll('.cat-play-btn').forEach(btn => {
+    btn.classList.remove('section-playing');
+    btn.textContent = '▶';
+  });
+  const curSection = flatItems[flatIdx];
+  const sectionHdrs = document.querySelectorAll('.category-header');
+  let sectionIdx = 0;
+  document.querySelectorAll('.category').forEach((cat, i) => {
+    const firstFlat = flatItems.findIndex(f => f.ci === curSection.ci);
+    if (flatItems[firstFlat]?.ci === curSection.ci) sectionIdx = i;
+  });
+  const catBtn = sectionHdrs[curSection.ci]?.querySelector('.cat-play-btn');
+  if (catBtn) { catBtn.classList.add('section-playing'); catBtn.textContent = '⏸'; }
 }
 
 audio.addEventListener('timeupdate', () => {
@@ -430,14 +481,24 @@ audio.addEventListener('timeupdate', () => {
 });
 
 audio.addEventListener('ended', () => {
-  if (currentFlat + 1 < flatItems.length) {
+  const cur  = flatItems[currentFlat];
+  const next = flatItems[currentFlat + 1];
+
+  if (next && next.ci === cur.ci) {
+    // 同一 section，继续播
     playFlat(currentFlat + 1);
   } else {
-    pbBtn.textContent = '▶';
+    // section 结束，清除高亮，播报小节名
     document.querySelectorAll('.item.playing').forEach(el => {
       el.classList.remove('playing');
       el.querySelector('.play-btn').textContent = '▶';
     });
+    document.querySelectorAll('.cat-play-btn.section-playing').forEach(el => {
+      el.classList.remove('section-playing');
+      el.textContent = '▶';
+    });
+    pbBtn.textContent = '▶';
+    if (cur) announceSectionEnd(cur.sectionName);
   }
 });
 
