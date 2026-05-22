@@ -124,7 +124,26 @@ def main():
     manifest = load_manifest()
     existing_entry = next((d for d in manifest.get('dates', []) if d['date'] == date), None)
 
-    # 用磁盘上实际存在的 MP3 数量判断进度
+    # 用 tweet_id 检测 idx 是否位移（数据源中间插入新条目导致后续 idx 整体偏移）
+    if existing_entry:
+        old_tweet_idx = {
+            item['tweet_id']: item['index']
+            for cat in existing_entry.get('categories', [])
+            for item in cat.get('items', [])
+            if item.get('tweet_id') and item.get('file')
+        }
+        reordered = any(
+            old_tweet_idx[item['tweet_id']] != item['index']
+            for cat in categories
+            for item in cat['items']
+            if item.get('tweet_id') and item['tweet_id'] in old_tweet_idx
+        )
+        if reordered:
+            print(f"{date} source reordered — clearing MP3s and regenerating.")
+            for f in date_dir.glob("*.mp3"):
+                f.unlink()
+            existing_entry = None
+
     existing_mp3s = {f.name for f in date_dir.glob("*.mp3")}
     already_done = sum(
         1 for cat in categories for item in cat['items']
@@ -138,7 +157,7 @@ def main():
         return
 
     if already_done:
-        print(f"{date} incremental: {already_done}/{total_expected} already done, picking up new items.")
+        print(f"{date} incremental: {already_done}/{total_expected} done, picking up new items.")
 
     manifest['dates'] = [d for d in manifest.get('dates', []) if d['date'] != date]
 
