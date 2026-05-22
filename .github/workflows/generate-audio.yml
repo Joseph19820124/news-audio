@@ -2,7 +2,7 @@ name: Generate Audio News
 
 on:
   schedule:
-    - cron: '0 */3 * * *'  # 每3小时一次
+    - cron: '45 */3 * * *' # 每3小时第45分触发
   repository_dispatch:
     types: [generate-audio]
   workflow_dispatch:        # 保留 GitHub 页面手动触发
