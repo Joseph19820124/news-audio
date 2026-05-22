@@ -150,7 +150,9 @@ def main():
                     existing_files.add(item['file'])
         already_done = len(existing_files)
         if existing_entry.get('complete') and already_done >= total_expected:
-            print(f"{date} already complete ({already_done}/{total_expected}), skipping.")
+            print(f"{date} already complete ({already_done}/{total_expected}), skipping generation.")
+            if SUPABASE_URL and SUPABASE_KEY:
+                sync_to_supabase(existing_entry)
             return
         print(f"{date} resuming: {already_done}/{total_expected} already done.")
     elif snapshot_is_new:
