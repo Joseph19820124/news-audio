@@ -27,7 +27,8 @@ jobs:
       - name: Generate audio
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
-          NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
         run: python scripts/generate.py
 
       - name: Commit and push

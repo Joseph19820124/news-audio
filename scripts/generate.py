@@ -16,8 +16,8 @@ DOCS_DIR = Path("docs")
 AUDIO_DIR = DOCS_DIR / "audio"
 MANIFEST_PATH = DOCS_DIR / "manifest.json"
 MAX_DAYS = 10
-NOTION_TOKEN = os.environ.get("NOTION_TOKEN", "")
-NOTION_DB_ID = "368a2eb5-ddad-8181-a742-c627f30606c8"
+SUPABASE_URL = os.environ.get("SUPABASE_URL", "")
+SUPABASE_KEY = os.environ.get("SUPABASE_KEY", "")
 GITHUB_PAGES_BASE = "https://n.chen-siyi.dev"
 
 
@@ -221,91 +221,44 @@ def main():
     manifest['updated_at'] = datetime.datetime.now(tz_cst).isoformat()
     save_manifest(manifest)
 
-    if NOTION_TOKEN:
-        sync_to_notion(date_entry)
+    if SUPABASE_URL and SUPABASE_KEY:
+        sync_to_supabase(date_entry)
 
 
-def notion_headers():
-    return {
-        "Authorization": f"Bearer {NOTION_TOKEN}",
-        "Notion-Version": "2022-06-28",
-        "Content-Type": "application/json",
-    }
-
-
-def notion_existing_tweet_ids(date):
-    """查询 Notion 数据库中当天已有的 tweet_id，避免重复插入。"""
-    existing = set()
-    cursor = None
-    while True:
-        payload = {
-            "filter": {
-                "property": "Date",
-                "date": {"equals": date}
-            },
-            "page_size": 100,
-        }
-        if cursor:
-            payload["start_cursor"] = cursor
-        resp = requests.post(
-            f"https://api.notion.com/v1/databases/{NOTION_DB_ID}/query",
-            headers=notion_headers(),
-            json=payload,
-            timeout=30,
-        )
-        resp.raise_for_status()
-        data = resp.json()
-        for row in data.get("results", []):
-            tweet_url = row["properties"].get("Tweet", {}).get("url") or ""
-            if tweet_url:
-                # 从 URL 末尾提取 tweet_id
-                existing.add(tweet_url.rstrip("/").split("/")[-1])
-        if not data.get("has_more"):
-            break
-        cursor = data.get("next_cursor")
-    return existing
-
-
-def sync_to_notion(date_entry):
+def sync_to_supabase(date_entry):
     date = date_entry["date"]
-    print(f"Syncing to Notion for {date}...")
+    print(f"Syncing to Supabase for {date}...")
 
-    existing_ids = notion_existing_tweet_ids(date)
-    inserted = 0
-
+    rows = []
     for cat in date_entry["categories"]:
         for item in cat["items"]:
-            tweet_id = item.get("tweet_id", "")
-            if tweet_id and tweet_id in existing_ids:
-                continue  # 已存在，跳过
+            tweet_id = item.get("tweet_id") or None
+            rows.append({
+                "date": date,
+                "category": cat["name"],
+                "idx": item["index"],
+                "text": item["text"],
+                "tweet_id": tweet_id,
+                "audio_url": f"{GITHUB_PAGES_BASE}/audio/{date}/{item['index']:03d}.mp3" if item.get("file") else None,
+                "tweet_url": f"https://x.com/i/web/status/{tweet_id}" if tweet_id else None,
+                "generated_at": date_entry.get("generated_at"),
+            })
 
-            audio_url = f"{GITHUB_PAGES_BASE}/audio/{date}/{item['index']:03d}.mp3" if item.get("file") else None
-            tweet_url = f"https://x.com/i/web/status/{tweet_id}" if tweet_id else None
-
-            properties = {
-                "Summary":  {"title": [{"text": {"content": item["text"]}}]},
-                "Date":     {"date": {"start": date}},
-                "Category": {"select": {"name": cat["name"]}},
-                "Index":    {"number": item["index"]},
-            }
-            if audio_url:
-                properties["Audio"] = {"url": audio_url}
-            if tweet_url:
-                properties["Tweet"] = {"url": tweet_url}
-
-            resp = requests.post(
-                "https://api.notion.com/v1/pages",
-                headers=notion_headers(),
-                json={"parent": {"database_id": NOTION_DB_ID}, "properties": properties},
-                timeout=30,
-            )
-            if resp.status_code == 200:
-                inserted += 1
-            else:
-                print(f"  Notion ERROR [{item['index']:03d}]: {resp.text[:100]}")
-            time.sleep(0.3)
-
-    print(f"Notion sync done: {inserted} inserted, {len(existing_ids)} already existed")
+    resp = requests.post(
+        f"{SUPABASE_URL}/rest/v1/news_items",
+        headers={
+            "apikey": SUPABASE_KEY,
+            "Authorization": f"Bearer {SUPABASE_KEY}",
+            "Content-Type": "application/json",
+            "Prefer": "resolution=merge-duplicates",
+        },
+        json=rows,
+        timeout=30,
+    )
+    if resp.status_code in (200, 201):
+        print(f"Supabase sync done: {len(rows)} rows upserted")
+    else:
+        print(f"Supabase ERROR: {resp.status_code} {resp.text[:300]}")
 
 
 if __name__ == '__main__':
