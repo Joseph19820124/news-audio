@@ -107,22 +107,43 @@ def cleanup_old_dates(manifest):
             for f in old_dir.iterdir():
                 f.unlink()
             old_dir.rmdir()
+            print(f"Cleaned up {entry['date']}")
     manifest['dates'] = dates[:MAX_DAYS]
     return manifest
 
 
 def main():
-    raw = fetch_index()
+    # Fetch to determine date (needed before we can locate the snapshot)
+    fetched_raw = fetch_index()
+    date, _ = parse_index(fetched_raw)
+
+    date_dir = AUDIO_DIR / date
+    date_dir.mkdir(parents=True, exist_ok=True)
+
+    snapshot = date_dir / "source.txt"
+    if snapshot.exists():
+        # Reuse canonical snapshot — guarantees MP3 audio matches displayed text
+        raw = snapshot.read_text(encoding='utf-8')
+        snapshot_is_new = False
+        print(f"Loaded source snapshot for {date}.")
+    else:
+        raw = fetched_raw
+        snapshot.write_text(raw, encoding='utf-8')
+        snapshot_is_new = True
+        # Clear any MP3s built from a different source version
+        for f in date_dir.glob("*.mp3"):
+            f.unlink()
+        print(f"Saved new source snapshot for {date}, cleared stale MP3s.")
+
     date, categories = parse_index(raw)
     total_expected = sum(len(cat['items']) for cat in categories)
     print(f"Date: {date}, categories: {len(categories)}, expected: {total_expected}")
 
     manifest = load_manifest()
 
-    # 找到已有的当天记录，提取已成功生成的文件集合（file 非 null）
     existing_entry = next((d for d in manifest.get('dates', []) if d['date'] == date), None)
     existing_files = set()
-    if existing_entry:
+    if existing_entry and not snapshot_is_new:
         for cat in existing_entry.get('categories', []):
             for item in cat.get('items', []):
                 if item.get('file'):
@@ -132,12 +153,11 @@ def main():
             print(f"{date} already complete ({already_done}/{total_expected}), skipping.")
             return
         print(f"{date} resuming: {already_done}/{total_expected} already done.")
+    elif snapshot_is_new:
+        print(f"New snapshot created, regenerating all {total_expected} items.")
 
     # 移除旧记录，重新构建（保留已有 MP3 文件）
     manifest['dates'] = [d for d in manifest.get('dates', []) if d['date'] != date]
-
-    date_dir = AUDIO_DIR / date
-    date_dir.mkdir(parents=True, exist_ok=True)
 
     tz_cst = datetime.timezone(datetime.timedelta(hours=8))
     date_entry = {
