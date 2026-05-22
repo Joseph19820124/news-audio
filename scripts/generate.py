@@ -76,8 +76,7 @@ def text_to_mp3(text, output_path, max_retries=5):
             time.sleep(wait)
             continue
         resp.raise_for_status()
-        audio_bytes = base64.b64decode(resp.json()["audioContent"])
-        output_path.write_bytes(audio_bytes)
+        output_path.write_bytes(base64.b64decode(resp.json()["audioContent"]))
         return
 
 
@@ -112,13 +111,25 @@ def cleanup_old_dates(manifest):
 def main():
     raw = fetch_index()
     date, categories = parse_index(raw)
-    print(f"Date: {date}, categories: {len(categories)}")
+    total_expected = sum(len(cat['items']) for cat in categories)
+    print(f"Date: {date}, categories: {len(categories)}, expected: {total_expected}")
 
     manifest = load_manifest()
-    for d in manifest.get('dates', []):
-        if d['date'] == date and d.get('complete'):
-            print(f"{date} already complete, skipping.")
+
+    # 找到已有的当天记录，提取已成功生成的文件集合
+    existing_entry = next((d for d in manifest.get('dates', []) if d['date'] == date), None)
+    existing_files = set()
+    if existing_entry:
+        for cat in existing_entry.get('categories', []):
+            for item in cat.get('items', []):
+                existing_files.add(item['file'])
+        already_done = len(existing_files)
+        if existing_entry.get('complete') and already_done >= total_expected:
+            print(f"{date} already complete ({already_done}/{total_expected}), skipping.")
             return
+        print(f"{date} resuming: {already_done}/{total_expected} already done.")
+
+    # 移除旧记录，重新构建（保留已有 MP3 文件）
     manifest['dates'] = [d for d in manifest.get('dates', []) if d['date'] != date]
 
     date_dir = AUDIO_DIR / date
@@ -131,12 +142,26 @@ def main():
         'categories': [],
     }
 
+    success = 0
     for cat in categories:
         cat_entry = {'name': cat['name'], 'items': []}
         for item in cat['items']:
             idx = item['index']
             filename = f"{idx:03d}.mp3"
             output_path = date_dir / filename
+            file_key = f"audio/{date}/{filename}"
+
+            # 已有 MP3 文件则直接复用，不重新生成
+            if output_path.exists() and file_key in existing_files:
+                cat_entry['items'].append({
+                    'index': idx,
+                    'text': item['text'],
+                    'tweet_id': item['tweet_id'],
+                    'file': file_key,
+                })
+                success += 1
+                continue
+
             print(f"  [{idx:03d}] {item['text'][:60]}")
             try:
                 text_to_mp3(item['text'], output_path)
@@ -144,21 +169,26 @@ def main():
                     'index': idx,
                     'text': item['text'],
                     'tweet_id': item['tweet_id'],
-                    'file': f"audio/{date}/{filename}",
+                    'file': file_key,
                 })
+                success += 1
             except Exception as e:
                 print(f"  ERROR [{idx:03d}]: {e}")
             time.sleep(0.2)
+
         date_entry['categories'].append(cat_entry)
 
-    date_entry['complete'] = True
+    # 只有全部成功才标记 complete
+    if success == total_expected:
+        date_entry['complete'] = True
+        print(f"Done: {success}/{total_expected} ✓")
+    else:
+        print(f"Partial: {success}/{total_expected} — will resume on next run")
+
     manifest.setdefault('dates', []).insert(0, date_entry)
     manifest = cleanup_old_dates(manifest)
     manifest['updated_at'] = datetime.datetime.now(tz_cst).isoformat()
     save_manifest(manifest)
-
-    total = sum(len(c['items']) for c in date_entry['categories'])
-    print(f"Done: {total} MP3s for {date}")
 
 
 if __name__ == '__main__':
