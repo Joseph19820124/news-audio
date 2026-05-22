@@ -1,37 +1,428 @@
 {
-  "updated_at": "2026-05-22T09:14:58.854268+08:00",
+  "updated_at": "2026-05-22T09:17:24.248454+08:00",
   "dates": [
     {
       "date": "2026-05-22",
-      "generated_at": "2026-05-22T09:14:38.106759+08:00",
+      "generated_at": "2026-05-22T09:16:45.690775+08:00",
       "categories": [
         {
           "name": "🤖 AI／模型與工具",
-          "items": []
+          "items": [
+            {
+              "index": 1,
+              "text": "OpenAI Codex Thursday 重大更新：Codex 可安全使用 Mac 上的 app（即使螢幕關閉），並推出「Goal Mode」讓 Codex 自主朝目標工作數小時甚至數天，agent 自主性再升一級。",
+              "tweet_id": "2057617844800794878",
+              "file": "audio/2026-05-22/001.mp3"
+            },
+            {
+              "index": 2,
+              "text": "Codex Goal Mode 正式上線桌面 app、IDE 擴充與 CLI，定位為「設定目標後放手」的長時間自主 agent。",
+              "tweet_id": "2057617860986593680",
+              "file": "audio/2026-05-22/002.mp3"
+            },
+            {
+              "index": 3,
+              "text": "OpenAI Codex 新功能 Appshots：Mac 按兩次 ⌘ 將當前視窗上下文傳給 Codex，實現跨應用 AI 輔助開發。",
+              "tweet_id": "2057560537215725653",
+              "file": "audio/2026-05-22/003.mp3"
+            },
+            {
+              "index": 4,
+              "text": "Gemini 現可連接 OpenTable、Canva、Instacart 等更多應用，從訂位到設計到購物一站完成，Google 加速 agent 生態整合。",
+              "tweet_id": "2057550225863246236",
+              "file": "audio/2026-05-22/004.mp3"
+            },
+            {
+              "index": 5,
+              "text": "Codex 深度使用者分享：比 Claude Code 更徹底，修改時做更完整上下文理解，多位知名開發者背書。",
+              "tweet_id": "2057068528428044538",
+              "file": "audio/2026-05-22/005.mp3"
+            },
+            {
+              "index": 6,
+              "text": "有用戶表示 Codex 遠優於 Claude Code，看了 Theo 的影片後親自驗證確認。",
+              "tweet_id": "2057512430419501547",
+              "file": "audio/2026-05-22/006.mp3"
+            },
+            {
+              "index": 7,
+              "text": "Grok Build 0.1.214 修復版發布：正在推出 X 搜尋與更快的 web-search，修復 Windows 渲染問題。",
+              "tweet_id": "2057620377313095842",
+              "file": "audio/2026-05-22/007.mp3"
+            },
+            {
+              "index": 8,
+              "text": "Oz 推出多 agent 協調功能，支援 Claude Code、Codex 和 Warp Agent，用 /orchestrate 委派複雜任務。",
+              "tweet_id": "2056772856835453395",
+              "file": "audio/2026-05-22/008.mp3"
+            },
+            {
+              "index": 9,
+              "text": "Alibaba Qwen 3.7-Max 被評為當前最強模型，有用戶將所有 agent 切換至該模型。",
+              "tweet_id": "2057583769897378055",
+              "file": "audio/2026-05-22/009.mp3"
+            },
+            {
+              "index": 10,
+              "text": "數學家 Will Sawin 在 OpenAI 發表結果僅一天後即改進，AI 輔助數學發現加速人類研究跟進。",
+              "tweet_id": "2057526743187997038",
+              "file": "audio/2026-05-22/010.mp3"
+            },
+            {
+              "index": 11,
+              "text": "OpenAI 單位距離問題結果最令人驚訝的是「他們找到了它」——模型不是不能產生洞見，而是要從大量嘗試中篩選。",
+              "tweet_id": "2057573746215620733",
+              "file": "audio/2026-05-22/011.mp3"
+            },
+            {
+              "index": 12,
+              "text": "OpenAI 聲稱證明的定理繞過離散幾何攻擊，援引 Minkowski 數論幾何工具，展示 AI 跨領域數學推理能力。",
+              "tweet_id": "2057480872715300992",
+              "file": "audio/2026-05-22/012.mp3"
+            },
+            {
+              "index": 13,
+              "text": "Devin CLI 被評為優於 Claude Code 和 Codex，底層 harness 更注重測試與自我驗證。",
+              "tweet_id": "2057404733023822282",
+              "file": "audio/2026-05-22/013.mp3"
+            },
+            {
+              "index": 14,
+              "text": "有用戶徹底從 Claude Cowork 轉向 Claude Code，原因是沙盒權限限制太嚴。",
+              "tweet_id": "2057469798880292923",
+              "file": "audio/2026-05-22/014.mp3"
+            },
+            {
+              "index": 15,
+              "text": "Google Chrome 團隊 I/O 更新回顧：為 agentic web 打造瀏覽與建構工具。",
+              "tweet_id": "2057526002801377624",
+              "file": "audio/2026-05-22/015.mp3"
+            },
+            {
+              "index": 16,
+              "text": "小型 LLM（Qwen 2.5 0.5B）放在 1D 晶格上的「語義人工生命」實驗，探索 NCA + LLM 的湧現行為。",
+              "tweet_id": "2057464092990787880",
+              "file": "audio/2026-05-22/016.mp3"
+            },
+            {
+              "index": 17,
+              "text": "Function Gemma 以 2.7 億參數在邊緣裝置達近 2000 tokens/s prefill，TLM 邊緣部署持續推進。",
+              "tweet_id": "2057593017523917112",
+              "file": "audio/2026-05-22/017.mp3"
+            },
+            {
+              "index": 18,
+              "text": "GitHub Copilot for Eclipse 以 MIT 授權開源，涵蓋 chat、code completions 和 agentic workflows。",
+              "tweet_id": "2057616196669735020",
+              "file": "audio/2026-05-22/018.mp3"
+            },
+            {
+              "index": 19,
+              "text": "開源未死但需新基礎設施：面對 AI slop 和安全漏洞，維護者需要更好工具而非放棄。",
+              "tweet_id": "2057502385031762424",
+              "file": "audio/2026-05-22/019.mp3"
+            },
+            {
+              "index": 20,
+              "text": "AI 補貼時代終結？微軟取消內部 Claude Code（token 計費成本難以承受）、Uber CTO 警告四個月燒光預算。",
+              "tweet_id": "2057617519205343519",
+              "file": "audio/2026-05-22/020.mp3"
+            },
+            {
+              "index": 21,
+              "text": "Google 推出利用 Gemini 的新廣告格式，並為「AI Mode」推出對話式廣告。",
+              "tweet_id": "2057277713740943701",
+              "file": "audio/2026-05-22/021.mp3"
+            },
+            {
+              "index": 22,
+              "text": "Codex vs Antigravity 對比引發討論，兩大 coding agent 路線分歧明顯。",
+              "tweet_id": "2057351279190675460",
+              "file": "audio/2026-05-22/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "iOS app 原型：agent 在背景控制本地瀏覽器，行動端 agent 能力持續擴展。",
+              "tweet_id": "2057588392175812855",
+              "file": "audio/2026-05-22/023.mp3"
+            },
+            {
+              "index": 24,
+              "text": "日本首本 Mastra 專書即將出版，TypeScript AI agent 框架在日本社群升溫。",
+              "tweet_id": "2057616810661536240",
+              "file": "audio/2026-05-22/024.mp3"
+            },
+            {
+              "index": 25,
+              "text": "Velma 語音 AI 不只聽「說了什麼」而是聽「意思是什麼」——語調、意圖、情緒、欺騙偵測。",
+              "tweet_id": "2055385122501788101",
+              "file": "audio/2026-05-22/025.mp3"
+            }
+          ]
         },
         {
           "name": "🚀 太空／SpaceX",
-          "items": []
+          "items": [
+            {
+              "index": 26,
+              "text": "SpaceX Starship 第 12 次試飛因液壓銷未縮回而取消，若今晚修復明天再試。",
+              "tweet_id": "2057609682865254695",
+              "file": "audio/2026-05-22/026.mp3"
+            },
+            {
+              "index": 27,
+              "text": "SpaceX 正式宣布今日試飛取消（standing down）。",
+              "tweet_id": "2057607702445019541",
+              "file": "audio/2026-05-22/027.mp3"
+            },
+            {
+              "index": 28,
+              "text": "Starship V3 全面重新設計：酬載三倍至 100 公噸、33 具 Raptor 同時點火、3 片格柵翼取代 4 片。",
+              "tweet_id": "2057608942868426882",
+              "file": "audio/2026-05-22/028.mp3"
+            },
+            {
+              "index": 29,
+              "text": "SpaceX S-1 文件承諾承擔所有資料中心電網升級成本，不轉嫁當地住戶。",
+              "tweet_id": "2057516386860335276",
+              "file": "audio/2026-05-22/029.mp3"
+            },
+            {
+              "index": 30,
+              "text": "SpaceX 是太空公司還是 AI 公司？IPO 文件引發市場重新定位討論。",
+              "tweet_id": "2057576335006945544",
+              "file": "audio/2026-05-22/030.mp3"
+            }
+          ]
         },
         {
           "name": "🔒 資安／供應鏈",
-          "items": []
+          "items": [
+            {
+              "index": 31,
+              "text": "2026 軟體工程現況：套件管理器被入侵、雲端供應商封鎖帳號、GitHub 本身被駭。",
+              "tweet_id": "2057021062521504029",
+              "file": "audio/2026-05-22/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "大規模 GitHub Actions 攻擊活動進行中，多個開源專案被植入惡意 commit。",
+              "tweet_id": "2057490674954727913",
+              "file": "audio/2026-05-22/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "JavaScript 生態系統被評為「太危險」，供應鏈攻擊頻傳。",
+              "tweet_id": "2057504168038846479",
+              "file": "audio/2026-05-22/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "TeamPCP 建議防禦供應鏈攻擊：pin 版本至特定 hash、使用最小權限 token、限制 IDE 擴充。",
+              "tweet_id": "2057581884025282927",
+              "file": "audio/2026-05-22/034.mp3"
+            },
+            {
+              "index": 35,
+              "text": "Bun 公開其 unsafe 使用情況審計報告。",
+              "tweet_id": "2057587641277984935",
+              "file": "audio/2026-05-22/035.mp3"
+            },
+            {
+              "index": 36,
+              "text": "30MB RAM 的 headless Chrome 替代方案 Obscura 開源。",
+              "tweet_id": "2057588025995973023",
+              "file": "audio/2026-05-22/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "豆包語音輸入法被發現半夜自動透過 IPv6 聯網，引發隱私疑慮。",
+              "tweet_id": "2057148641098567843",
+              "file": "audio/2026-05-22/037.mp3"
+            }
+          ]
         },
         {
           "name": "🌐 地緣政治",
-          "items": []
+          "items": [
+            {
+              "index": 38,
+              "text": "中國外交部：川普並非受邀訪華，而是他主動要求來的。",
+              "tweet_id": "2057057827143786761",
+              "file": "audio/2026-05-22/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "普丁表示俄羅斯不打算進行軍備競賽，核三位一體將維持在所需規模。",
+              "tweet_id": "2057517921916641459",
+              "file": "audio/2026-05-22/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "伊朗國家媒體稱美伊最終協議草案已透過巴基斯坦斡旋達成，可能數小時內宣布。",
+              "tweet_id": "2057519107944104134",
+              "file": "audio/2026-05-22/040.mp3"
+            },
+            {
+              "index": 41,
+              "text": "美國眾議院共和黨突然取消限制川普對伊朗戰爭權力的決議投票。",
+              "tweet_id": "2057597020232204327",
+              "file": "audio/2026-05-22/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "馬斯克稱台灣之於北京如同夏威夷之於美國，屬中國不可分割領土，引發台灣粉絲反應。",
+              "tweet_id": "2057388385753313556",
+              "file": "audio/2026-05-22/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "以同屬「中華民族」當兩岸冷對抗突破口？梁文傑回應引發討論。",
+              "tweet_id": "2057435441465524578",
+              "file": "audio/2026-05-22/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "五大常任理事國四個到了，還剩一個——暗示美國在多邊場合的缺席。",
+              "tweet_id": "2057233841681743968",
+              "file": "audio/2026-05-22/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "美中對抗自 2012 年以來已耗費估計 3.4 兆美元，未發一槍。",
+              "tweet_id": "2056800444341539292",
+              "file": "audio/2026-05-22/045.mp3"
+            }
+          ]
         },
         {
           "name": "🏭 產業",
-          "items": []
+          "items": [
+            {
+              "index": 46,
+              "text": "RADAR 宣布 1.7 億美元 B 輪融資，估值超 10 億，聚焦實體零售 Physical AI。",
+              "tweet_id": "2056731580157047078",
+              "file": "audio/2026-05-22/046.mp3"
+            },
+            {
+              "index": 47,
+              "text": "Meta 被前員工形容為最毒企業文化，中國員工稱之「魷魚遊戲」。",
+              "tweet_id": "2057486124562669915",
+              "file": "audio/2026-05-22/047.mp3"
+            },
+            {
+              "index": 48,
+              "text": "Manus 創始人被扣境內、VC 海外不配合退款，選擇香港 IPO 暗示中央態度。",
+              "tweet_id": "2057462796351144198",
+              "file": "audio/2026-05-22/048.mp3"
+            },
+            {
+              "index": 49,
+              "text": "Hugging Face 發布 LeRobot Humanoid：開源低成本（~$2.5K）3D 列印人形機器人。",
+              "tweet_id": "2057507896129380581",
+              "file": "audio/2026-05-22/049.mp3"
+            },
+            {
+              "index": 50,
+              "text": "黃仁勳預言端側 AI 是下一戰場，NVIDIA 財報 816 億營收、資料中心同比暴漲 92%。",
+              "tweet_id": "2057383322494583054",
+              "file": "audio/2026-05-22/050.mp3"
+            },
+            {
+              "index": 51,
+              "text": "日本無 AI 晶片主權、無前沿 AI 生態，右翼卻攻擊黃仁勳血統，被評為搞錯重點。",
+              "tweet_id": "2057468206420508704",
+              "file": "audio/2026-05-22/051.mp3"
+            },
+            {
+              "index": 52,
+              "text": "Telegram 推出 bot 代理收件匣功能：可指派 bot 讀取並回覆訊息，具細粒度權限控制。",
+              "tweet_id": "2057477947209236527",
+              "file": "audio/2026-05-22/052.mp3"
+            },
+            {
+              "index": 53,
+              "text": "中南大學原校長張堯學因「透明計算」騙局被開除黨籍公職，十一年前爭議終塵埃落定。",
+              "tweet_id": "2057436721701396925",
+              "file": "audio/2026-05-22/053.mp3"
+            },
+            {
+              "index": 54,
+              "text": "美國政府投資 20 億入股 9 家量子運算企業，IBM 獲批 10 億大漲 13%，小型量子公司噴 30%。",
+              "tweet_id": "2057610180188340407",
+              "file": "audio/2026-05-22/054.mp3"
+            },
+            {
+              "index": 55,
+              "text": "Xbox 新 CSO Mathew Ball 聚焦復興經典系列與強化主機業務。",
+              "tweet_id": "2057474684942520716",
+              "file": "audio/2026-05-22/055.mp3"
+            },
+            {
+              "index": 56,
+              "text": "Kyle Busch（NASCAR 史上國家系列賽最多勝車手）41 歲因病去世。",
+              "tweet_id": "2057578653635186945",
+              "file": "audio/2026-05-22/056.mp3"
+            }
+          ]
         },
         {
           "name": "💰 財經／加密",
-          "items": []
+          "items": [
+            {
+              "index": 57,
+              "text": "Bitcoin Fear & Greed Index 28-29（恐懼），BTC 報 $77,456-$77,592。",
+              "tweet_id": "2057589776459419697",
+              "file": "audio/2026-05-22/057.mp3"
+            },
+            {
+              "index": 58,
+              "text": "CLARITY Act 正爭取參議院排程，與 reconciliation、FISA、住房法案競爭，八月休會前時間緊迫。",
+              "tweet_id": "2057541939084624307",
+              "file": "audio/2026-05-22/058.mp3"
+            },
+            {
+              "index": 59,
+              "text": "加密公司在代幣化方面假設有利監管框架將適時建立。",
+              "tweet_id": "2057568193904865780",
+              "file": "audio/2026-05-22/059.mp3"
+            },
+            {
+              "index": 60,
+              "text": "Reynolds（Vuse 電子菸）在 FDA 寫出有利政策前數天向 MAGA Inc. 捐贈 500 萬美元。",
+              "tweet_id": "2057289895228449105",
+              "file": "audio/2026-05-22/060.mp3"
+            }
+          ]
         },
         {
           "name": "🛠️ 開發者工具",
-          "items": []
+          "items": [
+            {
+              "index": 61,
+              "text": "llama.cpp 內建模型路由器，一個伺服器一個設定檔切換任何本地模型，取代 Ollama + Open WebUI。",
+              "tweet_id": "2057353958377828581",
+              "file": "audio/2026-05-22/061.mp3"
+            },
+            {
+              "index": 62,
+              "text": "macOS 安裝 USB 建立工具 macUSB 開源，支援 Apple Silicon 和 Intel。",
+              "tweet_id": "2057363123569373549",
+              "file": "audio/2026-05-22/062.mp3"
+            },
+            {
+              "index": 63,
+              "text": "Late Interaction 是當前最佳資訊檢索方式，但新型使用者出現後需要重新規劃未來。",
+              "tweet_id": "2057450531405390214",
+              "file": "audio/2026-05-22/063.mp3"
+            },
+            {
+              "index": 64,
+              "text": "Railway 行動版 TestFlight 開放，限 10K 外部測試者。",
+              "tweet_id": "2057592298746352003",
+              "file": "audio/2026-05-22/064.mp3"
+            }
+          ]
         },
         {
           "name": "📊 統計",
@@ -41,7 +432,8 @@
           "name": "📝 總結",
           "items": []
         }
-      ]
+      ],
+      "complete": true
     }
   ]
 }
