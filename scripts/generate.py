@@ -16,6 +16,9 @@ DOCS_DIR = Path("docs")
 AUDIO_DIR = DOCS_DIR / "audio"
 MANIFEST_PATH = DOCS_DIR / "manifest.json"
 MAX_DAYS = 10
+NOTION_TOKEN = os.environ.get("NOTION_TOKEN", "")
+NOTION_DB_ID = "368a2eb5-ddad-8181-a742-c627f30606c8"
+GITHUB_PAGES_BASE = "https://n.chen-siyi.dev"
 
 
 def fetch_index():
@@ -197,6 +200,92 @@ def main():
     manifest = cleanup_old_dates(manifest)
     manifest['updated_at'] = datetime.datetime.now(tz_cst).isoformat()
     save_manifest(manifest)
+
+    if NOTION_TOKEN:
+        sync_to_notion(date_entry)
+
+
+def notion_headers():
+    return {
+        "Authorization": f"Bearer {NOTION_TOKEN}",
+        "Notion-Version": "2022-06-28",
+        "Content-Type": "application/json",
+    }
+
+
+def notion_existing_tweet_ids(date):
+    """查询 Notion 数据库中当天已有的 tweet_id，避免重复插入。"""
+    existing = set()
+    cursor = None
+    while True:
+        payload = {
+            "filter": {
+                "property": "Date",
+                "date": {"equals": date}
+            },
+            "page_size": 100,
+        }
+        if cursor:
+            payload["start_cursor"] = cursor
+        resp = requests.post(
+            f"https://api.notion.com/v1/databases/{NOTION_DB_ID}/query",
+            headers=notion_headers(),
+            json=payload,
+            timeout=30,
+        )
+        resp.raise_for_status()
+        data = resp.json()
+        for row in data.get("results", []):
+            tweet_url = row["properties"].get("Tweet", {}).get("url") or ""
+            if tweet_url:
+                # 从 URL 末尾提取 tweet_id
+                existing.add(tweet_url.rstrip("/").split("/")[-1])
+        if not data.get("has_more"):
+            break
+        cursor = data.get("next_cursor")
+    return existing
+
+
+def sync_to_notion(date_entry):
+    date = date_entry["date"]
+    print(f"Syncing to Notion for {date}...")
+
+    existing_ids = notion_existing_tweet_ids(date)
+    inserted = 0
+
+    for cat in date_entry["categories"]:
+        for item in cat["items"]:
+            tweet_id = item.get("tweet_id", "")
+            if tweet_id and tweet_id in existing_ids:
+                continue  # 已存在，跳过
+
+            audio_url = f"{GITHUB_PAGES_BASE}/audio/{date}/{item['index']:03d}.mp3" if item.get("file") else None
+            tweet_url = f"https://x.com/i/web/status/{tweet_id}" if tweet_id else None
+
+            properties = {
+                "Summary":  {"title": [{"text": {"content": item["text"]}}]},
+                "Date":     {"date": {"start": date}},
+                "Category": {"select": {"name": cat["name"]}},
+                "Index":    {"number": item["index"]},
+            }
+            if audio_url:
+                properties["Audio"] = {"url": audio_url}
+            if tweet_url:
+                properties["Tweet"] = {"url": tweet_url}
+
+            resp = requests.post(
+                "https://api.notion.com/v1/pages",
+                headers=notion_headers(),
+                json={"parent": {"database_id": NOTION_DB_ID}, "properties": properties},
+                timeout=30,
+            )
+            if resp.status_code == 200:
+                inserted += 1
+            else:
+                print(f"  Notion ERROR [{item['index']:03d}]: {resp.text[:100]}")
+            time.sleep(0.3)
+
+    print(f"Notion sync done: {inserted} inserted, {len(existing_ids)} already existed")
 
 
 if __name__ == '__main__':
