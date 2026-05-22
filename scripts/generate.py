@@ -69,23 +69,37 @@ def pcm_to_mp3(pcm_bytes, output_path):
     output_path.write_bytes(mp3_data)
 
 
-def text_to_mp3(client, text, output_path):
-    response = client.models.generate_content(
-        model=TTS_MODEL,
-        contents=text,
-        config=types.GenerateContentConfig(
-            response_modalities=["AUDIO"],
-            speech_config=types.SpeechConfig(
-                voice_config=types.VoiceConfig(
-                    prebuilt_voice_config=types.PrebuiltVoiceConfig(
-                        voice_name=TTS_VOICE
-                    )
-                )
-            ),
-        ),
-    )
-    audio_bytes = response.candidates[0].content.parts[0].inline_data.data
-    pcm_to_mp3(audio_bytes, output_path)
+def text_to_mp3(client, text, output_path, max_retries=5):
+    for attempt in range(max_retries):
+        try:
+            response = client.models.generate_content(
+                model=TTS_MODEL,
+                contents=text,
+                config=types.GenerateContentConfig(
+                    response_modalities=["AUDIO"],
+                    speech_config=types.SpeechConfig(
+                        voice_config=types.VoiceConfig(
+                            prebuilt_voice_config=types.PrebuiltVoiceConfig(
+                                voice_name=TTS_VOICE
+                            )
+                        )
+                    ),
+                ),
+            )
+            audio_bytes = response.candidates[0].content.parts[0].inline_data.data
+            pcm_to_mp3(audio_bytes, output_path)
+            return
+        except Exception as e:
+            msg = str(e)
+            if '429' in msg and attempt < max_retries - 1:
+                # 从错误信息提取建议等待时间，默认 65 秒
+                import re as _re
+                m = _re.search(r'retry[^\d]*(\d+)s', msg, _re.IGNORECASE)
+                wait = int(m.group(1)) + 3 if m else 65
+                print(f"  rate limit, waiting {wait}s...")
+                time.sleep(wait)
+            else:
+                raise
 
 
 def load_manifest():
@@ -156,7 +170,7 @@ def main():
                 })
             except Exception as e:
                 print(f"  ERROR [{idx:03d}]: {e}")
-            time.sleep(0.5)
+            time.sleep(6)  # 10 RPM limit = 1 req per 6s
         date_entry['categories'].append(cat_entry)
 
     manifest.setdefault('dates', []).insert(0, date_entry)
