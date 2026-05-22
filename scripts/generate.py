@@ -4,8 +4,8 @@ import re
 import json
 import time
 import datetime
-import subprocess
 import requests
+import lameenc
 from pathlib import Path
 from google import genai
 from google.genai import types
@@ -59,20 +59,14 @@ def parse_index(text):
 
 
 def pcm_to_mp3(pcm_bytes, output_path):
-    pcm_path = output_path.with_suffix('.pcm')
-    pcm_path.write_bytes(pcm_bytes)
-    subprocess.run(
-        [
-            'ffmpeg', '-y',
-            '-f', 's16le', '-ar', '24000', '-ac', '1',
-            '-i', str(pcm_path),
-            '-codec:a', 'libmp3lame', '-qscale:a', '4',
-            str(output_path),
-        ],
-        check=True,
-        capture_output=True,
-    )
-    pcm_path.unlink()
+    encoder = lameenc.Encoder()
+    encoder.set_bit_rate(96)
+    encoder.set_in_sample_rate(24000)
+    encoder.set_channels(1)
+    encoder.set_quality(7)
+    mp3_data = encoder.encode(pcm_bytes)
+    mp3_data += encoder.flush()
+    output_path.write_bytes(mp3_data)
 
 
 def text_to_mp3(client, text, output_path):
