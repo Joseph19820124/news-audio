@@ -2,22 +2,20 @@
 import os
 import re
 import json
+import base64
 import time
 import datetime
 import requests
-import lameenc
 from pathlib import Path
-from google import genai
-from google.genai import types
 
 DATA_URL = "https://x.deepsrt.cc/index.txt"
-GEMINI_API_KEY = os.environ["GEMINI_API_KEY"]
+GOOGLE_API_KEY = os.environ["GEMINI_API_KEY"]
+TTS_URL = f"https://texttospeech.googleapis.com/v1/text:synthesize?key={GOOGLE_API_KEY}"
+TTS_VOICE = "zh-TW-Neural2-A"
 DOCS_DIR = Path("docs")
 AUDIO_DIR = DOCS_DIR / "audio"
 MANIFEST_PATH = DOCS_DIR / "manifest.json"
 MAX_DAYS = 10
-TTS_MODEL = "gemini-2.5-flash-preview-tts"
-TTS_VOICE = "Aoede"
 
 
 def fetch_index():
@@ -58,48 +56,29 @@ def parse_index(text):
     return date, categories
 
 
-def pcm_to_mp3(pcm_bytes, output_path):
-    encoder = lameenc.Encoder()
-    encoder.set_bit_rate(96)
-    encoder.set_in_sample_rate(24000)
-    encoder.set_channels(1)
-    encoder.set_quality(7)
-    mp3_data = encoder.encode(pcm_bytes)
-    mp3_data += encoder.flush()
-    output_path.write_bytes(mp3_data)
-
-
-def text_to_mp3(client, text, output_path, max_retries=5):
+def text_to_mp3(text, output_path, max_retries=5):
+    payload = {
+        "input": {"text": text},
+        "voice": {
+            "languageCode": "zh-TW",
+            "name": TTS_VOICE,
+        },
+        "audioConfig": {
+            "audioEncoding": "MP3",
+            "speakingRate": 1.0,
+        },
+    }
     for attempt in range(max_retries):
-        try:
-            response = client.models.generate_content(
-                model=TTS_MODEL,
-                contents=text,
-                config=types.GenerateContentConfig(
-                    response_modalities=["AUDIO"],
-                    speech_config=types.SpeechConfig(
-                        voice_config=types.VoiceConfig(
-                            prebuilt_voice_config=types.PrebuiltVoiceConfig(
-                                voice_name=TTS_VOICE
-                            )
-                        )
-                    ),
-                ),
-            )
-            audio_bytes = response.candidates[0].content.parts[0].inline_data.data
-            pcm_to_mp3(audio_bytes, output_path)
-            return
-        except Exception as e:
-            msg = str(e)
-            if '429' in msg and attempt < max_retries - 1:
-                # 从错误信息提取建议等待时间，默认 65 秒
-                import re as _re
-                m = _re.search(r'retry[^\d]*(\d+)s', msg, _re.IGNORECASE)
-                wait = int(m.group(1)) + 3 if m else 65
-                print(f"  rate limit, waiting {wait}s...")
-                time.sleep(wait)
-            else:
-                raise
+        resp = requests.post(TTS_URL, json=payload, timeout=30)
+        if resp.status_code == 429 and attempt < max_retries - 1:
+            wait = int(resp.headers.get('Retry-After', 30))
+            print(f"  rate limit, waiting {wait}s...")
+            time.sleep(wait)
+            continue
+        resp.raise_for_status()
+        audio_bytes = base64.b64decode(resp.json()["audioContent"])
+        output_path.write_bytes(audio_bytes)
+        return
 
 
 def load_manifest():
@@ -136,20 +115,16 @@ def main():
     print(f"Date: {date}, categories: {len(categories)}")
 
     manifest = load_manifest()
-    # 只跳过已完整生成的日期
     for d in manifest.get('dates', []):
         if d['date'] == date and d.get('complete'):
             print(f"{date} already complete, skipping.")
             return
-    # 移除当天不完整的旧记录
     manifest['dates'] = [d for d in manifest.get('dates', []) if d['date'] != date]
 
     date_dir = AUDIO_DIR / date
     date_dir.mkdir(parents=True, exist_ok=True)
 
-    client = genai.Client(api_key=GEMINI_API_KEY)
     tz_cst = datetime.timezone(datetime.timedelta(hours=8))
-
     date_entry = {
         'date': date,
         'generated_at': datetime.datetime.now(tz_cst).isoformat(),
@@ -164,7 +139,7 @@ def main():
             output_path = date_dir / filename
             print(f"  [{idx:03d}] {item['text'][:60]}")
             try:
-                text_to_mp3(client, item['text'], output_path)
+                text_to_mp3(item['text'], output_path)
                 cat_entry['items'].append({
                     'index': idx,
                     'text': item['text'],
@@ -173,7 +148,7 @@ def main():
                 })
             except Exception as e:
                 print(f"  ERROR [{idx:03d}]: {e}")
-            time.sleep(6)  # gemini-2.5-flash-preview-tts: 10 RPM hard limit
+            time.sleep(0.2)
         date_entry['categories'].append(cat_entry)
 
     date_entry['complete'] = True

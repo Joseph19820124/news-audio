@@ -19,7 +19,7 @@ jobs:
           python-version: '3.11'
 
       - name: Install dependencies
-        run: pip install requests google-genai lameenc
+        run: pip install requests
 
       - name: Generate audio
         env:
