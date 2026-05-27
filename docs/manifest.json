@@ -1,6 +1,351 @@
 {
-  "updated_at": "2026-05-27T18:42:42.506591+08:00",
+  "updated_at": "2026-05-28T04:55:57.843994+08:00",
   "dates": [
+    {
+      "date": "2026-05-28",
+      "generated_at": "2026-05-28T04:55:12.755877+08:00",
+      "categories": [
+        {
+          "name": "🤖 AI 產業與模型動態",
+          "items": [
+            {
+              "index": 1,
+              "text": "Robinhood 推出 AI agent 功能，可透過 Claude 代替用戶交易股票與刷信用卡消費。AI agent 正式進入金融交易執行層，監管與責任歸屬將成為下一個戰場。",
+              "tweet_id": "2059615816895655979",
+              "file": "audio/2026-05-28/001.mp3"
+            },
+            {
+              "index": 2,
+              "text": "Anthropic 官方團隊免費釋出「金融專業人士專屬 AI 團隊」工具組。AI 公司正以垂直領域免費工具搶佔專業用戶心智，再透過企業版變現。",
+              "tweet_id": "2059424360906264589",
+              "file": "audio/2026-05-28/002.mp3"
+            },
+            {
+              "index": 3,
+              "text": "FlashLib 發布——GPU 加速的經典 ML 運算庫，KMeans 加速 26 倍、KNN 加速 19 倍，專為 agent 即時決策設計。Agent 的即時推理需求正在倒逼底層 ML 基礎設施重寫。",
+              "tweet_id": "2059441289763139677",
+              "file": "audio/2026-05-28/003.mp3"
+            },
+            {
+              "index": 4,
+              "text": "Grok Build 整合 Imagine 與 Imagine Video，可一鍵生成圖片與影片素材建構完整網站。多模態生成正在從獨立工具融入開發工作流。",
+              "tweet_id": "2059656183783592437",
+              "file": "audio/2026-05-28/004.mp3"
+            },
+            {
+              "index": 5,
+              "text": "Google Antigravity 教學影片展示如何結合 GPT Image 2 建構動畫網站。跨廠商工具混搭使用正成為開發者的常態。",
+              "tweet_id": "2059636921962545657",
+              "file": "audio/2026-05-28/005.mp3"
+            },
+            {
+              "index": 6,
+              "text": "Gemini Omni 在 Google Flow 上線一週，展示 7 種即時多模態互動用例。Google 正以「即時性」作為差異化切入點。",
+              "tweet_id": "2059410563076411433",
+              "file": "audio/2026-05-28/006.mp3"
+            },
+            {
+              "index": 7,
+              "text": "Grok 模型 grok-build-0.1 可透過 SuperGrok 或 X Premium+ 訂閱在 Kilo Code IDE 中使用。AI coding 工具的訂閱整合正在模糊平台邊界。",
+              "tweet_id": "2059666227115819149",
+              "file": "audio/2026-05-28/007.mp3"
+            },
+            {
+              "index": 8,
+              "text": "Codex 更新：瀏覽器中的應用程式現可保持登入狀態。Agent 的持久化狀態管理正在解決實際工作流中的最大摩擦點。",
+              "tweet_id": "2059711832936378630",
+              "file": "audio/2026-05-28/008.mp3"
+            },
+            {
+              "index": 9,
+              "text": "Codex /goal 功能讓開發者設定目標後由 agent 自主完成。高階任務委派正在改變開發者的工作模式。",
+              "tweet_id": "2059685739546448333",
+              "file": "audio/2026-05-28/009.mp3"
+            },
+            {
+              "index": 10,
+              "text": "Microsoft 發布 RAMPART——專為 AI Agent 設計的 pytest 測試框架。Agent 品質保證工具鏈正在成形，產業已進入工程化階段。",
+              "tweet_id": "2059569026393870742",
+              "file": "audio/2026-05-28/010.mp3"
+            },
+            {
+              "index": 11,
+              "text": "Cua Driver 登陸 Windows，讓 Claude Code、Codex 等 agent 可在背景驅動真實 Windows 應用程式。桌面自動化的跨平台覆蓋正在補齊。",
+              "tweet_id": "2059688960838828391",
+              "file": "audio/2026-05-28/011.mp3"
+            },
+            {
+              "index": 12,
+              "text": "JetBrains 發布 Koog 1.0——Kotlin/Java 的開源 AI Agent 框架，提供一年 API 穩定性保證。JVM 生態的 agent 基礎設施正在補齊。",
+              "tweet_id": "2059697428094144636",
+              "file": "audio/2026-05-28/012.mp3"
+            },
+            {
+              "index": 13,
+              "text": "OpenAI 開始向更多用戶發送廣告平台邀請，免費版 ChatGPT 用戶將看到廣告，最低日預算 100 美元。OpenAI 正式開啟廣告變現，免費用戶成為產品。",
+              "tweet_id": "2059714382460817875",
+              "file": "audio/2026-05-28/013.mp3"
+            },
+            {
+              "index": 14,
+              "text": "LLM 的概念表徵研究顯示，分類學層級結構（生物→動物→鳥）在嵌入空間中呈現層次結構，源自共現統計。理解模型內部表徵有助於提升可控性。",
+              "tweet_id": "2059489130954764440",
+              "file": "audio/2026-05-28/014.mp3"
+            },
+            {
+              "index": 15,
+              "text": "研究發現模型可透過「自我驗證」機制訓練自身，無需外部真實答案。自監督強化學習正在降低高品質訓練資料的依賴。",
+              "tweet_id": "2059690340324712894",
+              "file": "audio/2026-05-28/015.mp3"
+            },
+            {
+              "index": 16,
+              "text": "IBM Research 與 Artificial Analysis 聯合發布 ITBench-AA，首個評估模型在企業 IT 代理任務（SRE）上表現的基準。Agent 評測正在從通用走向垂直場景。",
+              "tweet_id": "2059698327235805258",
+              "file": "audio/2026-05-28/016.mp3"
+            },
+            {
+              "index": 17,
+              "text": "Google 推出 AI Threat Defense——AI 驅動的網路安全解決方案，持續監控並阻止 AI 驅動的威脅。AI 攻防對抗正式進入產品化階段。",
+              "tweet_id": "2059703407364190518",
+              "file": "audio/2026-05-28/017.mp3"
+            },
+            {
+              "index": 18,
+              "text": "Speech Engine Skill 發布：讓任何 agent 無需離開 LLM 堆疊即可擁有語音能力，處理語音轉文字、輪替、打斷與文字轉語音。語音介面正在成為 agent 的標配模組。",
+              "tweet_id": "2059646861913330031",
+              "file": "audio/2026-05-28/018.mp3"
+            },
+            {
+              "index": 19,
+              "text": "rtk：Rust CLI 代理工具，可將 Claude Code token 使用量降低 60-90%，透過過濾 git/test/lint 輸出減少上下文消耗。Token 成本優化工具正在形成獨立生態。",
+              "tweet_id": "2059697297626407153",
+              "file": "audio/2026-05-28/019.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🌐 地緣政治與國防",
+          "items": [
+            {
+              "index": 20,
+              "text": "法國總統馬克宏打破 65 年核武教條，宣布以法國核武保護歐洲，無論美國是否參與。波蘭、德國、荷蘭等國響應。歐洲安全架構正在經歷冷戰後最大重組。",
+              "tweet_id": "2059270345115209823",
+              "file": "audio/2026-05-28/020.mp3"
+            },
+            {
+              "index": 21,
+              "text": "Elon Musk 警告：未來幾年美國可能在 AI 領先，但長期取決於誰控制 AI 晶片製造。晶片製造地緣政治化已成共識。",
+              "tweet_id": "2059676539122552838",
+              "file": "audio/2026-05-28/021.mp3"
+            },
+            {
+              "index": 22,
+              "text": "FBI 與 DHS 新設「反科技暴力極端主義」威脅類別，監控抗議 AI 開發與資料中心建設的活動人士。AI 基礎設施建設的社會阻力正在被安全化處理。",
+              "tweet_id": "2059655593002983451",
+              "file": "audio/2026-05-28/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "NASA 月球南極基地計畫推進 Phase 1：CLPS 著陸器與 LTV 探測車測試「生存科學」。持續性月球存在正從概念進入工程驗證階段。",
+              "tweet_id": "2059420433858904204",
+              "file": "audio/2026-05-28/023.mp3"
+            }
+          ]
+        },
+        {
+          "name": "💰 財經與市場",
+          "items": [
+            {
+              "index": 24,
+              "text": "Meta 推出付費訂閱：Instagram Plus 與 Facebook Plus 各 3.99 美元/月，WhatsApp Plus 2.99 美元/月。社群平台正式進入雙軌變現（廣告+訂閱）時代。",
+              "tweet_id": "2059699631387549984",
+              "file": "audio/2026-05-28/024.mp3"
+            },
+            {
+              "index": 25,
+              "text": "美國今年衰退機率降至歷史新低。軟著陸敘事持續強化，但市場共識往往是反向指標。",
+              "tweet_id": "2059697857490219520",
+              "file": "audio/2026-05-28/025.mp3"
+            },
+            {
+              "index": 26,
+              "text": "Leopold Aschenbrenner 的 IREN 持倉已上漲 746%，去年 5 月以約 8 美元/股建倉 340 萬股。AI 基礎設施投資的早期押注正在兌現超額回報。",
+              "tweet_id": "2059717594584662492",
+              "file": "audio/2026-05-28/026.mp3"
+            },
+            {
+              "index": 27,
+              "text": "Micron 今年股價飆升，市值突破 1 兆美元。記憶體晶片在 AI 時代的戰略地位正在被重新定價。",
+              "tweet_id": "2059717569494356411",
+              "file": "audio/2026-05-28/027.mp3"
+            },
+            {
+              "index": 28,
+              "text": "Snowflake 與 AWS 簽署 60 億美元 AI CPU 晶片協議。雲端巨頭正在透過長期合約鎖定 AI 算力供應。",
+              "tweet_id": "2059716416031625457",
+              "file": "audio/2026-05-28/028.mp3"
+            },
+            {
+              "index": 29,
+              "text": "Socket Security 完成 6000 萬美元 C 輪融資，估值 10 億美元，由 Thrive Capital 領投。供應鏈安全在 AI 時代的重要性持續推升估值。",
+              "tweet_id": "2057119242471051664",
+              "file": "audio/2026-05-28/029.mp3"
+            },
+            {
+              "index": 30,
+              "text": "美國政府帳面黃金以 1973 年的 42 美元/盎司計價，實際交易價 4500 美元。國會議員推動重新估值，潛在帳面收益巨大。",
+              "tweet_id": "2059271631202357510",
+              "file": "audio/2026-05-28/030.mp3"
+            },
+            {
+              "index": 31,
+              "text": "Polymarket 仍在 beta 階段已在幾乎所有類別擁有最佳流動性。預測市場正在成為資訊定價的新基礎設施。",
+              "tweet_id": "2056828787296530768",
+              "file": "audio/2026-05-28/031.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🏭 產業與企業",
+          "items": [
+            {
+              "index": 32,
+              "text": "AI coding 炒作的四階段論：驚嘆→擴張→崩潰→成熟。當前多數開發者正處於第二到第三階段的轉折點，維護成本開始超越生成速度。",
+              "tweet_id": "2059531734589247991",
+              "file": "audio/2026-05-28/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "Palantir CEO Alex Karp 的「軟體營養標籤」概念引發討論：所有軟硬體應標示完整信任依賴清單。透明度需求正在從食品延伸到數位基礎設施。",
+              "tweet_id": "2059622765364207619",
+              "file": "audio/2026-05-28/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "NotebookLM 推出 Google Drive 自動同步功能，從 10% 用戶開始滾動上線。知識管理工具的即時性正在消除手動更新的摩擦。",
+              "tweet_id": "2059665697618493706",
+              "file": "audio/2026-05-28/034.mp3"
+            },
+            {
+              "index": 35,
+              "text": "npm v11.16 開始警告未批准的 postinstall 腳本，v12.0 將直接封鎖。供應鏈安全正在從被動掃描轉向主動阻斷。",
+              "tweet_id": "2059659115228508376",
+              "file": "audio/2026-05-28/035.mp3"
+            },
+            {
+              "index": 36,
+              "text": "LiteParse v2.0 用 Rust 重寫，解析速度提升 100 倍，支援 Rust/JS/Python 原生安裝。效能關鍵工具持續從高階語言遷移到系統語言。",
+              "tweet_id": "2059675872408260816",
+              "file": "audio/2026-05-28/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "mKernel 開源：多節點多 GPU 融合核心庫。分散式 AI 訓練的底層基礎設施正在開源化。",
+              "tweet_id": "2058972616548131169",
+              "file": "audio/2026-05-28/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "影片生成速度突破：單張 NVIDIA B200 GPU 可在 7 秒內生成 30 秒 1080p 影片。即時影片生成正在逼近實用門檻。",
+              "tweet_id": "2059695648103112946",
+              "file": "audio/2026-05-28/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "Shopify 推出 App Home UI 擴展，開發者可直接在管理後台建構應用登陸頁，無需後端。低程式碼平台正在將更多功能前移到 UI 層。",
+              "tweet_id": "2059692825810223423",
+              "file": "audio/2026-05-28/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "CrowdStrike 與 Google 聯手摧毀針對軟體開發者的供應鏈攻擊殭屍網路。開發者已成為國家級攻擊者的高價值目標。",
+              "tweet_id": "2059681371506024754",
+              "file": "audio/2026-05-28/040.mp3"
+            },
+            {
+              "index": 41,
+              "text": "Lululemon 與創辦人 Chip Wilson 和解，新增兩名其推薦的董事（含 On Running 共同創辦人）。創辦人與董事會的權力博弈以妥協收場。",
+              "tweet_id": "2059600151753224227",
+              "file": "audio/2026-05-28/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "DeepSWE benchmark 被認為比其他基準更能反映工程師的真實體驗。AI coding 評測正在從合成任務轉向真實工程場景。",
+              "tweet_id": "2059682104733278569",
+              "file": "audio/2026-05-28/042.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具與實務",
+          "items": [
+            {
+              "index": 43,
+              "text": "CodeRabbit Review 新增 Code Peek、Chat Agent、Cohorts 與 Severity Labels 功能。AI code review 工具正在從單純標記問題演進為互動式協作平台。",
+              "tweet_id": "2059628068629782830",
+              "file": "audio/2026-05-28/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "QuackLake 發布：基於 DuckDB DuckLake 的目錄服務，透過 quack 協議運行在 Cloudflare Durable Objects 上。Serverless 資料基礎設施的組合創新持續湧現。",
+              "tweet_id": "2059541160255791587",
+              "file": "audio/2026-05-28/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "Obsidian Web Clipper 獲得獨立圖示。小型工具的品牌化反映其在開發者工作流中的地位提升。",
+              "tweet_id": "2059661471144096148",
+              "file": "audio/2026-05-28/045.mp3"
+            },
+            {
+              "index": 46,
+              "text": "Google AI Studio 團隊將發布 Android/iOS 行動 App，可直接用手機 vibe-code 完整 web app 搭配 Firebase 後端。行動端 AI 開發正在從概念走向產品。",
+              "tweet_id": "2059676802012901881",
+              "file": "audio/2026-05-28/046.mp3"
+            },
+            {
+              "index": 47,
+              "text": "Compile 大會將於 6 月 16 日在舊金山舉辦，聚集工程師、研究者與設計師討論軟體的未來。AI 時代的開發者社群活動正在重新定義「軟體」的邊界。",
+              "tweet_id": "2059673762728116442",
+              "file": "audio/2026-05-28/047.mp3"
+            },
+            {
+              "index": 48,
+              "text": "後訓練賦予模型「自我辨識」能力：模型對自己生成的文本信心度高於他人文本。這為模型歸屬與浮水印技術開闢新方向。",
+              "tweet_id": "2059120679015096602",
+              "file": "audio/2026-05-28/048.mp3"
+            },
+            {
+              "index": 49,
+              "text": "AWS 推出 Agentic Shopping Assistant（ASA），將 Alexa for Shopping 技術首次開放給零售客戶，Kate Spade 已上線。Agent 商業化正在從 B2B 工具擴展到消費者體驗。",
+              "tweet_id": "2059706350590996617",
+              "file": "audio/2026-05-28/049.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🎮 遊戲與娛樂",
+          "items": [
+            {
+              "index": 50,
+              "text": "獨立開發者製作生存恐怖遊戲：玩家扮演失業者，必須維持多巴胺水平否則會「無聊致死」，還要躲避催繳帳單的人。遊戲設計正在以黑色幽默反映現實焦慮。",
+              "tweet_id": "2059638756416606708",
+              "file": "audio/2026-05-28/050.mp3"
+            }
+          ]
+        },
+        {
+          "name": "📊 統計",
+          "items": []
+        },
+        {
+          "name": "📝 總結",
+          "items": []
+        }
+      ],
+      "complete": true
+    },
     {
       "date": "2026-05-27",
       "generated_at": "2026-05-27T18:42:15.247136+08:00",
