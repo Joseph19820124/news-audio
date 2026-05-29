@@ -1,6 +1,321 @@
 {
-  "updated_at": "2026-05-29T13:01:21.992457+08:00",
+  "updated_at": "2026-05-30T00:30:41.654340+08:00",
   "dates": [
+    {
+      "date": "2026-05-30",
+      "generated_at": "2026-05-30T00:30:02.402391+08:00",
+      "categories": [
+        {
+          "name": "🌐 地緣政治與國際",
+          "items": [
+            {
+              "index": 1,
+              "text": "美軍攻擊伊朗無人機母艦 IRIS Shahid Bagheri，據報超過 100 名伊朗人員死亡。中東局勢急劇升級。",
+              "tweet_id": "2060187502192046579",
+              "file": "audio/2026-05-30/001.mp3"
+            },
+            {
+              "index": 2,
+              "text": "Bitcoin 在 Trump 宣布解除荷莫茲海峽封鎖後收復失地，重回 $74,000。地緣風險與加密市場的即時聯動。",
+              "tweet_id": "2060385492273693181",
+              "file": "audio/2026-05-30/002.mp3"
+            },
+            {
+              "index": 3,
+              "text": "Tesla FSD Supervised 獲第三個歐洲國家批准（愛沙尼亞）。自動駕駛在歐洲的監管突破持續加速。",
+              "tweet_id": "2060389268753989856",
+              "file": "audio/2026-05-30/003.mp3"
+            },
+            {
+              "index": 4,
+              "text": "加州通過 AB 1921 法案：公司必須提前 60 天通知才能刪除遊戲，玩家數位資產獲法律保護。遊戲產業的歷史性立法。",
+              "tweet_id": "2060197842161996140",
+              "file": "audio/2026-05-30/004.mp3"
+            },
+            {
+              "index": 5,
+              "text": "加拿大正式進入技術性衰退。",
+              "tweet_id": "2060369591293919288",
+              "file": "audio/2026-05-30/005.mp3"
+            },
+            {
+              "index": 6,
+              "text": "CFTC 批准美國首個受監管比特幣永續合約。Kalshi 和 Coinbase 同步推進。",
+              "tweet_id": "2060377560219779442",
+              "file": "audio/2026-05-30/006.mp3"
+            },
+            {
+              "index": 7,
+              "text": "Putin 花 260 億美元試圖長生不老，方法聽起來像科幻小說。",
+              "tweet_id": "2060171767998480887",
+              "file": "audio/2026-05-30/007.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🤖 AI 模型與產業",
+          "items": [
+            {
+              "index": 8,
+              "text": "Anthropic 發布 Rosalind Biodefense 計畫：幫助可信建構者開發生物防禦和大流行準備能力，擴大訓練。AI 安全從數位延伸到生物領域。",
+              "tweet_id": "2060376598642405492",
+              "file": "audio/2026-05-30/008.mp3"
+            },
+            {
+              "index": 9,
+              "text": "Salesforce 用 Claude Code 實現 agentic 開發：原本估計 231 天的遷移 13 天完成，一個 PR 交付 21 個端點且 100% 測試覆蓋。品質同步提升——總事故率下降 5%。",
+              "tweet_id": "2060390852619272526",
+              "file": "audio/2026-05-30/009.mp3"
+            },
+            {
+              "index": 10,
+              "text": "Claude 自主買入 ServiceNow $NOW 股票，因為它認為 NOW 是 AI 的實際受益者。AI agent 的投資判斷力引發討論。",
+              "tweet_id": "2060385612151046241",
+              "file": "audio/2026-05-30/010.mp3"
+            },
+            {
+              "index": 11,
+              "text": "Anthropic/OpenAI 大部分營收來自程式碼輸出，但其中大量是「修 bug 的輸出」。AI 在製造問題的同時也在解決問題的循環。",
+              "tweet_id": "2060336995164098793",
+              "file": "audio/2026-05-30/011.mp3"
+            },
+            {
+              "index": 12,
+              "text": "GPT-5.6 在 Codex 後端日誌被發現，不少人猜測下週發布。",
+              "tweet_id": "2060365343332372778",
+              "file": "audio/2026-05-30/012.mp3"
+            },
+            {
+              "index": 13,
+              "text": "Self-speculation 為 LLM 生成帶來 6.75 倍真實加速：同一模型在 Diffusion 模式草擬未來 token，再用 AR 模式驗證。一個模型、一個 KV cache。",
+              "tweet_id": "2060245957254824246",
+              "file": "audio/2026-05-30/013.mp3"
+            },
+            {
+              "index": 14,
+              "text": "Self Improving AI (SIA) 框架擊敗 Karpathy 的 autoresearcher agent。自主改進任何 AI 系統性能。",
+              "tweet_id": "2060031707378839772",
+              "file": "audio/2026-05-30/014.mp3"
+            },
+            {
+              "index": 15,
+              "text": "Opus 4.8 在 Claude Code 中 1 小時就觸及 $200 方案限制。Token 消耗問題持續。",
+              "tweet_id": "2060357976633094505",
+              "file": "audio/2026-05-30/015.mp3"
+            },
+            {
+              "index": 16,
+              "text": "Opus 4.8 登陸 Kiro：更好的規劃、更強的自我修正、多天專案處理能力（4.7 只能處理單次 session）。",
+              "tweet_id": "2060379425967927347",
+              "file": "audio/2026-05-30/016.mp3"
+            },
+            {
+              "index": 17,
+              "text": "Opus 4.8 搭配 OpenClaw 表現優異：修復說明更清晰、思考過程更透明。",
+              "tweet_id": "2060390853835726946",
+              "file": "audio/2026-05-30/017.mp3"
+            },
+            {
+              "index": 18,
+              "text": "教宗對 AI 的聲明被多語言廣泛傳播：「AI 不經歷體驗、不擁有身體、不感受喜悅或痛苦。」為技術狂熱提供人文主義冷靜視角。",
+              "tweet_id": "2060322765891375401",
+              "file": "audio/2026-05-30/018.mp3"
+            },
+            {
+              "index": 19,
+              "text": "使用 agent 後反而學到了更多 Linux 網路的「黑暗秘密」。技能萎縮的擔憂可能被高估。",
+              "tweet_id": "2060365036728815884",
+              "file": "audio/2026-05-30/019.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具與工程",
+          "items": [
+            {
+              "index": 20,
+              "text": "Agent Builder 平台發布：開發者寫工具/選模型/建工作流，非技術隊友可組裝成 agent 或 vibe code，含 RBAC。",
+              "tweet_id": "2060377968334303467",
+              "file": "audio/2026-05-30/020.mp3"
+            },
+            {
+              "index": 21,
+              "text": "Gemini API Managed Agents：一次呼叫獲得沙盒 Linux，含程式碼執行、網路存取、檔案 I/O。",
+              "tweet_id": "2060359976325992528",
+              "file": "audio/2026-05-30/021.mp3"
+            },
+            {
+              "index": 22,
+              "text": "30 個開源端到端 agent 範例（Google ADK），架構圖本身就值得收藏。",
+              "tweet_id": "2060376064967479480",
+              "file": "audio/2026-05-30/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "Cloudflare Durable Objects 現在可在 SST 中使用。",
+              "tweet_id": "2060372357001175392",
+              "file": "audio/2026-05-30/023.mp3"
+            },
+            {
+              "index": 24,
+              "text": "Higgsfield 進入 Premiere 和 After Effects：一個 prompt 完成過去需要數週的鏡頭編輯。",
+              "tweet_id": "2060155203568234631",
+              "file": "audio/2026-05-30/024.mp3"
+            },
+            {
+              "index": 25,
+              "text": "Gemini CLI 將於 6/18 退役。Antigravity CLI (agy) 作為替代方案被介紹。",
+              "tweet_id": "2060351957663891524",
+              "file": "audio/2026-05-30/025.mp3"
+            },
+            {
+              "index": 26,
+              "text": "Hugging Face 50% 的模型和數據集是私有的，且比例持續增加。",
+              "tweet_id": "2060378354931388837",
+              "file": "audio/2026-05-30/026.mp3"
+            },
+            {
+              "index": 27,
+              "text": "HTTP 402 錯誤碼（1990 年代為數位支付保留）終於被 x402 啟用。",
+              "tweet_id": "2060375626830287105",
+              "file": "audio/2026-05-30/027.mp3"
+            }
+          ]
+        },
+        {
+          "name": "💰 財經與商業",
+          "items": [
+            {
+              "index": 28,
+              "text": "NVIDIA 每月 $1,000 讓你在家託管迷你 AI 資料中心（16 顆 Blackwell GPU），年收入 ~$22,000。",
+              "tweet_id": "2060333126396567837",
+              "file": "audio/2026-05-30/028.mp3"
+            },
+            {
+              "index": 29,
+              "text": "Dell 季報爆表後股價飆升。AI Server 營收 +757%，積壓訂單 $510 億+。",
+              "tweet_id": "2060358024573698151",
+              "file": "audio/2026-05-30/029.mp3"
+            },
+            {
+              "index": 30,
+              "text": "Micron 獲 Susquehanna 新高目標價 $1,750，SanDisk $3,250。記憶體股的估值天花板持續被抬高。",
+              "tweet_id": "2060324728141746392",
+              "file": "audio/2026-05-30/030.mp3"
+            },
+            {
+              "index": 31,
+              "text": "BlackRock 在美股創新高之際，正在其 $2200 億模型投資組合中減持股票。",
+              "tweet_id": "2060372283529592867",
+              "file": "audio/2026-05-30/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "Bezos 在 New Glenn 爆炸後面臨三個選項，「全部都是災難性的」。$10 億+ 重型火箭計畫的存亡時刻。",
+              "tweet_id": "2060339876243890251",
+              "file": "audio/2026-05-30/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "Elon Musk 否認 SpaceX IPO 估值下調報導。",
+              "tweet_id": "2060353662178992132",
+              "file": "audio/2026-05-30/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "首部完全 AI 生成的電影被主要影展接受，但內容是伊朗戰爭宣傳片。AI 創作的倫理邊界被測試。",
+              "tweet_id": "2060328011111845966",
+              "file": "audio/2026-05-30/034.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🏭 產業與科技",
+          "items": [
+            {
+              "index": 35,
+              "text": "Jensen Huang 談中國創新：「隱藏技術沒意義，不如開源。開源社群會放大加速。」",
+              "tweet_id": "2060137922204983423",
+              "file": "audio/2026-05-30/035.mp3"
+            },
+            {
+              "index": 36,
+              "text": "NVIDIA 與 MGX 生態系統夥伴慶祝：「沒有合作夥伴，我們無法實現 AI 工廠的願景。」",
+              "tweet_id": "2060366271049273381",
+              "file": "audio/2026-05-30/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "Cooler Master 與記憶體廠商合作推出 DDR5 主動散熱方案 MasterDimm。AI 工作負載推動記憶體散熱需求。",
+              "tweet_id": "2060309156721225963",
+              "file": "audio/2026-05-30/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "YC 正在悄悄建構反無人機生態系統：導彈、AI 機槍、感測器融合 OS。",
+              "tweet_id": "2059813178826235963",
+              "file": "audio/2026-05-30/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "Uber 在日本限時推出「Uber Drift」：專業甩尾體驗，¥30,000 起。",
+              "tweet_id": "2060326554442269027",
+              "file": "audio/2026-05-30/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "Delta 選擇 Amazon Leo 衛星而非 Starlink 提供機上網路。",
+              "tweet_id": "2060315068730888399",
+              "file": "audio/2026-05-30/040.mp3"
+            }
+          ]
+        },
+        {
+          "name": "📱 社群與文化",
+          "items": [
+            {
+              "index": 41,
+              "text": "「Token 是 AI 時代的通用勞動單位。工業時代用千瓦時衡量機器勞動，AI 時代用 Token 衡量智能勞動。」概念性思考引發共鳴。",
+              "tweet_id": "2060384382414918029",
+              "file": "audio/2026-05-30/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "台灣針孔攝影機問題持續爆發。",
+              "tweet_id": "2060192163158515856",
+              "file": "audio/2026-05-30/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "「AI 加速一切——包括無能。」持續被引用。",
+              "tweet_id": "2060165315078811911",
+              "file": "audio/2026-05-30/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "本地 AI 推理的世界正在到來：Qwen3.6 27B 在消費級 AMD 達 87 tok/s，35B 在 4070 達 70 tok/s。",
+              "tweet_id": "2060260158895178165",
+              "file": "audio/2026-05-30/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "Anthropic 共同創辦人 Christopher Olah 出席梵蒂岡「Magnifica Humani」發表會。AI 與宗教的對話正式化。",
+              "tweet_id": "2060199597109108801",
+              "file": "audio/2026-05-30/045.mp3"
+            }
+          ]
+        },
+        {
+          "name": "📊 統計",
+          "items": []
+        },
+        {
+          "name": "📝 總結",
+          "items": []
+        }
+      ],
+      "complete": true
+    },
     {
       "date": "2026-05-29",
       "generated_at": "2026-05-29T13:00:51.348073+08:00",
