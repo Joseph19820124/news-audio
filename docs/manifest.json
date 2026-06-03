@@ -1,243 +1,119 @@
 {
-  "updated_at": "2026-06-03T13:32:36.868788+08:00",
+  "updated_at": "2026-06-03T19:32:13.563278+08:00",
   "dates": [
     {
       "date": "2026-06-03",
-      "generated_at": "2026-06-03T13:32:05.628051+08:00",
+      "generated_at": "2026-06-03T19:31:55.705583+08:00",
       "categories": [
         {
           "name": "🤖 AI 產業與模型動態",
           "items": [
             {
               "index": 1,
-              "text": "Microsoft 洩漏 Claude Mythos 訓練 FLOPS：~6.1×10²⁷（95% CI 5.3-7.1×10²⁷），從 Build 投影片推算。",
-              "tweet_id": "2061897540161728791",
+              "text": "HTTP/2 Bomb 漏洞由 Codex 發現：nginx/Apache/IIS/Envoy/Cloudflare Pingora 全受影響，單一客戶端 10 秒內佔用 32GB 伺服器記憶體——AI 用於安全研究的里程碑案例。",
+              "tweet_id": "2061891591741071765",
               "file": "audio/2026-06-03/001.mp3"
             },
             {
               "index": 2,
-              "text": "微信 Agent 內部評估未達預期被叫停：微信開放權限不足+基礎模型能力不夠，推遲至下半年。",
-              "tweet_id": "2061995974436737111",
+              "text": "Microsoft 發表 agent 控制用手持/桌面裝置，被視為對 OpenAI 硬體策略的直接回應。",
+              "tweet_id": "2061860319547527191",
               "file": "audio/2026-06-03/002.mp3"
             },
             {
               "index": 3,
-              "text": "Biotech 開始以「三年前 AI」的速度起飛：NewLimit $31 億估值、Bezos $30 億投 Altos Labs、Hassabis 入場。",
-              "tweet_id": "2061878371974279348",
+              "text": "OpenClaw Windows 整合持續傳播 + Build 上 Peter Steinberger 說明原生 Windows app + 安全功能——有人評論「準備好面對大量失業」。",
+              "tweet_id": "2061997821004554652",
               "file": "audio/2026-06-03/003.mp3"
             },
             {
               "index": 4,
-              "text": "AI 模型不看 ECG 也能做出正確診斷：fine-tuning 後模型表現超越傳統方法。",
-              "tweet_id": "2061987810631102763",
+              "text": "Anthropic 面試故事：候選人因「不相信 mech interp」但堅持正確方法被拒絕——引發 AI 研究方法論辯論。",
+              "tweet_id": "2061913633593110582",
               "file": "audio/2026-06-03/004.mp3"
             },
             {
               "index": 5,
-              "text": "泰國開發者用 $500 預算 + 1.5 個月製作 20 分鐘 AI 動畫電影 demo（完整版 90 分鐘）。",
-              "tweet_id": "2061581280215802173",
+              "text": "OpenAI 免費贈送 $1,200 Codex 額度（公開 repo + 填表 = 6 個月 ChatGPT Pro）持續傳播。",
+              "tweet_id": "2061847485492908330",
               "file": "audio/2026-06-03/005.mp3"
             },
             {
               "index": 6,
-              "text": "OpenAI Sites（Vite + Cloudflare）+ role-specific plugins 持續高聲量。",
-              "tweet_id": "2061846772201447864",
+              "text": "Codex Mobile iOS 新功能（FaceID lock 等）。",
+              "tweet_id": "2061867307308089789",
               "file": "audio/2026-06-03/006.mp3"
             },
             {
               "index": 7,
-              "text": "Codex Sites + Convex DB 組合：agent 可寫入的 todo list app → 部署在 Sites → 用 skill 讓 agent 操作。",
-              "tweet_id": "2062011135797137776",
+              "text": "Hermes Agent GUI Tailscale 遠端連線更新。",
+              "tweet_id": "2061984430370267210",
               "file": "audio/2026-06-03/007.mp3"
             },
             {
               "index": 8,
-              "text": "「Codex 是更好的品牌名」——對「Codex 合併進 ChatGPT」的反對聲音。",
-              "tweet_id": "2061976874721661379",
+              "text": "PrimeIntellect 招募 self-improving agents。",
+              "tweet_id": "2062005332436488348",
               "file": "audio/2026-06-03/008.mp3"
             },
             {
               "index": 9,
-              "text": "Codex 最新版升級後強制手機號驗證持續爆發，用戶被迫依賴 GiffGaff。",
-              "tweet_id": "2061977055970095204",
+              "text": "泰國開發者 $500 AI 動畫電影持續傳播。",
+              "tweet_id": "2061581280215802173",
               "file": "audio/2026-06-03/009.mp3"
             },
             {
               "index": 10,
-              "text": "GitHub Copilot「已死」的評價持續流傳。",
-              "tweet_id": "2061562912158937247",
+              "text": "Cyberpunk 2077 Ultimate Edition for Mac 獲 Apple Design Award 2026（Best Visuals & Graphics）。",
+              "tweet_id": "2062082086060622177",
               "file": "audio/2026-06-03/010.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🌐 地緣政治（持續主導時間線）",
+          "items": [
             {
               "index": 11,
-              "text": "「下一代永久底層？錯過 AI 基礎設施擁有權 + 工作被取代 + 房價飛漲」的焦慮討論。",
-              "tweet_id": "2062001786492523005",
+              "text": "Iran 轟炸 Kuwait 國際機場確認。",
+              "tweet_id": "2062105682732564633",
               "file": "audio/2026-06-03/011.mp3"
             },
             {
               "index": 12,
-              "text": "OpenAI 應該 clone bolt.new / Sundar 應關閉 API / Dario 應只給 Mythos 給競爭者——「當結局已知但距離未知時，才是你贏的時候」的創業激勵觀。",
-              "tweet_id": "2061895005669826980",
+              "text": "Kuwait 機場受損畫面持續流出。",
+              "tweet_id": "2062075397601219059",
               "file": "audio/2026-06-03/012.mp3"
             },
             {
               "index": 13,
-              "text": "Docker group 操作風險比 Codex 本身更危險。",
-              "tweet_id": "2061818702677643286",
+              "text": "Iran 攻擊 US 海灣基地持續為最高聲量議題。",
+              "tweet_id": "2061969012209455116",
               "file": "audio/2026-06-03/013.mp3"
             },
             {
               "index": 14,
-              "text": "指數型變化的真相：「直到所有事同時發生前，感覺什麼都沒在發生」。",
-              "tweet_id": "2061772454104543404",
+              "text": "日本大型商社因中東風險提前鎖定二甲苯/甲苯/進口配額/物流。",
+              "tweet_id": "2061948113410232524",
               "file": "audio/2026-06-03/014.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🛠️ 開發工具與 Agent 生態",
-          "items": [
+            },
             {
               "index": 15,
-              "text": "Composer 2.5 已在 Grok Build 內可用。",
-              "tweet_id": "2061510464325206163",
+              "text": "Henry Nowak 案：「比 George Floyd 嚴重 1000 倍」的敘事持續擴散。",
+              "tweet_id": "2061809844282118203",
               "file": "audio/2026-06-03/015.mp3"
             },
             {
               "index": 16,
-              "text": "Warp SSH 完整 coding 能力持續傳播。",
-              "tweet_id": "2061809871880937740",
+              "text": "阿爾巴尼亞抗議 Kushner 海岸線開發持續。",
+              "tweet_id": "2061800977779269812",
               "file": "audio/2026-06-03/016.mp3"
             },
             {
               "index": 17,
-              "text": "Abacus AI SuperComputer：一個 prompt 建任何雲端服務。",
-              "tweet_id": "2061990005879275879",
+              "text": "哥倫比亞總統回應 Trump 干預選舉。",
+              "tweet_id": "2061988460198572200",
               "file": "audio/2026-06-03/017.mp3"
-            },
-            {
-              "index": 18,
-              "text": "Pioneer 一週 10K 開發者，15+ 模型 + 多 agent 整合。",
-              "tweet_id": "2061877033769082998",
-              "file": "audio/2026-06-03/018.mp3"
-            },
-            {
-              "index": 19,
-              "text": "PrimeIntellect 招募：self-improving agents 開放堆疊。",
-              "tweet_id": "2062005332436488348",
-              "file": "audio/2026-06-03/019.mp3"
-            },
-            {
-              "index": 20,
-              "text": "react-native-runtimes：跨 JS Runtime 渲染 React 元件 + C++ 同步 Zustand 狀態。",
-              "tweet_id": "2061860277088407665",
-              "file": "audio/2026-06-03/020.mp3"
-            },
-            {
-              "index": 21,
-              "text": "瀏覽器內 3D 人體解剖模型（光線/角度參考）取代 Pinterest board。",
-              "tweet_id": "2061872410853343697",
-              "file": "audio/2026-06-03/021.mp3"
-            },
-            {
-              "index": 22,
-              "text": "Merge conflicts skill 需求討論。",
-              "tweet_id": "2061890528820465713",
-              "file": "audio/2026-06-03/022.mp3"
-            },
-            {
-              "index": 23,
-              "text": "Karpathy「10,000 小時」建議持續傳播。",
-              "tweet_id": "2061794459223032037",
-              "file": "audio/2026-06-03/023.mp3"
-            },
-            {
-              "index": 24,
-              "text": "VC 提問 prompt：「讓 AI 模型扮演 VC 對你的類別評分」作為融資前準備。",
-              "tweet_id": "2061989897423269952",
-              "file": "audio/2026-06-03/024.mp3"
-            }
-          ]
-        },
-        {
-          "name": "💰 財經與投資",
-          "items": [
-            {
-              "index": 25,
-              "text": "Bitcoin 跌破 $66,000，持續在極度恐懼區間。",
-              "tweet_id": "2062015188828664231",
-              "file": "audio/2026-06-03/025.mp3"
-            },
-            {
-              "index": 26,
-              "text": "SpaceX IPO $750 億確認（555.6M 股 × $135）。",
-              "tweet_id": "2061973054578671721",
-              "file": "audio/2026-06-03/026.mp3"
-            },
-            {
-              "index": 27,
-              "text": "Bill Gates 女兒完成 $3,550 萬 A 輪。",
-              "tweet_id": "2061819713458450660",
-              "file": "audio/2026-06-03/027.mp3"
-            },
-            {
-              "index": 28,
-              "text": "Tom Lee Bitmine $ETH $87 億未實現虧損。",
-              "tweet_id": "2061949236715901326",
-              "file": "audio/2026-06-03/028.mp3"
-            },
-            {
-              "index": 29,
-              "text": "TikTok 張一鳴 $928 億。",
-              "tweet_id": "2061974910910554596",
-              "file": "audio/2026-06-03/029.mp3"
-            },
-            {
-              "index": 30,
-              "text": "NVIDIA 員工 50% 收入超 $2,500 萬。",
-              "tweet_id": "2061992227610779918",
-              "file": "audio/2026-06-03/030.mp3"
-            },
-            {
-              "index": 31,
-              "text": "Trump 介入哥倫比亞大選背書右翼候選人。",
-              "tweet_id": "2062015289668034676",
-              "file": "audio/2026-06-03/031.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🌐 地緣政治",
-          "items": [
-            {
-              "index": 32,
-              "text": "Iran 攻擊 US 在 Kuwait/Bahrain/Iraq 基地。",
-              "tweet_id": "2061964156488630636",
-              "file": "audio/2026-06-03/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "阿爾巴尼亞 10 萬人抗議 Trump/Kushner 開發案。",
-              "tweet_id": "2061878166361112755",
-              "file": "audio/2026-06-03/033.mp3"
-            },
-            {
-              "index": 34,
-              "text": "Scott Pelley 被 CBS 解雇（批評管理層隔天）。",
-              "tweet_id": "2061993778492137583",
-              "file": "audio/2026-06-03/034.mp3"
-            },
-            {
-              "index": 35,
-              "text": "Trump 宣布 Hezbollah-以色列停火次日以色列投 50+ 枚炸彈。",
-              "tweet_id": "2061814054348284280",
-              "file": "audio/2026-06-03/035.mp3"
-            },
-            {
-              "index": 36,
-              "text": "颱風 6 號持續影響日本關東/靜岡。",
-              "tweet_id": "2062005102723076327",
-              "file": "audio/2026-06-03/036.mp3"
             }
           ]
         },
@@ -245,75 +121,63 @@
           "name": "🏭 產業與科技",
           "items": [
             {
-              "index": 37,
-              "text": "The Lost Wild（恐龍生存恐怖）2027 PS5/PC。",
-              "tweet_id": "2061932230730232111",
-              "file": "audio/2026-06-03/037.mp3"
+              "index": 18,
+              "text": "Starship highlights 持續高傳播。",
+              "tweet_id": "2062071886218219737",
+              "file": "audio/2026-06-03/018.mp3"
             },
             {
-              "index": 38,
-              "text": "Stanley Cup Final：Ehlers 25 秒首球。",
-              "tweet_id": "2061968930487308519",
-              "file": "audio/2026-06-03/038.mp3"
+              "index": 19,
+              "text": "The Lost Wild（恐龍恐怖遊戲）2027 持續獲關注。",
+              "tweet_id": "2061951004388610489",
+              "file": "audio/2026-06-03/019.mp3"
             },
             {
-              "index": 39,
-              "text": "BBC 記者在 Computex 向黃仁勳提「引導式問題」被反將。",
-              "tweet_id": "2061804565629194534",
-              "file": "audio/2026-06-03/039.mp3"
+              "index": 20,
+              "text": "YouTube 串流全部 World Cup 2026（FOXOne 英語轉播）。",
+              "tweet_id": "2061958968251916312",
+              "file": "audio/2026-06-03/020.mp3"
             },
             {
-              "index": 40,
-              "text": "薩爾瓦多中美洲最佳公立醫院持續獲讚。",
-              "tweet_id": "2061985882672882008",
-              "file": "audio/2026-06-03/040.mp3"
+              "index": 21,
+              "text": "新幹線雨簷設計細節引發讚嘆。",
+              "tweet_id": "2061963141957992950",
+              "file": "audio/2026-06-03/021.mp3"
             },
             {
-              "index": 41,
-              "text": "Zed 極快到用戶「兩年來首次看到 loading spinner」。",
-              "tweet_id": "2061872490406662264",
-              "file": "audio/2026-06-03/041.mp3"
+              "index": 22,
+              "text": "颱風後日本海老名出現彩虹。",
+              "tweet_id": "2062090722288034302",
+              "file": "audio/2026-06-03/022.mp3"
             },
             {
-              "index": 42,
-              "text": "Dragon Quest 誕生秘辛漫畫電子書。",
-              "tweet_id": "2062014946226180484",
-              "file": "audio/2026-06-03/042.mp3"
+              "index": 23,
+              "text": "訂閱模式怨念：「我只想買一份 Word」引發 7K+ 讚。",
+              "tweet_id": "2061984643436478798",
+              "file": "audio/2026-06-03/023.mp3"
             }
           ]
         },
         {
-          "name": "🦞 開源與社群",
+          "name": "📺 颱風 6 號（日本）",
           "items": [
             {
-              "index": 43,
-              "text": "OpenCut（剪映替代品）52K+ stars。",
-              "tweet_id": "2061714678175375868",
-              "file": "audio/2026-06-03/043.mp3"
+              "index": 24,
+              "text": "颱風後彩虹出現。",
+              "tweet_id": "2062090722288034302",
+              "file": "audio/2026-06-03/024.mp3"
             },
             {
-              "index": 44,
-              "text": "react-native-runtimes 開源。",
-              "tweet_id": "2061860277088407665",
-              "file": "audio/2026-06-03/044.mp3"
+              "index": 25,
+              "text": "牛舌居酒屋因零預約改全免費——引發 1 萬讚+244 回覆。",
+              "tweet_id": "2062074247070326958",
+              "file": "audio/2026-06-03/025.mp3"
             },
             {
-              "index": 45,
-              "text": "Codex Sites = Vite inside。",
-              "tweet_id": "2061926504838389800",
-              "file": "audio/2026-06-03/045.mp3"
-            },
-            {
-              "index": 46,
-              "text": "WSL containers。",
-              "tweet_id": "2061882812450672777",
-              "file": "audio/2026-06-03/046.mp3"
-            },
-            {
-              "index": 47,
-              "text": "GitHub deepwiki URL hack。",
-              "tweet_id": "2061793243138789395",
-              "file": "audio/2026-06-03/047.mp3"
+              "index": 26,
+              "text": "消防局模擬落水救援訓練被自家狗亂入。",
+              "tweet_id": "2062025337597485220",
+              "file": "audio/2026-06-03/026.mp3"
             }
           ]
         },
@@ -321,34 +185,34 @@
           "name": "📺 文化與生活",
           "items": [
             {
-              "index": 48,
-              "text": "流浪狗走進獸醫診所伸出受傷爪子。",
-              "tweet_id": "2061812757620740103",
-              "file": "audio/2026-06-03/048.mp3"
+              "index": 27,
+              "text": "LA 市長選舉投票日：Spencer Pratt 崛起。",
+              "tweet_id": "2061905825573327281",
+              "file": "audio/2026-06-03/027.mp3"
             },
             {
-              "index": 49,
-              "text": "日本年號解謎：Joe Hisaishi 本名其實是 Quincy Jones 諧音。",
-              "tweet_id": "2061644254779445528",
-              "file": "audio/2026-06-03/049.mp3"
+              "index": 28,
+              "text": "加州遊民工業複合體：$800 萬買旅館→現需 $2,000 萬維修（每單位 $62.5 萬）。",
+              "tweet_id": "2061872268414800193",
+              "file": "audio/2026-06-03/028.mp3"
             },
             {
-              "index": 50,
-              "text": "福島熊攻擊工廠事件持續傳播。",
-              "tweet_id": "2061809467214492040",
-              "file": "audio/2026-06-03/050.mp3"
+              "index": 29,
+              "text": "水獺互動時間引發 1.3 萬讚。",
+              "tweet_id": "2062020862497493086",
+              "file": "audio/2026-06-03/029.mp3"
             },
             {
-              "index": 51,
-              "text": "BABYMETAL 歐洲巡迴開始。",
-              "tweet_id": "2061823972753223684",
-              "file": "audio/2026-06-03/051.mp3"
+              "index": 30,
+              "text": "日本紐約餐廳：室內設計成手繪黑白素描本風格。",
+              "tweet_id": "2062005071643083202",
+              "file": "audio/2026-06-03/030.mp3"
             },
             {
-              "index": 52,
-              "text": "「指數型變化感覺像什麼都沒發生，直到所有事同時發生」。",
-              "tweet_id": "2061772454104543404",
-              "file": "audio/2026-06-03/052.mp3"
+              "index": 31,
+              "text": "CMU 大一新生在 SF 建 AI consultancy（自動化盡職調查）。",
+              "tweet_id": "2061878211433398777",
+              "file": "audio/2026-06-03/031.mp3"
             }
           ]
         },
