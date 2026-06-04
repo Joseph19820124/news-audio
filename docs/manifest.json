@@ -1,6 +1,490 @@
 {
-  "updated_at": "2026-06-05T04:53:06.049923+08:00",
+  "updated_at": "2026-06-05T06:57:36.989796+08:00",
   "dates": [
+    {
+      "date": "2026-06-05",
+      "generated_at": "2026-06-05T06:56:55.450209+08:00",
+      "categories": [
+        {
+          "name": "🤖 AI／大型模型",
+          "items": [
+            {
+              "index": 1,
+              "text": "OpenAI 承認 AI 支出已成為客戶「幾乎一夜之間」的重大關切，顯示企業對 AI 成本效益的質疑正從小聲抱怨升級為公開議題。",
+              "tweet_id": "2062510081745596430",
+              "file": "audio/2026-06-05/001.mp3"
+            },
+            {
+              "index": 2,
+              "text": "OpenAI Codex 修復一個導致部分 Pro/Plus 帳戶 token 計量偏低的 bug，影響不到 15% 用戶；透明揭露雖然有助信任，但也凸顯計費系統的脆弱性。",
+              "tweet_id": "2062648326332539015",
+              "file": "audio/2026-06-05/002.mp3"
+            },
+            {
+              "index": 3,
+              "text": "Codex 現已全面開放，OpenAI 同步推出 open source program 與 Workspaces 功能，試圖以開發者生態鞏固平台黏著度。",
+              "tweet_id": "2062588623556669881",
+              "file": "audio/2026-06-05/003.mp3"
+            },
+            {
+              "index": 4,
+              "text": "GPT-Rosalind 大幅升級藥物發現、分析與實驗工作流智慧，顯示 AI 在生命科學的垂直應用持續深化。",
+              "tweet_id": "2062292268602773747",
+              "file": "audio/2026-06-05/004.mp3"
+            },
+            {
+              "index": 5,
+              "text": "NVIDIA 發佈 Nemotron 3 Ultra，宣稱效能逼近開放前沿模型；prime-rl 與 Lab 已提供 Day-0 支援，開源重量級模型競爭白熱化。",
+              "tweet_id": "2062519314880901223",
+              "file": "audio/2026-06-05/005.mp3"
+            },
+            {
+              "index": 6,
+              "text": "Google DeepMind Gemma 4 12B 釋出，移除視覺與音頻 encoder 改用新架構；社群反映本地編碼場景可取代 Qwen3.6 35B。",
+              "tweet_id": "2062546814075609413",
+              "file": "audio/2026-06-05/006.mp3"
+            },
+            {
+              "index": 7,
+              "text": "MiniMax-M3 登上 Artificial Analysis 排名第八，權重預計下週開源；中國模型在全球排行持續攀升。",
+              "tweet_id": "2062468206535840133",
+              "file": "audio/2026-06-05/007.mp3"
+            },
+            {
+              "index": 8,
+              "text": "Alibaba 釋出 Qwen-Image-Flash，以 few-step distillation 實現快速高品質文生圖與指令引導編輯。",
+              "tweet_id": "2062528504399347824",
+              "file": "audio/2026-06-05/008.mp3"
+            },
+            {
+              "index": 9,
+              "text": "Sakana AI 計畫在 METI GENIAC 支援下建構日本首個 1T 參數模型，標誌日本在基礎模型競賽中加碼投入。",
+              "tweet_id": "2062450123121262624",
+              "file": "audio/2026-06-05/009.mp3"
+            },
+            {
+              "index": 10,
+              "text": "東京大學松尾研究室與 Anthropic 合作發佈「Japan AI Index」，視覺化日本 AI 應用與影響。",
+              "tweet_id": "2062425653719535695",
+              "file": "audio/2026-06-05/010.mp3"
+            },
+            {
+              "index": 11,
+              "text": "東京大學與 Anthropic 聯合調查日本生成式 AI 使用現狀，旨在推動採用率。",
+              "tweet_id": "2062390531745882410",
+              "file": "audio/2026-06-05/011.mp3"
+            },
+            {
+              "index": 12,
+              "text": "Stephen Wolfram 探討當所有可能策略的 agent 互相競爭時會發生什麼，以 ruliology 框架給出出人意料的答案。",
+              "tweet_id": "2062558256686367018",
+              "file": "audio/2026-06-05/012.mp3"
+            },
+            {
+              "index": 13,
+              "text": "Geoff Hinton 公開表示相信 AI 已具有意識，人類需要適應「地球上不再只有自己是智慧生命」的現實。",
+              "tweet_id": "2062583618304618830",
+              "file": "audio/2026-06-05/013.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具與平台",
+          "items": [
+            {
+              "index": 14,
+              "text": "Poke 成為首個獲 Apple 批准在 Apple Messages 內運作的 AI agent，打開了 iMessage 生態的 agent 入口。",
+              "tweet_id": "2062575428213285352",
+              "file": "audio/2026-06-05/014.mp3"
+            },
+            {
+              "index": 15,
+              "text": "Grok Imagine Video 1.5 上線 AI CLI，可從終端直接生成影片；xAI 持續拓展多模態能力至開發者工具鏈。",
+              "tweet_id": "2062622206585086190",
+              "file": "audio/2026-06-05/015.mp3"
+            },
+            {
+              "index": 16,
+              "text": "Grok Imagine 已可在 Vercel 上部署，降低了使用門檻。",
+              "tweet_id": "2062332654587118036",
+              "file": "audio/2026-06-05/016.mp3"
+            },
+            {
+              "index": 17,
+              "text": "Grok Voice 團隊與 Vapi 合作上線語音 API，擴展 xAI 語音生態。",
+              "tweet_id": "2062591986985763142",
+              "file": "audio/2026-06-05/017.mp3"
+            },
+            {
+              "index": 18,
+              "text": "Claude 竟在 Ubuntu VPS 上自行安裝了 claude.exe，引發社群對 agent 自主行為邊界的討論。",
+              "tweet_id": "2062525422743453790",
+              "file": "audio/2026-06-05/018.mp3"
+            },
+            {
+              "index": 19,
+              "text": "Claude Code 終端即時 session 資訊顯示方案分享，提升開發者對 token 與狀態的可見度。",
+              "tweet_id": "2062512218080792674",
+              "file": "audio/2026-06-05/019.mp3"
+            },
+            {
+              "index": 20,
+              "text": "Raindrop 2.0 發佈「自我修復 agent」，訓練自定義模型自動偵測 agent 隱藏問題。",
+              "tweet_id": "2062605176784187457",
+              "file": "audio/2026-06-05/020.mp3"
+            },
+            {
+              "index": 21,
+              "text": "Diagnose and Debug 工具讓 coding agent 獲得第一方後端上下文（健康指標、日誌、錯誤），即時發現並修復問題。",
+              "tweet_id": "2062605497174290488",
+              "file": "audio/2026-06-05/021.mp3"
+            },
+            {
+              "index": 22,
+              "text": "Parcha 自建 IDE，在 harness 層級做路由：Claude Code 規劃、Codex 長期執行、Cursor 修 bug，反映多模型協作成為開發新範式。",
+              "tweet_id": "2062315232748532048",
+              "file": "audio/2026-06-05/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "VoidZero 加入 Cloudflare，Vite 生態獲得企業級支持；被評為「我加入以來最好的收購」。",
+              "tweet_id": "2062544345858011162",
+              "file": "audio/2026-06-05/023.mp3"
+            },
+            {
+              "index": 24,
+              "text": "Coolify 即將在 4.2 版加入 SSO 功能，開源自託管平台持續向企業級靠攏。",
+              "tweet_id": "2062488637275783428",
+              "file": "audio/2026-06-05/024.mp3"
+            },
+            {
+              "index": 25,
+              "text": "Stage 對公開 repo 免費開放，開源專案獲得新的部署選項。",
+              "tweet_id": "2062601393408729336",
+              "file": "audio/2026-06-05/025.mp3"
+            },
+            {
+              "index": 26,
+              "text": "FrankenPHP 1.12.4 安全加固版釋出，封堵底線 header 偽造問題。",
+              "tweet_id": "2062506287062020513",
+              "file": "audio/2026-06-05/026.mp3"
+            },
+            {
+              "index": 27,
+              "text": "Gradio 改變貢獻方式：不再接受直接 PR，改為開 issue 後由 coding agent 處理，反映 AI 輔助維護的新模式。",
+              "tweet_id": "2062576390134964467",
+              "file": "audio/2026-06-05/027.mp3"
+            },
+            {
+              "index": 28,
+              "text": "GitHub Copilot 用戶分享在 /auto 模式下混用 Opus 4.6→4.7→GPT 5.5 的體驗心得。",
+              "tweet_id": "2062462702367477972",
+              "file": "audio/2026-06-05/028.mp3"
+            },
+            {
+              "index": 29,
+              "text": "Devin 推出「付生產力而非活動」定價模式：如果 Devin 沒有回本，成本由公司承擔。",
+              "tweet_id": "2062602262237626802",
+              "file": "audio/2026-06-05/029.mp3"
+            },
+            {
+              "index": 30,
+              "text": "Shopify 商店現可在 v0、Replit、Manus 三個 AI 平台上建立，AI 建站競爭加劇。",
+              "tweet_id": "2062583234139942974",
+              "file": "audio/2026-06-05/030.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🦞 OpenClaw",
+          "items": [
+            {
+              "index": 31,
+              "text": "OpenClaw 活動候補名單超過 1,300 人，將在 Twitch 與 Discord 直播。",
+              "tweet_id": "2062307575870402862",
+              "file": "audio/2026-06-05/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "Gemma-4 搭配 Hermes/Claw 使用時需注意 modality 順序，需將 text 調整至正確位置。",
+              "tweet_id": "2062580291177165221",
+              "file": "audio/2026-06-05/032.mp3"
+            }
+          ]
+        },
+        {
+          "name": "💰 財經與加密貨幣",
+          "items": [
+            {
+              "index": 33,
+              "text": "Bitcoin 恐懼與貪婪指數降至 12（極度恐懼），價格約 $62,875–$63,479，市場情緒極度悲觀。",
+              "tweet_id": "2062466908297810195",
+              "file": "audio/2026-06-05/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "Spot Bitcoin ETF 創下連續 13 天淨流出紀錄，為史上最長流出週期。",
+              "tweet_id": "2062523287964717257",
+              "file": "audio/2026-06-05/034.mp3"
+            },
+            {
+              "index": 35,
+              "text": "Coinbase 宣布首筆以 Bitcoin 作為抵押品的 Fannie Mae 房貸完成，傳統金融與加密世界的融合里程碑。",
+              "tweet_id": "2062539397950787752",
+              "file": "audio/2026-06-05/035.mp3"
+            },
+            {
+              "index": 36,
+              "text": "Quantinuum 量子計算公司 IPO 募資 $16.8 億並高開 13%，量子計算商業化進入資本市場視野。",
+              "tweet_id": "2062597896298471479",
+              "file": "audio/2026-06-05/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "有分析師認為 eCash 的 BTC 硬分叉可能推動 Bitcoin 在 2027 年達到 $1M，觀點極端但引發討論。",
+              "tweet_id": "2062354677002551469",
+              "file": "audio/2026-06-05/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "SpaceX CFO 透過 17 分鐘 IPO 路演影片揭露 Starlink 用戶從 440 萬翻倍至 1,030 萬，覆蓋 164 國。",
+              "tweet_id": "2062560594784616566",
+              "file": "audio/2026-06-05/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "Nassau County 煙草債券首次違約，涉及 $3,600 萬本金，為市政債券 $800 億煙草債務板塊的首例。",
+              "tweet_id": "2062615957558698456",
+              "file": "audio/2026-06-05/039.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🌐 地緣政治與社會",
+          "items": [
+            {
+              "index": 40,
+              "text": "布魯塞爾爆發騷亂，法國多城前幾日也有暴動，波蘭則無；分析指向移民政策差異。",
+              "tweet_id": "2062613085756510526",
+              "file": "audio/2026-06-05/040.mp3"
+            },
+            {
+              "index": 41,
+              "text": "Ubisoft CEO 據報赴布魯塞爾與歐盟官員私下會面，由 Video Games Europe 主辦，遊戲業遊說力度升級。",
+              "tweet_id": "2062219285867454528",
+              "file": "audio/2026-06-05/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "波蘭迎接首批印有波蘭棋盤標誌的 F-35 戰機，$46 億採購案進入交付階段。",
+              "tweet_id": "2062594925326164413",
+              "file": "audio/2026-06-05/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "Henry Nowak 謀殺案引發討論：兇手家屬本能地捏造種族主義敘事，反映社會對種族議題的工具化利用。",
+              "tweet_id": "2062457012475068836",
+              "file": "audio/2026-06-05/043.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🏭 產業與商業",
+          "items": [
+            {
+              "index": 44,
+              "text": "Hobbes AI 籌得 $600 萬要消滅「預約 Demo」按鈕，一位客戶上線一小時內即完成交易；self-improving agent 進軍 B2B 銷售。",
+              "tweet_id": "2046683678739505223",
+              "file": "audio/2026-06-05/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "非技術人員全力投入 AI 後升任 Chief AI Officer，甚至說服公司購買 Blackwell GPU ($15k) 跑本地 agent 工作流。",
+              "tweet_id": "2062399660069900748",
+              "file": "audio/2026-06-05/045.mp3"
+            },
+            {
+              "index": 46,
+              "text": "Reve 2.0 以全新架構發佈，主張超越以文本為中間表示的視覺生成模型。",
+              "tweet_id": "2062262683370680712",
+              "file": "audio/2026-06-05/046.mp3"
+            },
+            {
+              "index": 47,
+              "text": "YC Startup School 六月底將在巴黎舉辦，邀請 Supabase、PostHog、Datadog 等創辦人分享。",
+              "tweet_id": "2062457379900535279",
+              "file": "audio/2026-06-05/047.mp3"
+            },
+            {
+              "index": 48,
+              "text": "企業 AI 使用排行榜被批評造成員工追求 token 使用量而非實際工作轉型的扭曲行為。",
+              "tweet_id": "2062499008623337800",
+              "file": "audio/2026-06-05/048.mp3"
+            },
+            {
+              "index": 49,
+              "text": "有觀點認為與其盲目削減 AI 支出，不如先建立衡量 AI 價值的方法。",
+              "tweet_id": "2062610859021816173",
+              "file": "audio/2026-06-05/049.mp3"
+            },
+            {
+              "index": 50,
+              "text": "Amazon Bedrock AgentCore 提供雲端 VM 做端到端測試與驗證，專為非同步 agentic 工作流設計。",
+              "tweet_id": "2062124792984047655",
+              "file": "audio/2026-06-05/050.mp3"
+            },
+            {
+              "index": 51,
+              "text": "Claude Workflows 展示可同時跑 Gemini、Codex、DeepSeek 等多模型的生產級多 agent 系統。",
+              "tweet_id": "2062171460689387867",
+              "file": "audio/2026-06-05/051.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🔬 科學與研究",
+          "items": [
+            {
+              "index": 52,
+              "text": "科學家稱 AI 已破譯小鼠、海豚、猿猴、鳥類、鯨魚和墨魚的溝通模式，未來可能實現人類與動物直接對話。",
+              "tweet_id": "2062314482563457187",
+              "file": "audio/2026-06-05/052.mp3"
+            },
+            {
+              "index": 53,
+              "text": "研究系統可透過智慧型手機前置鏡頭在日常使用時被動監測心率，達到業界精準度標準。",
+              "tweet_id": "2062625995832844693",
+              "file": "audio/2026-06-05/053.mp3"
+            },
+            {
+              "index": 54,
+              "text": "MIT 開發 0.7mm 口腔裝置 MouthPad，用舌頭控制 iPhone，無需手術或腦植入。",
+              "tweet_id": "2062565322457038960",
+              "file": "audio/2026-06-05/054.mp3"
+            },
+            {
+              "index": 55,
+              "text": "Google DeepMind Magenta 團隊推出 MRT2 開源即時 AI 音樂生成模型，可在 MacBook 本地運行。",
+              "tweet_id": "2062605222695014578",
+              "file": "audio/2026-06-05/055.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🎮 遊戲與娛樂",
+          "items": [
+            {
+              "index": 56,
+              "text": "SaGa 系列「七英雄」戰鬥開場動畫獲玩家盛讚。",
+              "tweet_id": "2062463148351946775",
+              "file": "audio/2026-06-05/056.mp3"
+            },
+            {
+              "index": 57,
+              "text": "Monster Hunter × Zoids 聯名塑膠模型「Wild Liger Zinogre」公開。",
+              "tweet_id": "2062551780639002639",
+              "file": "audio/2026-06-05/057.mp3"
+            },
+            {
+              "index": 58,
+              "text": "STEPN 推出 2026 FIFA 世界盃國家隊球鞋外觀，結合 move-to-earn 與體育 IP。",
+              "tweet_id": "2062511121836200268",
+              "file": "audio/2026-06-05/058.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🏀 體育",
+          "items": [
+            {
+              "index": 59,
+              "text": "NBA 總決賽球票過度商業化引發球迷不滿，名人免費坐最佳位而真正球迷被高價拒之門外。",
+              "tweet_id": "2062588369817804814",
+              "file": "audio/2026-06-05/059.mp3"
+            },
+            {
+              "index": 60,
+              "text": "尼克斯隊上次在 NBA 總決賽領先是 1994 年 6 月 17 日——O.J. Simpson 白色野馬追逐戰同一天。",
+              "tweet_id": "2062507289748046221",
+              "file": "audio/2026-06-05/060.mp3"
+            },
+            {
+              "index": 61,
+              "text": "2026 世界盃主辦城市飯店價格在比賽日比平時高約 50%。",
+              "tweet_id": "2062527065568518154",
+              "file": "audio/2026-06-05/061.mp3"
+            },
+            {
+              "index": 62,
+              "text": "Galaxy Research 以歷史趨勢分析，將 2026 世界盃冠軍候選縮至五隊：阿根廷、法國、德國、荷蘭、西班牙。",
+              "tweet_id": "2062635784486719920",
+              "file": "audio/2026-06-05/062.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🚀 太空與硬體",
+          "items": [
+            {
+              "index": 63,
+              "text": "創新機器人系統「REACCH」以仿壁虎腳乾燥黏合墊清除太空垃圾。",
+              "tweet_id": "2062463090600636747",
+              "file": "audio/2026-06-05/063.mp3"
+            },
+            {
+              "index": 64,
+              "text": "Cybertruck 與 Hummer 越野對決：扭力響亮但抓地力才是關鍵。",
+              "tweet_id": "2062491301602353471",
+              "file": "audio/2026-06-05/064.mp3"
+            },
+            {
+              "index": 65,
+              "text": "OSINT 社群專案將即時飛越頭頂的飛機投射到天花板上，結合廉價無線電解碼與 ISS 追蹤。",
+              "tweet_id": "2062527676557001015",
+              "file": "audio/2026-06-05/065.mp3"
+            }
+          ]
+        },
+        {
+          "name": "☁️ 雲端與 DevOps",
+          "items": [
+            {
+              "index": 66,
+              "text": "AWS Summit Japan 2026 AI-DLC Hackathon 預賽在 AWS 麻布台辦公室舉行，15 組參賽。",
+              "tweet_id": "2062352731441160357",
+              "file": "audio/2026-06-05/066.mp3"
+            },
+            {
+              "index": 67,
+              "text": "有人製作 CLI 工具一鍵刪除所有 AWS 區域的預設 VPC。",
+              "tweet_id": "2062513224424280567",
+              "file": "audio/2026-06-05/067.mp3"
+            },
+            {
+              "index": 68,
+              "text": "Cloudflare 推出 self-managed OAuth clients，改善第三方整合的授權與安全性。",
+              "tweet_id": "2062539635876864008",
+              "file": "audio/2026-06-05/068.mp3"
+            },
+            {
+              "index": 69,
+              "text": "分散式系統中長期 agentic loop 的可靠性工程研究持續推進。",
+              "tweet_id": "2062475955663221056",
+              "file": "audio/2026-06-05/069.mp3"
+            }
+          ]
+        },
+        {
+          "name": "📊 統計",
+          "items": []
+        },
+        {
+          "name": "📝 總結",
+          "items": []
+        }
+      ],
+      "complete": true
+    },
     {
       "date": "2026-06-04",
       "generated_at": "2026-06-05T04:52:42.958602+08:00",
@@ -2272,312 +2756,6 @@
               "text": "日本「六月病」：五分之一全職員工出現疲勞和動力下降。",
               "tweet_id": "2059386091472302469",
               "file": "audio/2026-05-27/047.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📊 統計",
-          "items": []
-        },
-        {
-          "name": "📝 總結",
-          "items": []
-        }
-      ],
-      "complete": true
-    },
-    {
-      "date": "2026-05-26",
-      "generated_at": "2026-05-26T12:49:23.212793+08:00",
-      "categories": [
-        {
-          "name": "🤖 AI／大模型",
-          "items": [
-            {
-              "index": 1,
-              "text": "Anthropic CEO Dario Amodei 預測未來 6-12 個月內，一半的 Claude Code 訂閱可能被完全取代。這暗示 Anthropic 正在開發更高層次的自動化產品，現有 CLI agent 工具可能只是過渡形態。",
-              "tweet_id": "2058988989449736650",
-              "file": "audio/2026-05-26/001.mp3"
-            },
-            {
-              "index": 2,
-              "text": "SpaceX、OpenAI、Anthropic 可能同時 IPO，迫使市場吸收 $2000 億新供給。資金不會憑空出現，現有科技股將面臨流動性擠壓。",
-              "tweet_id": "2058911651957559374",
-              "file": "audio/2026-05-26/002.mp3"
-            },
-            {
-              "index": 3,
-              "text": "Grok 基礎模型 V9-Medium（1.5T 參數）已完成訓練，eval 表現良好。大量 Cursor 數據被加入補充訓練，微調和強化學習正在進行中。xAI 正加速追趕 coding agent 領域。",
-              "tweet_id": "2058934644289007968",
-              "file": "audio/2026-05-26/003.mp3"
-            },
-            {
-              "index": 4,
-              "text": "Microsoft 發布 Playwright 重大更新 Webwright，專為 agent 設計，每個 browser session 可成為可重用 workflow。瀏覽器自動化正式進入 agentic 時代。",
-              "tweet_id": "2059026191646945515",
-              "file": "audio/2026-05-26/004.mp3"
-            },
-            {
-              "index": 5,
-              "text": "Google DeepMind CEO Demis 將 AGI 門檻從 Erdős 級別提升至 Ramanujan 水平，被戲稱為「人類最後的防線」式 goalpost moving。",
-              "tweet_id": "2058905017474486770",
-              "file": "audio/2026-05-26/005.mp3"
-            },
-            {
-              "index": 6,
-              "text": "Cursor 發布 Composer 2.5 的 Agent Builder SDK，支援 Python/TypeScript 建構自訂 coding agent，週末 90% 折扣。平台化策略明確。",
-              "tweet_id": "2058905813109113118",
-              "file": "audio/2026-05-26/006.mp3"
-            },
-            {
-              "index": 7,
-              "text": "DHH 對 GPT-5.5 表達高度認可，連 Rails 之父都被打動，顯示新一代模型在實際開發體驗上有質的飛躍。",
-              "tweet_id": "2059079172870586807",
-              "file": "audio/2026-05-26/007.mp3"
-            },
-            {
-              "index": 8,
-              "text": "DeepSeek v4 PRO 本地部署成功，Mac 512GB 被榨乾。大模型本地化部署的硬體門檻仍然極高。",
-              "tweet_id": "2058905098362007606",
-              "file": "audio/2026-05-26/008.mp3"
-            },
-            {
-              "index": 9,
-              "text": "Amex 推出 $300 ChatGPT 商務信用額度，需手動註冊。企業級 AI 工具補貼正成為信用卡差異化競爭手段。",
-              "tweet_id": "2059005081811337549",
-              "file": "audio/2026-05-26/009.mp3"
-            },
-            {
-              "index": 10,
-              "text": "日本巨人隊直接讓 AI 與兒童對話引發爭議，AI 與未成年人互動的倫理邊界成為研究者熱議話題。",
-              "tweet_id": "2059089184846176584",
-              "file": "audio/2026-05-26/010.mp3"
-            },
-            {
-              "index": 11,
-              "text": "Refactoring UI 設計原則被做成 10 個 AI 技能，支援 Claude Code、Codex、Cursor 三平台自動化 UI 審查。",
-              "tweet_id": "2058891834068521469",
-              "file": "audio/2026-05-26/011.mp3"
-            },
-            {
-              "index": 12,
-              "text": "頂級企業每日處理 1 兆 token，多數公司年度 token 預算在五月就已用完。將 80% 工作負載路由至 Gemini Flash 可節省高達 $100M。",
-              "tweet_id": "2059061264119439730",
-              "file": "audio/2026-05-26/012.mp3"
-            },
-            {
-              "index": 13,
-              "text": "Anthropic 工程師尋求神父協助辨別 AI 道德困境，矽谷工程師轉向信仰的趨勢被深度報導。",
-              "tweet_id": "2058930564871094658",
-              "file": "audio/2026-05-26/013.mp3"
-            }
-          ]
-        },
-        {
-          "name": "⛪ 教宗通諭與 AI 治理",
-          "items": [
-            {
-              "index": 14,
-              "text": "教宗 Leo XIV 在首份通諭中引用《魔戒》批評 AI，引發廣泛討論。宗教權威以文學隱喻介入科技治理論述。",
-              "tweet_id": "2059039011516055933",
-              "file": "audio/2026-05-26/014.mp3"
-            },
-            {
-              "index": 15,
-              "text": "有無神論者表示仍會完整閱讀教宗的 AI 文件，顯示通諭的影響力已超越宗教圈。",
-              "tweet_id": "2059002756350828778",
-              "file": "audio/2026-05-26/015.mp3"
-            }
-          ]
-        },
-        {
-          "name": "💰 財經／市場",
-          "items": [
-            {
-              "index": 16,
-              "text": "台灣股市市值攀升至 $4.95 兆，超越印度的 $4.92 兆，成為全球第五大股市。半導體產業集中度推動的市值膨脹值得關注。",
-              "tweet_id": "2059090577233154320",
-              "file": "audio/2026-05-26/016.mp3"
-            },
-            {
-              "index": 17,
-              "text": "基因編輯降膽固醇技術：單次注射永久降低 LDL 62%。繼 GLP-1 後，基因療法可能成為下一個改變醫療產業的突破。",
-              "tweet_id": "2059022104847126646",
-              "file": "audio/2026-05-26/017.mp3"
-            },
-            {
-              "index": 18,
-              "text": "中國人民幣可能升值至 5 元兌 1 美元，若本地企業解除大量美元持倉將觸發資本流動急劇逆轉。",
-              "tweet_id": "2059113421430255770",
-              "file": "audio/2026-05-26/018.mp3"
-            },
-            {
-              "index": 19,
-              "text": "Strategy 上週未購入 BTC，四家上市公司合計買入 612 BTC。機構買盤持續但分散化。",
-              "tweet_id": "2059079964365070378",
-              "file": "audio/2026-05-26/019.mp3"
-            },
-            {
-              "index": 20,
-              "text": "Hyperliquid 推出基於鏈下事件的預測市場，DeFi 與現實世界事件的橋接持續深化。",
-              "tweet_id": "2059116825359876130",
-              "file": "audio/2026-05-26/020.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🌐 地緣／政治",
-          "items": [
-            {
-              "index": 21,
-              "text": "猶他州數據中心項目遭受協調性虛假攻擊，數據科學團隊追蹤發現背後有組織性操作。資訊戰已延伸至基礎設施建設領域。",
-              "tweet_id": "2059036986623819815",
-              "file": "audio/2026-05-26/021.mp3"
-            },
-            {
-              "index": 22,
-              "text": "以色列士兵突襲西岸巴勒斯坦家庭時，屋內人正在 TikTok 直播，兒童尖叫畫面即時傳播。社群媒體正在改變衝突的能見度。",
-              "tweet_id": "2058966540213494220",
-              "file": "audio/2026-05-26/022.mp3"
-            },
-            {
-              "index": 23,
-              "text": "塞爾維亞總統訪問中國，感謝習近平在困難時期的幫助。中國在巴爾幹半島的影響力持續擴大。",
-              "tweet_id": "2058894442640101851",
-              "file": "audio/2026-05-26/023.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🏭 產業／產品",
-          "items": [
-            {
-              "index": 24,
-              "text": "Apple 發表圖像壓縮技術 PICO：100MB 照片可壓縮至 30-43MB，視覺品質幾乎不變。利用 AI 學習人眼對重要性的感知，優先刪除不被注意的數據。",
-              "tweet_id": "2059027374533169438",
-              "file": "audio/2026-05-26/024.mp3"
-            },
-            {
-              "index": 25,
-              "text": "Aleph 2.0 發布：可編輯影片中單一幀，預覽後自動將修改套用至整部影片。AI 影片編輯進入精細控制階段。",
-              "tweet_id": "2057530497597600169",
-              "file": "audio/2026-05-26/025.mp3"
-            },
-            {
-              "index": 26,
-              "text": "Ferrari Luce 電動超跑充電場景持續引發討論，$800K 的價格讓停車場碰撞成為噩夢級事件。",
-              "tweet_id": "2059029182441721893",
-              "file": "audio/2026-05-26/026.mp3"
-            },
-            {
-              "index": 27,
-              "text": "Amazon 物流體系被評為「人類史上最令人印象深刻的成就之一」。規模化執行力的價值被重新認識。",
-              "tweet_id": "2058967442446008510",
-              "file": "audio/2026-05-26/027.mp3"
-            },
-            {
-              "index": 28,
-              "text": "clanker CLI 突破 300 GitHub stars，新增騰訊雲完整支援，多雲 CLI 工具生態持續擴展。",
-              "tweet_id": "2059075467374968941",
-              "file": "audio/2026-05-26/028.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🛠️ 工具／開發",
-          "items": [
-            {
-              "index": 29,
-              "text": "em dash 不再是 AI 生成文字的最明顯標誌，新的語言模式正在取代它成為辨識特徵。",
-              "tweet_id": "2058983270084190311",
-              "file": "audio/2026-05-26/029.mp3"
-            },
-            {
-              "index": 30,
-              "text": "12 年前端老手連續數月接不到私活，電鴨、朋友圈、X、閒魚全是死海。AI 對前端外包市場的衝擊已從理論變為現實。",
-              "tweet_id": "2058937268094841092",
-              "file": "audio/2026-05-26/030.mp3"
-            },
-            {
-              "index": 31,
-              "text": ".env 檔案管理痛點持續存在，Infisical 被認為是目前最佳解決方案但仍不完美。秘密管理仍是開發者日常最大摩擦點之一。",
-              "tweet_id": "2059076598754853118",
-              "file": "audio/2026-05-26/031.mp3"
-            },
-            {
-              "index": 32,
-              "text": "大家已心甘情願被 PostgreSQL 綁定，方言用得飛起。資料庫無關性原則在實務中正式被拋棄。",
-              "tweet_id": "2059109664894431553",
-              "file": "audio/2026-05-26/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "單體 2 TiB 的 SQLite 被目擊，SQLite 的使用邊界持續被推展。",
-              "tweet_id": "2058966555363586336",
-              "file": "audio/2026-05-26/033.mp3"
-            },
-            {
-              "index": 34,
-              "text": "ClickLight 完成簽名、公證、Homebrew 安裝和自動更新設置，macOS 獨立應用分發的完整流程示範。",
-              "tweet_id": "2059040746011754541",
-              "file": "audio/2026-05-26/034.mp3"
-            },
-            {
-              "index": 35,
-              "text": "AWS Security Hub CSPM 新功能深度調查，雲安全態勢管理持續演進。",
-              "tweet_id": "2058848642421960790",
-              "file": "audio/2026-05-26/035.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🏀 體育",
-          "items": [
-            {
-              "index": 36,
-              "text": "Knicks 進入 27 年來首次 NBA 總決賽，Tracy Morgan 感動落淚，紐約全城沸騰。",
-              "tweet_id": "2059101918773792960",
-              "file": "audio/2026-05-26/036.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🔬 科學／健康",
-          "items": [
-            {
-              "index": 37,
-              "text": "夏威夷一年兩次太陽直射現象（Lahaina Noon），物體陰影幾乎完全消失，產生超現實視覺效果。",
-              "tweet_id": "2058986008461389831",
-              "file": "audio/2026-05-26/037.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📝 觀點／文化",
-          "items": [
-            {
-              "index": 38,
-              "text": "扎克伯格批評 Apple 自 iPhone 以來缺乏創新，「20 年來只是坐享其成」。科技巨頭間的公開互嗆反映平台競爭白熱化。",
-              "tweet_id": "2058889302562783277",
-              "file": "audio/2026-05-26/038.mp3"
-            },
-            {
-              "index": 39,
-              "text": "黃仁勳在台灣與家人用餐後打包剩菜、為粉絲簽名。其兄長 Jeff 曾在 Intel 工作多年，黃仁勋拒絕將兄長招入 NVIDIA 但贈送 $3000 萬豪宅和法拉利。",
-              "tweet_id": "2059067672403271789",
-              "file": "audio/2026-05-26/039.mp3"
-            },
-            {
-              "index": 40,
-              "text": "中國歌手胡彥斌在《歌手》節目介紹自己的 vibecoding，用 Mac Studio 一個月寫了一個 App。AI coding 已滲透至娛樂圈。",
-              "tweet_id": "2059113713614135304",
-              "file": "audio/2026-05-26/040.mp3"
-            },
-            {
-              "index": 41,
-              "text": "黃仁勳問 104 歲老人長壽秘訣，一句話把老黃整不會了。",
-              "tweet_id": "2059079571064991750",
-              "file": "audio/2026-05-26/041.mp3"
             }
           ]
         },
