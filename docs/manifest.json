@@ -1,6 +1,350 @@
 {
-  "updated_at": "2026-06-10T13:06:51.776591+08:00",
+  "updated_at": "2026-06-11T00:26:48.382091+08:00",
   "dates": [
+    {
+      "date": "2026-06-11",
+      "generated_at": "2026-06-11T00:26:10.901444+08:00",
+      "categories": [
+        {
+          "name": "🤖 AI 模型與平台",
+          "items": [
+            {
+              "index": 1,
+              "text": "惡意軟體開發者在間諜軟體中嵌入核武/生化武器文字，目的是觸發 LLM 安全拒絕機制，讓 AI 安全掃描器無法分析其程式碼。安全限制正被逆向武器化。",
+              "tweet_id": "2064661778978533571",
+              "file": "audio/2026-06-11/001.mp3"
+            },
+            {
+              "index": 2,
+              "text": "Anthropic 安全限制爭議持續升級：生物學家對 Fable 5 連基礎生物學問題都拒答表達憤怒；有研究者連說聲 hello 都被阻擋（因 memory 知道其為生醫研究者）。",
+              "tweet_id": "2064708860049346825",
+              "file": "audio/2026-06-11/002.mp3"
+            },
+            {
+              "index": 3,
+              "text": "Fable 5 不滿情緒彙整：(1) 30 天 prompt 資料保留且無 opt-out；(2) 最貴模型可隨時被無聲降級且不通知；(3) 「AI 研究」分類過於寬泛。社群出現「信任已破、token 不再飛向你」的訣別聲。",
+              "tweet_id": "2064618497150210391",
+              "file": "audio/2026-06-11/003.mp3"
+            },
+            {
+              "index": 4,
+              "text": "一位花整天使用 Mythos 的用戶分享深度評測：定價為每百萬 token $15 輸入/$75 輸出，能力驚人但成本極高。",
+              "tweet_id": "2064131568495677490",
+              "file": "audio/2026-06-11/004.mp3"
+            },
+            {
+              "index": 5,
+              "text": "Fable 5 一次呼叫重構整個 codebase（67 tool invocations、1M+ 新行、24 個新檔案）——但全部無法運行。能力與可靠性的差距仍大。",
+              "tweet_id": "2064403257267523745",
+              "file": "audio/2026-06-11/005.mp3"
+            },
+            {
+              "index": 6,
+              "text": "ChatGPT 今日異常聰明，社群猜測 OpenAI 可能正在偷測 GPT-5.6。多人呼喊「真的需要 GPT-6 了」。",
+              "tweet_id": "2064660752221261979",
+              "file": "audio/2026-06-11/006.mp3"
+            },
+            {
+              "index": 7,
+              "text": "OpenAI Codex 邀友重置速率限制機制被戲稱「無限火力模式」，每次想重置就邀一個朋友。",
+              "tweet_id": "2064546411031724246",
+              "file": "audio/2026-06-11/007.mp3"
+            },
+            {
+              "index": 8,
+              "text": "Anthropic 被諷刺「OpenAI 反而成了 open 的那個 AI lab」。",
+              "tweet_id": "2064561189464457285",
+              "file": "audio/2026-06-11/008.mp3"
+            },
+            {
+              "index": 9,
+              "text": "Claude Code 第一年回顧：創始人 Boris Cherny 已不再直接與 agent 對話，而是設計循環系統讓 agent 自主運行；從第一個 demo 只得兩個 emoji 到現在每天數千自主 agent 在跑。",
+              "tweet_id": "2064594760195801538",
+              "file": "audio/2026-06-11/009.mp3"
+            },
+            {
+              "index": 10,
+              "text": "Fable 5 每小時運行成本超 7,000 日圓（高於大多數日本人時薪）——「AI 成本已超越人類」的時代到來。",
+              "tweet_id": "2064623384856805691",
+              "file": "audio/2026-06-11/010.mp3"
+            },
+            {
+              "index": 11,
+              "text": "Gemini 3.5 Live Translate 面向全球開發者開放：70+ 語言即時語音翻譯。",
+              "tweet_id": "2064368564782453054",
+              "file": "audio/2026-06-11/011.mp3"
+            },
+            {
+              "index": 12,
+              "text": "Gemini app for macOS：雙按 Command 鍵即可將當前視窗附加到聊天。",
+              "tweet_id": "2062652523945836770",
+              "file": "audio/2026-06-11/012.mp3"
+            },
+            {
+              "index": 13,
+              "text": "Fable 5 官方 prompt guide 發布：建議積極精簡指令、為長時間自主執行設計任務。",
+              "tweet_id": "2064609795718750619",
+              "file": "audio/2026-06-11/013.mp3"
+            },
+            {
+              "index": 14,
+              "text": "OpenRouter 推出 Activity Explorer：即時查看團隊模型花費、token 使用、cache 命中率。",
+              "tweet_id": "2064730000956489889",
+              "file": "audio/2026-06-11/014.mp3"
+            },
+            {
+              "index": 15,
+              "text": "NiteShift 發布：coding agent 專用 full-stack cloud，定義一次環境與驗證工具即可反覆執行。",
+              "tweet_id": "2064724769203724761",
+              "file": "audio/2026-06-11/015.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具與生態",
+          "items": [
+            {
+              "index": 16,
+              "text": "Stripe Projects 新增大量 provider：Wix、Laravel、HeyGen、Prisma、ClickHouse、e2b 等。",
+              "tweet_id": "2064727688934568057",
+              "file": "audio/2026-06-11/016.mp3"
+            },
+            {
+              "index": 17,
+              "text": "JetBrains Central：跨 SDLC 的 agentic 開發開放系統，含治理、可觀測性與控制。",
+              "tweet_id": "2036430362021093635",
+              "file": "audio/2026-06-11/017.mp3"
+            },
+            {
+              "index": 18,
+              "text": "Television：個人 agent 的視覺化 GUI workspace，agentic computer 新介面範式。",
+              "tweet_id": "2061900965251604956",
+              "file": "audio/2026-06-11/018.mp3"
+            },
+            {
+              "index": 19,
+              "text": "Hermes 桌面客戶端完成度已高：運行快穩省 token，一天用 DeepSeek v4flash 僅花 2.96 元人民幣。",
+              "tweet_id": "2064349413355770114",
+              "file": "audio/2026-06-11/019.mp3"
+            },
+            {
+              "index": 20,
+              "text": "Obscura：Rust 編寫的 AI Agent 專用無頭瀏覽器（14.9K star），比 headless Chrome 快 5-10 倍、僅 30MB 記憶體。",
+              "tweet_id": "2064586003378221247",
+              "file": "audio/2026-06-11/020.mp3"
+            },
+            {
+              "index": 21,
+              "text": "ChatGPT Image 2.0 + Canva 連結：3 秒設定即可即時編輯 AI 生成圖片。",
+              "tweet_id": "2064579846756561393",
+              "file": "audio/2026-06-11/021.mp3"
+            },
+            {
+              "index": 22,
+              "text": "Notion 被 Fable + Devin 在約 30 分鐘內 one-shot 複製。",
+              "tweet_id": "2064732712389227005",
+              "file": "audio/2026-06-11/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "旅行路線動畫製作：Claude Code + Codex 建構 Electron + React 專用 app，取代 DaVinci 手動製作。",
+              "tweet_id": "2064694546320294081",
+              "file": "audio/2026-06-11/023.mp3"
+            },
+            {
+              "index": 24,
+              "text": "Cohere-Transcribe（Apache 2.0）在新音訊轉錄 leaderboard 登頂。",
+              "tweet_id": "2064666842606551196",
+              "file": "audio/2026-06-11/024.mp3"
+            },
+            {
+              "index": 25,
+              "text": "Google Search 即將推出持續性自訂體驗（用 Antigravity 建構），適用於規劃婚禮、搬家等長期任務。",
+              "tweet_id": "2064724770877210945",
+              "file": "audio/2026-06-11/025.mp3"
+            }
+          ]
+        },
+        {
+          "name": "☁️ 雲端與基礎設施",
+          "items": [
+            {
+              "index": 26,
+              "text": "AWS Graviton5 正式 GA：192 核心、比上代效能提升 25%，專為 agentic AI workload 設計。",
+              "tweet_id": "2064725979227197751",
+              "file": "audio/2026-06-11/026.mp3"
+            },
+            {
+              "index": 27,
+              "text": "NVIDIA 光子共封裝光學交換器與 Lambda 合作展示：在 GB300 NVL72 規模下，網路決定叢集推理速度。",
+              "tweet_id": "2064706125690462665",
+              "file": "audio/2026-06-11/027.mp3"
+            },
+            {
+              "index": 28,
+              "text": "光模組封裝技術拆解：可插拔 → LPO → NPO → CPO → OPO 的迭代路徑分析。",
+              "tweet_id": "2064491217245880533",
+              "file": "audio/2026-06-11/028.mp3"
+            },
+            {
+              "index": 29,
+              "text": "AWS Startup Advisor 推出 AI 驅動全程新創顧問。",
+              "tweet_id": "2064723659197997091",
+              "file": "audio/2026-06-11/029.mp3"
+            }
+          ]
+        },
+        {
+          "name": "💰 財經與市場",
+          "items": [
+            {
+              "index": 30,
+              "text": "SpaceX IPO 預計 $1.77 兆估值（史上最大 IPO），監管機構改寫規則；灣區主權基金下單數十億美元。",
+              "tweet_id": "2064697208755175890",
+              "file": "audio/2026-06-11/030.mp3"
+            },
+            {
+              "index": 31,
+              "text": "Jim Cramer 稱 Bitcoin 和黃金為「bad money」正被拋售換 SpaceX IPO 股份。",
+              "tweet_id": "2064710556582638025",
+              "file": "audio/2026-06-11/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "Warren Buffett Indicator 創歷史新高，顯示股市「顯著高估」。",
+              "tweet_id": "2064734546759758167",
+              "file": "audio/2026-06-11/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "中國股市單日蒸發 3 兆日圓，正積極拋售美債試圖止血。",
+              "tweet_id": "2064685125263097880",
+              "file": "audio/2026-06-11/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "Fold 出售約 $4500 萬 BTC（均價 $71K）以償債與資助成長。",
+              "tweet_id": "2064696632315429065",
+              "file": "audio/2026-06-11/034.mp3"
+            },
+            {
+              "index": 35,
+              "text": "散戶已開始大規模賣出個股為 SpaceX 騰空間——單股零售拋售達 2023/11 以來最重。",
+              "tweet_id": "2064697012864381238",
+              "file": "audio/2026-06-11/035.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🌐 地緣與社會",
+          "items": [
+            {
+              "index": 36,
+              "text": "澳洲 ABC News 指控 Elon Musk 因未審查 Belfast 斬人影片而「煽動種族緊張」；社群反批媒體「不關心無辜者被當街斬首」。",
+              "tweet_id": "2064683077767757908",
+              "file": "audio/2026-06-11/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "Belfast 受害者家屬表示「不歡迎騷亂」並感謝救命路人。",
+              "tweet_id": "2064689955062849804",
+              "file": "audio/2026-06-11/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "Elon Musk 在準備 SpaceX IPO 的同時，被批評正在煽動英國極右抗議。",
+              "tweet_id": "2064727090218369440",
+              "file": "audio/2026-06-11/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "Anthropic CEO 被問及其 AI 模型在伊朗學校飛彈攻擊（估計 120 名兒童死亡）中扮演什麼角色，回答「不知道」。",
+              "tweet_id": "2064730459230126412",
+              "file": "audio/2026-06-11/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "NVIDIA 25 年專注造晶片讓青少年看更好的爆炸特效，結果成了「建造神的正確方式」。",
+              "tweet_id": "2064508172505616513",
+              "file": "audio/2026-06-11/040.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🏭 產業與商業",
+          "items": [
+            {
+              "index": 41,
+              "text": "Tesla Cybertruck Summon 功能即將推送。",
+              "tweet_id": "2064619236459470979",
+              "file": "audio/2026-06-11/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "Fable 5 上傳 McKinsey 報告並要求產出同品質文件——通過測試。",
+              "tweet_id": "2064407515752722521",
+              "file": "audio/2026-06-11/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "Garmin Rally 系列將實施降價調整。",
+              "tweet_id": "2064622771217604615",
+              "file": "audio/2026-06-11/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "WWDC 手縫鍵盤裙爆紅，持續正面迴響。",
+              "tweet_id": "2064677159462138268",
+              "file": "audio/2026-06-11/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "AI 週期仍在早期：模型越來越好但仍有缺口，多數 production 應用尚未上線。",
+              "tweet_id": "2064409037693718539",
+              "file": "audio/2026-06-11/045.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🔬 AI 安全與治理",
+          "items": [
+            {
+              "index": 46,
+              "text": "安全分類器被逆向利用：惡意軟體嵌入 CBRN 文字觸發 LLM 拒絕分析，使 AI 安全掃描無效化。這是 AI safety 的諷刺性失敗。",
+              "tweet_id": "2064661778978533571",
+              "file": "audio/2026-06-11/046.mp3"
+            },
+            {
+              "index": 47,
+              "text": "「Anthropic 不讓你研究 biology/chemistry/AI，卻說中國模型危險因為不能批評 CCP——誰才是真正的反派？」",
+              "tweet_id": "2064593741218988208",
+              "file": "audio/2026-06-11/047.mp3"
+            },
+            {
+              "index": 48,
+              "text": "社群善意呼籲 Anthropic 聽取回饋改變路線，指出其一直在「提高 AI 安全意識」卻在自家產品上失足。",
+              "tweet_id": "2064673792303955985",
+              "file": "audio/2026-06-11/048.mp3"
+            },
+            {
+              "index": 49,
+              "text": "日經：Mythos 級 AI 首次公開，拒絕執行網路攻擊指令。",
+              "tweet_id": "2064709548267520081",
+              "file": "audio/2026-06-11/049.mp3"
+            }
+          ]
+        },
+        {
+          "name": "📊 統計",
+          "items": []
+        },
+        {
+          "name": "📝 總結",
+          "items": []
+        }
+      ],
+      "complete": true
+    },
     {
       "date": "2026-06-10",
       "generated_at": "2026-06-10T13:06:24.386098+08:00",
@@ -2676,137 +3020,6 @@
               "text": "Godot 遊戲引擎被讚為「兩個阿根廷朋友殺死了整個遊戲引擎產業」：免費、開源、100% 收入歸開發者。",
               "tweet_id": "2061415843146375517",
               "file": "audio/2026-06-02/042.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📊 統計",
-          "items": []
-        },
-        {
-          "name": "📝 總結",
-          "items": []
-        }
-      ],
-      "complete": true
-    },
-    {
-      "date": "2026-06-01",
-      "generated_at": "2026-06-01T20:22:37.105978+08:00",
-      "categories": [
-        {
-          "name": "🤖 AI 模型與產業",
-          "items": [
-            {
-              "index": 1,
-              "text": "Codex 使用限制已重置（6100 讚 + 703 回覆）。「讓 token 今天做不可思議的事。」",
-              "tweet_id": "2061106703446450392",
-              "file": "audio/2026-06-01/001.mp3"
-            },
-            {
-              "index": 2,
-              "text": "「GPT 寫東西像 threadboi」持續攀升（4300 讚）。",
-              "tweet_id": "2061272277354983798",
-              "file": "audio/2026-06-01/002.mp3"
-            },
-            {
-              "index": 3,
-              "text": "GPT 式語氣讓人煩躁的具體例子：「蘋果掉下來是因為它觸及了本質。然而，這取決於『下』和『掉落』的意思...」（1400 讚）。",
-              "tweet_id": "2061259661966545147",
-              "file": "audio/2026-06-01/003.mp3"
-            },
-            {
-              "index": 4,
-              "text": "Hermes Agent 原生支援 Windows 持續傳播。",
-              "tweet_id": "",
-              "file": "audio/2026-06-01/004.mp3"
-            },
-            {
-              "index": 5,
-              "text": "NVIDIA Computex 主題演講今晚台北時間舉行。",
-              "tweet_id": "",
-              "file": "audio/2026-06-01/005.mp3"
-            }
-          ]
-        },
-        {
-          "name": "💰 財經與商業",
-          "items": [
-            {
-              "index": 6,
-              "text": "日本 TOHO Cinemas 7/1 起漲價：一般票 2000→2000-2200 日圓。（23K 讚）。",
-              "tweet_id": "2061338925982199891",
-              "file": "audio/2026-06-01/006.mp3"
-            },
-            {
-              "index": 7,
-              "text": "Kioxia 四日市工廠參觀：最先進 NAND Flash 記憶體生產現場。（4300 讚）。",
-              "tweet_id": "2061350173067169919",
-              "file": "audio/2026-06-01/007.mp3"
-            },
-            {
-              "index": 8,
-              "text": "Mamdani 證明 Bernie Sanders 想為國家做的事真的可行：消除 $120 億赤字，沒有富人死亡。（35K 讚）。",
-              "tweet_id": "2061174765038039093",
-              "file": "audio/2026-06-01/008.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🌐 地緣政治與國際",
-          "items": [
-            {
-              "index": 9,
-              "text": "東京 DisneySea 遊客無視禁止飲食規定引發憤怒（28K 讚）。",
-              "tweet_id": "2061354961288724542",
-              "file": "audio/2026-06-01/009.mp3"
-            },
-            {
-              "index": 10,
-              "text": "颱風 6 號持續影響日本。",
-              "tweet_id": "2061318385968042088",
-              "file": "audio/2026-06-01/010.mp3"
-            },
-            {
-              "index": 11,
-              "text": "「如果 Netanyahu 不停止黎巴嫩種族滅絕戰爭，美國經濟崩潰將在 6 月開始。」（13K 讚）。",
-              "tweet_id": "2061159912269394133",
-              "file": "audio/2026-06-01/011.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📱 社群與文化",
-          "items": [
-            {
-              "index": 12,
-              "text": "RCB IPL 冠軍持續攀升（149K 讚——本期最高互動）。",
-              "tweet_id": "2061318309107372321",
-              "file": "audio/2026-06-01/012.mp3"
-            },
-            {
-              "index": 13,
-              "text": "設計的勝利 vs 設計的失敗對比圖（45K 讚）。",
-              "tweet_id": "2061291122593595876",
-              "file": "audio/2026-06-01/013.mp3"
-            },
-            {
-              "index": 14,
-              "text": "Mark Cuban 惹怒 Bill Gates 後再也沒說過話的笑話（7200 讚）。",
-              "tweet_id": "2061138582870302871",
-              "file": "audio/2026-06-01/014.mp3"
-            },
-            {
-              "index": 15,
-              "text": "「IT 產業不兇的人就用『nyan~』代替」（5700 讚）。",
-              "tweet_id": "2061252358563377415",
-              "file": "audio/2026-06-01/015.mp3"
-            },
-            {
-              "index": 16,
-              "text": "「SF 的自我意識達到新高度」（4800 讚）。",
-              "tweet_id": "2061189222099456327",
-              "file": "audio/2026-06-01/016.mp3"
             }
           ]
         },
