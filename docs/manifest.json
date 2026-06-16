@@ -1,6 +1,326 @@
 {
-  "updated_at": "2026-06-16T19:57:37.161192+08:00",
+  "updated_at": "2026-06-17T01:49:53.439703+08:00",
   "dates": [
+    {
+      "date": "2026-06-17",
+      "generated_at": "2026-06-17T01:49:21.162972+08:00",
+      "categories": [
+        {
+          "name": "🚀 SpaceX / Cursor 收購案",
+          "items": [
+            {
+              "index": 1,
+              "text": "SpaceX 正式行使選擇權以全股票交易收購 Cursor，目標是打造全球最有用的 AI 模型。過去數月 SpaceXAI 已與 Cursor 團隊聯合訓練模型。收購金額 600 億美元，為 AI coding 領域史上最大交易。",
+              "tweet_id": "2066873915717136548",
+              "file": "audio/2026-06-17/001.mp3"
+            },
+            {
+              "index": 2,
+              "text": "SpaceX 超越 Amazon 成全球第五大公司，Elon Musk 單日資產增加 1,650 億美元，淨資產達 1.3 兆，成為首位連續第四天增長兆美元的人。",
+              "tweet_id": "2066686926078243155",
+              "file": "audio/2026-06-17/002.mp3"
+            },
+            {
+              "index": 3,
+              "text": "SpaceX 選擇權開始交易。有分析師以 Tesla IPO 後跌 70% 的歷史警告追高風險。",
+              "tweet_id": "2066813239598460974",
+              "file": "audio/2026-06-17/003.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🤖 AI 模型與平台",
+          "items": [
+            {
+              "index": 4,
+              "text": "Cartesia 發布 Sonic-3.5 與 Ink-2，即時串流語音合成/辨識模型，新架構提升速度與品質前沿。",
+              "tweet_id": "2066559212533190917",
+              "file": "audio/2026-06-17/004.mp3"
+            },
+            {
+              "index": 5,
+              "text": "Anthropic CEO 被爆有人用 Claude Code 建構月入 6.2 萬美元的 YouTube 系統並免費公開策略。",
+              "tweet_id": "2066648192511262851",
+              "file": "audio/2026-06-17/005.mp3"
+            },
+            {
+              "index": 6,
+              "text": "Grok 重大更新：Grok 整合進 PowerPoint、Voice Mode 支援螢幕分享即時協助。Grok 4.3 上線 Amazon Bedrock。",
+              "tweet_id": "2066916559289974831",
+              "file": "audio/2026-06-17/006.mp3"
+            },
+            {
+              "index": 7,
+              "text": "OpenAI Codex 全面進入歐洲：Chrome 擴充、Computer Use、個人化記憶、Chronicle 本週在 EU/EEA/UK 推出。",
+              "tweet_id": "2066916479438930166",
+              "file": "audio/2026-06-17/007.mp3"
+            },
+            {
+              "index": 8,
+              "text": "Microsoft 推出 Copilot Cowork：可跨工具與系統委派多步驟複雜任務。",
+              "tweet_id": "2066899978966925432",
+              "file": "audio/2026-06-17/008.mp3"
+            },
+            {
+              "index": 9,
+              "text": "NASA 將 Gemma 3 部署到太空，在 Loft Orbital YAM-9 衛星上運行，用 LangGraph 做 agent 編排。",
+              "tweet_id": "2066791925349257552",
+              "file": "audio/2026-06-17/009.mp3"
+            },
+            {
+              "index": 10,
+              "text": "DeepSeek 完成 74 億美元融資成中國最高估值 AI 新創。",
+              "tweet_id": "2066816431065292875",
+              "file": "audio/2026-06-17/010.mp3"
+            },
+            {
+              "index": 11,
+              "text": "一個 3B 參數模型在 coding benchmark 上達到 Claude Opus 4.5 水準，小模型能力天花板持續提升。",
+              "tweet_id": "2066876960073281582",
+              "file": "audio/2026-06-17/011.mp3"
+            },
+            {
+              "index": 12,
+              "text": "Taste Labs 從隱身模式出來，使命是終結 AI slop，為模型與 agent 建構「品味」的數據與基礎設施層。",
+              "tweet_id": "2066912871649574945",
+              "file": "audio/2026-06-17/012.mp3"
+            },
+            {
+              "index": 13,
+              "text": "NVIDIA Blackwell 平台橫掃 MLPerf Training 6.0，DeepSeek-V3 (671B) 在 GB300 NVL72 上 2.02 分鐘完成訓練。",
+              "tweet_id": "2066907920554750143",
+              "file": "audio/2026-06-17/013.mp3"
+            },
+            {
+              "index": 14,
+              "text": "Claude 語音模式開始在行動端推出，支援多語言含中文。",
+              "tweet_id": "2066892155218698723",
+              "file": "audio/2026-06-17/014.mp3"
+            },
+            {
+              "index": 15,
+              "text": "Google 發布 OKF（Open Knowledge Format），專為 AI 設計的知識共享格式。",
+              "tweet_id": "2066334400393146403",
+              "file": "audio/2026-06-17/015.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具與工程",
+          "items": [
+            {
+              "index": 16,
+              "text": "Hermes Agent Accelerated Business Hackathon 由 NVIDIA × Stripe × Nous Research 舉辦，徵求能實際賺錢運營的 agent。",
+              "tweet_id": "2066921443548348436",
+              "file": "audio/2026-06-17/016.mp3"
+            },
+            {
+              "index": 17,
+              "text": "Deno Desktop 落地 main：支援 Mac/Linux/Windows、可產生安裝包、支援跨平台編譯。",
+              "tweet_id": "2066902783203401848",
+              "file": "audio/2026-06-17/017.mp3"
+            },
+            {
+              "index": 18,
+              "text": "Cloudflare Workers Tracing 新增自訂 spans 支援。",
+              "tweet_id": "2066915174926123142",
+              "file": "audio/2026-06-17/018.mp3"
+            },
+            {
+              "index": 19,
+              "text": "Firecrawl 開放免費使用無需 API key：搜尋、爬取、互動任何網頁，解析 PDF 為 Markdown。",
+              "tweet_id": "2066918976689754148",
+              "file": "audio/2026-06-17/019.mp3"
+            },
+            {
+              "index": 20,
+              "text": "SubQ 1.1 Small 技術報告發布，次二次方稀疏注意力（SSA）模型第二代。",
+              "tweet_id": "2066894707259515124",
+              "file": "audio/2026-06-17/020.mp3"
+            },
+            {
+              "index": 21,
+              "text": "Probably 獲 a16z/Accel 領投 900 萬種子輪，打造可驗證資料代理。",
+              "tweet_id": "2066895628529959105",
+              "file": "audio/2026-06-17/021.mp3"
+            },
+            {
+              "index": 22,
+              "text": "Mercury Command 上線：AI 原生銀行操作系統。",
+              "tweet_id": "2066908038699602311",
+              "file": "audio/2026-06-17/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "Impeccable 3.7 設計 linting 可整合 Codex、Claude Code、Cursor，自動防止設計系統偏移。",
+              "tweet_id": "2066906020740534581",
+              "file": "audio/2026-06-17/023.mp3"
+            },
+            {
+              "index": 24,
+              "text": "100+ 代理協作一週使 Gemma 4 推理更快。",
+              "tweet_id": "2066907553271849433",
+              "file": "audio/2026-06-17/024.mp3"
+            }
+          ]
+        },
+        {
+          "name": "💰 財經與市場",
+          "items": [
+            {
+              "index": 25,
+              "text": "BlackRock 正式推出 Bitcoin Premium Income ETF。Bitcoin 恐懼與貪婪指數 23（極度恐懼），現價約 66,574 美元。",
+              "tweet_id": "2066888718045069717",
+              "file": "audio/2026-06-17/025.mp3"
+            },
+            {
+              "index": 26,
+              "text": "Coinbase 首批 1:1 擔保代幣化股票即將上線。Binance 可能失去歐盟牌照。",
+              "tweet_id": "2066892138592260357",
+              "file": "audio/2026-06-17/026.mp3"
+            },
+            {
+              "index": 27,
+              "text": "Stripe Link 突破 3 億用戶。",
+              "tweet_id": "2066869301026369867",
+              "file": "audio/2026-06-17/027.mp3"
+            },
+            {
+              "index": 28,
+              "text": "YC Demo Day 今日舉行。YC 宣布 Christopher Golda 與 Grey Baker 為新 GP。",
+              "tweet_id": "2066918660967715202",
+              "file": "audio/2026-06-17/028.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🌐 地緣與政治",
+          "items": [
+            {
+              "index": 29,
+              "text": "FBI 破獲白宮 UFC Freedom 250 爆炸無人機恐攻陰謀：計畫以爆炸迫使疏散至預設狙擊位置，還有「第二波」攻擊。多人被捕。",
+              "tweet_id": "2066845673530560740",
+              "file": "audio/2026-06-17/029.mp3"
+            },
+            {
+              "index": 30,
+              "text": "G7 峰會在法國 Evian 舉行。川普宣布應邀留下參加凡爾賽晚宴。美伊協議為峰會焦點，預計週五簽署。",
+              "tweet_id": "2066884979276353943",
+              "file": "audio/2026-06-17/030.mp3"
+            },
+            {
+              "index": 31,
+              "text": "伊朗國家隊在世界盃攜帶書包上場，紀念美國在 Minab 造成 175 名學童死亡。",
+              "tweet_id": "2066857946957365362",
+              "file": "audio/2026-06-17/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "英國報告揭露系統性性侵醜聞（Rape Gang Inquiry），引發要求相關政客入獄的呼聲。",
+              "tweet_id": "2066873370239537189",
+              "file": "audio/2026-06-17/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "英國首相 Starmer 表示將全力參與開放荷莫茲海峽。俄國海軍據報在英吉利海峽向英國遊艇發射警告彈。",
+              "tweet_id": "2066833776076824651",
+              "file": "audio/2026-06-17/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "烏克蘭打擊俄國煉油廠。",
+              "tweet_id": "2066816596522278956",
+              "file": "audio/2026-06-17/034.mp3"
+            },
+            {
+              "index": 35,
+              "text": "EU 消費者法要求遊戲商明確告知遊戲壽命，提前停止服務須給予消費者公平對待。",
+              "tweet_id": "2066891115609956359",
+              "file": "audio/2026-06-17/035.mp3"
+            }
+          ]
+        },
+        {
+          "name": "⚽ 世界盃",
+          "items": [
+            {
+              "index": 36,
+              "text": "比利時連續四屆被看好但引發「Watch out for Belgium」梗爆紅。摩洛哥擊敗巴西引爆討論。",
+              "tweet_id": "2066610937574965618",
+              "file": "audio/2026-06-17/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "日本球迷湧入達拉斯 Walmart，被譽為「首個零竊盜日」。FIFA 主席 Infantino 每天搭私人飛機看兩場比賽引發爭議。",
+              "tweet_id": "2066813587990159622",
+              "file": "audio/2026-06-17/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "世界盃水分補充暫停（hydration breaks）被批毀了比賽節奏，四節制改革受到質疑。",
+              "tweet_id": "2066521506046156949",
+              "file": "audio/2026-06-17/038.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🏭 產業動態",
+          "items": [
+            {
+              "index": 39,
+              "text": "Shrek 5 首支預告片釋出，2027 年夏天上映。Tom Holland 確認與 Zendaya 正式結婚。",
+              "tweet_id": "2066899740508242102",
+              "file": "audio/2026-06-17/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "百度 PP-OCRv6：1.5MB 模型在瀏覽器中 97ms 出結果，逐字辨識超越 GPT-5.5 與 235B Qwen3-VL。",
+              "tweet_id": "2066827380295975266",
+              "file": "audio/2026-06-17/040.mp3"
+            },
+            {
+              "index": 41,
+              "text": "Microsoft 發布新 Surface Pro/Laptop，搭載 Snapdragon X2。",
+              "tweet_id": "2066874752623640916",
+              "file": "audio/2026-06-17/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "Costco 降價 Kirkland Signature 系列。Rolex 在瑞士阿爾卑斯山電信塔開設精品店。",
+              "tweet_id": "2066874192079786327",
+              "file": "audio/2026-06-17/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "Sam Altman 因女兒出生取消日本行程。",
+              "tweet_id": "2066797746485666127",
+              "file": "audio/2026-06-17/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "SpaceX Dragon 貨運船從國際太空站出發。",
+              "tweet_id": "2066911889309704269",
+              "file": "audio/2026-06-17/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "Vercel COO 加入 Shopify 董事會。",
+              "tweet_id": "2066917404098126141",
+              "file": "audio/2026-06-17/045.mp3"
+            }
+          ]
+        },
+        {
+          "name": "📊 統計",
+          "items": []
+        },
+        {
+          "name": "📝 總結",
+          "items": []
+        }
+      ],
+      "complete": true
+    },
     {
       "date": "2026-06-16",
       "generated_at": "2026-06-16T19:57:12.134761+08:00",
@@ -2933,357 +3253,6 @@
               "text": "13 歲兒子用 1000 日圓為喜歡的人買生日禮物的暖心故事。",
               "tweet_id": "2063602053600166111",
               "file": "audio/2026-06-08/036.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📊 統計",
-          "items": []
-        },
-        {
-          "name": "📝 總結",
-          "items": []
-        }
-      ],
-      "complete": true
-    },
-    {
-      "date": "2026-06-07",
-      "generated_at": "2026-06-07T17:51:00.719811+08:00",
-      "categories": [
-        {
-          "name": "🤖 AI 與大型語言模型",
-          "items": [
-            {
-              "index": 1,
-              "text": "下週可能迎來「TrifectAI」三模型同步發布：Claude Mythos、GPT-5.6、Gemini 3.5 Pro。",
-              "tweet_id": "2063041257618763818",
-              "file": "audio/2026-06-07/001.mp3"
-            },
-            {
-              "index": 2,
-              "text": "京都失蹤美國大學生確認死亡——ChatGPT 被報導為觸發家庭衝突的因素，母親用 AI 規劃行程引發爭論後悲劇收場。",
-              "tweet_id": "2063479889093898445",
-              "file": "audio/2026-06-07/002.mp3"
-            },
-            {
-              "index": 3,
-              "text": "「清理 LLM 程式碼花的時間大於等於自己從頭寫的時間」——引發開發者共鳴與反思。",
-              "tweet_id": "2063350215277449254",
-              "file": "audio/2026-06-07/003.mp3"
-            },
-            {
-              "index": 4,
-              "text": "Claude Design 產品設計心法流傳：「沒人點擊的原型只是一幅畫」「最好的設計系統是沒人注意到的那個」。",
-              "tweet_id": "2063291945972060525",
-              "file": "audio/2026-06-07/004.mp3"
-            },
-            {
-              "index": 5,
-              "text": "Kimi K2 模型搭配 AgentFlow harness 發現 10 個 Google Chrome 零日漏洞，含關鍵沙箱逃脫——中國 LLM 配合進化式 harness 的駭客能力超越國家級駭客。",
-              "tweet_id": "2063328214609711491",
-              "file": "audio/2026-06-07/005.mp3"
-            },
-            {
-              "index": 6,
-              "text": "GPT Team 帳號被偷竊濫用，車頭面臨 OpenAI 180 萬美元帳單；SSO 已被廢止。",
-              "tweet_id": "2063269710704329141",
-              "file": "audio/2026-06-07/006.mp3"
-            },
-            {
-              "index": 7,
-              "text": "有人在終端做了一個 MMO 遊戲：在 Agent 跑代碼時，8 個人在裡面閒逛的放鬆社交遊戲。",
-              "tweet_id": "2063334790338576891",
-              "file": "audio/2026-06-07/007.mp3"
-            },
-            {
-              "index": 8,
-              "text": "Claude 4 萬美元專業化學軟體被一拳打穿：Claude 預測 ¹H 和 ¹³C NMR 的能力逼近甚至超越 ChemDraw/MestReNova。",
-              "tweet_id": "2063476040572567860",
-              "file": "audio/2026-06-07/008.mp3"
-            },
-            {
-              "index": 9,
-              "text": "昇騰 910C 國產 AI 算力集群完成 DeepSeek-V4-Pro 1.6 萬億參數全參數後訓練，DeepSeek 4.1 不遠了。",
-              "tweet_id": "2063429483718226046",
-              "file": "audio/2026-06-07/009.mp3"
-            },
-            {
-              "index": 10,
-              "text": "Agent 最佳實踐：「訓練」Model + Harness 兩端——v1 用合理 base harness、逐步加入 eval 與 fine-tuning。",
-              "tweet_id": "2063429138304668093",
-              "file": "audio/2026-06-07/010.mp3"
-            },
-            {
-              "index": 11,
-              "text": "Codex iOS 隱藏技巧：語音輸入模式在 app 進入背景後持續錄音，可邊操作 app 邊口述需求。",
-              "tweet_id": "2063327344304271852",
-              "file": "audio/2026-06-07/011.mp3"
-            },
-            {
-              "index": 12,
-              "text": "Codex 3DS 現支援恢復對話與正確顯示滾動文字。",
-              "tweet_id": "2063530866228261364",
-              "file": "audio/2026-06-07/012.mp3"
-            },
-            {
-              "index": 13,
-              "text": "Helmor Mobile 發布：在手機上使用 Claude Code、Codex、OpenCode，開源隱私優先，內建 Cloudflare Tunnel。",
-              "tweet_id": "2063509976128307221",
-              "file": "audio/2026-06-07/013.mp3"
-            },
-            {
-              "index": 14,
-              "text": "開源 AI Agent 安全資源（基於 LangChain）：展示真實攻擊（prompt injection、記憶中毒、租戶資料外洩）。",
-              "tweet_id": "2063329827126661269",
-              "file": "audio/2026-06-07/014.mp3"
-            },
-            {
-              "index": 15,
-              "text": "GitHub Skill 讓 AI 生成文字聽起來像人寫的：移除固定模式、語調、結構。",
-              "tweet_id": "2063353986338447869",
-              "file": "audio/2026-06-07/015.mp3"
-            },
-            {
-              "index": 16,
-              "text": "NVIDIA 開放模型百萬 token 上下文、免費 tier 無 per-token 費用、可在自有硬體運行——付費 AI 開始感覺像可選項。",
-              "tweet_id": "2063324036952940611",
-              "file": "audio/2026-06-07/016.mp3"
-            },
-            {
-              "index": 17,
-              "text": "適合中文創作者的 10 個 Codex Skills：去 AI 味、配圖、封面、小紅書卡片等完整內容生產流程。",
-              "tweet_id": "2063516310798250395",
-              "file": "audio/2026-06-07/017.mp3"
-            },
-            {
-              "index": 18,
-              "text": "macOS Native App 開發 skills：xcodebuild CLI 建構、Liquid Glass 設定 UI 等。",
-              "tweet_id": "2063247444637597974",
-              "file": "audio/2026-06-07/018.mp3"
-            }
-          ]
-        },
-        {
-          "name": "💰 財經與經濟",
-          "items": [
-            {
-              "index": 19,
-              "text": "TrendForce 上調 2Q26 伺服器 DRAM 合約價漲幅預估至 QoQ +50-55%（此前為 +45-50%）。",
-              "tweet_id": "2063486413304475930",
-              "file": "audio/2026-06-07/019.mp3"
-            },
-            {
-              "index": 20,
-              "text": "美國頂尖大學 CS 畢業生面臨 8,000 封拒信，就業市場結構性轉變。",
-              "tweet_id": "2063229621043118109",
-              "file": "audio/2026-06-07/020.mp3"
-            },
-            {
-              "index": 21,
-              "text": "股市因就業數據利好而下跌——市場早已預期 AI 會讓你失業。",
-              "tweet_id": "2063387307097432085",
-              "file": "audio/2026-06-07/021.mp3"
-            },
-            {
-              "index": 22,
-              "text": "歐洲股市本週新增變數：利率上升如何影響各板塊。",
-              "tweet_id": "2063520092504080521",
-              "file": "audio/2026-06-07/022.mp3"
-            },
-            {
-              "index": 23,
-              "text": "父親花 32 年研究市場留下 12 條規則：跌 5% 持有、跌 15% 加倉 10%、跌 40%+ 全力買入。",
-              "tweet_id": "2063359319899247032",
-              "file": "audio/2026-06-07/023.mp3"
-            },
-            {
-              "index": 24,
-              "text": "圖書館已失去原有功能：十人中只有一人看書，其餘是考研、考編、考雅思。",
-              "tweet_id": "2063246534368449004",
-              "file": "audio/2026-06-07/024.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🌐 地緣政治與國際",
-          "items": [
-            {
-              "index": 25,
-              "text": "美國駐以色列士兵的手機被 Mossad 竊聽——紐約時報報導。",
-              "tweet_id": "2063438209321755107",
-              "file": "audio/2026-06-07/025.mp3"
-            },
-            {
-              "index": 26,
-              "text": "Netanyahu 引用納粹類比時自曝立場：「他用自己的嘴承認了——他就是現在的納粹。」",
-              "tweet_id": "2063280230593429762",
-              "file": "audio/2026-06-07/026.mp3"
-            },
-            {
-              "index": 27,
-              "text": "「神秘影片」出現在 Famitsu 編輯部——疑似明日 Xbox Showcase 或 Summer Game Fest 重大揭曉。",
-              "tweet_id": "2063516305844748768",
-              "file": "audio/2026-06-07/027.mp3"
-            },
-            {
-              "index": 28,
-              "text": "波蘭 24 歲選手 Chwalińska 的童話故事：曾患抑鬱症無法起床，世界排名 114 無贊助，9 連勝殺入法網決賽奪 160 萬美元獎金。",
-              "tweet_id": "2063330696211640450",
-              "file": "audio/2026-06-07/028.mp3"
-            },
-            {
-              "index": 29,
-              "text": "1989 天安門：「數百名外國記者在場，卻無人能出示一張廣場上的死亡照片」——歷史爭議再起。",
-              "tweet_id": "2063155667263754316",
-              "file": "audio/2026-06-07/029.mp3"
-            },
-            {
-              "index": 30,
-              "text": "荷蘭在兩條戰線挑釁中國：剝奪 Nexperia 管理權 + 軍艦進入中國領海。",
-              "tweet_id": "2063212763485180107",
-              "file": "audio/2026-06-07/030.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🏭 產業與科技",
-          "items": [
-            {
-              "index": 31,
-              "text": "AI 重量訓練機器：感測並控制接近最大負荷，即時調整阻力。",
-              "tweet_id": "2063441013587186108",
-              "file": "audio/2026-06-07/031.mp3"
-            },
-            {
-              "index": 32,
-              "text": "PyPI 發現 37 個惡意套件（19 個包）：濫用 Python .pth 啟動行為發動 Bun 驅動的憑證竊取。",
-              "tweet_id": "2063502849678479398",
-              "file": "audio/2026-06-07/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "1Password 不要求 PIN 即可使用 YubiKey 的設計選擇引發安全爭議。",
-              "tweet_id": "2063479429935091778",
-              "file": "audio/2026-06-07/033.mp3"
-            },
-            {
-              "index": 34,
-              "text": "V8 isolates + MicroVMs 是構建 serverless 平台的有趣架構：isolates 小且啟動快。",
-              "tweet_id": "2063353760018321425",
-              "file": "audio/2026-06-07/034.mp3"
-            },
-            {
-              "index": 35,
-              "text": "Forza Horizon 6 VR mod v0.1.0 發布：支援立體視覺 + 6DoF，免費。",
-              "tweet_id": "2063503029685620817",
-              "file": "audio/2026-06-07/035.mp3"
-            },
-            {
-              "index": 36,
-              "text": "Nintendo 新卒錄取率約百倍（萬人應聘，百人錄取）。",
-              "tweet_id": "2063505697376268315",
-              "file": "audio/2026-06-07/036.mp3"
-            },
-            {
-              "index": 37,
-              "text": "Blackwell GPU 極其強大，理解其所有功能本身就很困難。",
-              "tweet_id": "2063418866177626169",
-              "file": "audio/2026-06-07/037.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🛠️ 開發工具與工程",
-          "items": [
-            {
-              "index": 38,
-              "text": "Linux 開機序列圖解：UEFI → GRUB → Kernel → initramfs → systemd。",
-              "tweet_id": "2063383024260337689",
-              "file": "audio/2026-06-07/038.mp3"
-            },
-            {
-              "index": 39,
-              "text": "kova：用 Rust 從頭建構的向量資料庫，現在有自己的查詢語言。",
-              "tweet_id": "2063306092067856631",
-              "file": "audio/2026-06-07/039.mp3"
-            },
-            {
-              "index": 40,
-              "text": "從 Next.js 跳到 TanStack 是個大錯誤——反而開始討厭 Next.js。",
-              "tweet_id": "2063421083227758799",
-              "file": "audio/2026-06-07/040.mp3"
-            },
-            {
-              "index": 41,
-              "text": "SSH 之上再加 Tailscale/cloudflared/Cloudflare Access，安全性提升兩倍。",
-              "tweet_id": "2063396499846041638",
-              "file": "audio/2026-06-07/041.mp3"
-            },
-            {
-              "index": 42,
-              "text": "前端開發可用的 MCP Server 彙整。",
-              "tweet_id": "2063431931409436936",
-              "file": "audio/2026-06-07/042.mp3"
-            },
-            {
-              "index": 43,
-              "text": "做遊戲「不能吵醒寶寶」——趣味獨立遊戲開發。",
-              "tweet_id": "2063326864786026519",
-              "file": "audio/2026-06-07/043.mp3"
-            },
-            {
-              "index": 44,
-              "text": "Hackathon 現在就是 Claude prompt 大戰。",
-              "tweet_id": "2063479592539783526",
-              "file": "audio/2026-06-07/044.mp3"
-            },
-            {
-              "index": 45,
-              "text": "World Monitor 即時全球情報儀表板：地緣政治版 + 科技版，秒級更新。",
-              "tweet_id": "2063430935505199306",
-              "file": "audio/2026-06-07/045.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📰 社會與觀察",
-          "items": [
-            {
-              "index": 46,
-              "text": "行動力 = 賺錢：有人把 AI Skills 打包放閒魚小紅書，上架秒賣。",
-              "tweet_id": "2063161467604804055",
-              "file": "audio/2026-06-07/046.mp3"
-            },
-            {
-              "index": 47,
-              "text": "村上春樹的段落再度爆紅：「風暴過後，你不會記得如何撐過來。你甚至不確定風暴是否真的結束了。」",
-              "tweet_id": "2063461947790495760",
-              "file": "audio/2026-06-07/047.mp3"
-            },
-            {
-              "index": 48,
-              "text": "日本高考語文結束；中國共青團發海報：「考不上 4 天後送外賣，考上的 4 年後送外賣。」引發爭議。",
-              "tweet_id": "2063493657307603215",
-              "file": "audio/2026-06-07/048.mp3"
-            },
-            {
-              "index": 49,
-              "text": "個人首款自製遊戲賣出——開發者感動到快哭。",
-              "tweet_id": "2063450276472987924",
-              "file": "audio/2026-06-07/049.mp3"
-            },
-            {
-              "index": 50,
-              "text": "黃仁勛在眾人面前與妻子親吻，被讚為「神仙眷侶」。",
-              "tweet_id": "2063431245099307520",
-              "file": "audio/2026-06-07/050.mp3"
-            },
-            {
-              "index": 51,
-              "text": "中國女孩到紐西蘭打工兩個月最大感受：不用勾心鬥角、對人可以真誠、不用搶不用卷。",
-              "tweet_id": "2063273751601619334",
-              "file": "audio/2026-06-07/051.mp3"
             }
           ]
         },
