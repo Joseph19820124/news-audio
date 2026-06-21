@@ -1,144 +1,232 @@
 {
-  "updated_at": "2026-06-21T06:49:33.925782+08:00",
+  "updated_at": "2026-06-21T13:30:31.414445+08:00",
   "dates": [
     {
       "date": "2026-06-21",
-      "generated_at": "2026-06-21T06:49:19.550758+08:00",
+      "generated_at": "2026-06-21T13:30:18.347822+08:00",
       "categories": [
         {
-          "name": "🤖 AI 模型與產品",
+          "name": "🤖 AI 模型與安全",
           "items": [
             {
               "index": 1,
-              "text": "GPT-5.6 / GPT-5.6 Pro 最新傳聞彙整：6/25 週四發布、比 Fable 5 便宜 5 倍、最高 2M token context、知識截止 2025 年 12 月。",
-              "tweet_id": "2068292031651176534",
+              "text": "NSA 局長向參議員 Mark Warner 透露 Claude Mythos 在數小時內突破了幾乎所有 NSA 機密系統，促使 Trump 政府高度緊張並實施模型存取管制。",
+              "tweet_id": "2068516177135939909",
               "file": "audio/2026-06-21/001.mp3"
             },
             {
               "index": 2,
-              "text": "GPT-5.6 將是「GPT-5 系列中最大的智能跨越」。",
-              "tweet_id": "2068421253803766023",
+              "text": "Fable 5 的使用在舊金山被「犯罪化」（諷刺性描述），社群開始討論模型管制對日常使用者的影響。",
+              "tweet_id": "2068483774581453126",
               "file": "audio/2026-06-21/002.mp3"
             },
             {
               "index": 3,
-              "text": "Amazon 取消 Sam Altman 傳記電影《Artificial》（Andrew Garfield 主演），已完成製作且測試反應正面但仍被砍。",
-              "tweet_id": "2068377540742516944",
+              "text": "有人認為 Fable 5 雖驚艷但「這將是最好的 AI」想法將很快被推翻。",
+              "tweet_id": "2068364554287861936",
               "file": "audio/2026-06-21/003.mp3"
             },
             {
               "index": 4,
-              "text": "Tesla FSD 約 3 個月後將能像跟 Uber 司機說話般與 Grok 對話導航：「這裡右轉」「在入口讓我下車」。",
-              "tweet_id": "2068350660974637479",
+              "text": "Claude Fable 5 即將回歸上線。",
+              "tweet_id": "2068410118988079127",
               "file": "audio/2026-06-21/004.mp3"
             },
             {
               "index": 5,
-              "text": "Meta 準備限制內部 AI 使用——員工 token 消耗暴增，公司預期內部 AI 成本將達數十億美元。",
-              "tweet_id": "2068443171156377851",
+              "text": "GPT-5.6 可能比預期更早釋出的跡象浮現，有限度釋出正在進行。",
+              "tweet_id": "2068443774053654589",
               "file": "audio/2026-06-21/005.mp3"
             },
             {
               "index": 6,
-              "text": "OpenAI AI 對齊史詩級突破論文持續擴散：Beneficial Trait 方法打破「安全=笨」魔咒。",
-              "tweet_id": "2068171830691508351",
+              "text": "GPT-5.6 Pro 早期編碼輸出展示：三維空間推理出色（Three.JS Boeing 747），但連貫性仍不及 Fable 5。（前輪已提及）",
+              "tweet_id": "",
               "file": "audio/2026-06-21/006.mp3"
             },
             {
               "index": 7,
-              "text": "Anthropic 開源金融服務 Agent 模板庫：10 個預建 Agent 覆蓋投行/股研/私募/財管/基金營運/合規。",
-              "tweet_id": "2068162168730583214",
+              "text": "Anthropic 80% 合併進代碼庫的程式碼由 Claude 撰寫，遞歸自我改進（RSI）正在加速。",
+              "tweet_id": "2068495106441912824",
               "file": "audio/2026-06-21/007.mp3"
             },
             {
               "index": 8,
-              "text": "Hermes Bible 上線：社群建構的搜索引擎，169 頁文件 + 24 個社群工作流 + 即時 ⌘K 搜索。",
-              "tweet_id": "2068402787298189438",
+              "text": "AI 研究者與 AI 黑客的分野：真正的研究者對當前 LLM 階段感到無趣，興奮的更像是黑客。",
+              "tweet_id": "2068348724355764673",
               "file": "audio/2026-06-21/008.mp3"
             },
             {
               "index": 9,
-              "text": "Hermes Agent Blank Slate 模式正式上線。",
-              "tweet_id": "2068405612514554153",
+              "text": "Elon Musk 預言 AI 造成通縮將迫使政府直接發現金給民眾。",
+              "tweet_id": "2068527324203811294",
               "file": "audio/2026-06-21/009.mp3"
             },
             {
               "index": 10,
-              "text": "agentcn by shadcn：基於 Eve/Vercel/Flue，10+ 生產就緒 agent 配方。",
-              "tweet_id": "2068382433599439282",
+              "text": "NYU 估值教授 Damodaran 稱 AI 10-15 兆美元 TAM 若實現，其實是「令人恐懼的」。",
+              "tweet_id": "2068479727594266797",
               "file": "audio/2026-06-21/010.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具與 GLM-5.2 生態",
+          "items": [
             {
               "index": 11,
-              "text": "VC 資金大量湧入「為工程團隊建構 context layer」領域——解決 agent 如何取得所需上下文的問題。",
-              "tweet_id": "2068379261837144484",
+              "text": "GLM-5.2 需求量瘋狂成長，被譽為「背包裡的文明」（太陽能板 + Mac Studio + GLM 5.2 = 荒島求生清單）。",
+              "tweet_id": "2068426548726690025",
               "file": "audio/2026-06-21/011.mp3"
             },
             {
               "index": 12,
-              "text": "LLM 解碼與 sampler 原理中隱藏大量 alpha。",
-              "tweet_id": "2068340752418050443",
+              "text": "GLM-5.2 GGUF 量化版即將推出：3-bit 可裝進 256GB/2 台 DGX Spark、2-bit 可裝進 196GB/2×6000s。",
+              "tweet_id": "2068489391983804773",
               "file": "audio/2026-06-21/012.mp3"
             },
             {
               "index": 13,
-              "text": "Codex + Excalidraw = 原生無限畫布，無需外掛。",
-              "tweet_id": "2068323353421897742",
+              "text": "GLM-5.2 NVFP4 版本上傳（467GB），可在 4 台 DGX Spark（~$2 萬）上運行。",
+              "tweet_id": "2068438945830944922",
               "file": "audio/2026-06-21/013.mp3"
             },
             {
               "index": 14,
-              "text": "Codex 讀 Cloudflare 文件後一次成功部署 Demo：`npx wrangler deploy --temporary`。",
-              "tweet_id": "2068348765409599757",
+              "text": "Codex 無限畫布方案開源：基於 tldraw 構建本地畫布，透過 MCP 讓 Codex 原生讀寫畫布元素。",
+              "tweet_id": "2068546908360999331",
               "file": "audio/2026-06-21/014.mp3"
             },
             {
               "index": 15,
-              "text": "Codex 提供參考圖即可完成遊戲可用 2D 角色動畫（Gorest 精靈生成器），免費。",
-              "tweet_id": "2068320514851135532",
+              "text": "有人將 Codex 連接線上畫布網站作為無限畫布，agent 可直接讀取建議進行修改。",
+              "tweet_id": "2068356640278233291",
               "file": "audio/2026-06-21/015.mp3"
             },
             {
               "index": 16,
-              "text": "Codex app 中的 token「比其他地方更有價值」。",
-              "tweet_id": "2068443037907522002",
+              "text": "MCP 連接瀏覽器影片編輯器，agent 可操控時間軸、檢視剪輯片段。",
+              "tweet_id": "2068490706155639230",
               "file": "audio/2026-06-21/016.mp3"
             },
             {
               "index": 17,
-              "text": "LLM 正在重塑 API 設計：與其追求簡潔 API，更大更語義清晰可能更好。",
-              "tweet_id": "2068350101920067738",
+              "text": "DevSpace MCP 連接器可將 ChatGPT 變成 Codex，實現 2 倍額度。",
+              "tweet_id": "2068350825119055982",
               "file": "audio/2026-06-21/017.mp3"
             },
             {
               "index": 18,
-              "text": "模型成本對比：Opus→Kimi 省 82%、GPT 5.5→GLM 5.2 省 77%。",
-              "tweet_id": "2067369473049501899",
+              "text": "Framer 3.0 發布，整合 Agents、Branching、Community 與全新設計。",
+              "tweet_id": "2066939366568804508",
               "file": "audio/2026-06-21/018.mp3"
             },
             {
               "index": 19,
-              "text": "Rokid 眼鏡 + BlackBerry 鍵盤：不被偷看的隱密寫作方式，搭配 Gemini 文字通訊。",
-              "tweet_id": "2068168727003308277",
+              "text": "Hermes Agent 推出 Blank Slate 模式，從空白開始按需添加。（前輪已提及）",
+              "tweet_id": "",
               "file": "audio/2026-06-21/019.mp3"
             },
             {
               "index": 20,
-              "text": "LLM 推論/訓練效能調優書籍推薦（日文）。",
-              "tweet_id": "2068307764619923482",
+              "text": "Claude 成功將 SwiftUI 應用透過 Skip 工具移植到 Android。",
+              "tweet_id": "2068344061384134737",
               "file": "audio/2026-06-21/020.mp3"
             },
             {
               "index": 21,
-              "text": "Google DeepMind 掙扎中：Gemini 3.5 Pro 不是他們需要的「step change」。",
-              "tweet_id": "2068029330492739994",
+              "text": "開源清單：10 個可替代付費服務的強大開源項目，包含 TradingAgents 等。",
+              "tweet_id": "2068461138900050194",
               "file": "audio/2026-06-21/021.mp3"
             },
             {
               "index": 22,
-              "text": "Robinhood Agentic Trading 持續獲關注。",
-              "tweet_id": "2066526771864883705",
+              "text": "有人分享 anti-slop skill，基於數百次 agent 對話記錄提煉的核心指導原則。",
+              "tweet_id": "2068339052299055472",
               "file": "audio/2026-06-21/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "Google 兩天內失去兩位頂級人才：Noam Shazeer 與 John Jumper（AlphaFold 之父）。",
+              "tweet_id": "2068043965446926824",
+              "file": "audio/2026-06-21/023.mp3"
+            },
+            {
+              "index": 24,
+              "text": "新研究者加入 NVIDIA Applied Deep Learning Research，推進 Nemotron 與開源 AI 生態。",
+              "tweet_id": "2068467057755345064",
+              "file": "audio/2026-06-21/024.mp3"
+            },
+            {
+              "index": 25,
+              "text": "DGX Spark 黑客松報告：超過 10 台 DGX Spark 同時運行，總記憶體超過 1TB。",
+              "tweet_id": "2068249796738204048",
+              "file": "audio/2026-06-21/025.mp3"
+            }
+          ]
+        },
+        {
+          "name": "⚽ 世界盃 2026",
+          "items": [
+            {
+              "index": 26,
+              "text": "世界盃第 1000 場比賽：日本 vs 突尼西亞，鎌田大地連續兩場進球，開場 4 分鐘即取得領先。",
+              "tweet_id": "2068546577845637557",
+              "file": "audio/2026-06-21/026.mp3"
+            },
+            {
+              "index": 27,
+              "text": "上田綺世追加進球，日本擴大比分。",
+              "tweet_id": "2068553141390332034",
+              "file": "audio/2026-06-21/027.mp3"
+            },
+            {
+              "index": 28,
+              "text": "蒙特雷體育場壯觀的比賽氛圍引發驚嘆。",
+              "tweet_id": "2068499081723556256",
+              "file": "audio/2026-06-21/028.mp3"
+            },
+            {
+              "index": 29,
+              "text": "荷蘭 5-1 瑞典，使日本出線形勢極度複雜。（前輪已提及）",
+              "tweet_id": "",
+              "file": "audio/2026-06-21/029.mp3"
+            },
+            {
+              "index": 30,
+              "text": "美國隊在西雅圖的進球讓整棟建築震動。",
+              "tweet_id": "2068058383672832003",
+              "file": "audio/2026-06-21/030.mp3"
+            },
+            {
+              "index": 31,
+              "text": "Endrick 完成世界盃處子秀。",
+              "tweet_id": "2068151929121993022",
+              "file": "audio/2026-06-21/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "巴拉圭球迷賽後自發打掃看台，展現體育精神。（前輪已提及）",
+              "tweet_id": "",
+              "file": "audio/2026-06-21/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "土耳其連續兩場失利遭小組淘汰，阿根廷球迷瘋傳土耳其球迷崩潰影片。",
+              "tweet_id": "2068465427739762824",
+              "file": "audio/2026-06-21/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "世界盃被形容為「美國邀請那些父母互相討厭的親戚來過夜」。",
+              "tweet_id": "2068357504262648060",
+              "file": "audio/2026-06-21/034.mp3"
+            },
+            {
+              "index": 35,
+              "text": "大谷翔平在第二個孩子出生後首場比賽即開轟全壘打。",
+              "tweet_id": "2068553330297602432",
+              "file": "audio/2026-06-21/035.mp3"
             }
           ]
         },
@@ -146,10 +234,69 @@
           "name": "🌍 地緣政治",
           "items": [
             {
-              "index": 23,
-              "text": "伊朗 IRGC 正式關閉霍爾木茲海峽。（前輪已報）",
+              "index": 36,
+              "text": "以色列國安部長 Ben Gvir 要求對黎巴嫩進行種族滅絕，引發國際社群憤怒。",
+              "tweet_id": "2068415300987441639",
+              "file": "audio/2026-06-21/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "荷姆茲海峽因以色列違反停火再度關閉。（前輪已提及）",
               "tweet_id": "",
-              "file": "audio/2026-06-21/023.mp3"
+              "file": "audio/2026-06-21/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "義大利總理 Meloni 反擊 Trump，社群諷刺「世界領袖排隊借她的脊梁」。",
+              "tweet_id": "2068238119091236919",
+              "file": "audio/2026-06-21/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "義大利右翼報紙 Libero 社論直接以「TRUMP IS AN ASSHOLE」為標題。",
+              "tweet_id": "2068289950022246652",
+              "file": "audio/2026-06-21/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "WSJ 調查：Polymarket 雇用離岸推廣者在美國秘密推廣其國際交易所。",
+              "tweet_id": "2068507004222464327",
+              "file": "audio/2026-06-21/040.mp3"
+            },
+            {
+              "index": 41,
+              "text": "英國同城兩起事件：一起被歸為精神健康問題、另一起「將面臨法律全力追究」，凸顯雙重標準。",
+              "tweet_id": "2068440030071165376",
+              "file": "audio/2026-06-21/041.mp3"
+            }
+          ]
+        },
+        {
+          "name": "💰 產業與加密",
+          "items": [
+            {
+              "index": 42,
+              "text": "以太坊 MEV bot JaredFromSubway 被攻擊損失約 1500 萬，攻擊者利用其自動化機制部署惡意合約。",
+              "tweet_id": "2068450400160903327",
+              "file": "audio/2026-06-21/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "NBA：Giannis 被交易至熱火（前輪已提及）。",
+              "tweet_id": "",
+              "file": "audio/2026-06-21/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "Tinder Gold 的心理學訂閱技巧揭秘：展示「誰喜歡了你」成為史上最成功的訂閱之一。",
+              "tweet_id": "2068455432109084987",
+              "file": "audio/2026-06-21/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "M3 Ultra 挖礦實測：傳說月挖 560u，實際一晚僅 0.1u。",
+              "tweet_id": "2068516609338286298",
+              "file": "audio/2026-06-21/045.mp3"
             }
           ]
         },
