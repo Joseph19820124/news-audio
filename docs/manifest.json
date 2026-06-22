@@ -1,248 +1,278 @@
 {
-  "updated_at": "2026-06-22T06:48:50.278084+08:00",
+  "updated_at": "2026-06-22T20:37:59.586520+08:00",
   "dates": [
     {
       "date": "2026-06-22",
-      "generated_at": "2026-06-22T06:48:48.769963+08:00",
+      "generated_at": "2026-06-22T20:37:58.396972+08:00",
       "categories": [
         {
-          "name": "🤖 AI 模型與前沿",
+          "name": "🤖 AI 模型與產品",
           "items": [
             {
               "index": 1,
-              "text": "Gemini 3.5 Pro 疑似本週即將發布，消息指出 Google 在 I/O 延遲後確認六月上線，預計有重大推理與多模態升級。",
-              "tweet_id": "2068689542907940990",
+              "text": "Claude 多模型（Opus 4.8/4.7/4.6、Sonnet 4.6）錯誤率飆升，Anthropic 正在調查中。",
+              "tweet_id": "2068861121919156413",
               "file": "audio/2026-06-22/001.mp3"
             },
             {
               "index": 2,
-              "text": "Gemini 3.5 Pro 已在 Reddit 和 Twitter 上被發現啟用。",
-              "tweet_id": "2068727468190838801",
+              "text": "預測更新：Claude Mythos/Fable 5.1 更新版即將推出，跳到 6.0 的可能性不大。",
+              "tweet_id": "2068763129362997588",
               "file": "audio/2026-06-22/002.mp3"
             },
             {
               "index": 3,
-              "text": "xAI 預計推出 Grok 5，分為 6T 和 10T 參數兩個變體，社群開始對其期待升溫。",
-              "tweet_id": "2068745721386267133",
+              "text": "Anthropic 可能使用 Apple Wallet 數位身份證驗證 Claude 使用者身份，Fable 5 回歸後可能限美國驗證用戶使用。",
+              "tweet_id": "2068962751037440135",
               "file": "audio/2026-06-22/003.mp3"
             },
             {
               "index": 4,
-              "text": "OpenAI GPT-5.6 洩漏資訊顯示 150 萬 token 上下文窗口，以及更強的長程編碼能力。",
-              "tweet_id": "2068654201798885541",
+              "text": "有人警告 Anthropic 已成為「蜜罐」——身份驗證失敗會導致帳號被封。",
+              "tweet_id": "2068684603699925020",
               "file": "audio/2026-06-22/004.mp3"
             },
             {
               "index": 5,
-              "text": "Kimi K2.7 更新被評為優秀，網頁開發領域仍為中國最強模型，API 速度提升六倍。",
-              "tweet_id": "2068679462913552819",
+              "text": "Sakana Fugu Ultra 上線 AI Gateway，定位為「Mythos 級智慧」的單次 API 呼叫。",
+              "tweet_id": "2069009248952942605",
               "file": "audio/2026-06-22/005.mp3"
             },
             {
               "index": 6,
-              "text": "Claude Sonnet 5 據傳即將發布，加上已有的 Opus 4.8 和 Fable 5，Anthropic 模型線持續擴展。",
-              "tweet_id": "2068741140992700461",
+              "text": "Sakana AI 論文核心：0.6B SLM 協調器 + 約 10K 輕量頭，透過 sep-CMA-ES 演化策略優化。",
+              "tweet_id": "2068907970759667756",
               "file": "audio/2026-06-22/006.mp3"
             },
             {
               "index": 7,
-              "text": "新版 Mythos 已完成訓練，社群推測可能是 Mythos 5.5 或更大升級。",
-              "tweet_id": "2068759922079105239",
+              "text": "Sakana Fugu Ultra 實測：通過 strawberry、5.11 vs 5.1 等經典破題測試，部分人認為「Fable 回來了」。",
+              "tweet_id": "2068922038388232602",
               "file": "audio/2026-06-22/007.mp3"
             },
             {
               "index": 8,
-              "text": "Andrew Ng 表示 100% 的任務已由 AI agent 完成，預測 3-6 個月內所有人將使用自我改進循環。",
-              "tweet_id": "2068763235587694769",
+              "text": "Fable 5 在 Hyperagent 上產出史上最具創意的 agent 作品，視覺推理能力明顯提升。",
+              "tweet_id": "2066518405608337709",
               "file": "audio/2026-06-22/008.mp3"
             },
             {
               "index": 9,
-              "text": "學術論文指出 LLM 輸出逐步計畫時製造了「推理幻覺」，實際上並非真正推理。",
-              "tweet_id": "2068642135528628274",
+              "text": "Claude Code Lead 宣稱：Anthropic 100% 程式碼由 Claude 交付，超過 30% 使用 /loops，Loop 工程是編碼的未來。",
+              "tweet_id": "2068784463186932059",
               "file": "audio/2026-06-22/009.mp3"
             },
             {
               "index": 10,
-              "text": "GLM 5.2 在 Mac Studio M3 Ultra 上以 4-bit 量化可用，速度仍有優化空間。",
-              "tweet_id": "2068736130757857529",
+              "text": "Claude Code subagents 現可嵌套至 5 層深度，有人已跑完完整鏈。",
+              "tweet_id": "2068910600101494974",
               "file": "audio/2026-06-22/010.mp3"
             },
             {
               "index": 11,
-              "text": "GLM 5.2 已支援在 8xMI300X 上透過 sglang 運行，tinygrad 持續優化中。",
-              "tweet_id": "2068725639067398272",
+              "text": "OpenAI gpt-bidi-1 雙向語音模型開始向部分用戶推出。",
+              "tweet_id": "2068796360162226346",
               "file": "audio/2026-06-22/011.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🛠️ 開發工具與 AI 編碼",
-          "items": [
+            },
             {
               "index": 12,
-              "text": "AI 編碼 agent 教會機器人將 GPU 插入主板並剪斷束線帶，物理 AI 能力躍進。",
-              "tweet_id": "2068563059891982776",
+              "text": "有人用 ChatGPT 5.6 Pro 在 25 分鐘內完成了兩年來做不出的專案。",
+              "tweet_id": "2068699711566168280",
               "file": "audio/2026-06-22/012.mp3"
             },
             {
               "index": 13,
-              "text": "Anthropic 工程師 Daisy Hollman：「不該手動提示 Claude，應建構一個自我提示的系統」，分享 Anthropic 內部大規模運行 Claude Code 的方法。",
-              "tweet_id": "2068292688214884514",
+              "text": "GLM 5.2、Kimi K2.7 Code、Step 3.7 Flash 在 ZenMux API 全部免費開放。",
+              "tweet_id": "2068862287403000277",
               "file": "audio/2026-06-22/013.mp3"
             },
             {
               "index": 14,
-              "text": "有開發者對 AI 生成冗長程式碼（500 行能用 5 行解決）感到厭煩而建立精簡工具。",
-              "tweet_id": "2068447812920967290",
+              "text": "免費申請 6 個月 GPT Pro 會員（價值 $1200），GitHub 有任何專案即可嘗試申請。",
+              "tweet_id": "2068998253929185468",
               "file": "audio/2026-06-22/014.mp3"
             },
             {
               "index": 15,
-              "text": "Codex 被用於學術文獻閱讀，搭配 Zotero 插件可自動整理 40 篇論文的研究問題與結論。",
-              "tweet_id": "2068381924062846976",
+              "text": "AI agent 被比喻為「超人員工」——但如果公司制度、審批、工作流程爛，再強的 agent 也沒用。",
+              "tweet_id": "2068910624567181401",
               "file": "audio/2026-06-22/015.mp3"
             },
             {
               "index": 16,
-              "text": "Codex 用於 code review 的進階用法：專找「現在能跑但未來會坑你」的隱藏問題。",
-              "tweet_id": "2068287746704073050",
+              "text": "Framer 3.0 發布，整合 Agents、Branching 與社群功能。",
+              "tweet_id": "2066939366568804508",
               "file": "audio/2026-06-22/016.mp3"
-            },
-            {
-              "index": 17,
-              "text": "Rhei 發布，首個隨使用成長的程式碼智能工具，透過共享上下文圖譜持續進化，本地私有，支援任何 coding agent via MCP。",
-              "tweet_id": "2068788546123575601",
-              "file": "audio/2026-06-22/017.mp3"
-            },
-            {
-              "index": 18,
-              "text": "CodeBurn 開源工具：在 Mac 選單列即時追蹤 Claude、Cursor、Codex 等 27+ 工具的 AI 編碼花費。",
-              "tweet_id": "2068742091874750604",
-              "file": "audio/2026-06-22/018.mp3"
-            },
-            {
-              "index": 19,
-              "text": "GLM 5.2 已可在 Cursor 中透過 Fireworks API 搭配 MagicPath 使用。",
-              "tweet_id": "2068777440986513647",
-              "file": "audio/2026-06-22/019.mp3"
-            },
-            {
-              "index": 20,
-              "text": "Hermes + Obsidian 整合讓筆記應用變成能思考的 AI agent。",
-              "tweet_id": "2068786376204587446",
-              "file": "audio/2026-06-22/020.mp3"
-            },
-            {
-              "index": 21,
-              "text": "Agent37 Cloud 發布：managed hosting for persistent agents，支援 Hermes、OpenClaw、ClaudeCode 等常駐運行。",
-              "tweet_id": "2068700672883597456",
-              "file": "audio/2026-06-22/021.mp3"
-            },
-            {
-              "index": 22,
-              "text": "HTML 被發現是 agentic video making 的基礎，因為 agent 缺乏視覺智能但能操作 HTML 結構。",
-              "tweet_id": "2068755908319236338",
-              "file": "audio/2026-06-22/022.mp3"
             }
           ]
         },
         {
-          "name": "🌐 平台與產業",
+          "name": "🛠️ 開發工具",
           "items": [
             {
+              "index": 17,
+              "text": "Graphify：一條指令將任意資料夾轉為 Claude Code 的「第二大腦」知識圖譜。",
+              "tweet_id": "2068885434503966827",
+              "file": "audio/2026-06-22/017.mp3"
+            },
+            {
+              "index": 18,
+              "text": "Karpathy 概念落地：不用 RAG，5 分鐘用 Claude Code + Obsidian 建自進化第二大腦。",
+              "tweet_id": "2068989874955341914",
+              "file": "audio/2026-06-22/018.mp3"
+            },
+            {
+              "index": 19,
+              "text": "macOS menu bar Codex 用量監控小工具：顯示 5 小時限制、重置倒計時。",
+              "tweet_id": "2068791955115622719",
+              "file": "audio/2026-06-22/019.mp3"
+            },
+            {
+              "index": 20,
+              "text": "rmux：用 Rust 從零打造的 tmux 替代品，專為多 agent 終端自動化設計。",
+              "tweet_id": "2068985300660150504",
+              "file": "audio/2026-06-22/020.mp3"
+            },
+            {
+              "index": 21,
+              "text": "Hermes Agent 的 8 項隱藏配置可省 token 或改善輸出。",
+              "tweet_id": "2068903050425643109",
+              "file": "audio/2026-06-22/021.mp3"
+            },
+            {
+              "index": 22,
+              "text": "Codex 用量技巧：設定 cron 每天 7AM ping Claude 來更早重置 5 小時視窗。",
+              "tweet_id": "2068902300563685555",
+              "file": "audio/2026-06-22/022.mp3"
+            },
+            {
               "index": 23,
-              "text": "Bernie Sanders 提出法案，要求「大型」AI 公司給予美國公民 50% 所有權，估計每人每年可獲超過 1000 美元。",
-              "tweet_id": "2068753666274652275",
+              "text": "超過限額可將 Codex 任務丟給 ChatGPT 繼續工作。",
+              "tweet_id": "2068971128606085141",
               "file": "audio/2026-06-22/023.mp3"
             },
             {
               "index": 24,
-              "text": "NSA 局長據傳表示 Mythos 模型「幾乎入侵了所有機密系統」，記者引用後引發爭議。",
-              "tweet_id": "2068728340895150340",
+              "text": "JoyAI-VL-Interaction-Preview：開源 8B 即時影片語言互動模型（Apache 2.0）。",
+              "tweet_id": "2068945280041423080",
               "file": "audio/2026-06-22/024.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🌍 英國政治",
+          "items": [
             {
               "index": 25,
-              "text": "每個 hosting provider 都意識到 Claude/Codex 能建構並發布網站，已成為其競爭對手，需推廣開源替代方案。",
-              "tweet_id": "2068673322322211047",
+              "text": "Starmer 正式辭職影片觀看量破千萬，辭職演說中哽咽。",
+              "tweet_id": "2068974834676342973",
               "file": "audio/2026-06-22/025.mp3"
             },
             {
               "index": 26,
-              "text": "Cursor Pro $20/月仍被低估，有用戶單月使用近 8 億 token。",
-              "tweet_id": "2068529368222351518",
+              "text": "Andy Burnham 確認參選接班，英國即將迎來十年內第七位首相。",
+              "tweet_id": "2068987144022990891",
               "file": "audio/2026-06-22/026.mp3"
             },
             {
               "index": 27,
-              "text": "「Token 減少 Y%」的行銷手法被批評為過時套路。",
-              "tweet_id": "2068784763465302380",
+              "text": "Larry the cat 準備迎接新主人成為熱門 meme。",
+              "tweet_id": "2069006744970223655",
               "file": "audio/2026-06-22/027.mp3"
             },
             {
               "index": 28,
-              "text": "有人用 AI 虛擬女友在 OnlyFans 月賺 4.3 萬美元，照片中的人物完全不存在。",
-              "tweet_id": "2068612484437626967",
+              "text": "社群普遍批評 Starmer 任期：「贏得最大選舉勝利卻最快失敗」。",
+              "tweet_id": "2068976202082357482",
               "file": "audio/2026-06-22/028.mp3"
             }
           ]
         },
         {
-          "name": "💰 財經與市場",
+          "name": "🌐 地緣政治",
           "items": [
             {
               "index": 29,
-              "text": "JPMorgan 警告下週可能有 1650 億美元的股票拋售潮。",
-              "tweet_id": "2068786280893174214",
+              "text": "美伊達成最終協議路線圖，計畫結束黎巴嫩軍事行動。",
+              "tweet_id": "2068953473387728938",
               "file": "audio/2026-06-22/029.mp3"
             },
             {
               "index": 30,
-              "text": "BCG 面臨數億美元營收損失風險，因沙特主權財富基金削減外部顧問支出。",
-              "tweet_id": "2068690793120821442",
+              "text": "VP Vance 宣布重大進展：「昨天是非常好的一天」。",
+              "tweet_id": "2069016403248632213",
               "file": "audio/2026-06-22/030.mp3"
             },
             {
               "index": 31,
-              "text": "日本郵儲銀行存款餘額年減 4 兆日圓，規模相當於整個索尼銀行。",
-              "tweet_id": "2068812687459451318",
+              "text": "Vance 對伊朗施壓：「嘴砲美國時要預期 Trump 會回應」。",
+              "tweet_id": "2069019939470471303",
               "file": "audio/2026-06-22/031.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🌍 地緣政治",
-          "items": [
+            },
             {
               "index": 32,
-              "text": "伊朗代表團因 Trump 威脅離開與 JD Vance 在瑞士的談判會場，要求 Trump 道歉。",
-              "tweet_id": "2068780111495602357",
+              "text": "JD Vance 使用他人 CAC 卡登入筆電的照片持續引發外交解讀。",
+              "tweet_id": "2068884370627100675",
               "file": "audio/2026-06-22/032.mp3"
             },
             {
               "index": 33,
-              "text": "卡達 Ras Laffan 全球最大 LNG 生產設施發生爆炸。",
-              "tweet_id": "2068786461491519586",
+              "text": "伊朗國家隊留下訊息：「願和平、友誼與尊重盛行於所有國家」。",
+              "tweet_id": "2068945173627777070",
               "file": "audio/2026-06-22/033.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "💰 財經",
+          "items": [
             {
               "index": 34,
-              "text": "美國國土安全部長稱伊朗試圖將 IRGC 成員偽裝為世界盃國家隊成員潛入美國。",
-              "tweet_id": "2068742830638408101",
+              "text": "美聯儲前主席 Alan Greenspan 去世，享年 100 歲。",
+              "tweet_id": "2069020466304438431",
               "file": "audio/2026-06-22/034.mp3"
             },
             {
               "index": 35,
-              "text": "丹麥隱私活動人士因發布兩組數字（被認定為 ANOM 加密金鑰）遭蒙面警察突襲搜查，引發言論自由爭議。",
-              "tweet_id": "2068543015787045074",
+              "text": "字節跳動暫緩上市，場外估值已超 6000 億美元，投行認為有望衝擊 1 兆。",
+              "tweet_id": "2068924872340992386",
               "file": "audio/2026-06-22/035.mp3"
             },
             {
               "index": 36,
-              "text": "Falcon 9 從加州發射 24 顆 Starlink 衛星，成功部署確認。",
-              "tweet_id": "2068763409940705752",
+              "text": "智譜估值 1500 億美元被認為在基座模型公司中仍屬便宜（xAI 5000 億對比）。",
+              "tweet_id": "2068963632294051876",
               "file": "audio/2026-06-22/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "日本政府設定新目標：家庭金融資產 40% 投入股票債券。",
+              "tweet_id": "2068984311269716227",
+              "file": "audio/2026-06-22/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "日本首相高市確認計畫兩年後將食品消費稅回調至 8%。",
+              "tweet_id": "2068935024767123949",
+              "file": "audio/2026-06-22/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "DDR2 合約價 Q2 漲 55-60%，Q3 將再漲 35-40%，三大廠產能全押 HBM 導致成熟製程 DRAM 嚴重缺貨。",
+              "tweet_id": "2068989823885701286",
+              "file": "audio/2026-06-22/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "台積電從年初 1040 漲至 2510 元，報酬率 +240%。",
+              "tweet_id": "2068934244232245306",
+              "file": "audio/2026-06-22/040.mp3"
+            },
+            {
+              "index": 41,
+              "text": "Santander 銀行開源 11 個 AI 專案（Apache-2.0），含合成/匿名化資料。",
+              "tweet_id": "2068684111183495368",
+              "file": "audio/2026-06-22/041.mp3"
             }
           ]
         },
@@ -250,63 +280,45 @@
           "name": "⚽ 世界盃",
           "items": [
             {
-              "index": 37,
-              "text": "日本 4-0 大勝突尼西亞，教練森保一進球後面無表情被比喻為「亞洲式家長」。",
-              "tweet_id": "2068624651883094116",
-              "file": "audio/2026-06-22/037.mp3"
-            },
-            {
-              "index": 38,
-              "text": "墨西哥志工與球迷熱情招待日本隊，日本隊離場時將更衣室清理乾淨並留下感謝信。",
-              "tweet_id": "2068746333876318233",
-              "file": "audio/2026-06-22/038.mp3"
-            },
-            {
-              "index": 39,
-              "text": "日本球迷戴墨西哥傳統帽，墨西哥志工的歡樂氣氛影片在日本爆紅。",
-              "tweet_id": "2068779544102723816",
-              "file": "audio/2026-06-22/039.mp3"
-            },
-            {
-              "index": 40,
-              "text": "加拿大 Jonathan David 上演帽子戲法，6-0 大勝卡達。",
-              "tweet_id": "2067759587261124705",
-              "file": "audio/2026-06-22/040.mp3"
-            },
-            {
-              "index": 41,
-              "text": "Haaland 的走路姿勢引發網路模仿潮。",
-              "tweet_id": "2068752375007809562",
-              "file": "audio/2026-06-22/041.mp3"
-            },
-            {
               "index": 42,
-              "text": "世界盃門票二手市場價格飆升，德國對厄瓜多爾門票令人望而卻步。",
-              "tweet_id": "2068733290857505180",
+              "text": "佛得角與西班牙、烏拉圭打平震驚世界，48 隊制品質疑慮被打破。",
+              "tweet_id": "2068860464423928229",
               "file": "audio/2026-06-22/042.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🔒 隱私與安全",
-          "items": [
+            },
             {
               "index": 43,
-              "text": "學生逆向工程 Apple AirPods 專有協議，讓所有 iPhone 限定功能可在 Android 與 Linux 上使用，完全開源。",
-              "tweet_id": "2068685081900875926",
+              "text": "埃及在溫哥華取得世界盃隊史首勝，Salah 與球迷街頭共舞。",
+              "tweet_id": "2068954709516329185",
               "file": "audio/2026-06-22/043.mp3"
             },
             {
               "index": 44,
-              "text": "Workday 選擇 Cisco AI Defense 作為 Agent Passport 首發合作夥伴，保護 AI agent 接觸薪資與組織架構時的安全性。",
-              "tweet_id": "2066681213679796661",
+              "text": "墨西哥球衣成為本屆世界盃最暢銷 Adidas 球衣。",
+              "tweet_id": "2068880264919712176",
               "file": "audio/2026-06-22/044.mp3"
             },
             {
               "index": 45,
-              "text": "Tolmo 出隱身模式，定位為 AI 時代軟體安全的重新定義者。",
-              "tweet_id": "2067679362057675151",
+              "text": "日本世界盃「1mm 世界」引發話題——連續多場比賽出現毫米級差距判定。",
+              "tweet_id": "2068900341291307443",
               "file": "audio/2026-06-22/045.mp3"
+            },
+            {
+              "index": 46,
+              "text": "東海道新幹線宣布夜間列車「Lumiere Express」，8/8 東京→新大阪。",
+              "tweet_id": "2068940059487936937",
+              "file": "audio/2026-06-22/046.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🌀 天氣",
+          "items": [
+            {
+              "index": 47,
+              "text": "颱風 7 號（Mekala）確認將進行「全國巡迴」，影響範圍擴大。",
+              "tweet_id": "2068955827831210438",
+              "file": "audio/2026-06-22/047.mp3"
             }
           ]
         },
