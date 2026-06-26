@@ -1,78 +1,84 @@
 {
-  "updated_at": "2026-06-27T01:24:30.395062+08:00",
+  "updated_at": "2026-06-27T04:23:25.056649+08:00",
   "dates": [
     {
       "date": "2026-06-27",
-      "generated_at": "2026-06-27T01:23:56.889035+08:00",
+      "generated_at": "2026-06-27T04:22:51.707424+08:00",
       "categories": [
         {
-          "name": "🤖 AI 模型與研究",
+          "name": "🤖 GPT-5.6 發布與 AI 模型治理",
           "items": [
             {
               "index": 1,
-              "text": "OpenAI「Mythos 級」GPT-5.5-Cyber 模型授權予日本政府使用，標誌著國家級 AI 存取協議的新趨勢。",
-              "tweet_id": "2070330479610298594",
+              "text": "OpenAI 正式發布 GPT-5.6 系列限定預覽：Sol（最強旗艦）、Terra（GPT-5.5 級性能半價）、Luna（最低成本），計劃數週內全面開放。",
+              "tweet_id": "2070556105403482387",
               "file": "audio/2026-06-27/001.mp3"
             },
             {
               "index": 2,
-              "text": "OpenAI 將 IPO 延後至 2027 年，根據紐約時報報導。",
-              "tweet_id": "2070546414199869711",
+              "text": "GPT-5.6 被工程師評為「程式碼能力極強且快速」，已取代 Opus 處理 80% 任務。",
+              "tweet_id": "2070562080286240878",
               "file": "audio/2026-06-27/002.mp3"
             },
             {
               "index": 3,
-              "text": "GPT xhigh 近期表現甚至不如 GPT medium，引發社群對模型分級定價的質疑。",
-              "tweet_id": "2070389071386751017",
+              "text": "GPT-5.6 Sol 在 OpenAI 內部 CTF 評估中飽和得分 96.7%，網安能力被評為 High 等級，外部測試者確認可解決長期複雜攻擊鏈。",
+              "tweet_id": "2070567028491272417",
               "file": "audio/2026-06-27/003.mp3"
             },
             {
               "index": 4,
-              "text": "Codex 團隊正在調查部分帳戶額度消耗過快問題，疑似與反濫用機制有關。",
-              "tweet_id": "2070553131503776175",
+              "text": "Altman 內部通知公司改為「政府逐一審核客戶」的限定預覽模式，美國政府直接介入模型發布流程。",
+              "tweet_id": "2070442569377706321",
               "file": "audio/2026-06-27/004.mp3"
             },
             {
               "index": 5,
-              "text": "Ornith-1.0 系列正式發布，基於 Qwen 3.5 與 Gemma 4 微調，提供 9B/31B/35B/397B 四種規格，專為 agentic coding 優化。",
-              "tweet_id": "2070519911710105924",
+              "text": "社群提問：當開源模型達到 Fable/GPT-5.6 級別時，美國政府還能管制多久？",
+              "tweet_id": "2070328336690368725",
               "file": "audio/2026-06-27/005.mp3"
             },
             {
               "index": 6,
-              "text": "Ornith 397B 已可在 Apple Silicon 上運行，MLX 量化版本上線 Hugging Face。",
-              "tweet_id": "2070148887067963854",
+              "text": "OpenAI 研究科學家 Noam Brown 表示不認為會出現「一夜之間的智慧爆炸」，模型進步將是漸進的。",
+              "tweet_id": "2070522485720617224",
               "file": "audio/2026-06-27/006.mp3"
             },
             {
               "index": 7,
-              "text": "Ornith-1.0-9B 在 8-12GB GPU 上表現優異，超越同級模型在 agentic coding 基準的成績。",
-              "tweet_id": "2070484726528532974",
+              "text": "Ornith 1.0 開源 agentic coding 模型被測試者讚譽為「Anthropic 棺材上的最後一顆釘子」。",
+              "tweet_id": "2070488480489275847",
               "file": "audio/2026-06-27/007.mp3"
             },
             {
               "index": 8,
-              "text": "Cognee v1.0 發布，記憶檢索能力比 Opus 4.8 與 GPT 5.5 高出 145%，支援 1000 億 token 上下文窗口。",
-              "tweet_id": "2070530986337866191",
+              "text": "智譜免費贈送 2000 萬 tokens 供使用 GLM-5.2/5.1 及前沿 coding 模型，無需信用卡、支援 1M token 上下文。",
+              "tweet_id": "2070557815253721119",
               "file": "audio/2026-06-27/008.mp3"
             },
             {
               "index": 9,
-              "text": "研究論文揭示推理如何解鎖 LLM 參數知識，識別出「計算緩衝效應」與「事實啟動」兩大機制。",
-              "tweet_id": "2069827086014087603",
+              "text": "GLM-5.2 NVFP4 版本在 vLLM 上就緒，記憶體大幅降低。",
+              "tweet_id": "2070569806940848328",
               "file": "audio/2026-06-27/009.mp3"
             },
             {
               "index": 10,
-              "text": "交大與清華團隊系統測評 12 種 Agent 記憶系統，從資料管理角度分析 RAG、向量資料庫與知識圖譜的適用場景。",
-              "tweet_id": "2070312959168094707",
+              "text": "GLM-5.2 在 Cloudflare 免費開放。",
+              "tweet_id": "2070531778948083856",
               "file": "audio/2026-06-27/010.mp3"
             },
             {
               "index": 11,
-              "text": "Un-0 模型發布：首個以物理作為計算原語的大規模生成模型，開創物理驅動 AI 新範式。",
-              "tweet_id": "2070184079199494583",
+              "text": "GLM-5.2 在 Design Arena 排名第五，與 Claude Sonnet 4.6 同級。",
+              "tweet_id": "2070576732953047235",
               "file": "audio/2026-06-27/011.mp3"
+            },
+            {
+              "index": 12,
+              "text": "Cognee v1.0 發布：記憶檢索比 Opus 4.8 和 GPT 5.5 好 145%，支援 1000 億 token 上下文。",
+              "tweet_id": "2070512757716164816",
+              "file": "audio/2026-06-27/012.mp3"
             }
           ]
         },
@@ -80,70 +86,82 @@
           "name": "🛠️ 開發工具與 Agent",
           "items": [
             {
-              "index": 12,
-              "text": "Codex 行動版正式 GA，新增裝置配對、通知、goals、side chat 與檔案預覽功能。",
-              "tweet_id": "2070254532911882707",
-              "file": "audio/2026-06-27/012.mp3"
-            },
-            {
               "index": 13,
-              "text": "有人開源完整的 Loop Engineering 框架，涵蓋每日分流、CI 掃描、依賴更新、Changelog 撰寫等自動化循環。",
-              "tweet_id": "2070414768075329940",
+              "text": "MCP connectors 登陸 Figma Agent。",
+              "tweet_id": "2070175613609202011",
               "file": "audio/2026-06-27/013.mp3"
             },
             {
               "index": 14,
-              "text": "Google 資深工程師發布 19 頁 Loop Engineering PDF，系統化 Act→Observe→Learn→Repeat 方法論。",
-              "tweet_id": "2070534436127420661",
+              "text": "Memanto 開源：為 Claude Code、Codex、Cursor 提供無限記憶，已獲 1K+ GitHub stars。",
+              "tweet_id": "2070327164772196471",
               "file": "audio/2026-06-27/014.mp3"
             },
             {
               "index": 15,
-              "text": "Figma Agent 推出 MCP connectors，讓 AI agent 可直接操作 Figma 設計檔。",
-              "tweet_id": "2070175613609202011",
+              "text": "Codex 團隊調查部分帳戶額度異常消耗問題，疑似反濫用機制觸發。",
+              "tweet_id": "2070553131503776175",
               "file": "audio/2026-06-27/015.mp3"
             },
             {
               "index": 16,
-              "text": "TanStack AI 的 MCP Apps 支援在聊天中直接渲染互動式 UI 元件，MCP 工具從純文字進化為互動介面。",
-              "tweet_id": "2070537172722032671",
+              "text": "T3 Code 推出 `npx t3@nightly serve` 遠端存取功能，支援手機操作 agent。",
+              "tweet_id": "2070437920188858876",
               "file": "audio/2026-06-27/016.mp3"
             },
             {
               "index": 17,
-              "text": "Claude Code 可指向資料夾自動建構「第二大腦」知識庫，讀取文章、PDF 等建立活的 wiki。",
-              "tweet_id": "2070428408761479526",
+              "text": "Hermes Agent 新增語音功能，ElevenLabs flash v2.5 實現 75ms 延遲即時對話。",
+              "tweet_id": "2070417530116513800",
               "file": "audio/2026-06-27/017.mp3"
             },
             {
               "index": 18,
-              "text": "Anthropic 工程師出貨量為 2021-2025 年的 8 倍，指出「coding 已大致解決，驗證是下一個未解問題」。",
-              "tweet_id": "2070544926195249579",
+              "text": "claude-code-setup 官方外掛：分析專案後推薦最佳 hooks、skills、MCP servers 配置。",
+              "tweet_id": "2070524928751698345",
               "file": "audio/2026-06-27/018.mp3"
             },
             {
               "index": 19,
-              "text": "Google、Microsoft、Snowflake 等聯合發布 Agentic Resource Discovery (ARD) 開放規範，讓 AI agent 可跨公司發現彼此能力。",
-              "tweet_id": "2068394052412735619",
+              "text": "MAI-Code-1-Flash 正式向 GitHub Copilot Business/Enterprise 全面開放。",
+              "tweet_id": "2070588929196105733",
               "file": "audio/2026-06-27/019.mp3"
             },
             {
               "index": 20,
-              "text": "LangSmith 推出 LLM Gateway，支援按組織/workspace/使用者設定預算與即時支出追蹤。",
-              "tweet_id": "2070493501473554540",
+              "text": "AWS Agent Toolkit 為 AI coding agent 提供專用工具與護欄。",
+              "tweet_id": "2070568410887414167",
               "file": "audio/2026-06-27/020.mp3"
             },
             {
               "index": 21,
-              "text": "有人用 Go 語言建造亞毫秒級 LLM 安全代理，對抗 62 種對抗性攻擊向量。",
-              "tweet_id": "2070417322842747145",
+              "text": "ChatGPT 本週功能更新：新聽寫模型（改善日韓中越南語）、刷新 UI、新功能。",
+              "tweet_id": "2070574374667854045",
               "file": "audio/2026-06-27/021.mp3"
             },
             {
               "index": 22,
-              "text": "IntelliJ IDEA 2026.2 開源 LSP API，Android Studio 可能更早獲得支援。",
-              "tweet_id": "2070492490424033360",
+              "text": "GPT 推出排程任務功能，免費每日自動通知不消耗 token。",
+              "tweet_id": "2070350686311928118",
               "file": "audio/2026-06-27/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "AI coding agent 正從「桌面輔助」轉向「雲端持續運行」，需要 persistent dev environments。",
+              "tweet_id": "2070281121594827025",
+              "file": "audio/2026-06-27/023.mp3"
+            },
+            {
+              "index": 24,
+              "text": "monday.com 從 200+ 工具單一 agent 重構為多 agent 架構，解決 context pollution 問題。",
+              "tweet_id": "2070507927798993352",
+              "file": "audio/2026-06-27/024.mp3"
+            },
+            {
+              "index": 25,
+              "text": "Mastra 推出 Durable Agents，即時持久化串流。（前輪已報導）",
+              "tweet_id": "",
+              "file": "audio/2026-06-27/025.mp3"
             }
           ]
         },
@@ -151,58 +169,58 @@
           "name": "🌐 平台與生態系",
           "items": [
             {
-              "index": 23,
-              "text": "OpenClaw 社群新任 Community Manager Hannes Rudolph 正式上任，承認用戶挫折並承諾改善。",
-              "tweet_id": "2070336456309293348",
-              "file": "audio/2026-06-27/023.mp3"
-            },
-            {
-              "index": 24,
-              "text": "Vercel AI SDK 核心貢獻者離職，結束兩年任期。",
-              "tweet_id": "2070532102173413799",
-              "file": "audio/2026-06-27/024.mp3"
-            },
-            {
-              "index": 25,
-              "text": "GLM-5.2 在 Mac Studio 上透過 llama.cpp 本地運行，驅動完全離線的醫療 Agent 工作流。",
-              "tweet_id": "2070503452178796704",
-              "file": "audio/2026-06-27/025.mp3"
-            },
-            {
               "index": 26,
-              "text": "GLM-5.2 在 HTML 生成任務上比 Opus 4.8 更快、便宜 4 倍且設計品味更好。",
-              "tweet_id": "2070537728274440511",
+              "text": "Apple Vision Pro 與智慧眼鏡主管跳槽至 OpenAI 硬體部門，對 Apple AR 策略造成打擊。",
+              "tweet_id": "2070589334353281099",
               "file": "audio/2026-06-27/026.mp3"
             },
             {
               "index": 27,
-              "text": "Gemini 本月更新：即時語音生成圖片、小型企業支援新功能。",
-              "tweet_id": "2070539768618942859",
+              "text": "SpaceX 考慮提供「直接面向消費者」的 Starlink 行動服務。",
+              "tweet_id": "2070489946499031069",
               "file": "audio/2026-06-27/027.mp3"
             },
             {
               "index": 28,
-              "text": "Amazon 追加 130 億美元投資印度 AI 與雲端基礎設施，2026-2030 總計畫投資超過 210 億美元。",
-              "tweet_id": "2070477931529330960",
+              "text": "Elon Musk 表示通縮「不可避免」。",
+              "tweet_id": "2070495414537568502",
               "file": "audio/2026-06-27/028.mp3"
             },
             {
               "index": 29,
-              "text": "NVIDIA 推出 NVLink Spine，單個 spine 傳輸速度達 130 TB/s，連接最多 72 顆 GPU。",
-              "tweet_id": "2070377691619160380",
+              "text": "OpenClaw 熱度消退引發討論，社群認為 Codex 與 Claude Code 已是更好替代。",
+              "tweet_id": "2070425735463149783",
               "file": "audio/2026-06-27/029.mp3"
             },
             {
               "index": 30,
-              "text": "NVIDIA 提供 MiniMax M3 NVFP4 版本，擴充開放權重生態系。",
-              "tweet_id": "2070363098075238635",
+              "text": "Karpathy 提出的「第二大腦」模式引發廣泛討論，多數人的 Obsidian 只是「第二抽屜」。",
+              "tweet_id": "2070460130085191920",
               "file": "audio/2026-06-27/030.mp3"
             },
             {
               "index": 31,
-              "text": "Qualcomm 與 Hugging Face 深化合作，在投資者日展示端側 AI 願景。",
-              "tweet_id": "2070304246935765210",
+              "text": "shadcn 被定位為「AI 的 UI」標準框架。",
+              "tweet_id": "2070567538040422712",
               "file": "audio/2026-06-27/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "資料中心反對運動被分析為實質上是對 AI 與財富集中的仇恨代理。",
+              "tweet_id": "2070211760196587534",
+              "file": "audio/2026-06-27/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "「不使用 LLM 寫作將像拒絕用 Google Maps 導航一樣成為怪異選擇」的觀點引發論戰。",
+              "tweet_id": "2070136078002995207",
+              "file": "audio/2026-06-27/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "Gemini 3.5 Live Translate 發布：支援 70+ 語言即時語音翻譯。",
+              "tweet_id": "2064366504112505266",
+              "file": "audio/2026-06-27/034.mp3"
             }
           ]
         },
@@ -210,40 +228,34 @@
           "name": "💰 財經與市場",
           "items": [
             {
-              "index": 32,
-              "text": "多家科技巨頭深陷熊市：Coinbase -69%、Oracle -57%、Salesforce -57%，多數人未意識到跌幅之深。",
-              "tweet_id": "2070495083967689001",
-              "file": "audio/2026-06-27/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "Trump 對向美國公司徵收「數位服務稅」的國家施加 100% 關稅。",
-              "tweet_id": "2070545326205805023",
-              "file": "audio/2026-06-27/033.mp3"
-            },
-            {
-              "index": 34,
-              "text": "X Money 提供 6% 無門檻收益率，對比 Fidelity 高階貨幣市場基金 3.84% 需 10 萬美元最低門檻。",
-              "tweet_id": "2070277077434307071",
-              "file": "audio/2026-06-27/034.mp3"
-            },
-            {
               "index": 35,
-              "text": "Pelosi 披露買入約 100 萬美元 Uber 股票，兩天後 Uber 漲 5%。",
-              "tweet_id": "2070551110427824537",
+              "text": "美伊和平協議正式取消，Trump 確認伊朗違反停火攻擊霍爾木茲海峽船隻，對全球油價影響重大。",
+              "tweet_id": "2070545890234732899",
               "file": "audio/2026-06-27/035.mp3"
             },
             {
               "index": 36,
-              "text": "Quantum Cyber（Nasdaq 上市自主防禦科技公司）董事會批准收購 SpaceX 股份。",
-              "tweet_id": "2070489670081761556",
+              "text": "DOJ 被命令公布未刪減的 Epstein 檔案或解釋原因。",
+              "tweet_id": "2070349461168201764",
               "file": "audio/2026-06-27/036.mp3"
             },
             {
               "index": 37,
-              "text": "油輪日收益因更多船隻願意進入霍爾木茲海峽而下跌約 20 萬美元。",
-              "tweet_id": "2070546411624575477",
+              "text": "California 州長 Newsom 呼籲全國性億萬富翁稅。（前輪已報導）",
+              "tweet_id": "",
               "file": "audio/2026-06-27/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "Rocket Lab 從 Space Force 接到電話後 16 小時 42 分鐘完成衛星部署。",
+              "tweet_id": "2070513012482723843",
+              "file": "audio/2026-06-27/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "AI 失敗創業潮引發 VC 連鎖反應討論。",
+              "tweet_id": "2070189023918948674",
+              "file": "audio/2026-06-27/039.mp3"
             }
           ]
         },
@@ -251,109 +263,69 @@
           "name": "🌍 地緣政治與社會",
           "items": [
             {
-              "index": 38,
-              "text": "小型飛機撞上北京 109 層摩天大樓，殘骸沿建築側面墜落，飛行員劉軍華為單獨飛行。",
-              "tweet_id": "2070482754802696269",
-              "file": "audio/2026-06-27/038.mp3"
-            },
-            {
-              "index": 39,
-              "text": "Trump 稱伊朗對霍爾木茲海峽船隻的攻擊為協議的「愚蠢違反」。",
-              "tweet_id": "2070541989423075434",
-              "file": "audio/2026-06-27/039.mp3"
-            },
-            {
               "index": 40,
-              "text": "Wikipedia 共同創辦人 Larry Sanger 被永久禁止編輯該網站。",
-              "tweet_id": "2070488515717091336",
+              "text": "委內瑞拉 M7.5 強震後續：妻子以身護女被壓死，女兒在懷中存活，震區持續救援。",
+              "tweet_id": "2070401623063482511",
               "file": "audio/2026-06-27/040.mp3"
             },
             {
               "index": 41,
-              "text": "烏克蘭「野黃蜂」公司上線系統，允許全球親烏網友以電競方式遠程操控無人機打擊俄軍，完成任務可獲現金獎勵。",
-              "tweet_id": "2070513582547288485",
+              "text": "以色列將從黎巴嫩南部兩區撤軍。",
+              "tweet_id": "2070581976000585883",
               "file": "audio/2026-06-27/041.mp3"
             },
             {
               "index": 42,
-              "text": "瑞典氣候部長帶嬰兒出席 EU 理事會議，倡議育嬰假政策。",
-              "tweet_id": "2070201607216570391",
+              "text": "烏克蘭「野黃蜂」上線系統允許全球網友以電競方式遠程操控無人機攻擊俄軍。",
+              "tweet_id": "2070513582547288485",
               "file": "audio/2026-06-27/042.mp3"
             },
             {
               "index": 43,
-              "text": "台南因颱風「米克拉」降下大規模劇烈豪雨，隨後颱風減弱解除警報。",
-              "tweet_id": "2070540991699054740",
+              "text": "義大利成為森林國家：超過 1/3 領土覆蓋森林，為史上最成功的重新造林案例之一。",
+              "tweet_id": "2070356382738698544",
               "file": "audio/2026-06-27/043.mp3"
             },
             {
               "index": 44,
-              "text": "義大利監管機構調查 Microsoft 365 漲價問題。",
-              "tweet_id": "2070538862024139149",
+              "text": "德州教育委員會通過要求 K-12 課程包含聖經故事與經文的提案。",
+              "tweet_id": "2070595453440119116",
               "file": "audio/2026-06-27/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "法國 40°C 極端熱浪持續，50 省紅色警報。",
+              "tweet_id": "2070403905050083826",
+              "file": "audio/2026-06-27/045.mp3"
             }
           ]
         },
         {
-          "name": "🏭 產業與硬體",
+          "name": "⚽ 世界盃",
           "items": [
             {
-              "index": 45,
-              "text": "全球首顆 sub-1 奈米節點晶片問世，能源效率提升 70%，開啟新一代運算時代。",
-              "tweet_id": "2070100944017092734",
-              "file": "audio/2026-06-27/045.mp3"
-            },
-            {
               "index": 46,
-              "text": "Apple 護城河被開源社區突破：AssppWeb 專案實現 iOS 繞過 App Store 安裝應用。",
-              "tweet_id": "2070385132385845540",
+              "text": "巴西 vs 日本確認為 32 強賽事，「足球小將」動畫恰好在巴西日本對戰前結局引發集體情懷。",
+              "tweet_id": "2070310905947287833",
               "file": "audio/2026-06-27/046.mp3"
             },
             {
               "index": 47,
-              "text": "Datology AI 研究：4B VLM 透過資料策展實現簡潔回答，相同任務只需 Qwen3.5-4B 1/35 的計算量。",
-              "tweet_id": "2070154289880932621",
+              "text": "挪威輪換 10 名球員引發公憤，FIFA 可能介入調查，全世界期待的 Mbappe vs Haaland 對決被毀。",
+              "tweet_id": "2070584771017671102",
               "file": "audio/2026-06-27/047.mp3"
             },
             {
               "index": 48,
-              "text": "Gemma 4 12B 在端側工具呼叫任務上速度提升 60%，小型模型開始具備可靠性。",
-              "tweet_id": "2070542052883144795",
+              "text": "法國 Dembele 上半場對挪威完成帽子戲法，為本屆第三個帽子戲法。",
+              "tweet_id": "2070592522028507609",
               "file": "audio/2026-06-27/048.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🔒 安全",
-          "items": [
+            },
             {
               "index": 49,
-              "text": "OWASP AI Security Verification Standard (AISVS) 1.0 正式發布。",
-              "tweet_id": "2070441223504998486",
+              "text": "薩爾瓦多裁判在日本 vs 瑞典賽事中表現引發重大爭議。",
+              "tweet_id": "2070525422572306723",
               "file": "audio/2026-06-27/049.mp3"
-            },
-            {
-              "index": 50,
-              "text": "DEA 被揭露曾容許數十萬顆芬太尼藥丸流入新墨西哥州街頭以建立起訴案件。",
-              "tweet_id": "2068912222705778719",
-              "file": "audio/2026-06-27/050.mp3"
-            }
-          ]
-        },
-        {
-          "name": "⚽ 體育",
-          "items": [
-            {
-              "index": 51,
-              "text": "世界盃第 15 天總結：突尼西亞被評為世界盃史上最差球隊、第三名爭奪戰分析。",
-              "tweet_id": "2070514951194550513",
-              "file": "audio/2026-06-27/051.mp3"
-            },
-            {
-              "index": 52,
-              "text": "26/6/26 為回文日，128 年後才會再次出現。",
-              "tweet_id": "2070472965431443498",
-              "file": "audio/2026-06-27/052.mp3"
             }
           ]
         },
