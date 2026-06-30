@@ -1,259 +1,359 @@
 {
-  "updated_at": "2026-07-01T01:29:39.030277+08:00",
+  "updated_at": "2026-07-01T04:33:17.566761+08:00",
   "dates": [
     {
       "date": "2026-07-01",
-      "generated_at": "2026-07-01T01:29:10.881685+08:00",
+      "generated_at": "2026-07-01T04:32:41.689327+08:00",
       "categories": [
         {
-          "name": "🤖 AI 模型重大發布",
+          "name": "🤖 AI 模型發布",
           "items": [
             {
               "index": 1,
-              "text": "Claude Sonnet 5 確認今日稍後發布：知識截止 2026 年 1 月、促銷價 $2/$10 per Mtok、1M context 變體可用，已出現在 Claude Code v2.1.197 模型選擇器中。",
-              "tweet_id": "2071952099802308756",
+              "text": "Anthropic 正式發布 Claude Sonnet 5，定位為「最具 agent 性的 Sonnet」，近 Opus 4.8 水準但更便宜，已成為 Claude Code Pro 用戶預設模型。",
+              "tweet_id": "2072016643992248600",
               "file": "audio/2026-07-01/001.mp3"
             },
             {
               "index": 2,
-              "text": "Claude Desktop 正式推出 Linux 版本（Ubuntu/Debian）beta，支援 Claude Code、Claude Cowork 與聊天功能。",
-              "tweet_id": "2071988881717871065",
+              "text": "Claude Sonnet 5 在 FrontierCode Extended 超越 Opus 4.8，CursorBench 得分 57%（Sonnet 4.6 為 49%），但有人質疑其定價與 Opus 4.8 Max 僅差 $0.72，性價比不明顯。",
+              "tweet_id": "2072032758331846916",
               "file": "audio/2026-07-01/002.mp3"
             },
             {
               "index": 3,
-              "text": "Claude Science 發布：專為研究設計的新應用，支援 Artifacts 追溯程式碼、環境隨需管理、60+ 科學資料庫整合。",
-              "tweet_id": "2072002740830842899",
+              "text": "Claude Sonnet 5 已整合至 Cursor、Devin、Bolt、GitHub Copilot、OpenRouter、AI Gateway、Command Code 等平台，促銷價 $2/M in、$10/M out 至八月底。",
+              "tweet_id": "2072020173872325088",
               "file": "audio/2026-07-01/003.mp3"
             },
             {
               "index": 4,
-              "text": "Google 發布 Nano Banana 2 Lite（GA）與 Gemini Omni Flash（preview）：Nano Banana 2 Lite 生成圖片 <4 秒、僅 $0.034/千張，為最快最便宜的 Gemini 圖像模型；Omni Flash 支援影片生成與編輯。",
-              "tweet_id": "2071988351083921690",
+              "text": "Claude Sonnet 5 單一 HTML 檔案生成完整 macOS 桌面複製品（登入畫面、Dock、可調整視窗），展示前端能力。",
+              "tweet_id": "2072028272787853670",
               "file": "audio/2026-07-01/004.mp3"
             },
             {
               "index": 5,
-              "text": "OpenAI 工程師開發的優化將推論成本降低超過一半，部署於未登入 ChatGPT 流量後減少 GPU 使用量。",
-              "tweet_id": "2071983555593330878",
+              "text": "Anthropic 同步推出 Claude Science beta 版，連接超過 60 個科學資料庫支援完整研究流程。",
+              "tweet_id": "2072003223787897309",
               "file": "audio/2026-07-01/005.mp3"
             },
             {
               "index": 6,
-              "text": "Etched 正式走出隱身模式：成功 A0 流片、$10億+ 客戶合約、$8億融資，SOTA 推論吞吐量與延遲，硬編碼 attention 進晶片達到極高 MFU。",
-              "tweet_id": "2071974600548958480",
+              "text": "Claude Desktop 正式登陸 Linux（Ubuntu/Debian）beta 版，支援 Claude Code、Claude Cowork 與聊天。",
+              "tweet_id": "2071988881717871065",
               "file": "audio/2026-07-01/006.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🛠️ 開發工具與 AI 編碼",
-          "items": [
+            },
             {
               "index": 7,
-              "text": "Hermes Agent 網頁抓取速度提升 60 倍、成本降低 49 倍，同時發布 Mixture of Agents 2.0：GPT-5.5、DeepSeek V4、Sonnet 4.6 作為參考模型，Opus 4.8 聚合，綜合表現比單獨 Opus 高 8%。",
-              "tweet_id": "2071974594961977727",
+              "text": "Google 發布 Gemini Omni Flash 影片生成模型，支援多模態輸入、對話式場景保持編輯、改善物理模擬。",
+              "tweet_id": "2071989946827624801",
               "file": "audio/2026-07-01/007.mp3"
             },
             {
               "index": 8,
-              "text": "Loop Engineering 成為熱門概念：Claude Code 創建者 Boris Cherny 與 OpenClaw 創建者 Peter Steinberger 分享後引爆社群，迴圈現已成為 harness 工程核心。",
-              "tweet_id": "2071988145667928442",
+              "text": "Gemini 3.1 Flash Lite Image（Nano Banana 2 Lite）上線 AI Gateway，成本僅前代一半。",
+              "tweet_id": "2072007690604388498",
               "file": "audio/2026-07-01/008.mp3"
             },
             {
               "index": 9,
-              "text": "Tempo Labs 發布：結合 Linear + Figma + Notion，圍繞程式碼庫與 coding agent 重建的產品團隊全功能應用。",
-              "tweet_id": "2071981307026895322",
+              "text": "Gemma 4 31B 在 Cerebras 上達到 1,800+ tokens/sec，進入公開預覽。",
+              "tweet_id": "2072041004753121643",
               "file": "audio/2026-07-01/009.mp3"
             },
             {
               "index": 10,
-              "text": "Vercel Container Registry（VCR）上線，支援 Docker/OCI 部署、多框架單專案。",
-              "tweet_id": "2071983257022038520",
+              "text": "Kimi K2.7 Code 在 Questflow 免費開放；Kimi K3 預計七月發布。",
+              "tweet_id": "2071857256321409492",
               "file": "audio/2026-07-01/010.mp3"
             },
             {
               "index": 11,
-              "text": "Devin Fusion 展示：sidekick 模型處理資訊抓取，frontier 模型規劃並委派子任務。",
-              "tweet_id": "2071974121177481674",
+              "text": "Seed Audio 1.0 開放企業申請，單次生成語音、音樂與音效。",
+              "tweet_id": "2071954152620732848",
               "file": "audio/2026-07-01/011.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🔒 安全與爭議",
+          "items": [
             {
               "index": 12,
-              "text": "NotebookLM 推出 Short Video Overviews，可將複雜資料轉為 60 秒垂直短影片。",
-              "tweet_id": "2071987494799716626",
+              "text": "Claude Code 被指偵測中國代理用戶的時區與 proxy 設定，在 system prompt 注入不可見 Unicode 標記，引發大量封號事件。",
+              "tweet_id": "2072000592822915162",
               "file": "audio/2026-07-01/012.mp3"
             },
             {
               "index": 13,
-              "text": "June 發布：Mac 本地隱私 AI，整合 agent、語音聽寫，所有資料留在裝置上。",
-              "tweet_id": "2071957858975977570",
+              "text": "獨立驗證報告與 Reddit 帖子確認此「水印」行為，社群質疑 Anthropic 將反濫用機制暗藏於用戶不知情的層級。",
+              "tweet_id": "2071995057247297924",
               "file": "audio/2026-07-01/013.mp3"
             },
             {
               "index": 14,
-              "text": "WorkOS 推出 API Gateway：處理 AuthKit sessions、API keys、agent 流量的統一存取層。",
-              "tweet_id": "2071979355677548719",
+              "text": "多名用戶反映 Claude 帳號無預警被封，原因不明，社群形容為「大型賽博掃黃現場」。",
+              "tweet_id": "2071746022976696349",
               "file": "audio/2026-07-01/014.mp3"
-            },
-            {
-              "index": 15,
-              "text": "Linear 自動分類 bug 後直接進行程式碼調查並開啟 PR。",
-              "tweet_id": "2071983086708150721",
-              "file": "audio/2026-07-01/015.mp3"
             }
           ]
         },
         {
-          "name": "💰 穩定幣與金融",
+          "name": "🛠️ 開發工具與平台",
           "items": [
             {
+              "index": 15,
+              "text": "「Loop engineering」成為熱門概念，Claude Code 創建者 Boris Cherny 與 OpenClaw 創建者 Peter Steinberger 的相關討論爆紅。",
+              "tweet_id": "2071988145667928442",
+              "file": "audio/2026-07-01/015.mp3"
+            },
+            {
               "index": 16,
-              "text": "Open Standard 穩定幣 $OUSD 正式公布，Visa、Stripe、Mastercard、BlackRock、Coinbase、American Express 等數十家金融巨頭加入，合作夥伴共享收益。",
-              "tweet_id": "2071948949036945863",
+              "text": "Hermes Agent 發布 Mixture of Agents 2.0，混合 GPT-5.5、DeepSeek V4、Sonnet 4.6 作參考模型，Opus 4.8 聚合，比單用 Opus 高 8%。",
+              "tweet_id": "2071758140727865587",
               "file": "audio/2026-07-01/016.mp3"
             },
             {
               "index": 17,
-              "text": "Amazon 計劃在波蘭開設全機器人物流中心，同時宣布招聘 11,000 個入門級職位。",
-              "tweet_id": "2071952288441413788",
+              "text": "AgentField 推出 Loop engineering 改進，支援 Python、TypeScript、Go 的 harness orchestration。",
+              "tweet_id": "2071642437278187572",
               "file": "audio/2026-07-01/017.mp3"
             },
             {
               "index": 18,
-              "text": "Schneider Electric 以 31 億美元收購 Cognite，擴展工業數據與 AI 軟體業務。",
-              "tweet_id": "2071990372121686022",
+              "text": "GeneBench-Pro 發布：研究級基準測試 AI agent 處理混亂生物資料的能力。",
+              "tweet_id": "2072004836674167294",
               "file": "audio/2026-07-01/018.mp3"
             },
             {
               "index": 19,
-              "text": "VC 公開呼籲歡迎 AI 泡沫破裂：認為泡沫破滅後將重新分配資本至真正有用的應用。",
-              "tweet_id": "2071944829882560525",
+              "text": "Vercel 發布 Services 功能（Python + Express + React SPA 共存）；Vercel Ship NYC 同日舉行。",
+              "tweet_id": "2071966055308607765",
               "file": "audio/2026-07-01/019.mp3"
             },
             {
               "index": 20,
-              "text": "Polymarket 市場誠信機制再次成功標記內線交易者被捕。",
-              "tweet_id": "2059743586216800506",
+              "text": "Node.js（Nub）新增 Web Worker API，關閉最高票功能請求，與 Bun/Cloudflare Workers 對齊。",
+              "tweet_id": "2071993747982930429",
               "file": "audio/2026-07-01/020.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🌍 法律與政治",
-          "items": [
+            },
             {
               "index": 21,
-              "text": "美國最高法院 5-4 維護出生公民權，駁回 Trump 限制行政命令，憲法學者指出憲法「以一票之差倖存」。",
-              "tweet_id": "2071985347685454224",
+              "text": "Lovable 推出自動化專案監控 beta 版。",
+              "tweet_id": "2072011704318247364",
               "file": "audio/2026-07-01/021.mp3"
             },
             {
               "index": 22,
-              "text": "最高法院 6-3 維持州法允許生理性別區分女子運動隊伍。",
-              "tweet_id": "2071959868953518216",
+              "text": "Apple Creator Studio 更新：Final Cut Pro AI 字幕、Logic Pro 和弦辨識重建。",
+              "tweet_id": "2072010649337741760",
               "file": "audio/2026-07-01/022.mp3"
             },
             {
               "index": 23,
-              "text": "最高法院支持 JD Vance 提出的取消競選支出上限挑戰，共和黨中期選舉利多。",
-              "tweet_id": "2071965086327906316",
+              "text": "AWS WAF 新增支援 Bedrock AgentCore Gateway。",
+              "tweet_id": "2071731288646774813",
               "file": "audio/2026-07-01/023.mp3"
             },
             {
               "index": 24,
-              "text": "摩納哥發生恐怖攻擊，震驚歐洲社群。",
-              "tweet_id": "2071944337156374690",
+              "text": "Nvidia 的 Qwen 3.6 27B NVFP4 在 DGX Spark 上比 Unsloth 版快 41%。",
+              "tweet_id": "2072034145681756521",
               "file": "audio/2026-07-01/024.mp3"
             },
             {
               "index": 25,
-              "text": "莫斯科遭大規模無人機夜襲。",
-              "tweet_id": "2071867129318523034",
+              "text": "GLM-5.2（744B MoE）被量化至 4-bit 可跑在 4×H200 上，品質持平 FP8。",
+              "tweet_id": "2071435463928525108",
               "file": "audio/2026-07-01/025.mp3"
-            },
-            {
-              "index": 26,
-              "text": "Warren Buffett 暫停對 Gates Foundation 中期捐款，等待 Epstein 審查完成。",
-              "tweet_id": "2071980862875336908",
-              "file": "audio/2026-07-01/026.mp3"
             }
           ]
         },
         {
-          "name": "🏭 產業與安全",
+          "name": "💡 研究與突破",
           "items": [
             {
+              "index": 26,
+              "text": "一個「prover-verifier」LLM 迴圈解決 9 個實質性開放數學問題，令人重新評估 LLM 通用數學研究能力。",
+              "tweet_id": "2071940117875282030",
+              "file": "audio/2026-07-01/026.mp3"
+            },
+            {
               "index": 27,
-              "text": "Anthropic 被比喻為「中國共產黨式家長制」：自以為是的先鋒黨、貓鼠遊戲式的用戶偵測。",
-              "tweet_id": "2071988067838357578",
+              "text": "Neuralink 首次實現穿透硬腦膜植入電極，無需切開即可穿過大腦最堅韌的保護層。",
+              "tweet_id": "2072026718467166512",
               "file": "audio/2026-07-01/027.mp3"
             },
             {
               "index": 28,
-              "text": "中國 AI 軟實力戰爭正在勝出：Dario/Sam 談 AI 毀滅工作，中國實驗室則釋出便宜模型贏得開源生態。",
-              "tweet_id": "2071816245889138875",
+              "text": "PhysiFormer 發布：統一模型直接在 3D 空間生成物理合理的多物體多材質 4D 動態。",
+              "tweet_id": "2071993454729560499",
               "file": "audio/2026-07-01/028.mp3"
             },
             {
               "index": 29,
-              "text": "美團 LongCat-2.0 以 1.6T 參數在 ASIC 上完成訓練，展示中國食物外送巨頭的企業 AI 自建模式。",
-              "tweet_id": "2071987951299432579",
+              "text": "Mira Murati 表示下一代 AI 介面不是聊天機器人，而是能即時聆聽、觀看、打斷並回應的模型。",
+              "tweet_id": "2071907907420205526",
               "file": "audio/2026-07-01/029.mp3"
-            },
-            {
-              "index": 30,
-              "text": "塔塔印度工廠洩露 630GB Apple 供應鏈資料，為蘋果史上最嚴重。",
-              "tweet_id": "2071926432373276759",
-              "file": "audio/2026-07-01/030.mp3"
-            },
-            {
-              "index": 31,
-              "text": "HeyGen 創下最長單次 AI 影片生成紀錄：30 分鐘連續生成，6 倍業界天花板。",
-              "tweet_id": "2071998058402042231",
-              "file": "audio/2026-07-01/031.mp3"
-            },
-            {
-              "index": 32,
-              "text": "Aikido 收購 Root，整合供應鏈攻擊防禦與開源安全。",
-              "tweet_id": "2071976237590003752",
-              "file": "audio/2026-07-01/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "NVIDIA FP4 研究：從壓縮工具進化為 LLM 訓練與推論的實用基元。",
-              "tweet_id": "2071987755295613196",
-              "file": "audio/2026-07-01/033.mp3"
             }
           ]
         },
         {
-          "name": "⚽ 世界盃",
+          "name": "💰 商業與投資",
           "items": [
             {
+              "index": 30,
+              "text": "Warren Buffett 因審查 Bill Gates 的 Epstein 關係，跳過對蓋茲基金會的年度數十億美元捐款。",
+              "tweet_id": "2071936036188443121",
+              "file": "audio/2026-07-01/030.mp3"
+            },
+            {
+              "index": 31,
+              "text": "Meta 限制員工使用競爭對手 AI 產品。",
+              "tweet_id": "2071949440223506501",
+              "file": "audio/2026-07-01/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "Coinbase 向 SEC 註冊 AI agent 為投資顧問，內部已運行超過 1,200 個活躍 agent。",
+              "tweet_id": "2071300721794785689",
+              "file": "audio/2026-07-01/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "研究顯示採用 AI 的企業成長更快，最大 AI 投資者就業增長率也更高，反駁「AI 取代人類」敘事。",
+              "tweet_id": "2071919757209502205",
+              "file": "audio/2026-07-01/033.mp3"
+            },
+            {
               "index": 34,
-              "text": "巴拉圭淘汰德國引發全球討論，Klopp 批評 Tah 進球被取消的判罰。",
-              "tweet_id": "2071841615816065536",
+              "text": "Rocket Lab 收購 Iridium 為策略性三重複合成長佈局。",
+              "tweet_id": "2071683062069338236",
               "file": "audio/2026-07-01/034.mp3"
             },
             {
               "index": 35,
-              "text": "巴西擊敗日本，Casemiro 34 歲仍然主導比賽，即將加盟 Inter Miami。",
-              "tweet_id": "2071798399121137878",
+              "text": "SpaceXAI 在 Memphis 投入社區回饋：50% Starlink 折扣、預計稅收破 1 億、近 3,000 本地就業。",
+              "tweet_id": "2072029549857231062",
               "file": "audio/2026-07-01/035.mp3"
             },
             {
               "index": 36,
-              "text": "日本出局後球場清潔文化再次獲全球讚譽。",
-              "tweet_id": "2071674132895260690",
+              "text": "Apple 收購 Play 設計工具，Xcode Design Mode 即將到來。",
+              "tweet_id": "2071651083479371972",
               "file": "audio/2026-07-01/036.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🌍 政治與法律",
+          "items": [
             {
               "index": 37,
-              "text": "LeBron James 宣布 2026-27 賽季將離開湖人續戰 NBA。",
-              "tweet_id": "2071988062259736871",
+              "text": "美國最高法院裁定支持出生公民權，保守派大法官 Alito 強烈反對，稱為「嚴重影響國家未來的錯誤」。社群激烈辯論「生育旅遊」是否成為憲法權利。",
+              "tweet_id": "2071967426086945041",
               "file": "audio/2026-07-01/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "佛羅里達州議會通過正式廢除全州財產稅。",
+              "tweet_id": "2071912935346024661",
+              "file": "audio/2026-07-01/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "最高法院同時裁定各州可限制女子校隊僅限生理女性參加，符合 Title IX。",
+              "tweet_id": "2071962407816069342",
+              "file": "audio/2026-07-01/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "Crypto Clarity Act 不再預期今年簽署成法。",
+              "tweet_id": "2072047704197201968",
+              "file": "audio/2026-07-01/040.mp3"
+            },
+            {
+              "index": 41,
+              "text": "FAA 正式為超音速飛行清路，馬赫 1 商業航班時代即將到來。",
+              "tweet_id": "2072003124349317431",
+              "file": "audio/2026-07-01/041.mp3"
+            }
+          ]
+        },
+        {
+          "name": "⚽ 體育與世界盃",
+          "items": [
+            {
+              "index": 42,
+              "text": "Erling Haaland 為挪威國家隊達成 53 場 60 球里程碑，挪威 2-1 擊敗象牙海岸將對陣巴西。",
+              "tweet_id": "2072029737585700909",
+              "file": "audio/2026-07-01/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "Amad Diallo 為象牙海岸攻入扳平球。",
+              "tweet_id": "2072026271765172339",
+              "file": "audio/2026-07-01/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "日本隊出局回家。",
+              "tweet_id": "2071700984032895400",
+              "file": "audio/2026-07-01/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "FIFA 世界盃中場廣告被批評不適合足球運動。",
+              "tweet_id": "2072025232697688148",
+              "file": "audio/2026-07-01/045.mp3"
+            },
+            {
+              "index": 46,
+              "text": "LeBron James 確認離開湖人，將以創紀錄第 24 季在其他球隊效力。",
+              "tweet_id": "2072042758408216780",
+              "file": "audio/2026-07-01/046.mp3"
+            }
+          ]
+        },
+        {
+          "name": "📱 科技與社群",
+          "items": [
+            {
+              "index": 47,
+              "text": "WhatsApp 推出用戶名功能引發隱私爭議：任何人可搜尋用戶名直接發訊息。",
+              "tweet_id": "2071660494734405764",
+              "file": "audio/2026-07-01/047.mp3"
+            },
+            {
+              "index": 48,
+              "text": "XChat 正式登陸 Android。",
+              "tweet_id": "2072018060869775379",
+              "file": "audio/2026-07-01/048.mp3"
+            },
+            {
+              "index": 49,
+              "text": "Firefox 內建每月 50GB 免費 VPN 流量，需手動啟用。",
+              "tweet_id": "2071963210689970673",
+              "file": "audio/2026-07-01/049.mp3"
+            },
+            {
+              "index": 50,
+              "text": "塔塔電子洩露 Apple 印度工廠資料，據傳包含 iPhone 18 Pro 主板原理圖。",
+              "tweet_id": "2071917114089210144",
+              "file": "audio/2026-07-01/050.mp3"
+            },
+            {
+              "index": 51,
+              "text": "中國產出全球 38% 頂尖 AI 研究者，但美國仍吸引最多頂尖人才實際工作。",
+              "tweet_id": "2071662498500231482",
+              "file": "audio/2026-07-01/051.mp3"
+            },
+            {
+              "index": 52,
+              "text": "Ford CEO 承認中國在全球 EV 市場「完全主導」，Tesla/GM/Ford 無法與之競爭。",
+              "tweet_id": "2071774046992109849",
+              "file": "audio/2026-07-01/052.mp3"
             }
           ]
         },
