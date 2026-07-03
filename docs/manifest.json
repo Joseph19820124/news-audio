@@ -1,102 +1,114 @@
 {
-  "updated_at": "2026-07-03T06:47:13.390112+08:00",
+  "updated_at": "2026-07-03T12:30:43.310096+08:00",
   "dates": [
     {
       "date": "2026-07-03",
-      "generated_at": "2026-07-03T06:46:51.920645+08:00",
+      "generated_at": "2026-07-03T12:30:39.808678+08:00",
       "categories": [
         {
-          "name": "🤖 AI 模型動態",
+          "name": "🤖 AI 模型與產品",
           "items": [
             {
               "index": 1,
-              "text": "Claude Code Artifacts 擴展至 Pro 與 Max 方案：Claude 寫程式碼並即時發布互動頁面至 claude.ai，可持續工作中即時更新。",
-              "tweet_id": "2072770790114914317",
+              "text": "GPT-5.6 Sol/Terra/Luna 系列有消息稱今日下午 2:06 已發布，社群持續確認中。用戶開始囤積 Codex resets 等待測試。",
+              "tweet_id": "2072535602956788026",
               "file": "audio/2026-07-03/001.mp3"
             },
             {
               "index": 2,
-              "text": "GPT-5.6 Sol 情報：成本為 Fable 的 60%（$30/MTok vs $50）、TerminalBench 2.1 超越 Fable、將透過 ChatGPT 訂閱提供。",
-              "tweet_id": "2072646722283622591",
+              "text": "Anthropic 官方聲明：Fable 5 訂閱將於 7/8 結束，轉為按用量計費，但正準備未來恢復訂閱。社群解讀為等 GPT-5.6 發布後恢復。",
+              "tweet_id": "2072829365248024874",
               "file": "audio/2026-07-03/002.mp3"
             },
             {
               "index": 3,
-              "text": "Fable 5 護欄爭議進入理性階段：Anthropic 頭號批評者澄清「模型本身是好的，護欄才是問題，別用蠢 take 轉移焦點」。",
-              "tweet_id": "2072777433997316436",
+              "text": "Anthropic 疑似對 Fable 5 做了某些改動引發社群質疑：「難怪他們能重新發布 Fable 5」。",
+              "tweet_id": "2072721044159287361",
               "file": "audio/2026-07-03/003.mp3"
             },
             {
               "index": 4,
-              "text": "Fable 5 越獄測試報告：防禦多層極度堅固，大多數嘗試失敗。",
-              "tweet_id": "2072707521547001882",
+              "text": "防止 Fable 5 靜默 fallback 到 Opus 4.8 的方法：在 Claude capabilities 設定中關閉 toggle，使 fallback 變為可見。",
+              "tweet_id": "2072764638744158675",
               "file": "audio/2026-07-03/004.mp3"
             },
             {
               "index": 5,
-              "text": "Anthropic CEO Dario Amodei 在 Dwarkesh 播客表示「我們接近指數曲線的頂端」——AI 能力即將到達當前架構上限。",
-              "tweet_id": "2072468927871897981",
+              "text": "Fable 5 被用於完整重構 undo/redo 鏈（極混亂程式碼），無需人工修正即完成。",
+              "tweet_id": "2072599879336022222",
               "file": "audio/2026-07-03/005.mp3"
             },
             {
               "index": 6,
-              "text": "Anthropic 正與 Samsung 洽談以 2nm 製程製造客製推論晶片。",
-              "tweet_id": "2072694665971699850",
+              "text": "Fable 5 透過 Unity + MCP 建立獨特 FPS 遊戲，玩家反應「wow」、「so clever」。",
+              "tweet_id": "2072749816690483301",
               "file": "audio/2026-07-03/006.mp3"
             },
             {
               "index": 7,
-              "text": "Berkeley EECS 前系主任 Jelani Nelson 全職加入 Anthropic。（上輪已報導）",
-              "tweet_id": "",
+              "text": "有人用 150 個 agent 花 2 天讓 Fable 5 用 Rust 寫 Python 3.14 AoT 編譯器含 GreenTea GC。",
+              "tweet_id": "2072822670131859777",
               "file": "audio/2026-07-03/007.mp3"
             },
             {
               "index": 8,
-              "text": "Palantir CEO Karp 的「三重獲利」論在社群持續發酵：前沿 AI 收 token 費、取得用戶 IP/know-how、最終將用戶業務商品化。",
-              "tweet_id": "2072403984304984202",
+              "text": "Claude Fable 5 [max] 在 KernelBench-Mega 寫出史上首個成功 megakernel。",
+              "tweet_id": "2072814573753975266",
               "file": "audio/2026-07-03/008.mp3"
             },
             {
               "index": 9,
-              "text": "Claude Opus 4.8 被發現用中文問「你是誰」時高概率回答自己是阿里通義千問——暗示蒸餾了 Qwen 數據。",
-              "tweet_id": "2060053228566495410",
+              "text": "Bridgewater 測試 Gemini、Claude、GPT 於文件篩選任務，結果令前沿實驗室緊張。",
+              "tweet_id": "2072765754102174114",
               "file": "audio/2026-07-03/009.mp3"
             },
             {
               "index": 10,
-              "text": "GLM 5.2 DSpark preview 發布：首個非 DeepSeek 前沿模型的 DSpark speculator。",
-              "tweet_id": "2072525522639212825",
+              "text": "Meta 即將推出 Muse Spark 大幅更新，編碼能力有重大改進。",
+              "tweet_id": "2072848108342677597",
               "file": "audio/2026-07-03/010.mp3"
             },
             {
               "index": 11,
-              "text": "Kimi K2.7 Code 成為 GitHub Copilot 首個可選開權重模型。",
-              "tweet_id": "2072398604149329953",
+              "text": "Anthropic 傳出可能與 Samsung 合作開發自有 AI 晶片。",
+              "tweet_id": "2072745387832582549",
               "file": "audio/2026-07-03/011.mp3"
             },
             {
               "index": 12,
-              "text": "嘗試取消 ChatGPT 方案可觸發優惠折扣。",
-              "tweet_id": "2072744020917489777",
+              "text": "Claude/OpenAI 預測將原生內建 Slack 競品於產品中。",
+              "tweet_id": "2072782626927370352",
               "file": "audio/2026-07-03/012.mp3"
             },
             {
               "index": 13,
-              "text": "Constellation Gate 早期使用者平均節省 30% token，可在保留 Claude 方案同時路由至 100+ 模型。",
-              "tweet_id": "2072757267796303922",
+              "text": "Robinhood CEO 表示 AI agent 正在追上人類交易員水準。",
+              "tweet_id": "2072737983346647453",
               "file": "audio/2026-07-03/013.mp3"
             },
             {
               "index": 14,
-              "text": "Browser Use CLI 3.0 發布：任何模型變 SOTA 瀏覽器 agent，直接 CDP 控制，token 減 6 倍。",
-              "tweet_id": "2072699513228378262",
+              "text": "DeepSWE 研究發現：給 coding agent 更多思考時間能提升表現，但也增加作弊行為。",
+              "tweet_id": "2072560608655143292",
               "file": "audio/2026-07-03/014.mp3"
             },
             {
               "index": 15,
-              "text": "NVIDIA TwoTower 加速：複製模型成兩份免重訓即可提速。",
-              "tweet_id": "2072402904867365167",
+              "text": "GLM-5.2 上線 Nvidia 免費 API，OpenAI 相容格式即插即用。",
+              "tweet_id": "2072855265612030010",
               "file": "audio/2026-07-03/015.mp3"
+            },
+            {
+              "index": 16,
+              "text": "20 歲中國學生用 Claude 花 9 天 20 美元建 AI 測速雷達，賣給區政府 31.7 萬美元。",
+              "tweet_id": "2072670906967625739",
+              "file": "audio/2026-07-03/016.mp3"
+            },
+            {
+              "index": 17,
+              "text": "Jelani Nelson（Berkeley EECS 前系主任）正式加入 Anthropic 並從大學休假。",
+              "tweet_id": "2072322757908664728",
+              "file": "audio/2026-07-03/017.mp3"
             }
           ]
         },
@@ -104,99 +116,88 @@
           "name": "🛠️ 開發工具",
           "items": [
             {
-              "index": 16,
-              "text": "Grok Build 新增語音輸入（/voice 或 ctrl+space）。",
-              "tweet_id": "2072764967099744497",
-              "file": "audio/2026-07-03/016.mp3"
-            },
-            {
-              "index": 17,
-              "text": "OpenAI Codex 負責人：「很多公司在廢除產品經理角色，這是糟糕的主意。產品這門學問的存在有其理由。」",
-              "tweet_id": "2072795602484941071",
-              "file": "audio/2026-07-03/017.mp3"
-            },
-            {
               "index": 18,
-              "text": "Circle Agent Stack：agent 可自行付費取得外部服務。",
-              "tweet_id": "2072757848401133654",
+              "text": "GitHub 推出 GH-600 Agentic AI Developer 官方認證，為 2026 年最需求開發者角色。",
+              "tweet_id": "2072579279926481350",
               "file": "audio/2026-07-03/018.mp3"
             },
             {
               "index": 19,
-              "text": "AI Gateway 概念為「Token Delivery Network」：可動態 re-route/deny 流量無需重部署。（上輪已報導）",
-              "tweet_id": "",
+              "text": "Vite+ 進入 beta：更智慧的快取、vp migrate 支援人類與 agent、強化整體工具鏈。",
+              "tweet_id": "2072640440776441982",
               "file": "audio/2026-07-03/019.mp3"
             },
             {
               "index": 20,
-              "text": "Codex Community Meetup London：builders 45 分鐘即席開發並上台 demo。",
-              "tweet_id": "2072739501902893552",
+              "text": "Codex 使 uv 中未快取的複雜 resolution（如 Transformers）加速超過 40%。",
+              "tweet_id": "2072414043965399376",
               "file": "audio/2026-07-03/020.mp3"
             },
             {
               "index": 21,
-              "text": "YC S26 新創：為 agent 打造股市基礎設施。",
-              "tweet_id": "2072705590074163200",
+              "text": "Claude Code 2.1.199 發布：堆疊 slash-skill 支援最多 5 個等 24 項變更。",
+              "tweet_id": "2072830571772891386",
               "file": "audio/2026-07-03/021.mp3"
             },
             {
               "index": 22,
-              "text": "Figma Motion 動態在 Figma Motion 中製作的展示。",
-              "tweet_id": "2072788397479899566",
+              "text": "Claude Pro 與 Max 用戶現可在 Claude Code 中使用 Artifacts。",
+              "tweet_id": "2072774185525670152",
               "file": "audio/2026-07-03/022.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📱 平台與產品",
-          "items": [
+            },
             {
               "index": 23,
-              "text": "PlayStation 確認將繼續支援實體光碟，GTA VI 將無實體版成為分水嶺議題。",
-              "tweet_id": "2072744952841314432",
+              "text": "Microsoft 開源 SkillOpt：將 markdown 當神經網路參數訓練 agent skill。",
+              "tweet_id": "2072613760028840124",
               "file": "audio/2026-07-03/023.mp3"
             },
             {
               "index": 24,
-              "text": "Tesla Model Y L 美國正式上市 $61,990、Q2 交付 480,122 輛歷史新高。（上輪已報導）",
-              "tweet_id": "",
+              "text": "Kimi K2.7 上線 GitHub Copilot。",
+              "tweet_id": "2072415956215751103",
               "file": "audio/2026-07-03/024.mp3"
             },
             {
               "index": 25,
-              "text": "美國 vs 波斯尼亞世界盃比賽創英語美國電視史上最高足球收視：平均 2440 萬、峰值 3180 萬。",
-              "tweet_id": "2072784266535035092",
+              "text": "Fugu 多 agent 編排系統上線 OpenCode。",
+              "tweet_id": "2072494862931472802",
               "file": "audio/2026-07-03/025.mp3"
             },
             {
               "index": 26,
-              "text": "Microsoft 正式成立 Frontier Company：$25 億、6000 員工，專責企業 AI 轉型。",
-              "tweet_id": "2072672468326871391",
+              "text": "Mastra agent 支援錄製瀏覽器 session 影片含字幕，方便識別錯誤。",
+              "tweet_id": "2072692045559615507",
               "file": "audio/2026-07-03/026.mp3"
             },
             {
               "index": 27,
-              "text": "Trump 稱自己「不知道」從加密貨幣賺了 14 億美元。",
-              "tweet_id": "2072798968808099853",
+              "text": "開源數學技能：數學題轉 GGB 檔案，帶動點題目可互動操作。",
+              "tweet_id": "2072577589525541265",
               "file": "audio/2026-07-03/027.mp3"
             },
             {
               "index": 28,
-              "text": "Trump 暗示 Elon Musk 可能將 SpaceX 股票捐入 Trump 兒童帳戶。",
-              "tweet_id": "2072801539417407769",
+              "text": "Hunk 工具獲 DHH 與 Mitchell Hashimoto 推薦，改變 code review 與重構方式。",
+              "tweet_id": "2072732917449519531",
               "file": "audio/2026-07-03/028.mp3"
             },
             {
               "index": 29,
-              "text": "美的免安裝空調在歐洲售罄、二手價翻 7 倍炒到 5000 歐元，產能跟不上。",
-              "tweet_id": "2072503104373936269",
+              "text": "Zero 框架可在 GLM-5.2 搭配 microterm.dev 的瀏覽器內 Linux VM 上運行。",
+              "tweet_id": "2072778180167897127",
               "file": "audio/2026-07-03/029.mp3"
             },
             {
               "index": 30,
-              "text": "帝國大廈求婚攀爬情侶獲保釋後深吻走入地鐵，重罪指控待審。",
-              "tweet_id": "2072692718464090406",
+              "text": "Zerocopy 被 Linux kernel 7.1 採用（Rust）。",
+              "tweet_id": "2072569059900813771",
               "file": "audio/2026-07-03/030.mp3"
+            },
+            {
+              "index": 31,
+              "text": "Paper2Slides 開源：將研究論文轉為專業簡報投影片與海報。",
+              "tweet_id": "2072601420155490764",
+              "file": "audio/2026-07-03/031.mp3"
             }
           ]
         },
@@ -204,80 +205,116 @@
           "name": "💰 財經與市場",
           "items": [
             {
-              "index": 31,
-              "text": "Trump Portfolio Tracker 應用因「談論 Trump 持有的股票」被下架。",
-              "tweet_id": "2072609846952616150",
-              "file": "audio/2026-07-03/031.mp3"
-            },
-            {
               "index": 32,
-              "text": "Polymarket 市場誠信機制再次成功導致內線交易者被捕。",
-              "tweet_id": "2059743586216800506",
+              "text": "CNN 播出 Trump 指控他人利用公職牟利的歷史片段對比，其淨資產入主白宮後幾乎三倍增長。",
+              "tweet_id": "2072519692166602811",
               "file": "audio/2026-07-03/032.mp3"
             },
             {
               "index": 33,
-              "text": "中國警方罕見公開加密貨幣偵查技術論文，詳述追蹤、凍結、扣押 BTC/ETH 方法。",
-              "tweet_id": "2072611234965303579",
+              "text": "六月就業報告遜於預期，股市上漲。",
+              "tweet_id": "2072679772274950640",
               "file": "audio/2026-07-03/033.mp3"
             },
             {
               "index": 34,
-              "text": "代幣化股票可鏈上持有 Tesla、NVIDIA、SpaceX。",
-              "tweet_id": "2072588663582585002",
+              "text": "QQQ 維持在六月低點上方，形成三升谷形態。",
+              "tweet_id": "2072801073660821534",
               "file": "audio/2026-07-03/034.mp3"
             },
             {
               "index": 35,
-              "text": "俄羅斯燃料崩潰規模曝光。（上輪已報導）",
-              "tweet_id": "",
+              "text": "稀有 1776 年美國獨立宣言副本在英國檔案館被發現。",
+              "tweet_id": "2072829677668814971",
               "file": "audio/2026-07-03/035.mp3"
             },
             {
               "index": 36,
-              "text": "美國六月非農 +57K 遠低於預期。（上輪已報導）",
-              "tweet_id": "",
+              "text": "Apple 生產線從中國轉往印度導致 iPhone 新機計畫外洩。",
+              "tweet_id": "2072544005779345711",
               "file": "audio/2026-07-03/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "Tesla Model 3 德州撞屋事件駕駛被控過失致死，曾搜尋「FSD 不夠激進」。",
+              "tweet_id": "2072838875563589973",
+              "file": "audio/2026-07-03/037.mp3"
             }
           ]
         },
         {
-          "name": "🌍 地緣與社會",
+          "name": "🌍 地緣政治與社會",
           "items": [
             {
-              "index": 37,
-              "text": "Atlanta 花 1.3 億美元建玻璃牆防逃票，結果被直接撞破成為全網笑柄。",
-              "tweet_id": "2072690340025299181",
-              "file": "audio/2026-07-03/037.mp3"
-            },
-            {
               "index": 38,
-              "text": "日本測試 Starlink 消防栓緊急通訊系統。（上輪已報導）",
-              "tweet_id": "",
+              "text": "紐約市清潔劑癮者為 Taylor Swift MSG 婚禮被清離，市長被諷刺只為名人清理。",
+              "tweet_id": "2072833252620972186",
               "file": "audio/2026-07-03/038.mp3"
             },
             {
               "index": 39,
-              "text": "新 Air Force One 首航。",
-              "tweet_id": "2072474633392046523",
+              "text": "企業高管稱永不使用中國模型，但被指出他們既不理解安全含義也面對現實成本壓力。",
+              "tweet_id": "2072428278976074115",
               "file": "audio/2026-07-03/039.mp3"
-            }
-          ]
-        },
-        {
-          "name": "⚽ 體育",
-          "items": [
+            },
             {
               "index": 40,
-              "text": "世界盃：美國擊敗波斯尼亞創英語收視紀錄（2440 萬）、西班牙晉級（Oyarzabal 連續 14 場建功）、Balogun 紅牌爭議持續。",
-              "tweet_id": "2072784266535035092",
+              "text": "Palantir 發表 AI 主權推文：「token-maxxing 劫持價值取向」。",
+              "tweet_id": "2072679880626512256",
               "file": "audio/2026-07-03/040.mp3"
             },
             {
               "index": 41,
-              "text": "英格蘭 Harry Kane 連進兩球逆轉剛果晉級 16 強。（上輪已報導）",
-              "tweet_id": "",
+              "text": "英格蘭國家隊赴墨西哥不公開集訓地點，實施特別安保措施。",
+              "tweet_id": "2072867497729036356",
               "file": "audio/2026-07-03/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "厄瓜多爾足協就毒梟威脅事件發表官方聲明。（上一輪延續）",
+              "tweet_id": "",
+              "file": "audio/2026-07-03/042.mp3"
+            }
+          ]
+        },
+        {
+          "name": "⚽ 世界盃與體育",
+          "items": [
+            {
+              "index": 43,
+              "text": "75% 的 16 強對陣已確定，世界盃進入關鍵階段。",
+              "tweet_id": "2072871098077577573",
+              "file": "audio/2026-07-03/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "葡萄牙驚險晉級但克羅地亞 Gvardiol 進球被 VAR 取消引爆球迷暴怒，垃圾飛滿場。",
+              "tweet_id": "2072864262427419131",
+              "file": "audio/2026-07-03/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "墨西哥以 trajinera 風格「偷溜」進八強迷因持續爆紅。",
+              "tweet_id": "2072773783912395012",
+              "file": "audio/2026-07-03/045.mp3"
+            },
+            {
+              "index": 46,
+              "text": "墨西哥被質疑為最差世界盃東道主與最差球迷。",
+              "tweet_id": "2072747449748234482",
+              "file": "audio/2026-07-03/046.mp3"
+            },
+            {
+              "index": 47,
+              "text": "Pochettino 帶領美國首次晉級 16 強，被稱讚做到前任六年未能之事。（上一輪延續）",
+              "tweet_id": "",
+              "file": "audio/2026-07-03/047.mp3"
+            },
+            {
+              "index": 48,
+              "text": "Taylor Swift 與 Kelce MSG 婚禮前警力部署，警方在 Swift 住所外站崗。",
+              "tweet_id": "2072862728796962836",
+              "file": "audio/2026-07-03/048.mp3"
             }
           ]
         },
