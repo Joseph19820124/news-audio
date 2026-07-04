@@ -1,6 +1,115 @@
 {
-  "updated_at": "2026-07-04T06:42:20.545965+08:00",
+  "updated_at": "2026-07-05T00:42:30.674761+08:00",
   "dates": [
+    {
+      "date": "2026-07-05",
+      "generated_at": "2026-07-05T00:42:20.969940+08:00",
+      "categories": [
+        {
+          "name": "🤖 AI 模型與產品",
+          "items": [
+            {
+              "index": 1,
+              "text": "OpenAI/DeepMind/Stanford 研究者聯合文章：AI 讓執行變便宜，差異化在於「選對問題」而非「寫更多程式碼」。",
+              "tweet_id": "2073104617706008840",
+              "file": "audio/2026-07-05/001.mp3"
+            },
+            {
+              "index": 2,
+              "text": "Anthropic 發布官方 copy-paste prompt library 涵蓋完整建構生命週期，OpenAI 尚無同等物。",
+              "tweet_id": "2073167534476411121",
+              "file": "audio/2026-07-05/002.mp3"
+            },
+            {
+              "index": 3,
+              "text": "Fable 5 拒絕所有影片生成器、自寫渲染引擎/合成語音/生成式音樂展示「最大表現形式」（持續高互動，6.7K❤）。",
+              "tweet_id": "2073146169635598768",
+              "file": "audio/2026-07-05/003.mp3"
+            },
+            {
+              "index": 4,
+              "text": "Fable 5 省 token 方法持續擴散：利用圖片按像素計費（非文字量）的定價漏洞。",
+              "tweet_id": "2073306134551712015",
+              "file": "audio/2026-07-05/004.mp3"
+            },
+            {
+              "index": 5,
+              "text": "Superpowers 6.0 發布：經 Fable 5 優化，速度提升 50%、token 減少 60%、品質不變。",
+              "tweet_id": "2073415017433821640",
+              "file": "audio/2026-07-05/005.mp3"
+            },
+            {
+              "index": 6,
+              "text": "實際費用對比：Fable 5 Max $55.14/Sonnet 5 Max $77.83/GLM 5.2 Max $38.20/Composer 2.5 Fast $42。",
+              "tweet_id": "2073395091499057182",
+              "file": "audio/2026-07-05/006.mp3"
+            },
+            {
+              "index": 7,
+              "text": "Anthropic 已超過一個月封鎖新註冊——算力極度受限。",
+              "tweet_id": "2073100465651466309",
+              "file": "audio/2026-07-05/007.mp3"
+            },
+            {
+              "index": 8,
+              "text": "Claude Desktop 正式以 beta 登陸 Linux（Ubuntu/Debian），支援 Chat/Cowork/Code，尚不含 Computer Use。",
+              "tweet_id": "2073285935626924176",
+              "file": "audio/2026-07-05/008.mp3"
+            },
+            {
+              "index": 9,
+              "text": "「永遠不要不用 KV cache 建 LLM app——你在為每個 token 付 O(n²) attention 的代價」。",
+              "tweet_id": "2073120614957908195",
+              "file": "audio/2026-07-05/009.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具",
+          "items": [
+            {
+              "index": 10,
+              "text": "Mole CLI 大量更新：輸出重新設計、更智慧的卸載偵測、大型 repo 清理速度大幅提升。",
+              "tweet_id": "2073416680789692519",
+              "file": "audio/2026-07-05/010.mp3"
+            },
+            {
+              "index": 11,
+              "text": "Cloudflare Wrangler CLI 與 code agents 的連接被稱讚「跨環境都很穩固」。",
+              "tweet_id": "2073202979893617068",
+              "file": "audio/2026-07-05/011.mp3"
+            },
+            {
+              "index": 12,
+              "text": "AlphaRadar agent 上架 OKX.AI：給定代幣/鏈後跑 8 步鏈上研究管線，輸出帶評分研報 + 買賣建議。",
+              "tweet_id": "2073383860755145152",
+              "file": "audio/2026-07-05/012.mp3"
+            },
+            {
+              "index": 13,
+              "text": "Codex 被用來教鼓：分離歌曲中的鼓聲、建 call-and-response app 練習特定段落。",
+              "tweet_id": "2073436197679219021",
+              "file": "audio/2026-07-05/013.mp3"
+            },
+            {
+              "index": 14,
+              "text": "Loop 設計三種模式教學與官方指南結合。",
+              "tweet_id": "2073220728464478234",
+              "file": "audio/2026-07-05/014.mp3"
+            }
+          ]
+        },
+        {
+          "name": "📊 統計",
+          "items": []
+        },
+        {
+          "name": "📝 總結",
+          "items": []
+        }
+      ],
+      "complete": true
+    },
     {
       "date": "2026-07-04",
       "generated_at": "2026-07-04T06:41:58.631887+08:00",
@@ -2819,302 +2928,6 @@
               "text": "CoffeeBench 評估 LLM agent 在 90 天 B2B 供應鏈中的管理能力。",
               "tweet_id": "2070394920100380840",
               "file": "audio/2026-06-26/047.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📊 統計",
-          "items": []
-        },
-        {
-          "name": "📝 總結",
-          "items": []
-        }
-      ],
-      "complete": true
-    },
-    {
-      "date": "2026-06-25",
-      "generated_at": "2026-06-25T23:33:24.043247+08:00",
-      "categories": [
-        {
-          "name": "🤖 AI 模型與產品",
-          "items": [
-            {
-              "index": 1,
-              "text": "Anthropic Fable 5 已獲批重新上線，可透過 AWS 調用，但存取嚴格限制：需美國身份驗證、提交用途說明並獲 Anthropic 核准。",
-              "tweet_id": "2070128143378403470",
-              "file": "audio/2026-06-25/001.mp3"
-            },
-            {
-              "index": 2,
-              "text": "Anthropic 目前對 Fable 5 提供「零流量」，用戶仍在等待正式恢復。",
-              "tweet_id": "2070141191677440482",
-              "file": "audio/2026-06-25/002.mp3"
-            },
-            {
-              "index": 3,
-              "text": "Google 再次流失兩名高階 AI 研究員至 Anthropic，加劇人才戰白熱化態勢。",
-              "tweet_id": "2069994131019944418",
-              "file": "audio/2026-06-25/003.mp3"
-            },
-            {
-              "index": 4,
-              "text": "OpenAI 與 Broadcom 聯手發布 Jalapeño 自研 AI 推論晶片，專為 LLM 推論設計而非通用運算，早期基準顯示效能與成本優勢。",
-              "tweet_id": "2069771422487212040",
-              "file": "audio/2026-06-25/004.mp3"
-            },
-            {
-              "index": 5,
-              "text": "Liquid AI 發布 LFM2.5-230M 超小模型，僅 2.3 億參數，可在 CPU/NPU/GPU 上運行，專為手機、機器人與家庭自動化設備的 agent 任務設計。",
-              "tweet_id": "2070148140368318884",
-              "file": "audio/2026-06-25/005.mp3"
-            },
-            {
-              "index": 6,
-              "text": "GLM 5.2 與 Kimi K2.7 Code 在 FrontierCode Extended 基準中表現優異，前者以 Opus 4.8 五分之一成本達到相近產出。",
-              "tweet_id": "2070147076512534855",
-              "file": "audio/2026-06-25/006.mp3"
-            },
-            {
-              "index": 7,
-              "text": "GLM 5.2 bit-equivalent on-policy RL 已在內部實現，後續更新開發中。",
-              "tweet_id": "2069848787942772746",
-              "file": "audio/2026-06-25/007.mp3"
-            },
-            {
-              "index": 8,
-              "text": "DeepSeek 完成大規模融資後宣布所有部門至少擴編一倍，全力追趕國內外競爭者。",
-              "tweet_id": "2070155281716162723",
-              "file": "audio/2026-06-25/008.mp3"
-            },
-            {
-              "index": 9,
-              "text": "中國存在 Claude 灰色市場經濟：轉售商池化 Max 帳號、運行機器人網路，以遠低於官方 API 價格出售存取權。",
-              "tweet_id": "2070040023819268152",
-              "file": "audio/2026-06-25/009.mp3"
-            },
-            {
-              "index": 10,
-              "text": "有爭議觀點認為 GLM 5.2 與 GPT 5.4 實力接近，暗示開源模型已逼近前沿水準。",
-              "tweet_id": "2070151992270549237",
-              "file": "audio/2026-06-25/010.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🛠️ 開發工具與 AI 編碼",
-          "items": [
-            {
-              "index": 11,
-              "text": "Agentic coding 迫使團隊設計乾淨介面並完善文件，因 agent 無法讀取團隊隱含的心智模型，只能依賴 API 契約與文件。",
-              "tweet_id": "2070148984002469917",
-              "file": "audio/2026-06-25/011.mp3"
-            },
-            {
-              "index": 12,
-              "text": "80% 的 Agent 生產崩潰與模型智商無關，根本問題在上下文溢出、工具調錯與子代理失控，2026 年分水嶺在 Harness 與 Loop。",
-              "tweet_id": "2070097636829307284",
-              "file": "audio/2026-06-25/012.mp3"
-            },
-            {
-              "index": 13,
-              "text": "FastAPI、Typer、SQLModel、Asyncer 全部內建 Agent Library Skills，讓 Codex/Claude/Cursor 等工具能自動寫出符合最佳實踐的程式碼。",
-              "tweet_id": "2070138092191649930",
-              "file": "audio/2026-06-25/013.mp3"
-            },
-            {
-              "index": 14,
-              "text": "Hermes 新穩定版發布，帶來 Iterator Helpers、Object.groupBy、Set operations、TypeScript type stripping 等功能。",
-              "tweet_id": "2070089474432807102",
-              "file": "audio/2026-06-25/014.mp3"
-            },
-            {
-              "index": 15,
-              "text": "Vercel AI SDK 發布「最佳版本」更新。",
-              "tweet_id": "2070145503006982393",
-              "file": "audio/2026-06-25/015.mp3"
-            },
-            {
-              "index": 16,
-              "text": "Pi Agent 完整速成教程發布，涵蓋安裝、模型切換、自訂技能、TypeScript 擴展等。",
-              "tweet_id": "2070054934624510109",
-              "file": "audio/2026-06-25/016.mp3"
-            },
-            {
-              "index": 17,
-              "text": "Rspack 持續獲得採用：CCXT 從 webpack 遷移後構建時間從 9.9 秒降至 215 毫秒（46 倍加速）。",
-              "tweet_id": "2070071103972856146",
-              "file": "audio/2026-06-25/017.mp3"
-            },
-            {
-              "index": 18,
-              "text": "GitHub Copilot 改善螢幕閱讀器導航與公告標記，強調無障礙存取為持續重點。",
-              "tweet_id": "2070019416167796830",
-              "file": "audio/2026-06-25/018.mp3"
-            },
-            {
-              "index": 19,
-              "text": "OpenClaw 被推薦為本地運行 agent 且不洩漏資料的解決方案。",
-              "tweet_id": "2069903994114175002",
-              "file": "audio/2026-06-25/019.mp3"
-            }
-          ]
-        },
-        {
-          "name": "💰 財經與加密貨幣",
-          "items": [
-            {
-              "index": 20,
-              "text": "加密市場 60 分鐘內清算 5 億美元多頭部位，Bitcoin 跌至 58,000 美元創 21 個月新低，恐懼與貪婪指數降至 12。",
-              "tweet_id": "2070146110929203539",
-              "file": "audio/2026-06-25/020.mp3"
-            },
-            {
-              "index": 21,
-              "text": "Apple 全線漲價（MacBook Pro $1,999、Air $1,299、iPad Pro $1,199 起），歸因於記憶體與儲存零件「百年一遇」的漲幅，股價暴跌 5% 蒸發 2,150 億美元市值。",
-              "tweet_id": "2070158243305841026",
-              "file": "audio/2026-06-25/021.mp3"
-            },
-            {
-              "index": 22,
-              "text": "IBM 發布 0.7nm 晶片設計，封裝近 1000 億電晶體，史上最密集，股價盤前飆升 8%。",
-              "tweet_id": "2070127423585485147",
-              "file": "audio/2026-06-25/022.mp3"
-            },
-            {
-              "index": 23,
-              "text": "Hugging Face 突破 1 億美元年營收里程碑。",
-              "tweet_id": "2070131557608697947",
-              "file": "audio/2026-06-25/023.mp3"
-            },
-            {
-              "index": 24,
-              "text": "Micron 記憶體恐慌反而推動 MU 股價飆升，AI 記憶體需求成為獲利引擎。",
-              "tweet_id": "2070140383737078121",
-              "file": "audio/2026-06-25/024.mp3"
-            },
-            {
-              "index": 25,
-              "text": "歐盟瞄準 Amazon 等雲端供應商，防止 AI 基礎設施壟斷。",
-              "tweet_id": "2070121603136921805",
-              "file": "audio/2026-06-25/025.mp3"
-            },
-            {
-              "index": 26,
-              "text": "a16z 疑似錢包向 Hyperliquid 轉入大量 USDC，加密交易所正演變為 RWA 交易所。",
-              "tweet_id": "2070092245139870011",
-              "file": "audio/2026-06-25/026.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🌍 地緣政治與災害",
-          "items": [
-            {
-              "index": 27,
-              "text": "委內瑞拉發生百年來最強地震，至少 164 人罹難，首都加拉加斯出現大樓倒塌，死亡人數預計持續攀升。",
-              "tweet_id": "2069947670462935515",
-              "file": "audio/2026-06-25/027.mp3"
-            },
-            {
-              "index": 28,
-              "text": "美國最高法院允許 Trump 政府在美墨邊境物理阻止尋求庇護者入境。",
-              "tweet_id": "2070152101926232075",
-              "file": "audio/2026-06-25/028.mp3"
-            },
-            {
-              "index": 29,
-              "text": "最高法院推翻夏威夷對公共開放私有財產上的持槍「預設禁令」。",
-              "tweet_id": "2070152315059761425",
-              "file": "audio/2026-06-25/029.mp3"
-            },
-            {
-              "index": 30,
-              "text": "Mythos 5 存取限制引發討論：有人在某處決定你和你的公司可以使用什麼等級的智慧。",
-              "tweet_id": "2070137588455768296",
-              "file": "audio/2026-06-25/030.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🏭 產業與硬體",
-          "items": [
-            {
-              "index": 31,
-              "text": "Apple M5 Ultra 可能是最後一代消費級高階硬體，中國市場 Mac Mini 直接漲至 5999 元。",
-              "tweet_id": "2070130322235372005",
-              "file": "audio/2026-06-25/031.mp3"
-            },
-            {
-              "index": 32,
-              "text": "Qualcomm 資料中心路線圖曝光：FY26 連接性、FY27 Q1 自研矽、FY27 下半年 AI 加速器、FY28 資料中心 CPU。",
-              "tweet_id": "2069852537667059725",
-              "file": "audio/2026-06-25/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "Adobe 收購影像增強工具 Topaz Labs。",
-              "tweet_id": "2070138339836227733",
-              "file": "audio/2026-06-25/033.mp3"
-            },
-            {
-              "index": 34,
-              "text": "Google 發布學習 Rust 的五天免費教材（西班牙語版），由 Android 團隊製作。",
-              "tweet_id": "2070146949890576641",
-              "file": "audio/2026-06-25/034.mp3"
-            },
-            {
-              "index": 35,
-              "text": "Google、Microsoft、Snowflake 等聯合發布 Agentic Resource Discovery (ARD) 開放規範，讓 AI agent 跨公司發現彼此能力。",
-              "tweet_id": "2068394052412735619",
-              "file": "audio/2026-06-25/035.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🎨 設計與創作",
-          "items": [
-            {
-              "index": 36,
-              "text": "Figma Config 2026 吸引來自近 90 國超過一萬名設計師與開發者齊聚舊金山。",
-              "tweet_id": "2069888197627416939",
-              "file": "audio/2026-06-25/036.mp3"
-            },
-            {
-              "index": 37,
-              "text": "Figma 推出 Motion 與 Shader 教學、Generative plugins 等新功能。",
-              "tweet_id": "2069849861999177841",
-              "file": "audio/2026-06-25/037.mp3"
-            },
-            {
-              "index": 38,
-              "text": "Seedance 4K、Seedance Mini、Kling 3.0 Turbo 影片生成模型同步上線。",
-              "tweet_id": "2069535148450705517",
-              "file": "audio/2026-06-25/038.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🔒 安全與治理",
-          "items": [
-            {
-              "index": 39,
-              "text": "Anthropic 雇用持有「人類存續爭議觀點」的經濟學家，引發社群討論其安全立場。",
-              "tweet_id": "2070135426925388029",
-              "file": "audio/2026-06-25/039.mp3"
-            },
-            {
-              "index": 40,
-              "text": "Tolmo 推出新安全平台，聚焦 AI 時代軟體攻擊面重新定義。（未出現在本輪）",
-              "tweet_id": "",
-              "file": "audio/2026-06-25/040.mp3"
-            },
-            {
-              "index": 41,
-              "text": "Lody CLI 新增 lody review 子命令，可讓 Agent 按邏輯功能分組審查 PR 並標記 P0/P1/P2 問題。",
-              "tweet_id": "2070113397786792432",
-              "file": "audio/2026-06-25/041.mp3"
             }
           ]
         },
