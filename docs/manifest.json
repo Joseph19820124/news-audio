@@ -1,192 +1,132 @@
 {
-  "updated_at": "2026-07-11T04:06:53.602660+08:00",
+  "updated_at": "2026-07-11T06:40:56.997884+08:00",
   "dates": [
     {
       "date": "2026-07-11",
-      "generated_at": "2026-07-11T04:05:52.585439+08:00",
+      "generated_at": "2026-07-11T06:40:26.187480+08:00",
       "categories": [
         {
           "name": "🤖 AI／大型語言模型",
           "items": [
             {
               "index": 1,
-              "text": "OpenAI 大規模產品發佈：GPT-5.6 Sol/Terra/Luna、ChatGPT Work、新桌面應用、統一外掛（ChatGPT & Codex）、Sites Beta、多分頁及企業驗證瀏覽器，一次推出七項以上產品更新。",
-              "tweet_id": "2075274357715427618",
+              "text": "Apple 正式起訴 OpenAI 商業機密竊取，指控其硬體主管進行有組織的資訊竊取行動，涉及尚未公開的產品——AI 產業迄今最大法律戰正式開打。",
+              "tweet_id": "2075680321224224808",
               "file": "audio/2026-07-11/001.mp3"
             },
             {
               "index": 2,
-              "text": "OpenAI 重置 Codex 與 ChatGPT Work 使用額度，流量達前峰值 2 倍；ChatGPT Work 最新更新包含更多開發者功能。",
-              "tweet_id": "2075641131002700120",
+              "text": "GPT-5.6 為健康智慧帶來重大進展：Luna 以更低成本超越 GPT-5.5 最高推理設定，全系列在臨床推理與醫療知識方面大幅提升。",
+              "tweet_id": "2075686461693898868",
               "file": "audio/2026-07-11/002.mp3"
             },
             {
               "index": 3,
-              "text": "GPT-5.6 Sol Ultra 的 agent 架構曝光：主 agent 生成 8 個子 agent，各生成 4 個再各生成 5 個，超過 200 個 agent 同時運行，堪稱「最蠢的 agent harness」但也最暴力。",
-              "tweet_id": "2075490985212256722",
+              "text": "OpenAI 推出「side chats」：不中斷主對話即可提問與探索想法的 durable agent 對話，可用 @-mention 帶入上下文。",
+              "tweet_id": "2075686268113916023",
               "file": "audio/2026-07-11/003.mp3"
             },
             {
               "index": 4,
-              "text": "GPT-5.6 Sol Ultra 的 test-time compute 擴展策略：平行計算讓生成證明的時間從秒級延伸至週級，更多計算 = 更高智力。",
-              "tweet_id": "2075647948906533297",
+              "text": "有用戶對 GPT-5.6 最高推理設定出現低級錯誤表示憤怒：「這種事應該發生在 GPT-3.5，不是 2026 年中的前沿模型。」OpenAI 團隊正在調查。",
+              "tweet_id": "2075666403596612010",
               "file": "audio/2026-07-11/004.mp3"
             },
             {
               "index": 5,
-              "text": "有用戶連續兩天對比 Sol Ultra vs xhigh，認為 Ultra 尚未展示明顯品質提升，但能觀察到更多子 agent 生成。",
-              "tweet_id": "2075644892211196392",
+              "text": "ChatGPT 5.6 + Work 模式使用體驗引發就業焦慮：「它自己持續工作、匯報、問改進建議、再繼續——大廠堆人力時代結束了。」",
+              "tweet_id": "2075403377639583812",
               "file": "audio/2026-07-11/005.mp3"
             },
             {
               "index": 6,
-              "text": "GPT-5.6 Sol 有人用其建造 3D 模型工具：拍照任何物體即可重建為純程式碼 3D 模型，無需手動建模或掃描。",
-              "tweet_id": "2075398419766468609",
+              "text": "GPT-5.6 Sol 被用於 38% agent memory 削減，效能同時改善。",
+              "tweet_id": "2075667006834061768",
               "file": "audio/2026-07-11/006.mp3"
             },
             {
               "index": 7,
-              "text": "GPT-5.6 Sol Ultra 花 10 小時在 /goal 模式中生成波音飛機模型，展示長時間推理任務的可能。",
-              "tweet_id": "2075534049326539062",
+              "text": "OpenAI rate limit reset 讓 OpenAI 面臨近年來最嚴重的算力瓶頸。",
+              "tweet_id": "2075670331310637085",
               "file": "audio/2026-07-11/007.mp3"
             },
             {
               "index": 8,
-              "text": "Gemini 3.5 Pro 基準洩漏：據報導在內部評估中超越 Claude Fable 5 和 GPT-5.6，具有顯著 zero-shot 提升，目前處於私人驗證測試階段。",
-              "tweet_id": "2075548265005662475",
+              "text": "GPT-5.6 在遊戲建構與 3D 建模方面大幅提升，用戶展示多種即時產出。",
+              "tweet_id": "2075270043764453451",
               "file": "audio/2026-07-11/008.mp3"
             },
             {
               "index": 9,
-              "text": "Grok 4.5 在非公開評估中表現良好，xAI 強調專注於真實世界實用性而非追逐 benchmark。",
-              "tweet_id": "2075642270192394375",
+              "text": "有人建議 GPT-5.6 只需設定 \"high\" 模式，模型已能自適應思考層級；也有分析指出只需三種有效組合：Luna/High、Terra/Ultra、Sol/High。",
+              "tweet_id": "2075626345455898876",
               "file": "audio/2026-07-11/009.mp3"
             },
             {
               "index": 10,
-              "text": "Claude Code 桌面版新增內建瀏覽器，可開啟網站、設計稿、偵錯 URL，甚至「看世界盃」——AI-first 瀏覽時代。",
-              "tweet_id": "2075639639352717667",
+              "text": "Grok 4.5 現已可在 Perplexity 中使用。",
+              "tweet_id": "2075687836091625704",
               "file": "audio/2026-07-11/010.mp3"
             },
             {
               "index": 11,
-              "text": "Claude Code 2.1.206 發佈：安全相關協助限於授權/教育用途、背景 agent 自動化等 27 項 CLI 變更。",
-              "tweet_id": "2075366982631686376",
+              "text": "Hermes Agent 上雲：兩次點擊 + 60 秒即可部署；Desktop app 可自動發現並連接 Cloud agents。",
+              "tweet_id": "2074878754485043333",
               "file": "audio/2026-07-11/011.mp3"
             },
             {
               "index": 12,
-              "text": "Anthropic 限制 Fable 修復安全漏洞的功能引發爭議，有人質疑「不能請 AI 確保程式碼安全？」",
-              "tweet_id": "2075619410556121136",
+              "text": "Pika Director's Suite 開放邀請制測試：由 agent 驅動的實驗性影片創作產品，理解並建構影片所有元素。",
+              "tweet_id": "2074911533159858183",
               "file": "audio/2026-07-11/012.mp3"
             },
             {
               "index": 13,
-              "text": "OpenAI 將 Bio Bug Bounty 升級為持續性私人計劃，強化生物領域先進 AI 能力的安全護欄。",
-              "tweet_id": "2075647722766614733",
+              "text": "Kraken 準備推出 agentic trading：AI agent 代替用戶執行交易。",
+              "tweet_id": "2075648142486237419",
               "file": "audio/2026-07-11/013.mp3"
             },
             {
               "index": 14,
-              "text": "Codex 現可作為完整影片編輯器使用，搭配外掛即可實現 AI 剪輯。",
-              "tweet_id": "2075395487281418270",
+              "text": "GitHits：讓 coding agent 具備版本感知的開源依賴上下文，解決「agent 不認識你依賴的開源碼」問題。",
+              "tweet_id": "2075606538190758025",
               "file": "audio/2026-07-11/014.mp3"
             },
             {
               "index": 15,
-              "text": "OpenAI 為何用 Electron 重建桌面應用？有人質問擁有全世界資源的 OpenAI 為何放棄原生方案。",
-              "tweet_id": "2075475387581436156",
+              "text": "AI/ML API 已加入 GPT-5.6 Sol/Terra/Luna 至其 1000+ 模型目錄。",
+              "tweet_id": "2075348165692178653",
               "file": "audio/2026-07-11/015.mp3"
             },
             {
               "index": 16,
-              "text": "預測：Codex / Claude Code 將在 12 個月內主導瀏覽器市場。",
-              "tweet_id": "2075636186685775964",
+              "text": "ChatGPT 實際案例：收購的掙扎餐廳用 ChatGPT 重新設計菜單、優化定價和行銷，實現 200%+ 營收成長。",
+              "tweet_id": "2075679156474663028",
               "file": "audio/2026-07-11/016.mp3"
             },
             {
               "index": 17,
-              "text": "Cloudflare 2026/9/15 起預設封鎖 AI 訓練爬蟲，Patreon 為首批合作夥伴。（相關推文已收錄）",
-              "tweet_id": "",
+              "text": "Agentic AI Foundation 推出首個官方 MCP 認證，「MCP 已正式進入值得學習的時代」。",
+              "tweet_id": "2075642445849612635",
               "file": "audio/2026-07-11/017.mp3"
             },
             {
               "index": 18,
-              "text": "Sakana AI 發表 AI Picbreeder 實驗（GECCO 2026）：探索 AI agent 在無人指導下能否具備創造力。",
-              "tweet_id": "2075580810330267844",
+              "text": "有人建議前沿實驗室應限制員工每日算力預算（$5K-$50K），避免用於「趣味專案」。",
+              "tweet_id": "2075677989136724245",
               "file": "audio/2026-07-11/018.mp3"
             },
             {
               "index": 19,
-              "text": "LLM-as-a-Verifier 框架以細粒度回饋在 agentic benchmark 達 SOTA。",
-              "tweet_id": "2074969820739805275",
+              "text": "開放權重 LLM 是否會成為「下一個電晶體」的討論。",
+              "tweet_id": "2075691911210557838",
               "file": "audio/2026-07-11/019.mp3"
             },
             {
               "index": 20,
-              "text": "Agent 記憶系統陷阱：「越多記憶反而越不知道」——多數系統優化 recall 但忽視 precision。",
-              "tweet_id": "2075489241245823325",
+              "text": "atuin 18.17：搜尋快 78 倍、AI 可觀察終端。",
+              "tweet_id": "2075341586561642903",
               "file": "audio/2026-07-11/020.mp3"
-            },
-            {
-              "index": 21,
-              "text": "兩位香港學生將 Karpathy 自動研究框架加速 5 倍，方法僅是「在循環上再套一個循環」，可能是今年最實用的 Agent 論文。",
-              "tweet_id": "2075380100120375319",
-              "file": "audio/2026-07-11/021.mp3"
-            },
-            {
-              "index": 22,
-              "text": "humans& 開源 long-horizon multi-agent RL 框架，從互動的長期影響訓練模型。",
-              "tweet_id": "2075618383631167692",
-              "file": "audio/2026-07-11/022.mp3"
-            },
-            {
-              "index": 23,
-              "text": "IAMHC API 為新用戶提供最高 $4,000 免費額度，可用 DeepSeek V4 Flash/Pro 等中國前沿模型。",
-              "tweet_id": "2075532043610697792",
-              "file": "audio/2026-07-11/023.mp3"
-            },
-            {
-              "index": 24,
-              "text": "OpenCode 2.0 beta 開放測試。",
-              "tweet_id": "2075636594640376165",
-              "file": "audio/2026-07-11/024.mp3"
-            },
-            {
-              "index": 25,
-              "text": "FocuSD：開源 Windows 桌面靈動島（Tauri + React），整合 todo、Codex 任務狀態、剪貼簿歷史。",
-              "tweet_id": "2075519182566015204",
-              "file": "audio/2026-07-11/025.mp3"
-            },
-            {
-              "index": 26,
-              "text": "Webify MCP：用 DOM 結構圖 + BM25 + BFS 提取網頁精華，大幅降低 AI Coding Agent 上下文成本。",
-              "tweet_id": "2075590698309664793",
-              "file": "audio/2026-07-11/026.mp3"
-            },
-            {
-              "index": 27,
-              "text": "Google AI Studio 推出自訂 URL（[your-app].ai.studio）免費使用。",
-              "tweet_id": "2075602370860396645",
-              "file": "audio/2026-07-11/027.mp3"
-            },
-            {
-              "index": 28,
-              "text": "Muse Spark 1.1 進入 Code Arena Frontend 排名第 9，以 $3.5M 混合成本重塑性價比 Pareto Frontier。",
-              "tweet_id": "2075642304501784698",
-              "file": "audio/2026-07-11/028.mp3"
-            },
-            {
-              "index": 29,
-              "text": "LLM 微調技術清單整理：LoRA、QLoRA、Prefix Tuning、Adapter Tuning 等 9 種方法。",
-              "tweet_id": "2075579659878854709",
-              "file": "audio/2026-07-11/029.mp3"
-            },
-            {
-              "index": 30,
-              "text": "Thinking Machines 成立一年半心得：人們應有更多自訂與研究模型的能力。",
-              "tweet_id": "2075630236348330046",
-              "file": "audio/2026-07-11/030.mp3"
             }
           ]
         },
@@ -194,34 +134,16 @@
           "name": "🚀 航太",
           "items": [
             {
-              "index": 31,
-              "text": "中國官方確認長征十號B 首飛成功並完成海上浮動平台火箭回收，為中國首次、全球第三個成功的組織。",
-              "tweet_id": "2075554106471817270",
-              "file": "audio/2026-07-11/031.mp3"
+              "index": 21,
+              "text": "中國長征十號B 成為全球第三家成功回收火箭一級的組織、首個網系回收、美國以外首個實現火箭回收的國家。",
+              "tweet_id": "2075440104844501229",
+              "file": "audio/2026-07-11/021.mp3"
             },
             {
-              "index": 32,
-              "text": "評論：中國拒絕複製 SpaceX 垂直著陸，十年來「唯一方法」假設被打破，短期內發射入軌成本可望低於 SpaceX。",
-              "tweet_id": "2075468271868920135",
-              "file": "audio/2026-07-11/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "SpaceX Starship「Critical Path」紀錄片持續系列，描述通往發射的障礙與團隊合作。",
-              "tweet_id": "2075621981488033835",
-              "file": "audio/2026-07-11/033.mp3"
-            },
-            {
-              "index": 34,
-              "text": "SpaceX 股價當日下跌近 3%，Elon Musk 臨時取消 CNBC 訪問。",
-              "tweet_id": "2075622275697586383",
-              "file": "audio/2026-07-11/034.mp3"
-            },
-            {
-              "index": 35,
-              "text": "Tesla 釋出拆除 Fremont 廠 Model S/X 產線影片，46 天完成除役，將安裝 Optimus 機器人產線。",
-              "tweet_id": "2075636846931918891",
-              "file": "audio/2026-07-11/035.mp3"
+              "index": 22,
+              "text": "中國火箭回收成功引發祝賀浪潮。",
+              "tweet_id": "2075437883423392043",
+              "file": "audio/2026-07-11/022.mp3"
             }
           ]
         },
@@ -229,146 +151,86 @@
           "name": "🛠️ 開發者工具",
           "items": [
             {
-              "index": 36,
-              "text": "TypeScript 7 正式發佈：基於 Go 的原生實現，建構速度提升最高 10 倍。",
-              "tweet_id": "2075248861237383552",
-              "file": "audio/2026-07-11/036.mp3"
-            },
-            {
-              "index": 37,
-              "text": "shadcn/typeset 發佈：解決 markdown 渲染後的無樣式 HTML 問題，自動排版標題、段落、清單、表格。",
+              "index": 23,
+              "text": "shadcn/typeset 發佈：markdown 渲染後自動排版。",
               "tweet_id": "2075600582518124657",
-              "file": "audio/2026-07-11/037.mp3"
+              "file": "audio/2026-07-11/023.mp3"
             },
             {
-              "index": 38,
-              "text": "Restate 1.7：flow control + virtual queues 控制 durable function 與 agent 負載。",
-              "tweet_id": "2075295773214871990",
-              "file": "audio/2026-07-11/038.mp3"
+              "index": 24,
+              "text": "pkgx：4MB 獨立二進位，可運行任何工具任何版本而不永久安裝，支援 macOS/Linux/Windows/Docker。",
+              "tweet_id": "2075467568769565070",
+              "file": "audio/2026-07-11/024.mp3"
             },
             {
-              "index": 39,
-              "text": "Mastra 推出自訂 signal provider：agent 可監聽新信號來源、輪詢或處理 webhook。",
-              "tweet_id": "2075307290715201663",
-              "file": "audio/2026-07-11/039.mp3"
-            },
-            {
-              "index": 40,
-              "text": "Gmail Cleaner：在本地端批量退訂並清理 Gmail 收件匣的開源工具。",
-              "tweet_id": "2075401014463574037",
-              "file": "audio/2026-07-11/040.mp3"
-            }
-          ]
-        },
-        {
-          "name": "💰 財經／加密貨幣",
-          "items": [
-            {
-              "index": 41,
-              "text": "Circle（USDC 發行商）獲批以聯邦監管美國信託銀行身分營運，CRCL 股價突破後回測完成。",
-              "tweet_id": "2075643034083954704",
-              "file": "audio/2026-07-11/041.mp3"
-            },
-            {
-              "index": 42,
-              "text": "Polymarket 市場誠信基礎設施再次促成內線交易者被捕。",
-              "tweet_id": "2059743586216800506",
-              "file": "audio/2026-07-11/042.mp3"
-            },
-            {
-              "index": 43,
-              "text": "SK 海力士以外國公司最大 IPO 登陸美股；同步推出 SKHX 2 倍日 ETF（7/13 上線）。",
-              "tweet_id": "2075608225211171117",
-              "file": "audio/2026-07-11/043.mp3"
-            },
-            {
-              "index": 44,
-              "text": "SK Hynix 正考慮「memory as a service」模式，客戶可租用記憶體晶片而非購買。",
-              "tweet_id": "2075604123332857950",
-              "file": "audio/2026-07-11/044.mp3"
-            },
-            {
-              "index": 45,
-              "text": "日本 Metaplanet 與 JPYC、Progmat 探索比特幣擔保數位信用。",
-              "tweet_id": "2075627066712875084",
-              "file": "audio/2026-07-11/045.mp3"
-            },
-            {
-              "index": 46,
-              "text": "科技巨頭過去三年因非法使用個人資料訓練 AI 被罰 35 億美元。（相關推文已收錄）",
+              "index": 25,
+              "text": "Flex-Forcing：單一影片生成模型可在推理時切換生成方法。（相關推文已收錄）",
               "tweet_id": "",
-              "file": "audio/2026-07-11/046.mp3"
+              "file": "audio/2026-07-11/025.mp3"
             },
             {
-              "index": 47,
-              "text": "Forbes 30 Under 30 再出事：一名上榜者被指出身百億家族仍涉詐騙求創業光環。",
-              "tweet_id": "2075587694889934952",
-              "file": "audio/2026-07-11/047.mp3"
+              "index": 26,
+              "text": "Google DeepMind Project Genie + Street View grounding。",
+              "tweet_id": "2075609303029776872",
+              "file": "audio/2026-07-11/026.mp3"
             },
             {
-              "index": 48,
-              "text": "美國對伊朗實施新制裁。",
-              "tweet_id": "2075654588816830926",
-              "file": "audio/2026-07-11/048.mp3"
+              "index": 27,
+              "text": "Design Engineering 技巧：用 stagger() 為 grid reveal 加入延遲動畫。",
+              "tweet_id": "2075575648282722679",
+              "file": "audio/2026-07-11/027.mp3"
             }
           ]
         },
         {
-          "name": "🌐 地緣政治／國際",
+          "name": "💰 財經",
           "items": [
             {
-              "index": 49,
-              "text": "川普：若遭伊朗暗殺，已留下指示以「前所未見規模」轟炸伊朗。",
-              "tweet_id": "2075604730726797556",
-              "file": "audio/2026-07-11/049.mp3"
+              "index": 28,
+              "text": "Polymarket 內線交易者被捕。",
+              "tweet_id": "2059743586216800506",
+              "file": "audio/2026-07-11/028.mp3"
             },
             {
-              "index": 50,
-              "text": "川普宣布停火已結束，但同意繼續與伊朗對話。",
-              "tweet_id": "2075590744740360454",
-              "file": "audio/2026-07-11/050.mp3"
+              "index": 29,
+              "text": "Kraken 準備推出 AI agentic trading。",
+              "tweet_id": "2075648142486237419",
+              "file": "audio/2026-07-11/029.mp3"
             },
             {
-              "index": 51,
-              "text": "美國對伊朗實施新一輪制裁。",
-              "tweet_id": "2075654588816830926",
-              "file": "audio/2026-07-11/051.mp3"
+              "index": 30,
+              "text": "META 股價近兩週漲 25%，市場重新看多。",
+              "tweet_id": "2075695641515430030",
+              "file": "audio/2026-07-11/030.mp3"
             },
             {
-              "index": 52,
-              "text": "西班牙首相桑切斯對川普發聲明：「23年前美國用大規模殺傷性武器謊言拖我們進入伊拉克，你不能再愚弄我們。」",
-              "tweet_id": "2075445026155614249",
-              "file": "audio/2026-07-11/052.mp3"
+              "index": 31,
+              "text": "拼多多 2026 年花 33 億買下陸家嘴星展銀行大廈。",
+              "tweet_id": "2075506093862846805",
+              "file": "audio/2026-07-11/031.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🌐 地緣政治",
+          "items": [
+            {
+              "index": 32,
+              "text": "川普下令若遭伊朗暗殺「以前所未見規模轟炸」。",
+              "tweet_id": "2075633796737646790",
+              "file": "audio/2026-07-11/032.mp3"
             },
             {
-              "index": 53,
-              "text": "烏克蘭士兵拆除俄羅斯「我們和俄羅斯是一個民族」的看板，象徵性畫面。",
-              "tweet_id": "2075316560433238332",
-              "file": "audio/2026-07-11/053.mp3"
+              "index": 33,
+              "text": "美國國務院阻止伊朗與紐約市長 Zohran Mamdani 政府之間的計劃會面——高級官員原定會見伊朗方面。",
+              "tweet_id": "2075651312088121533",
+              "file": "audio/2026-07-11/033.mp3"
             },
             {
-              "index": 54,
-              "text": "英國前政府部長 Ann Widdecombe 被確認死亡，26 歲男子因涉嫌謀殺被捕。",
-              "tweet_id": "2075624516030455880",
-              "file": "audio/2026-07-11/054.mp3"
-            },
-            {
-              "index": 55,
-              "text": "Harry 王子、Meghan 與子女在英國訪問期間會見國王與王后。",
-              "tweet_id": "2075643074101846103",
-              "file": "audio/2026-07-11/055.mp3"
-            },
-            {
-              "index": 56,
-              "text": "白宮正進行前門安全升級工程，預計需數月。",
-              "tweet_id": "2075645048310403210",
-              "file": "audio/2026-07-11/056.mp3"
-            },
-            {
-              "index": 57,
-              "text": "土耳其 iYıldız 指揮總部面積達 1200 萬平方公尺，將是五角大廈三倍、NATO 總部四倍大。",
-              "tweet_id": "2075436788546691401",
-              "file": "audio/2026-07-11/057.mp3"
+              "index": 34,
+              "text": "DOJ 正式起訴 8 人策劃針對白宮 UFC 活動的大規模傷亡事件，計劃使用爆炸無人機並射擊逃跑群眾。",
+              "tweet_id": "2075609257966547296",
+              "file": "audio/2026-07-11/034.mp3"
             }
           ]
         },
@@ -376,46 +238,64 @@
           "name": "🏛️ 美國政治／社會",
           "items": [
             {
-              "index": 58,
-              "text": "川普撤銷 Walz 州長對性侵兒童的寮國籍非法移民 Tou Lue Vang 的赦免，ICE 已將其驅逐出境，引發移民政策激烈辯論。",
+              "index": 35,
+              "text": "奧克拉荷馬州助理總法律顧問 Shannon Desherow 公開發表激烈言論威脅 ICE、表示不會配合，影片引發巨大爭議。",
+              "tweet_id": "2075318881392980326",
+              "file": "audio/2026-07-11/035.mp3"
+            },
+            {
+              "index": 36,
+              "text": "Tou Lue Vang（Walz 赦免的性侵兒童犯）已被 ICE 驅逐出境。",
               "tweet_id": "2075567815856177323",
-              "file": "audio/2026-07-11/058.mp3"
+              "file": "audio/2026-07-11/036.mp3"
             },
             {
-              "index": 59,
-              "text": "前烏茲別克士兵、非法移民 Amazon 貨車司機在奧克拉荷馬被捕，曾在網上猛烈抨擊川普政府與 ICE。",
-              "tweet_id": "2075402147475177848",
-              "file": "audio/2026-07-11/059.mp3"
+              "index": 37,
+              "text": "紐約市超過 1.9 億美元詐騙曝光：利用老人和弱勢群體進行個人護理詐騙。",
+              "tweet_id": "2075658225416917241",
+              "file": "audio/2026-07-11/037.mp3"
             },
             {
-              "index": 60,
-              "text": "世界盃期間 HSI 堪薩斯城辦公室營救 8 名失蹤兒童、逮捕人口販運嫌犯。",
-              "tweet_id": "2075391785841422498",
-              "file": "audio/2026-07-11/060.mp3"
+              "index": 38,
+              "text": "洛杉磯 Skid Row 清理被非營利組織（與市長 Karen Bass 合作）起訴阻止——引發「誰在阻止清理無家可歸者」辯論。",
+              "tweet_id": "2075535511486128333",
+              "file": "audio/2026-07-11/038.mp3"
             },
             {
-              "index": 61,
-              "text": "亞特蘭大法官提前釋放毆打女性致眶骨碎裂的男子，兩個月後該男子刺傷他人。",
-              "tweet_id": "2075547392355577916",
-              "file": "audio/2026-07-11/061.mp3"
-            },
-            {
-              "index": 62,
-              "text": "紐約真正的老住民（義大利、愛爾蘭、猶太、希臘、波多黎各人）正形成「舊式聯盟」拯救 NYC。",
-              "tweet_id": "2075562630551408691",
-              "file": "audio/2026-07-11/062.mp3"
-            },
-            {
-              "index": 63,
-              "text": "有人引用丹麥醫療、教育、育兒假期政策，建議美國向歐洲學習而非侮辱。",
-              "tweet_id": "2075295865254617424",
-              "file": "audio/2026-07-11/063.mp3"
-            },
-            {
-              "index": 64,
-              "text": "FBI 揭露針對白宮 UFC 活動的大規模傷亡恐攻陰謀。（相關推文已收錄）",
+              "index": 39,
+              "text": "川普解散聯邦選舉管理委員會（中期選舉前數月）。（相關推文已收錄）",
               "tweet_id": "",
-              "file": "audio/2026-07-11/064.mp3"
+              "file": "audio/2026-07-11/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "前奧運選手 David Hearn 因破壞林肯紀念池面臨 10 年監禁，已認罪求情。",
+              "tweet_id": "2075584534158995607",
+              "file": "audio/2026-07-11/040.mp3"
+            },
+            {
+              "index": 41,
+              "text": "費特曼（民主黨）與麥考密克（共和黨）跨黨派聯合募款，民主黨試圖逼走費特曼，外界猜測他將轉黨。",
+              "tweet_id": "2075557108699861066",
+              "file": "audio/2026-07-11/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "泰勒·羅賓遜開槍擊殺 Charlie Kirk 的高品質監視器畫面在法庭公開。",
+              "tweet_id": "2075657777201181012",
+              "file": "audio/2026-07-11/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "Mitch McConnell 去世，享年 84 歲。",
+              "tweet_id": "2075652477589103043",
+              "file": "audio/2026-07-11/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "五角大廈釋出第四批 UFO 文件，包含官方稱「迄今最清晰」的紅外線影片——大型雙層物體；白宮發佈太空飛行器影片「卻似乎無人關心」。",
+              "tweet_id": "2075645813326295314",
+              "file": "audio/2026-07-11/044.mp3"
             }
           ]
         },
@@ -423,46 +303,63 @@
           "name": "⚽ 體育／世界盃",
           "items": [
             {
-              "index": 65,
-              "text": "Haaland 透露曾忽略 Tom Holland 的晚餐邀請：「我不太看電影，不知道他是誰。」",
-              "tweet_id": "2075520973550362990",
-              "file": "audio/2026-07-11/065.mp3"
+              "index": 45,
+              "text": "西班牙 Mikel Merino 再次絕殺，2-1 淘汰比利時，半決賽對陣法國。",
+              "tweet_id": "2075687416724090890",
+              "file": "audio/2026-07-11/045.mp3"
             },
             {
-              "index": 66,
-              "text": "Djokovic 在溫布頓中央球場告別，傳奇離場。",
-              "tweet_id": "2075639998208942539",
-              "file": "audio/2026-07-11/066.mp3"
+              "index": 46,
+              "text": "Lamine Yamal 與弟弟 Keyne 在終場哨後的畫面感動全場。",
+              "tweet_id": "2075690127683154260",
+              "file": "audio/2026-07-11/046.mp3"
             },
             {
-              "index": 67,
-              "text": "Barcelona 同意以最高 3300 萬美元從多特蒙德簽下 Karim Adeyemi。",
-              "tweet_id": "2075615815664111771",
-              "file": "audio/2026-07-11/067.mp3"
+              "index": 47,
+              "text": "比利時門將 Senne Lammens 世界盃首秀；Doku 反擊中的精彩表現。",
+              "tweet_id": "2075681291576475984",
+              "file": "audio/2026-07-11/047.mp3"
             },
             {
-              "index": 68,
-              "text": "AJ Dybantsa NBA 夏季聯賽首秀：27分7籃板2抄截1阻攻。",
-              "tweet_id": "2075416128654852560",
-              "file": "audio/2026-07-11/068.mp3"
+              "index": 48,
+              "text": "挪威維京划船慶祝成為本屆最大文化梗：「Here come the Vikings」獲 14.8 萬讚。",
+              "tweet_id": "2075668198100230539",
+              "file": "audio/2026-07-11/048.mp3"
             },
             {
-              "index": 69,
-              "text": "Ibrahimović 稱 Messi 對埃及的進球是本屆世界盃最難進球。",
-              "tweet_id": "2075597709977722949",
-              "file": "audio/2026-07-11/069.mp3"
+              "index": 49,
+              "text": "Haaland 忠誠約會史（2022-2026 始終 Isabel Johansen）持續獲讚。",
+              "tweet_id": "2075452394377494814",
+              "file": "audio/2026-07-11/049.mp3"
             },
             {
-              "index": 70,
-              "text": "FIFA 開始出售紐約/新澤西體育場決賽場地草皮碎片，可望帶入超過 1100 萬美元收入。",
-              "tweet_id": "2075606247760449595",
-              "file": "audio/2026-07-11/070.mp3"
+              "index": 50,
+              "text": "C 羅贈送 iShowSpeed 比賽穿過的球鞋用於 YouTube 世界盃錦標賽。",
+              "tweet_id": "2075671360358031801",
+              "file": "audio/2026-07-11/050.mp3"
             },
             {
-              "index": 71,
-              "text": "挪威球迷拒絕維京划船慶祝持續爆紅，受訪時身後牆上掛著船槳。",
-              "tweet_id": "2075514238710186312",
-              "file": "audio/2026-07-11/071.mp3"
+              "index": 51,
+              "text": "Conor McGregor UFC 329 記者會名言集錦 + 即興唱 Wonderwall。",
+              "tweet_id": "2075424399348408794",
+              "file": "audio/2026-07-11/051.mp3"
+            },
+            {
+              "index": 52,
+              "text": "Sinner 三盤橫掃 Djokovic 進入溫布頓決賽（前輪已收錄）。",
+              "tweet_id": "",
+              "file": "audio/2026-07-11/052.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🌊 災害",
+          "items": [
+            {
+              "index": 53,
+              "text": "廣西災區第一批愛心人士傳回影片：家家有蛇不敢回家、靠超市賒帳與雨水維生、孕婦丈夫被洪水沖走。",
+              "tweet_id": "2075381457615462655",
+              "file": "audio/2026-07-11/053.mp3"
             }
           ]
         },
@@ -470,57 +367,22 @@
           "name": "🏭 產業",
           "items": [
             {
-              "index": 72,
-              "text": "Tesla Fremont 廠 Model S/X 產線 46 天完成除役，將改為 Optimus 機器人產線，全面投產後可生產大量人形機器人。",
-              "tweet_id": "2075636160508866562",
-              "file": "audio/2026-07-11/072.mp3"
+              "index": 54,
+              "text": "GTA 6 第一人稱遊戲畫面曝光。",
+              "tweet_id": "2075506564673274033",
+              "file": "audio/2026-07-11/054.mp3"
             },
             {
-              "index": 73,
-              "text": "小米發佈 SkyNomad 新品。",
-              "tweet_id": "2075611006957432986",
-              "file": "audio/2026-07-11/073.mp3"
+              "index": 55,
+              "text": "Huawei 長焦相機將雙引擎噴射機拍成「鳥」——手機攝影極限。",
+              "tweet_id": "2075581078539051518",
+              "file": "audio/2026-07-11/055.mp3"
             },
             {
-              "index": 74,
-              "text": "Jensen Huang（Sequoia 訪談）將 AI 基礎設施描述為五層蛋糕，最底層是電子。",
-              "tweet_id": "2075611004508029149",
-              "file": "audio/2026-07-11/074.mp3"
-            },
-            {
-              "index": 75,
-              "text": "Qualcomm Investor Day 2026：Dragonwing edge AI 產品組合與 agentic AI 戰略。",
-              "tweet_id": "2074862603340235245",
-              "file": "audio/2026-07-11/075.mp3"
-            },
-            {
-              "index": 76,
-              "text": "西安比亞迪工廠 43°C 高溫下總裝線無空調，多名員工中暑休克。",
-              "tweet_id": "2075543054585610568",
-              "file": "audio/2026-07-11/076.mp3"
-            },
-            {
-              "index": 77,
-              "text": "汽車製造商 Mercedes-Benz、Ford、Renault 在排放作弊訴訟中大部分勝訴。",
-              "tweet_id": "2075599602422538346",
-              "file": "audio/2026-07-11/077.mp3"
-            },
-            {
-              "index": 78,
-              "text": "紐約曼哈頓超高密度住宅計劃：1.1 英畝上 2400 戶。",
-              "tweet_id": "2075582198552424458",
-              "file": "audio/2026-07-11/078.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🔒 隱私／監控",
-          "items": [
-            {
-              "index": 79,
-              "text": "EU 被諷以「香蕉共和國手法」通過監控法案。",
-              "tweet_id": "2075599010480427227",
-              "file": "audio/2026-07-11/079.mp3"
+              "index": 56,
+              "text": "日本「退職代行 vs 消防隊」事件：離職代行者遭公司以虛假火災報告騷擾，消防員破門。",
+              "tweet_id": "2075566888294465975",
+              "file": "audio/2026-07-11/056.mp3"
             }
           ]
         },
