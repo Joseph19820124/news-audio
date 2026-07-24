@@ -1,381 +1,394 @@
 {
-  "updated_at": "2026-07-24T11:58:41.816626+08:00",
+  "updated_at": "2026-07-24T19:24:48.574574+08:00",
   "dates": [
     {
       "date": "2026-07-24",
-      "generated_at": "2026-07-24T11:57:50.574294+08:00",
+      "generated_at": "2026-07-24T19:24:46.256429+08:00",
       "categories": [
         {
           "name": "🤖 AI 與模型",
           "items": [
             {
               "index": 1,
-              "text": "Nous Research（@NousResearch）宣布 Hermes 新增可離線操作 tldraw 畫布的選用技能；這意味著代理開始把即時白板與視覺創作納入本地工作流。",
-              "tweet_id": "2080319476243861569",
+              "text": "Nous Research（@NousResearch）宣布 Nous Portal 的模型限時降價 20%，包含前沿模型；這意味著代理服務商正以價格降低高階模型的試用門檻。",
+              "tweet_id": "2080039066771337475",
               "file": "audio/2026-07-24/001.mp3"
             },
             {
               "index": 2,
-              "text": "OpenAI Developers（@OpenAIDevs）表示 GPT-5.6 與 Codex 協助 Vercel 內部資料科學代理突破原先卡住的工作；這意味著模型能力提升正轉化為企業內部代理的實際生產力。",
-              "tweet_id": "2075289656225374647",
+              "text": "Polymarket（@Polymarket）表示 Grok 4.5 在 OpenRouter 的 token 使用量超過 GPT-5.6 Sol 與 Fable 5，進入封閉模型前十；這是平台訊息，意味著模型採用度正成為另一種競爭指標。",
+              "tweet_id": "2080399553594024298",
               "file": "audio/2026-07-24/002.mp3"
             },
             {
               "index": 3,
-              "text": "Cerebras（@cerebras）宣布與 AMD 推出解耦式推理方案，按推理管線不同階段配置合適引擎；這意味著大規模代理服務的硬體架構正從單一加速器轉向分工協作。",
-              "tweet_id": "2080349251318530263",
+              "text": "Parker Conrad（@parkerconrad）推測若模型蒸餾難以阻止，領先模型的戰略優勢可能縮短；這意味著模型保護與國家安全政策仍受技術擴散速度牽動。",
+              "tweet_id": "2080372277573451927",
               "file": "audio/2026-07-24/003.mp3"
             },
             {
               "index": 4,
-              "text": "WorldofAI（@intheworldofai）表示部分帳號疑似已看到 Claude Opus 5 的靜默上線；這是尚未獲官方確認的觀察，若屬實將使模型版本競爭提前升溫。",
-              "tweet_id": "2080263857411334584",
+              "text": "David Holz（@DavidSHolz）提出讓大量代理平行探索未解猜想的想法；這是個人構想，意味著研究型代理的價值可能來自大量並行假設生成與篩選。",
+              "tweet_id": "2080495014640230408",
               "file": "audio/2026-07-24/004.mp3"
             },
             {
               "index": 5,
-              "text": "Shangyin Tan（@ShangyinT）整理研究指出 GEPA、AutoResearch 與 Meta-Harness 在不同任務各有優勢，沒有單一 LLM 最佳化器全面勝出；這意味著代理調校更可能採用任務導向的組合策略。",
-              "tweet_id": "2080334982988562452",
+              "text": "Mark Chen（@markchen90）宣布 Jacob Tsimerman 加入 OpenAI，並稱其同時重視數學能力與 AI 安全；這意味著前沿模型公司持續補強理論研究與安全研究人才。",
+              "tweet_id": "2080396049936502960",
               "file": "audio/2026-07-24/005.mp3"
             },
             {
               "index": 6,
-              "text": "Tielong T.E.（@ETezRyu）表示其 D.A.T. 模型與技能可在 Claude Code 上運作；這意味著專用技能層正成為把代理能力移植到不同 harness 的介面。",
-              "tweet_id": "2080214690744139890",
+              "text": "Guinness Chen（@guinnesschen）表示 ChatGPT 桌面語音能從模糊想法追問架構，再啟動 Codex 任務；這意味著語音介面正逐步成為需求探索到執行的入口。",
+              "tweet_id": "2080433348107968927",
               "file": "audio/2026-07-24/006.mp3"
             },
             {
               "index": 7,
-              "text": "elvis（@omarsar0）表示其代理編排器把動態工作流統一為 harness、automation、loop、routing 與 graph 的一般化；這意味著代理框架正從單一迴圈走向可組合的執行模型。",
-              "tweet_id": "2080323178119786642",
+              "text": "Patrick Loeber（@patloeber）表示 Gemini 3.6 Flash 與 3.5 Flash Lite 支援跨瀏覽器、桌面與行動裝置的 Computer Use；這意味著電腦操作能力正從單一環境擴展到跨裝置工作流。",
+              "tweet_id": "2080341470871949604",
               "file": "audio/2026-07-24/007.mp3"
             },
             {
               "index": 8,
-              "text": "brian（@brianbellx）介紹 Kimi K3 從零訓練的三值權重模型，每個線性層權重為 -1、0 或 +1；這意味著低精度模型可能在成本與部署效率上提供新的探索方向。",
-              "tweet_id": "2080323961674510783",
+              "text": "Rohan Paul（@rohanpaul_ai）整理 Jensen Huang 對開源模型蒸餾封閉模型的看法；這是訪談轉述，意味著模型學習邊界與開源競爭規則仍在形成。",
+              "tweet_id": "2080526596847587839",
               "file": "audio/2026-07-24/008.mp3"
             },
             {
               "index": 9,
-              "text": "Yang Fan Yun（@YangFanYun）宣布 Composite-Bench 長時程電腦操作基準，並表示 GLM-5.2 在其測試中領先其他開放權重模型；這意味著代理評測正從短任務正確率轉向可驗證的長程完成能力。",
-              "tweet_id": "2080442432794325003",
+              "text": "Max For AI（@MaxForAI）轉述 GPT-5.6 在查找猜想論文時瀏覽了多個無關網站；這是個案觀察，意味著代理檢索需要更好的目標約束與行為可觀測性。",
+              "tweet_id": "2080252637996536194",
               "file": "audio/2026-07-24/009.mp3"
             },
             {
               "index": 10,
-              "text": "AI News（@ai_news_x）轉述 OpenAI GPT Live 1 正支援桌面 ChatGPT Voice 操作 ChatGPT Work 與 Codex；這意味著全雙工語音可能成為管理多個代理的新入口。",
-              "tweet_id": "2080401533728940372",
+              "text": "Grace Li（@grx_xce）表示 Kimi K3 在程式推理中使用的 thinking tokens 顯著增加；這是個人測試結果，意味著推理成本與能力評估不能只看最終答案。",
+              "tweet_id": "2080366865633931503",
               "file": "audio/2026-07-24/010.mp3"
             },
             {
               "index": 11,
-              "text": "Leandro von Werra（@lvwerra）發布 The Stack v3，提供 5T token、120TB 原始資料的開源程式碼資料集；這意味著網路防禦模型的訓練資料規模正在快速擴大。",
-              "tweet_id": "2080268415697047852",
+              "text": "Reza Bayat（@reza_byt）介紹 JEPA 世界模型與 SIGReg 反崩潰機制；這意味著世界模型研究正從概念討論轉向更具體的數學訓練方法。",
+              "tweet_id": "2080291982115479668",
               "file": "audio/2026-07-24/011.mp3"
             },
             {
               "index": 12,
-              "text": "MTS（@MTSlive）轉述 Prasanna Sankar 認為前沿模型已使程式碼生成趨近商品化；這意味著工程差異化將更多落在需求理解、驗證與系統整合。",
-              "tweet_id": "2080375271321120848",
+              "text": "AI News | TestingCatalog（@testingcatalog）表示 Google 已向美國 Gemini Pro 使用者推出 Gemini Spark Agent；這意味著消費型 AI 產品開始把代理能力直接放入既有訂閱層。",
+              "tweet_id": "2080591243663249820",
               "file": "audio/2026-07-24/012.mp3"
             },
             {
               "index": 13,
-              "text": "Marktechpost AI（@Marktechpost）報導 Andrew Ng 發布 OpenWorker，一個本地優先、可回傳完成成果而非只聊天的桌面代理；這意味著代理產品正把審批與交付流程納入核心設計。",
-              "tweet_id": "2080377910494384576",
+              "text": "Aman（@aman_unsiloed）宣布 Hermes Plugin 可將 PDF、表格、圖表與掃描文件轉為 Markdown 和結構化 JSON；這意味著代理處理企業文件的關鍵正轉向可靠的結構化輸入。",
+              "tweet_id": "2080329627235725688",
               "file": "audio/2026-07-24/013.mp3"
             },
             {
               "index": 14,
-              "text": "ZenMux（@ZenMuxAI）宣布 Ling-3.0-Flash 上線，主打長上下文、工具呼叫、程式碼與混合推理；這意味著模型服務商正以代理相容性與成本效率爭取工作流流量。",
-              "tweet_id": "2080322121348321591",
+              "text": "InclusionAI（@TheInclusionAI）宣布 Ling-3.0-flash 已在 OpenRouter 上線，面向程式、搜尋、研究與工具使用；這意味著開放模型的可用性正透過聚合平台快速擴大。",
+              "tweet_id": "2080501172008517662",
               "file": "audio/2026-07-24/014.mp3"
             },
             {
               "index": 15,
-              "text": "Alibaba Cloud（@alibaba_cloud）宣布 Qwen-Image-3.0，將新版本定位為更強調真實感的基礎影像生成模型；這意味著影像模型競爭持續從風格多樣性轉向內容可信度。",
-              "tweet_id": "2080218126264778781",
+              "text": "Qualcomm Policy（@QualcommPolicy）介紹 Dragonwing 邊緣 AI 產品組合，面向工業系統與機器人；這意味著 AI 硬體競爭正從資料中心延伸到實體環境。",
+              "tweet_id": "2074862603340235245",
               "file": "audio/2026-07-24/015.mp3"
             },
             {
               "index": 16,
-              "text": "Hadi AlZayer（@HadiZayer）表示僅用 15 小時單臂機器人影片訓練出的世界模型可零樣本泛化到未見機器人形態；這意味著少量資料學習可能降低實體 AI 的訓練成本。",
-              "tweet_id": "2080456205722673621",
+              "text": "Applied Intuition（@AppliedInt）宣布 Dana，一套面向實體世界的 Agentic AI；這意味著代理產品正從數位工作流進入自動駕駛與機器系統等場景。",
+              "tweet_id": "2079582667465736690",
               "file": "audio/2026-07-24/016.mp3"
             },
             {
               "index": 17,
-              "text": "Meta for Developers（@MetaforDevs）宣布提供 Meta Quest 最新 API 與技能的程式代理外掛；這意味著開發代理需要持續同步平台文件，才能避免使用過時介面。",
-              "tweet_id": "2080387855004921886",
+              "text": "Robert Scoble（@Scobleizer）介紹 HeyGen 開源 HyperFrames，以 HTML、CSS、JavaScript 和代理生成影片；這意味著影片製作正嘗試把創意描述轉成可編輯的網頁渲染流程。",
+              "tweet_id": "2080340820419338569",
               "file": "audio/2026-07-24/017.mp3"
             },
             {
               "index": 18,
-              "text": "Aaron Levie（@levie）認為 AI 最適合作為既有專業領域的能力放大器；這意味著導入 AI 的價值仍取決於使用者是否具備領域判斷，而非只取決於模型本身。",
-              "tweet_id": "2080471989060559336",
+              "text": "CapCut（@capcutapp）介紹由兩個代理重播小鎮最後一晚的互動敘事作品；這意味著生成式影片工具開始探索代理驅動的非線性敘事。",
+              "tweet_id": "2079454611140915500",
               "file": "audio/2026-07-24/018.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🦞 代理、OpenClaw 與開發工作流",
-          "items": [
+            },
             {
               "index": 19,
-              "text": "gus（@igus_ai）主張以 graph 取代傳統 agent loop，讓不同節點分擔工作並行執行；這意味著複雜任務的效能瓶頸可能從單代理循環轉向圖式協調。",
-              "tweet_id": "2080273630542303632",
+              "text": "DigitalOcean（@digitalocean）宣布 model synthesis tool 公開預覽，可在單一推理請求中執行多模型並合成答案；這意味著多模型編排正逐步成為託管服務的內建能力。",
+              "tweet_id": "2080416511932420287",
               "file": "audio/2026-07-24/019.mp3"
             },
             {
               "index": 20,
-              "text": "Autonomous（@autonomous_labs）推出 Autonomous Fleet，用單一介面管理分布在不同電腦與伺服器的 Claude Code 與 Codex 代理；這意味著多代理運營開始需要集中式狀態與指令層。",
-              "tweet_id": "2080285078786392263",
+              "text": "Alibaba Cloud（@alibaba_cloud）表示 Token Plan 將文字、影像、影片與音訊模型整合到單一額度；這意味著多模態模型的使用成本管理正由分散訂閱轉向集中計費。",
+              "tweet_id": "2080588893691531270",
               "file": "audio/2026-07-24/020.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 工具、代理與工程",
+          "items": [
             {
               "index": 21,
-              "text": "Adi（@xadisingh）宣布 Ara 支援由 skills.sh 提供的可搜尋技能與插件，平台累積超過 50 萬次下載；這意味著代理技能正形成類似套件生態的分發市場。",
-              "tweet_id": "2080306905486930027",
+              "text": "GREG ISENBERG（@gregisenberg）列舉未來可能出現的代理管理職位與工作方式；這是趨勢推測，意味著企業角色設計可能因代理治理與品質控制而重新分工。",
+              "tweet_id": "2080360929535853032",
               "file": "audio/2026-07-24/021.mp3"
             },
             {
               "index": 22,
-              "text": "David Fowler（@davidfowl）宣布推出支援 VS Code agents app、未來 GitHub app 的 Agent Host Protocol；這意味著不同代理產品之間正建立共通的宿主通訊協定。",
-              "tweet_id": "2080323537294766405",
+              "text": "leopardracer（@leopardracer）以研究員、規劃器、寫作與程式代理、審查和部署組成圖工程流程；這意味著多代理系統的可靠性取決於明確節點與可驗證交接。",
+              "tweet_id": "2080399365504475501",
               "file": "audio/2026-07-24/022.mp3"
             },
             {
               "index": 23,
-              "text": "jason（@jxnlco）表示 Codex project 可跨多個本地資料夾讀寫，同時保留主要資料夾作為 Git root；這意味著代理對大型多目錄專案的上下文管理更具彈性。",
-              "tweet_id": "2080417842785128947",
+              "text": "Niels Rogge（@NielsRogge）整理 Codex AppShots，可擷取螢幕並直接送入 Codex 協助除錯；這意味著視覺上下文正成為開發代理處理前端問題的新輸入。",
+              "tweet_id": "2080241986024427650",
               "file": "audio/2026-07-24/023.mp3"
             },
             {
               "index": 24,
-              "text": "Michał Pierzchała（@thymikee）介紹 agent-device 的錄製與重播流程，讓重複的行動流程可在不重新推理下執行；這意味著穩定的手機自動化可透過重播降低模型成本。",
-              "tweet_id": "2080310687893475834",
+              "text": "TokenRouter（@TokenRouter_US）宣布 GLM 5.2 免費層與限時折扣；這意味著模型路由服務正以價格與備援選項爭取開發者試用。",
+              "tweet_id": "2078153184707580065",
               "file": "audio/2026-07-24/024.mp3"
             },
             {
               "index": 25,
-              "text": "Amto（@XAMTO_AI）介紹 html-video，可用 HTML 與 CSS 在本機渲染可直接使用的 MP4，並支援多個程式代理；這意味著影片製作正被拆成可由代理編排的程式化管線。",
-              "tweet_id": "2080265168244953368",
+              "text": "Linda Vivah（@lindavivah）比較傳統 RAG 與 Graph RAG，指出後者保留知識間的連結；這意味著檢索架構的差異不只在召回內容，也在於是否保留關聯結構。",
+              "tweet_id": "2059657055418360139",
               "file": "audio/2026-07-24/025.mp3"
             },
             {
               "index": 26,
-              "text": "project7（@heyproject7）發布 SVGSmith，以 SVG 轉換與成功計費的 USDC 付款軌支援免訂閱使用；這意味著小型開發工具開始探索按成功結果計費的代理原生商業模式。",
-              "tweet_id": "2080178594048016510",
+              "text": "AI Guides（@free_ai_guides）把 prompt、context、工具與評估等列為代理產品化的分層；這意味著模型本身只是代理系統的一層，交付品質還取決於外圍工程。",
+              "tweet_id": "2080285873003012224",
               "file": "audio/2026-07-24/026.mp3"
             },
             {
               "index": 27,
-              "text": "Darren Shepherd（@ibuildthecloud）介紹 WANIX，一個可在瀏覽器運作的作業系統原型；這意味著瀏覽器環境可能進一步成為代理執行完整開發系統的載體。",
-              "tweet_id": "2080304876098318799",
+              "text": "Miles Deutscher（@milesdeutscher）介紹以 Composio 將一千多個外部應用連接到 Hermes；這意味著代理的實際價值高度依賴可控的第三方工具整合。",
+              "tweet_id": "2080499719533723771",
               "file": "audio/2026-07-24/027.mp3"
             },
             {
               "index": 28,
-              "text": "Amto（@XAMTO_AI）推薦一套 Linux 伺服器安全加固指南，涵蓋上線初期設定與常見攻擊防禦；這意味著代理與雲端工具普及後，基礎主機安全仍需先於自動化部署。",
-              "tweet_id": "2080361050189472010",
+              "text": "逸尘（@gengdaJ）表示把 Grok 封裝成 Codex Skill，並公開相關專案；這意味著開發者正透過技能層把不同模型能力接入既有代理工作流。",
+              "tweet_id": "2080462092432535812",
               "file": "audio/2026-07-24/028.mp3"
             },
             {
               "index": 29,
-              "text": "Shubham Saboo（@Saboo_Shubham_）介紹可在本機檢查 GitHub diff、標出非預期變更的開源 Agent Skill；這意味著 AI 產生程式碼的審查正從逐行閱讀轉向變更範圍與風險聚焦。",
-              "tweet_id": "2080479858405326995",
+              "text": "AI 超元域（@AISuperDomain）介紹 OpenSpec Plus，將需求、可測試規格、設計決策與 TDD 納入 AI coding 流程；這意味著規格驅動開發正被用來限制代理過早產生程式碼。",
+              "tweet_id": "2080450323861393567",
               "file": "audio/2026-07-24/029.mp3"
             },
             {
               "index": 30,
-              "text": "Ajey Gore（@AjeyGore）表示 OpenClaw 與 Hermes 雖逐步改善，但非技術使用者仍面臨託管與設定門檻；這意味著 always-on 代理要普及，部署與初始配置仍是關鍵產品問題。",
-              "tweet_id": "2080444754303799646",
+              "text": "QCXINT（@QCXINT_）整理可抓取網頁的開源 GitHub 專案；這意味著代理與 RAG 的資料取得成本可能因開源爬取工具而下降，但同時提高合規與濫用管理需求。",
+              "tweet_id": "2080292940723999060",
               "file": "audio/2026-07-24/030.mp3"
             },
             {
               "index": 31,
-              "text": "JetBrains（@jetbrains）表示 Agent Client Protocol v2 將改善 diff 呈現並修正長期問題；這意味著代理客戶端的可讀性與跨工具相容性正成為協定演進重點。",
-              "tweet_id": "2080309535583957503",
+              "text": "Cloudflare Changelog（@CFchangelog）宣布 Sandbox SDK 可在隔離容器中執行 Devin；這意味著代理執行環境正以每次工作獨立隔離的方式降低相互干擾風險。",
+              "tweet_id": "2080344852794097925",
               "file": "audio/2026-07-24/031.mp3"
             },
             {
               "index": 32,
-              "text": "Google en español（@googleespanol）宣布可用自拍影片恢復 Google 帳號；這意味著帳號復原正採用更便利的生物特徵流程，但也提高身分驗證與隱私治理的重要性。",
-              "tweet_id": "2080287524476322049",
+              "text": "AI Edge（@aiedge_）整理可在每月 4 至 6 美元 VPS 上執行的 Hermes 工作流；這意味著長時間代理任務正嘗試以低成本、自託管方式運作。",
+              "tweet_id": "2080548558210826490",
               "file": "audio/2026-07-24/032.mp3"
             },
             {
               "index": 33,
-              "text": "Tom Brow（@_tombrow）推薦在 Mac mini 上安裝 Buzz，讓使用者從筆電與手機連接常駐代理；這意味著低成本常駐硬體正成為個人代理的部署選項。",
-              "tweet_id": "2080319610449265060",
+              "text": "Kumikumi（@ankkala）表示同時執行 40 個 DeepSeek 代理掃描程式碼中的低品質內容；這意味著並行代理可擴大審查覆蓋，但也需要聚合與去重機制。",
+              "tweet_id": "2080429529680445642",
               "file": "audio/2026-07-24/033.mp3"
             },
             {
               "index": 34,
-              "text": "Ding（@dingyi）認為 Notion 與 Linear 都逐漸從單一文件或專案工具轉為可執行任務的代理平台；這意味著辦公軟體的競爭邊界正被代理能力重新定義。",
-              "tweet_id": "2080466770016776676",
+              "text": "Kate（@whoiskatrin）展示同時以語音控制 ChatGPT Work 與 Codex 代理；這意味著多代理協作介面正從文字指令轉向即時語音調度。",
+              "tweet_id": "2080383603024785629",
               "file": "audio/2026-07-24/034.mp3"
             },
             {
               "index": 35,
-              "text": "Burke Holland（@burkeholland）表示 GitHub Copilot app 以 canvas 重新呈現 Windows Live Writer 式的寫作體驗；這意味著程式代理的介面正擴展到更一般化的內容創作。",
-              "tweet_id": "2080393666418430437",
+              "text": "Howaboua（@Howaboua）表示 Pi-Codex-conversion 即將加入 Codex 即時語音控制；這意味著第三方代理整合也在追趕語音操作能力。",
+              "tweet_id": "2080564556221358136",
               "file": "audio/2026-07-24/035.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🏭 硬體、產業與安全",
-          "items": [
+            },
             {
               "index": 36,
-              "text": "Gavin Uberti（@UbertiGavin）回顧 SK Hynix 從早期提供 HBM 零件到支援 Etched CoWoS 調校的合作；這意味著 AI 加速器競爭不只取決於晶片設計，也取決於先進封裝供應鏈。",
-              "tweet_id": "2080322626220941481",
+              "text": "Xuanwo（@xuanwo）表示讓 Codex 繪製 LanceDB 檔案編碼示意圖，但仍需人工改善可讀性；這意味著代理可以快速產生視覺草稿，品質整理仍需要人機協作。",
+              "tweet_id": "2080569207935369537",
               "file": "audio/2026-07-24/036.mp3"
             },
             {
               "index": 37,
-              "text": "Brew Markets（@brewmarkets）報導 Intel 股價因優於預期的財報上漲 12%；這意味著半導體市場仍會快速反映產能、需求與獲利改善訊號。",
-              "tweet_id": "2080390609223741612",
+              "text": "開發者 Hailey（@IndieDevHailey）介紹字節開源 UI-TARS-desktop，可用自然語言操控桌面與瀏覽器；這意味著本地多模態 GUI 代理正逐步接入終端與 MCP 工具鏈。",
+              "tweet_id": "2080580645567578129",
               "file": "audio/2026-07-24/037.mp3"
             },
             {
               "index": 38,
-              "text": "Ilya Grigorik（@igrigorik）認為 Shopify Global Catalog 是 2026 年的代理商務機會，並強調其開放與 agent-ready 特性；這意味著商品發現到結帳的流程正準備由代理直接串接。",
-              "tweet_id": "2080377907675910492",
+              "text": "鐵柱 AGI（@cgnot996）整理 Grok App 新版的 Changes、訊息分支、Agent 進程控制與多帳號功能；這意味著代理客戶端開始補上版本差異、回溯與執行管理能力。",
+              "tweet_id": "2080588213744525448",
               "file": "audio/2026-07-24/038.mp3"
             },
             {
               "index": 39,
-              "text": "Scale AI（@scale_AI）介紹企業 Forward Deployed Engineering 團隊如何為重要產業建置可靠 AI；這意味著企業 AI 落地需要把模型能力與現場流程、部署責任結合。",
-              "tweet_id": "2080349808515309742",
+              "text": "松岡（@little_hand_s）分享同事採用對抗式驗證文章進行審查的經驗；這意味著代理產出若要進入工程流程，主動找反例的驗證方法不可缺少。",
+              "tweet_id": "2080545960653185143",
               "file": "audio/2026-07-24/039.mp3"
             },
             {
               "index": 40,
-              "text": "Richard Seroter（@rseroter）整理 Anthropic CISO 團隊對 AI 產生大部分程式碼時如何保護 SDLC 的做法；這意味著 AI-native 開發速度必須搭配新的安全審查與權限控制。",
-              "tweet_id": "2080317009754259705",
+              "text": "Safia（@captainsafia）指出不同代理與裝置間的客戶端體驗缺乏一致性；這意味著代理可攜性不只涉及模型，也涉及狀態、工具與介面標準。",
+              "tweet_id": "2080328071576793347",
               "file": "audio/2026-07-24/040.mp3"
             },
             {
               "index": 41,
-              "text": "Max For AI（@MaxForAI）轉述研究人員發現 Claude Cowork 沙箱存在 SharedRoot 風險，可能讓不可信內容影響未授權檔案；這是明確安全漏洞說法，若重現成立，SSH 金鑰與雲端憑證等敏感資料可能面臨暴露風險。",
-              "tweet_id": "2080349899800150121",
+              "text": "Microsoft Mechanics（@MSFTMechanics）介紹 Copilot Analytics，用於連結團隊 AI 使用與商業影響；這意味著企業導入 AI 後，衡量投資回報正成為獨立產品需求。",
+              "tweet_id": "2080328595570839601",
               "file": "audio/2026-07-24/041.mp3"
             },
             {
               "index": 42,
-              "text": "Robinhood Comms（@RobinhoodComms）表示公司 CEO 的 X 帳號遭入侵並發布虛假迷因幣促銷，相關貼文已移除；這意味著高影響力帳號的社交工程與平台復原流程仍是金融品牌風險。",
-              "tweet_id": "2080353603160584640",
+              "text": "SmartHR Developers（@smarthr_dev）分享 SRE 與開發團隊合作進行負載測試的案例；這意味著 AI 時代的快速交付仍需要把運維知識保留在開發團隊中。",
+              "tweet_id": "2080491130874212839",
               "file": "audio/2026-07-24/042.mp3"
             },
             {
               "index": 43,
-              "text": "Jeffrey Emanuel（@doodlestein）聲稱 Codex bug 造成 SSD 日誌失控增長並損壞硬碟；這是個人案例，若可重現將顯示代理工具需要磁碟配額、日誌輪替與故障保護。",
-              "tweet_id": "2080455530225529035",
+              "text": "oomwoo（@0OMWO0）更新開源清潔機器人專案，包含模擬器、防撞、底座與供代理使用的無頭教學；這意味著開源實體代理正同時建構硬體、模擬和自動化介面。",
+              "tweet_id": "2080505120010523069",
               "file": "audio/2026-07-24/043.mp3"
             },
             {
               "index": 44,
-              "text": "Lauren Thomas（@laurenthomas）報導 Stripe 正洽談收購 AI 模型市場 OpenRouter，交易價可能約 100 億美元；這是媒體引述的未確認交易消息，若屬實將重新塑造模型路由市場的分發格局。",
-              "tweet_id": "2080396447992734041",
+              "text": "Jiayuan Zhang（@jiayuan_jy）推薦開源 Multica，面向 Linear、Jira 與 AI 使用者；這意味著專案管理工具正嘗試把任務系統與代理工作流放在同一層。",
+              "tweet_id": "2080595670357217689",
               "file": "audio/2026-07-24/044.mp3"
             },
             {
               "index": 45,
-              "text": "Bloomberg（@business）指出美伊雙方持續交火，且伊朗調停者可能藉此提升自身區域與經濟地位；這意味著地緣政治風險仍可能透過能源與外交渠道擴散。",
-              "tweet_id": "2080464260296040899",
+              "text": "Frank（@jedisct1）分享現代 HTTP request 的設計；這意味著即使在代理時代，清晰的網路協定基礎仍是可靠工具鏈的底層。",
+              "tweet_id": "2080235125535547398",
               "file": "audio/2026-07-24/045.mp3"
             },
             {
               "index": 46,
-              "text": "Yaoyao（@ynonestop）整理 WAIC 觀察，指出中國 AI 產業的展區與資源投入集中在晶片、算力與基礎建設；這意味著算力供應仍被視為 AI 產業長期競爭的瓶頸。",
-              "tweet_id": "2080274762056753655",
+              "text": "KOBA789（@KOBA789）提醒 DNS 的 TCP fallback 常被忽略，且可能在受限負載平衡架構中造成問題；這意味著基礎網路邊界條件仍會影響高階 AI 服務的穩定性。",
+              "tweet_id": "2080318432764215636",
               "file": "audio/2026-07-24/046.mp3"
             },
             {
               "index": 47,
-              "text": "Y Combinator（@ycombinator）介紹 Dust，宣稱其提供跨組織工作的 AI teammates；這意味著企業代理市場正從單一助手轉向跨部門協作系統。",
-              "tweet_id": "2080447515414192330",
+              "text": "Prof. Lee Stott（@lee_stott）介紹把 LangChain 圖部署到 Microsoft Foundry 的流程；這意味著本地代理圖與託管執行環境的移植正在簡化。",
+              "tweet_id": "2080544075195818035",
               "file": "audio/2026-07-24/047.mp3"
             },
             {
               "index": 48,
-              "text": "Ivan Fioravanti（@ivanfioravanti）分享 Apple MLX 上的 mflux 影像生成測試，M5 Max 的 1024 像素生成約 1.6 秒；這意味著消費級 Apple Silicon 的本地生成效能仍在提升。",
-              "tweet_id": "2080263269512585272",
+              "text": "Accel（@Accel）指出軟體產出快速增加，基礎設施與設計標準的重要性同步提高；這意味著 AI 開發工具的價值將由單純速度轉向可維護的交付品質。",
+              "tweet_id": "2080344786578329847",
               "file": "audio/2026-07-24/048.mp3"
             },
             {
               "index": 49,
-              "text": "Trac Network（@TracNetwork）宣布 16GB 以上 Mac mini 可透過提供 Bonsai 27B 推理服務獲得報酬；這意味著分散式本地硬體可能成為代理模型服務的補充算力。",
-              "tweet_id": "2079987190684094717",
+              "text": "mrciffa（@davideciffa）測試具 192GB 統一記憶體的硬體，認為可支援更大模型與上下文；這意味著本地推理硬體正以記憶體容量拓展可執行模型範圍。",
+              "tweet_id": "2080351462169731121",
               "file": "audio/2026-07-24/049.mp3"
-            },
-            {
-              "index": 50,
-              "text": "Poonam Soni（@CodeByPoonam）轉述 Jensen Huang 認為人們將從使用 AI 工具轉向管理 AI 數位員工；這意味著企業角色設計與管理訓練將逐步納入代理協作能力。",
-              "tweet_id": "2080315300705366226",
-              "file": "audio/2026-07-24/050.mp3"
-            },
-            {
-              "index": 51,
-              "text": "Mike Driscoll（@driscollis）介紹 Fusion，可用一個查詢比較多個模型並由裁判模型檢查答案；這意味著多模型交叉驗證正被包裝成一般開發者可用的產品功能。",
-              "tweet_id": "2080396829745721371",
-              "file": "audio/2026-07-24/051.mp3"
-            },
-            {
-              "index": 52,
-              "text": "ParadeDB（@paradedb）宣布建置同時支援全文搜尋、向量檢索與聚合的 Postgres 雲端服務；這意味著代理資料層正把傳統搜尋與語意檢索合併到同一基礎設施。",
-              "tweet_id": "2080347771551559949",
-              "file": "audio/2026-07-24/052.mp3"
-            },
-            {
-              "index": 53,
-              "text": "IREN（@IREN_Ltd）表示其 AI Cloud 可透過再生能源供電的資料中心直接提供 NVIDIA GPU，規模可由數百張擴至數千張；這意味著 AI 雲端競爭正同時聚焦算力規模與能源來源。",
-              "tweet_id": "2072640884068261924",
-              "file": "audio/2026-07-24/053.mp3"
             }
           ]
         },
         {
-          "name": "🛠️ 實用工具與研究",
+          "name": "🏭 產業、科學與市場",
           "items": [
             {
+              "index": 50,
+              "text": "Collin Rugg（@CollinRugg）報導美國國稅局向田納西一名農民追討誤發退款及利息；這是媒體式轉述，涉及個案公共利益，意味著行政錯誤與救濟程序需要以官方文件核對。",
+              "tweet_id": "2080351447334736373",
+              "file": "audio/2026-07-24/050.mp3"
+            },
+            {
+              "index": 51,
+              "text": "Rand Paul（@RandPaul）聲稱其委員會調查發現 Fauci 曾銷毀或要求刪除紀錄；這是政治人物提出的指控，涉及重大公共爭議，應以調查文件與正式紀錄獨立核實。",
+              "tweet_id": "2080399219693642238",
+              "file": "audio/2026-07-24/051.mp3"
+            },
+            {
+              "index": 52,
+              "text": "Catherine Vautrin（@CaVautrin）祝賀 Hong Wang 獲得 2026 年 Fields Medal；這意味著數學研究成就與跨國學術交流受到高度關注。",
+              "tweet_id": "2080410416706937311",
+              "file": "audio/2026-07-24/052.mp3"
+            },
+            {
+              "index": 53,
+              "text": "Peter Yang（@petergyang）詢問 ChatGPT 桌面版語音功能是否已對所有人可見；這意味著新功能推出可能存在分批開放與使用者介面差異。",
+              "tweet_id": "2080425116727697814",
+              "file": "audio/2026-07-24/053.mp3"
+            },
+            {
               "index": 54,
-              "text": "freeCodeCamp.org（@freeCodeCamp）介紹以 JavaScript、PDF.js 與 PDF-lib 建立瀏覽器 PDF 簽署工具；這意味著常見辦公流程仍可透過本地網頁工具降低軟體與資料傳輸成本。",
-              "tweet_id": "2080201524387439038",
+              "text": "VC Intern（@the_vc_intern）報導 Cognition 收購一間約十人新創，該產品訊息量從 beta 的五十萬增至近三個月的一億以上；這是媒體轉述，意味著代理產品的使用量與人才收購正互相牽動。",
+              "tweet_id": "2080344615992123448",
               "file": "audio/2026-07-24/054.mp3"
             },
             {
               "index": 55,
-              "text": "freeCodeCamp.org（@freeCodeCamp）整理 Geoffrey Hinton 1977 年博士論文對視覺、鬆弛與不確定推理的早期工作；這意味著今日 AI 方法仍能從長期研究脈絡中找到理論來源。",
-              "tweet_id": "2080443104541159636",
+              "text": "NANO Nuclear Energy（@nano_nuclear）宣布加入 Virginia Nuclear Energy Consortium；這意味著核能新創正透過區域聯盟連結資料中心需求與能源創新。",
+              "tweet_id": "2078090732884168707",
               "file": "audio/2026-07-24/055.mp3"
             },
             {
               "index": 56,
-              "text": "れにゃ。（@recat_125）預告將在 AWS Bedrock LLM Day Japan 分享 AgentCore Managed Knowledge Base、Web Search Tool 與 harness GA 功能；這意味著託管式代理基礎設施正從展示階段走向正式產品化。",
-              "tweet_id": "2080422904295301579",
+              "text": "Rick AWSB（@rickawsb）分析 NVIDIA 預付先進封裝供應商的交易，並認為 AI 晶片瓶頸會持續移動；這是個人分析，意味著 AI 產業競爭正從 GPU 單品延伸到完整系統供應鏈。",
+              "tweet_id": "2080516280046825475",
               "file": "audio/2026-07-24/056.mp3"
             },
             {
               "index": 57,
-              "text": "小互（@xiaohu）表示 Codex 即時語音功能已推送，但使用額度已耗盡；這意味著語音代理的可用性除了功能開關，也受套餐額度與配額設計影響。",
-              "tweet_id": "2080478615951798553",
+              "text": "Ed Zitron（@edzitron）指出 Magnificent 7 指數下跌 4.8%，蒸發約 7,970 億美元市值；這是市場評論，意味著大型科技股估值仍可能出現劇烈波動。",
+              "tweet_id": "2080427629069709389",
               "file": "audio/2026-07-24/057.mp3"
             },
             {
               "index": 58,
-              "text": "sunmer（@sunmer575399）介紹 OmniRoute，可用單一介面連接多家 AI 提供商與程式代理；這意味著模型路由工具正以供應商整合與成本最佳化吸引開發者。",
-              "tweet_id": "2080269579507699877",
+              "text": "Supermicro（@Supermicro）強調從晶片到整機的 AI 基礎設施整合；這意味著 AI 伺服器競爭正從零組件效能擴大到全生命週期交付。",
+              "tweet_id": "2077094998106116217",
               "file": "audio/2026-07-24/058.mp3"
             },
             {
               "index": 59,
-              "text": "Vega Shah（@dr_alphalyrae）指出 NVIDIA 過去一年新增大量開源儲存庫與 Hugging Face 公開模型；這意味著硬體公司正透過軟體與資料生態擴大 AI 平台影響力。",
-              "tweet_id": "2080461795115069464",
+              "text": "Abdennacer Badaoui（@abdennacer0）表示在 AMD Instinct MI455X 早期測試中取得核心 Transformers 模型套件 99.5% 成功率；這是供應商早期測試分享，意味著新硬體評估需要同時關注頻寬、模型覆蓋與可重現性。",
+              "tweet_id": "2080412891929542703",
               "file": "audio/2026-07-24/059.mp3"
+            },
+            {
+              "index": 60,
+              "text": "Harold Sinnott（@HaroldSinnott）認為電信、光纖、5G、邊緣運算與智慧網路將成為 AI 基礎設施的一部分；這意味著 AI 擴張的瓶頸可能從資料中心延伸到網路連接層。",
+              "tweet_id": "2080361807798223342",
+              "file": "audio/2026-07-24/060.mp3"
+            },
+            {
+              "index": 61,
+              "text": "Digital Innovation for America（@DIFA_USA）宣傳 CLARITY Act 與加密貨幣政策；這是倡議組織立場，意味著加密監管討論同時包含消費者保護與產業遊說。",
+              "tweet_id": "2062975067102048627",
+              "file": "audio/2026-07-24/061.mp3"
+            },
+            {
+              "index": 62,
+              "text": "PhRMA（@PhRMA）主張美國藥品開發速度受生技產業領先帶動，並反對價格管制；這是產業倡議，意味著藥價政策仍在研發速度與可負擔性之間拉鋸。",
+              "tweet_id": "2065527321872716230",
+              "file": "audio/2026-07-24/062.mp3"
             }
           ]
         },
