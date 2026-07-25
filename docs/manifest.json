@@ -1,376 +1,398 @@
 {
-  "updated_at": "2026-07-25T06:43:28.841696+08:00",
+  "updated_at": "2026-07-25T11:54:55.129548+08:00",
   "dates": [
     {
       "date": "2026-07-25",
-      "generated_at": "2026-07-25T06:42:34.255851+08:00",
+      "generated_at": "2026-07-25T11:54:04.972370+08:00",
       "categories": [
         {
-          "name": "🤖 AI 模型與代理",
+          "name": "🤖 AI 模型與產品",
           "items": [
             {
               "index": 1,
-              "text": "Claude（@claudeai）宣布推出 Claude Opus 5，定位為接近前沿能力且價格較低的模型；這意味著高階模型競爭正同時轉向能力與成本。",
+              "text": "Claude（@claudeai）宣布推出 Claude Opus 5，定位為接近前沿級智慧且價格較低；這顯示模型競爭正同時轉向能力與單位成本。",
               "tweet_id": "2080699495453528290",
               "file": "audio/2026-07-25/001.mp3"
             },
             {
               "index": 2,
-              "text": "Claude（@claudeai）表示 Opus 5 已向付費方案與 API 開放，價格維持與 Opus 4.8 相同並提供 Fast mode；這意味著新模型的推廣重點包含可取得性與推理速度。",
+              "text": "Claude（@claudeai）表示 Opus 5 已在付費方案與 API 上線，並成為 Claude Max 預設模型；這讓新模型立即進入開發者與企業工作流。",
               "tweet_id": "2080699515271528827",
               "file": "audio/2026-07-25/002.mp3"
             },
             {
               "index": 3,
-              "text": "Grok（@grok）宣布 Grok Build 新增 Workflows，可分解大量 issue 或程式碼審查並平行執行數百個代理；這意味著代理編排正從單次對話走向批次作業。",
-              "tweet_id": "2080428008989729083",
+              "text": "Boris Cherny（@bcherny）認為 Opus 5 在提示注入測試上是 Anthropic 目前表現最佳的模型；若結果可重現，長時間代理的安全性將有所提升。",
+              "tweet_id": "2080713091688583312",
               "file": "audio/2026-07-25/003.mp3"
             },
             {
               "index": 4,
-              "text": "Grok（@grok）宣布進入 Google Workspace，可在 Sheets、Slides 和 Docs 中研究、製作簡報與撰寫文件；這意味著代理功能正直接嵌入既有辦公軟體。",
+              "text": "Grok（@grok）宣布可在 Google Workspace 的 Sheets、Slides 與 Docs 中使用；這意味著模型能力正從聊天介面延伸到辦公文件流程。",
               "tweet_id": "2080716512009343207",
               "file": "audio/2026-07-25/004.mp3"
             },
             {
               "index": 5,
-              "text": "Boris Cherny（@bcherny）認為 Opus 5 是其最不易遭提示注入的模型，並提到內部評估結果；這意味著代理安全性開始與模型能力一起成為發布賣點。",
-              "tweet_id": "2080713091688583312",
+              "text": "Gavin Baker（@GavinSBaker）整理指出 Grok 4.5、SWE-1.7 與 Opus 5 形成新的能力／價格前沿；市場比較將更重視每美元產出的有效智慧。",
+              "tweet_id": "2080711105349906786",
               "file": "audio/2026-07-25/005.mp3"
             },
             {
               "index": 6,
-              "text": "Nous Research（@NousResearch）宣布 Hermes Agent 新增 Docker sandbox credential firewall，以代理 token 取代真實金鑰並在網路邊界交換；這意味著代理隔離開始延伸到憑證流動控制。",
-              "tweet_id": "2080728699100406042",
+              "text": "nico（@nicochristie）認為 Opus 5 在試算表任務上相較前代有明顯躍升；若企業工作負載也成立，模型價值會更多由知識工作效率衡量。",
+              "tweet_id": "2080743129230262578",
               "file": "audio/2026-07-25/006.mp3"
             },
             {
               "index": 7,
-              "text": "Ahmad Awais（@MrAhmadAwais）認為開源模型工具呼叫表現不佳通常是 harness 問題而非模型問題；這意味著代理上下文與工具設計可能比模型品牌更關鍵。",
-              "tweet_id": "2050956678502420612",
+              "text": "adam（@adamdotnew）表示 Opus 5 在代理式 CAD 設計測試中表現突出；這顯示生成式模型的競爭正進入具體工程設計場景。",
+              "tweet_id": "2080805422785519636",
               "file": "audio/2026-07-25/007.mp3"
             },
             {
               "index": 8,
-              "text": "Celeris Labs（@Celeris_ai）宣布 celeris-1，主打接近 GPT-5 的一般語言能力與較快回應速度；這意味著推理架構與延遲正成為模型產品化的主要差異點。",
-              "tweet_id": "2080442996403933630",
+              "text": "BridgeMind（@bridgemindai）整理 CursorBench 結果，指出 Opus 5 在部分設定下接近 Fable 5 但成本更低；第三方基準開始把價格效率列為主要賣點。",
+              "tweet_id": "2080707321806868774",
               "file": "audio/2026-07-25/008.mp3"
             },
             {
               "index": 9,
-              "text": "jason（@jxnlco）解釋 Codex Voice 會把語音視為 orchestrator，將工作派給其他執行緒；這意味著語音產品的核心價值可能在協調上下文，而非直接完成所有實作。",
-              "tweet_id": "2080502253417300212",
+              "text": "AWS AI（@AWSAI）宣布 Claude Opus 5 已在 Amazon Bedrock 與 Claude Platform on AWS 提供；雲端多平台供應可降低企業導入新模型的切換成本。",
+              "tweet_id": "2080721931628614132",
               "file": "audio/2026-07-25/009.mp3"
             },
             {
               "index": 10,
-              "text": "ElevenLabs Developers（@ElevenLabsDevs）展示以單一 prompt 將既有 chat agent 轉為即時語音 agent；這意味著語音能力的整合門檻正在下降，產品互動可能更快轉向即時對話。",
-              "tweet_id": "2057919237813891444",
+              "text": "Pi（@pidotdev）表示 Opus 5 將透過動態模型目錄自動出現，不一定需要新的 Pi 發行版；模型目錄與客戶端版本正在逐步解耦。",
+              "tweet_id": "2080733936494223767",
               "file": "audio/2026-07-25/010.mp3"
             },
             {
               "index": 11,
-              "text": "Cline（@cline）表示 Opus 5 在 SWE-Bench 取得 97%，並主張具備較低成本的前沿能力；這意味著代理編碼基準競賽持續升溫，但仍應區分官方數據與第三方轉述。",
-              "tweet_id": "2080735295281168772",
+              "text": "Peter Yang（@petergyang）分享以 ChatGPT Voice 管理 Codex 長時間工作串的用法；語音介面可能成為代理任務規劃與追蹤的自然入口。",
+              "tweet_id": "2080793867960643823",
               "file": "audio/2026-07-25/011.mp3"
             },
             {
               "index": 12,
-              "text": "NVIDIA AI（@NVIDIAAI）表示透過 ModelExpress 與 GPU-to-GPU RDMA，將 DeepSeek-V4 Pro 啟動時間從 8 分鐘降至 2 分鐘以下；這意味著模型部署效率越來越取決於權重傳輸與快取管理。",
-              "tweet_id": "2080730149348082124",
+              "text": "Zaid（@zaidmukaddam）表示 Claude Opus 5 已在 Scira 向 Max 訂閱者提供；模型能力正快速透過第三方產品分發，而不只依賴原廠介面。",
+              "tweet_id": "2080712482109468846",
               "file": "audio/2026-07-25/012.mp3"
             },
             {
               "index": 13,
-              "text": "Exa（@ExaAILabs）宣布可在 Grok Build 正式使用 Exa web search；這意味著代理搜尋的資料來源與工具選擇正形成可組合的生態。",
-              "tweet_id": "2080726024627855417",
+              "text": "Kinopee（@kinopee_ai）認為 Opus 5 多數任務分數高於 Fable 5 且成本約半；若評測方法一致，價格壓力將擴大到整個前沿模型市場。",
+              "tweet_id": "2080706698478834087",
               "file": "audio/2026-07-25/013.mp3"
             },
             {
               "index": 14,
-              "text": "Aaron Levie（@levie）表示 Box 以企業文件工作流測試 Claude Opus 5，觀察到其在多項能力上大幅超越前代；這意味著模型價值正透過真實企業資料處理被具體評估。",
-              "tweet_id": "2080704871934931221",
+              "text": "Max Weinbach（@mweinbach）表示 Codex Micro 已正式出貨；更小型、專門化的編碼模型開始補足大型模型的成本與延遲需求。",
+              "tweet_id": "2080795360969052378",
               "file": "audio/2026-07-25/014.mp3"
             },
             {
               "index": 15,
-              "text": "BridgeMind（@bridgemindai）表示 Opus 5 以單一 prompt 產出其最佳 Remotion 影片，包含轉場、音樂時序與品牌元素；這意味著模型競爭正從程式碼延伸到可直接交付的視覺內容。",
-              "tweet_id": "2080760984290120049",
+              "text": "Mnimiy（@Mnilax）整理一種讓模型以程式分塊讀取超長內容的方法；把上下文管理交給可執行工具，可能成為長上下文代理的實用替代方案。",
+              "tweet_id": "2080725948928868545",
               "file": "audio/2026-07-25/015.mp3"
             },
             {
               "index": 16,
-              "text": "Greg Kamradt（@GregKamradt）表示 Opus 5 在 ARC-AGI-3 達到新的領先表現並展現更高自主性；這意味著陌生環境的長流程求解能力正成為新模型的重要比較面向。",
-              "tweet_id": "2080721709230068071",
+              "text": "freeCodeCamp.org（@freeCodeCamp）介紹 HyDE 以假設答案改善語意檢索；這提供 RAG 在問法與文件用語不同時的通用補強路徑。",
+              "tweet_id": "2080745158509768760",
               "file": "audio/2026-07-25/016.mp3"
             },
             {
               "index": 17,
-              "text": "Figma（@figma）推出 Figma Make，讓使用者以 prompt 將想法轉成互動式 proof of concept；這意味著設計工具正把概念驗證從文件流程推向可運作原型。",
-              "tweet_id": "2070522874277073332",
+              "text": "Bojie Li（@bojie_li）表示其《深入理解 AI Agent》開源書一週獲得約 19k stars、28 位貢獻者與 300 多個 PR；中文 AI 工程教育內容正形成快速協作的社群資產。",
+              "tweet_id": "2080687730342928480",
               "file": "audio/2026-07-25/017.mp3"
             },
             {
               "index": 18,
-              "text": "Steve Francia（@spf13）認為 Gemini 3.6 Flash 在 computer use 上反應很快，即使不屬於最強編碼模型也很實用；這意味著代理模型的實際價值可能來自速度與操作能力，而非單一總榜排名。",
-              "tweet_id": "2080639937611722951",
+              "text": "Zara Zhang（@zarazhangrui）認為把代理帶進群組與會議後，聊天紀錄和會議逐字稿可直接轉為 PRD；這會讓非書面溝通也成為產品規格輸入。",
+              "tweet_id": "2080617484261249160",
               "file": "audio/2026-07-25/018.mp3"
             },
             {
               "index": 19,
-              "text": "Matt Pocock（@mattpocockuk）認為通用 review skill 很難寫，因為必須依專案建立一套經過整理的標準；這意味著代理審查的品質取決於專案脈絡，而非一個萬用提示詞。",
-              "tweet_id": "2080760177494577332",
+              "text": "Dawn Song（@dawnsongtweets）介紹 ExploitGym，用於評估代理把真實漏洞轉成可運作攻擊的能力；安全代理評測正從抽象題目走向實際風險邊界。",
+              "tweet_id": "2080763658729390202",
               "file": "audio/2026-07-25/019.mp3"
+            },
+            {
+              "index": 20,
+              "text": "Firefox（@firefox）表示 Mozilla 將與二十多個組織支持開放權重與開源 AI；開放模型生態的聯盟化程度正在提高。",
+              "tweet_id": "2080809638962847797",
+              "file": "audio/2026-07-25/020.mp3"
             }
           ]
         },
         {
-          "name": "🛠️ 開發工具與工程",
+          "name": "🦞 Agent、OpenClaw 與開發流程",
           "items": [
             {
-              "index": 20,
-              "text": "Unity（@unity）宣布 Unity 7，主打讓創作者、跨職能團隊與 coding agents 在各階段協作；這意味著遊戲引擎正把代理協作納入完整的內容生產週期。",
-              "tweet_id": "2079373741071425784",
-              "file": "audio/2026-07-25/020.mp3"
-            },
-            {
               "index": 21,
-              "text": "Uncle Bob Martin（@unclebobmartin）分享從零建立專案並觀察代理處理 wiring issues 的經驗；這意味著代理正在改變資深工程師管理複雜初始架構的方式。",
-              "tweet_id": "2080665354544497036",
+              "text": "Nous Research（@NousResearch）推出 Hermes Agent 的 Docker sandbox credential firewall；真實金鑰留在網路邊界之外，可降低沙盒遭入侵後的橫向濫用風險。",
+              "tweet_id": "2080728699100406042",
               "file": "audio/2026-07-25/021.mp3"
             },
             {
               "index": 22,
-              "text": "Javi Lopez（@javilopen）介紹 Bifrost 的 real2sim pipeline，可從單段影片重建可導航的 3D 工業或實驗室環境；這意味著實體場景資料正更快轉換成可供模擬與代理使用的數位環境。",
-              "tweet_id": "2080579802730209492",
+              "text": "Nous Research（@NousResearch）表示 Opus 5 已可在 Hermes Agent 使用；新模型接入代理框架的速度將直接影響開發者採用。",
+              "tweet_id": "2080745634710139113",
               "file": "audio/2026-07-25/022.mp3"
             },
             {
               "index": 23,
-              "text": "Michael Dell（@MichaelDell）表示資料是 AI 的核心燃料，企業希望 AI 在私有資料與網路韌性環境中運作；這意味著企業 AI 基礎設施競爭將同時聚焦資料控制與安全。",
-              "tweet_id": "2069537609752412254",
+              "text": "mr-r0b0t（@mr_r0b0t）轉述 Hermes Agent 團隊功能即將推出，並稱讚 Block 與 Nous Research 的回應速度；這反映代理生態正在以團隊協作方式加速整合。",
+              "tweet_id": "2080822291269640563",
               "file": "audio/2026-07-25/023.mp3"
             },
             {
               "index": 24,
-              "text": "CoinGecko（@coingecko）宣布 Robinhood Chain 資料進入 API，支援 REST、WebSockets、Webhooks、MCP 與 CLI；這意味著金融資料服務正以多種代理友善介面擴大整合範圍。",
-              "tweet_id": "2072394893255954646",
+              "text": "Theo（@theo）整理 T3 Code 一週合併 76 個 PR，新增核准自動化、Sidebar v2 與共用專案設定；快速迭代正集中在代理協作與工作流管理。",
+              "tweet_id": "2080776679035896166",
               "file": "audio/2026-07-25/024.mp3"
             },
             {
               "index": 25,
-              "text": "TokenRouter（@TokenRouter_US）表示 GLM 5.2 免費方案持續至 7 月 25 日，付費層並提供折扣與 fallback；這意味著模型平台正以限時低價吸引開發者測試多模型服務。",
-              "tweet_id": "2078153184707580065",
+              "text": "h.uchida（@pnpn_86）整理四家公司最常用的 Claude Code Skills，指出調查與審查類工作高於純編碼；代理的主要價值可能首先落在理解與驗證，而非產碼。",
+              "tweet_id": "2080442357984768018",
               "file": "audio/2026-07-25/025.mp3"
             },
             {
               "index": 26,
-              "text": "Higgsfield AI（@higgsfield）表示將更新 Terms of Use，明確說明創作者在平台上的控制與保護；這意味著生成式內容平台正透過條款調整回應創作者對權利與資料使用的關切。",
-              "tweet_id": "2080700103283679275",
+              "text": "Kyle Mistele（@0xblacklight）認為程式碼審查代理更適合在 git 或 Claude hook 中自動觸發；把審查嵌入提交流程可降低另開工具造成的摩擦。",
+              "tweet_id": "2080715407137427522",
               "file": "audio/2026-07-25/026.mp3"
             },
             {
               "index": 27,
-              "text": "極客杰尼（@seekjourney）介紹 video-shotcraft，整理 106 個鏡頭配方、162 種風格與 Remotion Agent Skill；這意味著影片製作知識正被結構化成可由代理重複使用的工作資產。",
-              "tweet_id": "2080624069742043176",
+              "text": "Shengzhe（@shengzheyao）介紹 Antigravity CLI 在中途切換代理時自動建立 fork；保留原對話並分支執行有助於降低上下文互相污染。",
+              "tweet_id": "2080797750053196213",
               "file": "audio/2026-07-25/027.mp3"
             },
             {
               "index": 28,
-              "text": "Jakub Krehel（@jakubkrehel）在 better collection 新增 accessibility、layout 與 writing skills；這意味著代理技能正從功能實作擴展到無障礙、視覺層次與產品文案品質。",
-              "tweet_id": "2080683435153117488",
+              "text": "Mikyo（@mikeldking）分享用本地追蹤與評估工具偵測挫折訊號，再由 Claude 建議 Skills；本地 SQLite 與 MCP 組合讓代理工作流可以形成可觀測回圈。",
+              "tweet_id": "2080707300009120065",
               "file": "audio/2026-07-25/028.mp3"
             },
             {
               "index": 29,
-              "text": "AI News | TestingCatalog（@testingcatalog）表示 Codex 本地專案可納入其他資料夾的檔案，同時維持主要資料夾作為 Git root；這意味著多資料夾上下文可降低代理處理跨專案資產時的限制。",
-              "tweet_id": "2080623796487074007",
+              "text": "Misbah Syed（@MisbahSy）發布把原始影片與螢幕錄影轉成短影音的 Skill；代理開始涵蓋多媒體剪輯，工作流邊界不再限於程式碼。",
+              "tweet_id": "2080697453268156715",
               "file": "audio/2026-07-25/029.mp3"
             },
             {
               "index": 30,
-              "text": "James Long（@jlongster）表示 OpenCode v2 將推出新的 theming system 與主題產生網站；這意味著開發代理工具正把客製化介面與使用者體驗視為產品成熟度的一部分。",
-              "tweet_id": "2080761377174528462",
+              "text": "Gas留在链上（@cevenif）介紹 AgentKey，將網頁搜尋、X、LinkedIn 與 Reddit 等能力統一給代理使用；統一外部服務入口可減少整合與金鑰管理成本。",
+              "tweet_id": "2080706310509588811",
               "file": "audio/2026-07-25/030.mp3"
             },
             {
               "index": 31,
-              "text": "LangChain（@LangChain）表示 agent governance 涵蓋身份驗證、稽核、secret、資料隔離、限流、fallback 與支出控制；這意味著代理治理已從單一安全功能擴展為完整的營運控制面。",
-              "tweet_id": "2080672957152530718",
+              "text": "Yuu（@QuantumTransf）認為多代理協作會新增人與代理、代理與代理及代理與上下文的多重障礙；代理數量增加不必然等於協作效率增加。",
+              "tweet_id": "2080594367111160084",
               "file": "audio/2026-07-25/031.mp3"
             },
             {
               "index": 32,
-              "text": "Factory（@FactoryAI）展示 Design Mode，可讓 Droid 在桌面應用建立簡報並直接修改圖表與統計；這意味著代理式內容製作正把生成、預覽與局部修改串成閉環。",
-              "tweet_id": "2080685610017366268",
+              "text": "Ant Ling（@AntLingAGI）強調 token efficiency 對可持續使用很重要；代理產品的競爭將同時受到推理品質、成本與上下文消耗約束。",
+              "tweet_id": "2080598756899365101",
               "file": "audio/2026-07-25/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "Unstoppable Domains（@unstoppableweb）表示 Unstoppable Code 可接入既有 Claude 與 Codex，並可同時執行多個模型；這意味著代理平台正以多模型切換與成本選擇吸引既有使用者。",
-              "tweet_id": "2080684895656141109",
-              "file": "audio/2026-07-25/033.mp3"
-            },
-            {
-              "index": 34,
-              "text": "寶玉（@dotey）宣布 BaoCut 的影片畫面翻譯功能可由 Codex 自動操作並匯出到 CapCut；這意味著代理正把影音處理從單一功能推向跨工具自動化流程。",
-              "tweet_id": "2080770347977113983",
-              "file": "audio/2026-07-25/034.mp3"
-            },
-            {
-              "index": 35,
-              "text": "NVIDIA AI（@NVIDIAAI）表示其 Kaggle 團隊以 manager agents 協調專門 worker、共用知識庫與工具，取得資料代理競賽第二名；這意味著多代理分工與共享記憶已能應用於具體資料科學任務。",
-              "tweet_id": "2080698948839211084",
-              "file": "audio/2026-07-25/035.mp3"
-            },
-            {
-              "index": 36,
-              "text": "NVIDIA AI Infrastructure（@NVIDIAAIInfra）指出 agentic AI 每項任務可能產生標準聊天 100 倍的 token，要求新的推理基礎設施；這意味著代理普及將重新改寫算力、儲存與成本模型。",
-              "tweet_id": "2080759571984130281",
-              "file": "audio/2026-07-25/036.mp3"
-            },
-            {
-              "index": 37,
-              "text": "Baseten（@baseten）宣布可透過 Loops SDK 微調 GLM-5.2，並將 checkpoint 部署至 production inference endpoint；這意味著模型微調與生產部署正被整合成更短的開發路徑。",
-              "tweet_id": "2080680647329198138",
-              "file": "audio/2026-07-25/037.mp3"
-            },
-            {
-              "index": 38,
-              "text": "Daniel San（@dani_avila7）建議在以 Claude Code Desktop 建立遊戲時，先要求代理製作專門驗證角色移動的場景，再納入正式場景；這意味著把可驗證的中間環境加入工作流，有助於降低代理一次性生成的錯誤。",
-              "tweet_id": "2080632999012405676",
-              "file": "audio/2026-07-25/038.mp3"
-            },
-            {
-              "index": 39,
-              "text": "Start.dev（@startdotdev）宣布 Docker Captain Francesco Ciulla 加入擔任 instructor；這意味著代理與開發教育平台正透過具實務背景的講師擴大工具採用與學習資源。",
-              "tweet_id": "2080743989343613082",
-              "file": "audio/2026-07-25/039.mp3"
             }
           ]
         },
         {
-          "name": "🌐 產業、財經與公共事件",
+          "name": "🛠️ 工具、平台與工程",
           "items": [
             {
+              "index": 33,
+              "text": "Supabase（@supabase）宣布推出 Edge Function Overview，可查看錯誤率、執行時間、CPU 與記憶體；邊緣函式的可觀測性正從日誌走向統一運維介面。",
+              "tweet_id": "2080669559967657995",
+              "file": "audio/2026-07-25/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "scriptc（@ctatedev）公布以 TypeScript 編寫、目標是與 Node.js 逐位元相容的 TypeScript-to-native compiler；若相容性目標達成，既有 TS/JS 專案可減少遷移成本。",
+              "tweet_id": "2080834039435362757",
+              "file": "audio/2026-07-25/034.mp3"
+            },
+            {
+              "index": 35,
+              "text": "David Haz（@davidhdev）展示支援 Plain TS、React、Vue、Svelte、Solid 與 Preact 的 shadcn registry；跨框架元件分發可讓設計系統更容易共享。",
+              "tweet_id": "2080756763943428144",
+              "file": "audio/2026-07-25/035.mp3"
+            },
+            {
+              "index": 36,
+              "text": "Dart Language（@dart_lang）表示官方 Dart blog 已完整遷移至 dart.dev/blog；文件入口集中有助於降低版本資訊分散問題。",
+              "tweet_id": "2080744009014915403",
+              "file": "audio/2026-07-25/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "alex shapalov（@alxshp）指出 Postgres 19 可在 EXPLAIN 直接顯示非同步 I/O 活動；資料庫效能分析因此能更直接對應儲存層工作。",
+              "tweet_id": "2080736319207288852",
+              "file": "audio/2026-07-25/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "Elijah Kurien（@ElijahKurien）準備拆解 Codex CLI 的工程設計與模式；代理式 CLI 的內部架構正逐漸成為可複用的工程知識。",
+              "tweet_id": "2080741404813472066",
+              "file": "audio/2026-07-25/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "Phil Eaton（@eatonphil）介紹 Go 新的 Green Tea garbage collector；執行時期記憶體管理的改進可影響 Go 服務的延遲與資源使用。",
+              "tweet_id": "2080677242502254804",
+              "file": "audio/2026-07-25/039.mp3"
+            },
+            {
               "index": 40,
-              "text": "Bernie Sanders（@BernieSanders）指出 Amazon 工人依賴食品券與 Medicaid 的人數自 2020 至 2025 年近乎三倍；這意味著大型科技與零售企業的勞動條件仍是公共政策爭論焦點，相關數字需以原始統計核對。",
-              "tweet_id": "2080691033772319017",
+              "text": "Octane Security（@octane_security）表示 Oracle 針對 VirtualBox 記憶體破壞漏洞分配 CVE-2026-60161；長期存在的底層漏洞提醒虛擬化軟體仍需持續安全維護。",
+              "tweet_id": "2080349957287264434",
               "file": "audio/2026-07-25/040.mp3"
             },
             {
               "index": 41,
-              "text": "Andrew Curran（@AndrewCurran_）轉述多家企業聯署支持 open-weight models，並指出 OpenAI、Anthropic、Google 與 xAI 未簽署；這意味著開放權重政策正形成產業陣營分歧。",
-              "tweet_id": "2080668162765520955",
+              "text": "Revoke.cash（@RevokeCash）表示自 2020 年追蹤到 66 起 approval exploit、損失超過 4.95 億美元，並推出批次檢查；集中檢查可降低使用者逐一核對合約的負擔，但數據與產品宣稱仍應分開看待。",
+              "tweet_id": "2080660895185719312",
               "file": "audio/2026-07-25/041.mp3"
             },
             {
               "index": 42,
-              "text": "Mira Murati（@miramurati）認為 AI 所需知識分散在科學家、工程師、臨床與企業，AI 也應保持分散；這意味著模型開放性與知識分布的關係再次成為產業政策討論焦點。",
-              "tweet_id": "2080715390179766646",
+              "text": "Qoder（@qoder_ai_ide）宣布週末重置 boost package，提供額外 1,000 次呼叫；代理 IDE 正以用量配額與促銷方案爭取試用與留存。",
+              "tweet_id": "2080663183099081026",
               "file": "audio/2026-07-25/042.mp3"
             },
             {
               "index": 43,
-              "text": "X Freeze（@XFreeze）整理 Grok 在 Google Sheets、Slides 與 Docs 的使用方式，包括讀取選取範圍並引用儲存格；這意味著辦公代理正從生成文字走向可追溯的文件與資料操作。",
-              "tweet_id": "2080732812131664187",
+              "text": "TokenRouter（@TokenRouter_US）宣布 GLM 5.2 開放免費層並提供折扣；模型路由服務正在用價格與 fallback 選項爭取開發者流量。",
+              "tweet_id": "2080603533116592630",
               "file": "audio/2026-07-25/043.mp3"
             },
             {
               "index": 44,
-              "text": "TechCrunch（@TechCrunch）報導 Cognition 收購 Poke，並指出 AI personality 正成為競爭優勢；這意味著代理產品的差異化可能從單純能力延伸到互動風格與長期關係。",
-              "tweet_id": "2080717246595477887",
+              "text": "Rohan Paul（@rohanpaul_ai）介紹 Higgsfield Supercomputer 可讓 Claude 直接操作 After Effects 專案層、關鍵幀與渲染設定；多模態代理開始接觸完整創作工具鏈。",
+              "tweet_id": "2080531177677742583",
               "file": "audio/2026-07-25/044.mp3"
             },
             {
               "index": 45,
-              "text": "Bloomberg（@business）報導美國總統表示美國與伊朗正在談判，尚未決定是否發動新的重大攻擊；這意味著局勢仍具不確定性，任何軍事進展都可能影響能源與區域安全。",
-              "tweet_id": "2080759117421871256",
+              "text": "James Montemagno（@JamesMontemagno）分享與 Ed Andersen 討論 .NET、Copilot 及日本社群工作；企業開發工具的採用仍高度依賴社群與教育網路。",
+              "tweet_id": "2080823164498755672",
               "file": "audio/2026-07-25/045.mp3"
             },
             {
               "index": 46,
-              "text": "The New York Times（@nytimes）報導國際刑事法院首席檢察官 Karim Khan 因性不當行為指控被解除職務；這意味著相關司法機構的領導層與程序公信力將受到進一步關注。",
-              "tweet_id": "2080764110346526765",
+              "text": "Tom Yeh（@ProfTomYeh）預告以 Kimi 3 的數學與演算法為主題的 AI by Hand 講座；模型能力正被轉化為可供工程師學習的技術課程。",
+              "tweet_id": "2080730460720951353",
               "file": "audio/2026-07-25/046.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🌐 開放模型與產業",
+          "items": [
             {
               "index": 47,
-              "text": "Rand Group（@randgroup）聲稱沙烏地阿拉伯再次改道石油出口，並預測燃料價格將上升；這意味著能源市場可能受地緣運輸風險影響，但該貼文未提供足夠原始證據，需等待可靠來源確認。",
-              "tweet_id": "2080647437337997525",
+              "text": "Lina Khan（@linamkhan）表示開放權重能讓新創與企業不必依賴少數閘門者；監管與產業討論開始把模型開放度視為創新競爭因素。",
+              "tweet_id": "2080817944280359224",
               "file": "audio/2026-07-25/047.mp3"
             },
             {
               "index": 48,
-              "text": "DogeDesigner（@cb_doge）轉述 Herotel 執行長稱 Amazon Leo 可能在一年內追上或超越 Starlink 速度；這意味著衛星網路競爭正在升溫，但目前屬公司方面的展望性說法。",
-              "tweet_id": "2080650855913820663",
+              "text": "Sriram Krishnan（@sriramk）表示開源社群對近期事件展現大量支持；開放模型議題正在形成更強的公共討論動能。",
+              "tweet_id": "2080830823813829051",
               "file": "audio/2026-07-25/048.mp3"
             },
             {
               "index": 49,
-              "text": "Protecting America Initiative（@ProtectUSInit）表示交通安全監管機構警告無人車可能干擾急救人員；這意味著自動駕駛擴張仍需同步處理緊急通行與公共道路安全問題。",
-              "tweet_id": "2078200381859922024",
+              "text": "AWS 非官方帳號（@awswhatsnew_jp）整理 AWS research preview 的 aws-bench，用來衡量代理執行真實 AWS 任務的準確性與效率；雲端任務基準有助於把代理能力連到實際營運。",
+              "tweet_id": "2080672071752048962",
               "file": "audio/2026-07-25/049.mp3"
             },
             {
               "index": 50,
-              "text": "Gauth: AI Study Companion（@Gauth_AI）整理荷莫茲海峽最窄處及航道寬度；這意味著一個看似寬闊的海域實際具有高度集中的航運瓶頸，地緣風險可能快速傳導至能源運輸。",
-              "tweet_id": "2080633660622148070",
+              "text": "NVIDIA（@nvidia）宣布與韓國政府、產業及科技領袖合作推進 K-AI，涵蓋晶片、前沿 AI、機器人與 AI 工廠；國家級 AI 基礎設施競賽正從模型延伸至整體供應鏈。",
+              "tweet_id": "2080833379197477226",
               "file": "audio/2026-07-25/050.mp3"
             },
             {
               "index": 51,
-              "text": "Max For AI（@MaxForAI）聲稱 Stripe 已完成收購 OpenRouter，金額約 10–13 億美元；這意味著若消息屬實將顯示支付公司加速布局 AI 基礎設施，但目前仍未獲雙方正式確認。",
-              "tweet_id": "2080615616692777209",
+              "text": "Ben Bajarin（@BenBajarin）轉述 Intel 目標在 2028 年進入高量產爬坡，並稱 14A IP 驗證進展良好；先進製程的市場信心仍取決於量產時程能否兑现。",
+              "tweet_id": "2080402853752107349",
               "file": "audio/2026-07-25/051.mp3"
             },
             {
               "index": 52,
-              "text": "Brad Smith（@BradSmi）表示 open-weight models 對建立廣泛 AI 生態具有關鍵作用，Microsoft 將加入支持行列；這意味著大型軟體公司正把開放權重視為競爭與生態擴張的一部分。",
-              "tweet_id": "2080681289460666717",
+              "text": "NANO Nuclear Energy（@nano_nuclear）宣布加入 Virginia Nuclear Energy Consortium；資料中心需求與能源供應議題正推動核能產業尋求更多公私協作。",
+              "tweet_id": "2078090732884168707",
               "file": "audio/2026-07-25/052.mp3"
             },
             {
               "index": 53,
-              "text": "Aaron Levie（@levie）表示各方對支持 open weights 的訊息已有廣泛共識，並呼籲美國持續推動相關創新；這意味著開放模型已從技術選擇升格為產業政策與國家競爭力議題。",
-              "tweet_id": "2080761484305654091",
+              "text": "Joe Dan Gorman（@JoeDanMedia）發布節目內容並邀請訂閱；政治與媒體帳號的主要訊息是內容推廣，不能直接視為獨立事件證據。",
+              "tweet_id": "2078709070085652866",
               "file": "audio/2026-07-25/053.mp3"
             },
             {
               "index": 54,
-              "text": "Bill Gurley（@bgurley）認為 AI 公司發布的安全或危險主張需要第三方實驗室獨立重現與公開披露；這意味著模型安全聲明的可信度正面臨更高的外部驗證要求。",
-              "tweet_id": "2080763671022616855",
+              "text": "Sabrina（@sabrinaesaquino）表示 Venice 每日處理約 125B tokens；若數據準確，這顯示高流量模型服務的推理基礎設施規模仍在快速上升。",
+              "tweet_id": "2080747262980882943",
               "file": "audio/2026-07-25/054.mp3"
             },
             {
               "index": 55,
-              "text": "Molly O’Shea（@MollySOShea）討論 BlackRock 對 AI 相關大規模資本支出的看法；這意味著 AI 基礎設施投資已成為大型資產管理機構評估企業與市場的重要主題。",
-              "tweet_id": "2080652405231026567",
+              "text": "Loran（@0xLoran）推測網路流傳的中國 AI 黑板影片背後可能使用 Kimi，並提及 Kimi K3 的開放模型排名；這是個人推測與轉述，重點在於開放模型能見度上升而非已確認來源。",
+              "tweet_id": "2080594019462033761",
               "file": "audio/2026-07-25/055.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🚀 航太與科學",
+          "items": [
             {
               "index": 56,
-              "text": "Liberty Justice Center（@LJCenter）宣布就政府依 Section 301 徵收關稅的新方案提起訴訟；這意味著貿易政策的法律爭議可能延續，企業仍需留意關稅制度的不確定性。",
-              "tweet_id": "2080712555920531471",
+              "text": "SpaceX（@SpaceX）表示 Starship 第十三次飛行測試的重點包括在更高動壓上升段取得隔熱罩影像；測試目標正從飛行成功延伸到可診斷的工程資料。",
+              "tweet_id": "2080384481043656948",
               "file": "audio/2026-07-25/056.mp3"
             },
             {
               "index": 57,
-              "text": "The New York Times（@nytimes）報導密西根州民主黨參議院初選中，州長 Gretchen Whitmer 支持 Haley Stevens；這意味著關鍵州的黨內背書正在提前塑造 2026 選舉競爭。",
-              "tweet_id": "2080763857228673424",
+              "text": "SpaceX（@SpaceX）發布 Starship Raptor 引擎在熱級間分離時點火的畫面；多階段回收與分離程序的可視化有助於外界理解測試進度。",
+              "tweet_id": "2080788786863095890",
               "file": "audio/2026-07-25/057.mp3"
             },
             {
               "index": 58,
-              "text": "NVIDIA Newsroom（@nvidianewsroom）表示 Samsung 董事長李在鎔與 Jensen Huang 會面，參與韓國科技領袖交流；這意味著 AI 晶片、記憶體與電子製造供應鏈的合作關係仍在加深。",
-              "tweet_id": "2080762909882274109",
+              "text": "Sawyer Merritt（@SawyerMerritt）轉述 Starship booster 完成翻轉並在印度洋附近精準濺落；若官方資料一致，這代表回收控制與落點精度持續改善。",
+              "tweet_id": "2080804891073667444",
               "file": "audio/2026-07-25/058.mp3"
             },
             {
               "index": 59,
-              "text": "MiniMax（@MiniMax_AI）宣布 Intelligence in the Open 系列，邀請研究者與建造者討論 AI 進展；這意味著模型公司正透過公開活動建立研究社群與開放生態的連結。",
-              "tweet_id": "2080766623011807490",
+              "text": "Sawyer Merritt（@SawyerMerritt）表示 SpaceX 首次公開 Super Heavy 飛離 Starship 的新鏡頭；更完整的影像資料可增加對飛行階段的外部分析。",
+              "tweet_id": "2080828871545421891",
               "file": "audio/2026-07-25/059.mp3"
+            },
+            {
+              "index": 60,
+              "text": "Elon Musk（@elonmusk）表示最新隔熱罩設計看起來良好；這是個人評價，反映隔熱系統仍是 Starship 測試關注重點。",
+              "tweet_id": "2080817350069084561",
+              "file": "audio/2026-07-25/060.mp3"
+            },
+            {
+              "index": 61,
+              "text": "Wonder of Science（@wonderofscience）分享 Cassini 拍攝土星衛星 Enceladus 的裂縫、褶皺與脊狀地形；冰衛星的構造活動仍是行星科學的重要觀測對象。",
+              "tweet_id": "2080839897800151412",
+              "file": "audio/2026-07-25/061.mp3"
             }
           ]
         },
