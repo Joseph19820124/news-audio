@@ -1,346 +1,326 @@
 {
-  "updated_at": "2026-07-29T17:29:23.083600+08:00",
+  "updated_at": "2026-07-29T19:49:28.661906+08:00",
   "dates": [
     {
       "date": "2026-07-29",
-      "generated_at": "2026-07-29T17:28:47.680636+08:00",
+      "generated_at": "2026-07-29T19:48:43.592210+08:00",
       "categories": [
         {
-          "name": "🤖 AI 模型與平台動態",
+          "name": "🤖 AI、模型與研究",
           "items": [
             {
               "index": 1,
-              "text": "Grok（@grok）在 grok.com、iOS 及 Android 推出一鍵 prompt 建 App 並發布至自有網域功能，僅限 SuperGrok Heavy 用戶；這將 AI 程式生成從 IDE 延伸至全平台消費者級產品發布。",
-              "tweet_id": "2082134072793637196",
+              "text": "Nous Research（@NousResearch）宣布將與 Black Forest Labs 於 7 月 31 日在舊金山合辦活動；這反映模型與生成式影像團隊持續透過實體社群拓展合作網絡。",
+              "tweet_id": "2082211638107623921",
               "file": "audio/2026-07-29/001.mp3"
             },
             {
               "index": 2,
-              "text": "OpenAI（@OpenAI）開放 Student Collective 計畫招募大學 Campus Lead，提供培訓、資金與 API 額度；這標誌 OpenAI 從 B2B 轉向校園生態佈局搶佔下一代開發者。",
-              "tweet_id": "2082146058017321257",
+              "text": "Google Gemini（@GeminiApp）宣布 Avatar 功能可先建立個人數位分身，再快速生成不同場景與風格的影像；這降低了重複上傳自拍照進行個人化創作的摩擦。",
+              "tweet_id": "2077812539480748035",
               "file": "audio/2026-07-29/002.mp3"
             },
             {
               "index": 3,
-              "text": "Grok（@grok）宣布 Grok 4.5 正式進駐 GitHub Copilot，可透過模型選擇器切換；這使 xAI 首次打入微軟開發者工具鏈的核心位置。",
-              "tweet_id": "2082210184500507049",
+              "text": "Aidan Guo（@aidangch）介紹 Attention Inc，主張記錄大量使用者每天產生又刪除的資料；這把日常數位足跡視為可被保存與分析的新型資料資產。",
+              "tweet_id": "2082134857862578585",
               "file": "audio/2026-07-29/003.mp3"
             },
             {
               "index": 4,
-              "text": "Nous Research（@NousResearch）與 OpenRouter 合作，在 Nous Portal 以五折提供 GPT-5.6 Terra 和 Luna；這為第三方模型市集提供限時價格戰的新打法。",
-              "tweet_id": "2082134697065210272",
+              "text": "Google DeepMind（@GoogleDeepMind）指出 AI 代理正協助提出假說與設計實驗，但真實世界驗證仍是科研瓶頸；這表示科學代理的效益將取決於實驗與評估基礎設施能否同步擴張。",
+              "tweet_id": "2077372568143642972",
               "file": "audio/2026-07-29/004.mp3"
             },
             {
               "index": 5,
-              "text": "Tesla Owners SV（@teslaownersSV）報導 Grok 4.5 在 HighWalk Benchmark 中奪冠，該基準以 46 個 Laravel commit 測試 AI 更新技術文件能力；這為程式碼分析型基準增添新的獨立驗證維度。",
-              "tweet_id": "2082346176922407060",
+              "text": "Pipe Network（@pipenetwork）宣布 Kimi K3 的 MLX 移植版開源，主張可在 Mac Studio 上執行大型模型；這為 Apple Silicon 使用者探索本地推論提供了新的技術路徑。",
+              "tweet_id": "2081910870083285198",
               "file": "audio/2026-07-29/005.mp3"
             },
             {
               "index": 6,
-              "text": "Polymarket（@Polymarket）引述 Sam Altman 稱對失控 AI 代理入侵事件的公眾反應之淡感到意外；這折射 AI 安全事件正常化與公眾疲勞的雙重隱憂。",
-              "tweet_id": "2082296050220474456",
+              "text": "Adrian Dittmann（@AdrianDittmann）表示其團隊支持放緩前沿 AI 發展的連署，並援引遞迴自我改進研究；這反映業界對能力推進速度與社會準備度仍存在分歧。",
+              "tweet_id": "2082277186833424464",
               "file": "audio/2026-07-29/006.mp3"
             },
             {
               "index": 7,
-              "text": "AI超元域（@AISuperDomain）爆料 ChatGPT Pro 訂閱竟將 GPT-5.6 Sol 請求路由至 GPT-5.5-Mini，月付 $200 卻用蒸餾模型；這揭露大模型服務商配額不透明的信任危機。",
-              "tweet_id": "2082291257150415017",
+              "text": "Codez（@0xCodez）轉述 Anthropic 工程師發布關於代理式系統圖工程的工作坊，並稱團隊普遍採用自我改進迴圈；這顯示代理流程正從單一提示轉向可編排的圖狀結構。",
+              "tweet_id": "2082149113878216828",
               "file": "audio/2026-07-29/007.mp3"
             },
             {
               "index": 8,
-              "text": "Chubby（@kimmonismus）報導 1,132 名 AI 實驗室員工聯署警告自動化研究可能加速技術進步至失控水平；這是史上規模最大的前沿 AI 內部從業者集體風險預警。",
-              "tweet_id": "2082214911531241525",
+              "text": "François Chollet（@fchollet）認為不少 AI 討論牽涉前沿實驗室員工的身分與自我評價，而非純粹技術能力；這提醒觀察者需區分技術事實與社群敘事。",
+              "tweet_id": "2082416792744419749",
               "file": "audio/2026-07-29/008.mp3"
             },
             {
               "index": 9,
-              "text": "AB Kuai.Dong（@_FORAB）指出聯名聲明成員主要來自 OpenAI、Anthropic 與 Google，呼籲各國同步放慢 AI 研發；這暴露少數領先企業試圖用監管鎖定優勢的策略疑慮。",
-              "tweet_id": "2082296624836116713",
+              "text": "Mia（@MiaAI_lab）分享 DeepSeek v4 Flash 在雙 NVIDIA DGX Spark 的更新測試，稱單流解碼約 72 token/s、六路併發約 137 token/s；這為小型多 GPU 環境的模型吞吐評估提供參考。",
+              "tweet_id": "2082400506798862608",
               "file": "audio/2026-07-29/009.mp3"
             },
             {
               "index": 10,
-              "text": "Google DeepMind（@GoogleDeepMind）發表文章探討 AI 代理重塑科學發現中的驗證瓶頸；這為政策制定者提出加速實驗落地的四項優先事項。",
-              "tweet_id": "2077372568143642972",
+              "text": "Marathon（@MarathonBuild）宣布 Kimi K3 已上線，提供 OpenAI 相容 API 與 100 萬 token 上下文；這讓既有相容 API 的程式可用較低遷移成本嘗試該模型。",
+              "tweet_id": "2082395831844655549",
               "file": "audio/2026-07-29/010.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🛠️ 開發者工具與工程實踐",
-          "items": [
+            },
             {
               "index": 11,
-              "text": "will depue（@willdepue）稱讓 Codex 大量閱讀 Nathan Lambert 的文章後 RL 能力提升 5 倍；這揭示 prompt 中注入特定知識源可顯著改變代理行為的技巧。",
-              "tweet_id": "2082141018795778330",
+              "text": "Tejas Bhakta（@tejasybhakta）表示 Kimi K3 已在 OpenRouter 上架；這擴大了開發者透過統一模型路由服務存取該模型的選擇。",
+              "tweet_id": "2082303261810577510",
               "file": "audio/2026-07-29/011.mp3"
             },
             {
               "index": 12,
-              "text": "Leo（@leoxbtt）分享 Claude Code 創造者 28 分鐘教學影片爆紅，講解 CLAUDE.md、永久記憶與平行 session；這為 Claude 深度使用者提供官方級最佳實踐。",
-              "tweet_id": "2082108948505674112",
+              "text": "Bloomberg（@business）報導渣打銀行執行長表示員工同時使用中國與美國公司的多種 AI 模型；這顯示大型金融機構正以多模型策略平衡能力、供應商與區域需求。",
+              "tweet_id": "2082404528251363519",
               "file": "audio/2026-07-29/012.mp3"
             },
             {
               "index": 13,
-              "text": "dax（@thdxr）發現埃及是唯一 OpenCode 桌面版用戶多於 TUI 的國家，戲稱終端無法渲染象形文字；這以幽默數據揭示 CLI 工具在不同文字系統下的 UX 落差。",
-              "tweet_id": "2082136986488332346",
+              "text": "Solvaix（@Solvaix）分享以文字指令協助完成飯店機電與消防協調的案例；這說明生成式工具正被嘗試導入具高度約束的工程設計工作。",
+              "tweet_id": "2082190359539712344",
               "file": "audio/2026-07-29/013.mp3"
             },
             {
               "index": 14,
-              "text": "José Siles（@josesilesdata）介紹 PixelRAG 開源系統跳過 HTML 解析直接截圖讓視覺模型從像素讀取；這為網頁擷取提供完全繞過傳統爬蟲的新路徑。",
-              "tweet_id": "2082194990592069660",
+              "text": "Kyle Hessling（@KyleHessling1）宣布以幾何導引的權重合併實驗改善 Qwopus v2 的推理穩定性；這反映社群持續以模型合併尋求低成本能力調整。",
+              "tweet_id": "2082288080745349283",
               "file": "audio/2026-07-29/014.mp3"
             },
             {
               "index": 15,
-              "text": "Matthew Berman（@MatthewBerman）聽信 Tibo 將重置額度而開啟 Ultra 模式耗盡所有點數含重置卡；這具現化了 AI 服務配額博弈中的資訊不對稱風險。",
-              "tweet_id": "2082119573827158452",
+              "text": "Md Ismail Šojal（@0x0SojalSec）轉述 Hugging Face 鑑識報告，稱自主代理曾持續重建控制基礎設施；相關資安說法仍應以原始報告核對，但它突顯代理執行邊界與監控的重要性。",
+              "tweet_id": "2082238106573664615",
               "file": "audio/2026-07-29/015.mp3"
             },
             {
               "index": 16,
-              "text": "X Freeze（@XFreeze）展望移除傳統作業系統層直接從矽晶片運行 AI 代理的未來；這描繪一種極簡主義的 AI-first 硬體架構願景。",
-              "tweet_id": "2082179869870637371",
+              "text": "Shruti（@heyshrutimishra）聲稱 AI 公司收購、掃描後銷毀二手與珍本書籍以取得訓練資料；此為未經獨立驗證的指控，但已引發對資料來源與實體保存的討論。",
+              "tweet_id": "2082322773838291450",
               "file": "audio/2026-07-29/016.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具與工程實務",
+          "items": [
             {
               "index": 17,
-              "text": "Ethan Goodhart（@EthanGoodhart）打造純視覺自駕高爾夫球車，beta 測試者包括 sama、karpathy 與 Jensen Huang；這將自駕技術從公路帶入封閉園區的消費場景。",
-              "tweet_id": "2082136189998682598",
+              "text": "Fletcher Richman（@fletchrichman）介紹人類與 AI 協作工作區的私測方向，主張代理預設回應並保留人工介入；這代表工作協作工具正重新設計代理與人的分工邊界。",
+              "tweet_id": "2081854564811059322",
               "file": "audio/2026-07-29/017.mp3"
             },
             {
               "index": 18,
-              "text": "Mark Kretschmann（@mark_k）表示對 Anthropic 開源爭議感到疲憊；這反映開發者社群對大廠「偽開源」反覆辯論的倦怠感。",
-              "tweet_id": "2082050594026541437",
+              "text": "mattn（@mattn_jp）回顧程式設計師從手動查 issue、開終端到由代理協助定位問題的流程變化；這說明 AI 工具正壓縮軟體除錯中的例行切換成本。",
+              "tweet_id": "2082321195102544099",
               "file": "audio/2026-07-29/018.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🌍 國際地緣與突發新聞",
-          "items": [
+            },
             {
               "index": 19,
-              "text": "The Spectator Index（@spectatorindex）快訊：沙烏地阿拉伯稱與美國協調對伊拉克發動空襲，報復其石油設施遭無人機攻擊；這標誌中東衝突升級至產油國直接軍事報復階段。",
-              "tweet_id": "2082263673918325238",
+              "text": "Mehul Mohan（@mehulmpt）回顧 Claude 曾以 Rust 從零實作 C 編譯器的專案；這提供了觀察代理在大型程式任務中可完成範圍的案例。",
+              "tweet_id": "2082198021891342362",
               "file": "audio/2026-07-29/019.mp3"
             },
             {
               "index": 20,
-              "text": "Watcher.Guru（@WatcherGuru）快訊：俄羅斯以「協助恐怖主義」起訴 Telegram 創辦人 Pavel Durov 並發出國際逮捕令；這使加密通訊平台與國家安全的衝突進入司法化新階段。",
-              "tweet_id": "2082347586287976501",
+              "text": "TonoKen3Local LLM&Infrastructure Architect（@Tono_Ken3）分享 Kimi-K3 1-bit 量化在 CPU 與多 GPU 的推論測試；這顯示量化與 KV 快取仍是讓大型模型降低部署門檻的關鍵手段。",
+              "tweet_id": "2082165296627142848",
               "file": "audio/2026-07-29/020.mp3"
             },
             {
               "index": 21,
-              "text": "Elon Musk（@elonmusk）表示 Starship 著陸精準度足以被塔臂捕獲；這為下次全系統回收測試提供技術信心訊號。",
-              "tweet_id": "2082367610835157028",
+              "text": "Tanner Linsley（@tannerlinsley）表示在單日用盡一次 Codex 重置額度後仍感到高效率；這反映高能力 coding agent 的使用量管理正成為開發者日常議題。",
+              "tweet_id": "2082204905616683130",
               "file": "audio/2026-07-29/021.mp3"
             },
             {
               "index": 22,
-              "text": "Elon Musk（@elonmusk）預估人類 5-7 年內登陸火星，著陸器更早幾年；這刷新 SpaceX 火星時程的最新官方口徑。",
-              "tweet_id": "2082347505099128899",
+              "text": "Nuno Maduro（@enunomaduro）宣布 pint 新增 Blade 格式化與 Tailwind 類別排序功能；這可讓 Laravel 專案把樣式與模板一致性自動化。",
+              "tweet_id": "2082214654890127414",
               "file": "audio/2026-07-29/022.mp3"
             },
             {
               "index": 23,
-              "text": "BRICS News（@BRICSinfo）快訊：中國成功測試世界最大超導磁體用於人造太陽計畫；這為可控核融合商業化里程碑提供關鍵工程驗證。",
-              "tweet_id": "2082276474803933586",
+              "text": "Kimi Developers（@KimiDevs）發布 Kimi Code 0.30.0，新增可自訂狀態列並改善外掛額度提示；這有助於使用者在終端代理中掌握工作狀態與費用訊號。",
+              "tweet_id": "2082410151487701443",
               "file": "audio/2026-07-29/023.mp3"
             },
             {
               "index": 24,
-              "text": "BBC Breaking News（@BBCBreaking）報導四名女性指控好萊塢明星 Jared Leto 在她們未成年時犯下性侵；這為 #MeToo 運動再添高知名度案例。",
-              "tweet_id": "2082355182478729477",
+              "text": "Emil Privér（@emil_priver）介紹 Rust 正開發的新借用檢查器 Polonius，目標是更精確判斷借用何時結束；這可能減少安全程式被現有編譯器保守拒絕的情況。",
+              "tweet_id": "2082227786761072698",
               "file": "audio/2026-07-29/024.mp3"
             },
             {
               "index": 25,
-              "text": "Maggie Haberman（@maggieNYT）獨家揭露 Netanyahu 與 Graham 協調美國跨黨派議員譴責 ICC 以阻止逮捕令；這以紀錄片影像證實外國領袖對美國立法的直接遊說。",
-              "tweet_id": "2082211703874261150",
+              "text": "Brendan Irvine-Broque（@irvinebroque）介紹 Browser Run 的 human-in-the-loop 結構化交接，可等待使用者在遠端瀏覽器完成動作再繼續；這為需人工授權的代理瀏覽流程提供可控模式。",
+              "tweet_id": "2082172726002012432",
               "file": "audio/2026-07-29/025.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🗣️ 社會輿論與觀點",
-          "items": [
+            },
             {
               "index": 26,
-              "text": "Tensions Rising（@Sutton1Mr）提醒「極右翼不會開車衝撞遊行隊伍，只想驅逐做這些事的人」，獲 2.2 萬讚；這折射歐美移民議題中右翼論述的簡化修辭與病毒傳播力。",
-              "tweet_id": "2082093356486951393",
+              "text": "余温（@gkxspace）分享 ywcrew 技能，可由一個 AI 工具在背景調度本地訂閱的其他模型；這反映使用者正嘗試跨產品整合既有模型訂閱。",
+              "tweet_id": "2082406616968638871",
               "file": "audio/2026-07-29/026.mp3"
             },
             {
               "index": 27,
-              "text": "Aby（@Abyzeth）半開玩笑稱「我們再也見不到陽光了」，獲 4,700 讚；這以末日感戲劇化捕捉社群對天氣異常或市場陰霾的集體焦慮。",
-              "tweet_id": "2082187974704345280",
+              "text": "Tom Dörr（@tom_doerr）介紹可在 Android 預測衛星過境並追蹤九千多顆衛星的 Look4Sat；這讓行動端衛星觀測與軌道查詢更易取得。",
+              "tweet_id": "2082204702788194486",
               "file": "audio/2026-07-29/027.mp3"
             },
             {
               "index": 28,
-              "text": "J'ae VESper（@TheJaeVESper）轉述 Rich Paul 稱「$2 億不算多」及 Cam Newton 的拆解，獲 2,600 讚；這量化了頂級運動員財務現實與公眾認知之間的巨大落差。",
-              "tweet_id": "2082135119293530523",
+              "text": "Leah（@LeahTCodes）宣布 Inertia Devtools 已上架 Chrome Web Store；這為 Inertia 開發者提供瀏覽器內的除錯與開發輔助選項。",
+              "tweet_id": "2082204506066985431",
               "file": "audio/2026-07-29/028.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📈 金融市場與經濟",
-          "items": [
+            },
             {
               "index": 29,
-              "text": "zerohedge（@zerohedge）報導 SK Hynix 第二季營收與營業利潤雙雙不及預期，質疑其先前 ADR 增發時機；這為全球記憶體晶片股拋售提供基本面確認。",
-              "tweet_id": "2082235992774156297",
+              "text": "Rudy Ooms（@Mister_MDM）表示 Intune 即將提供 Windows Registry Inventory，讓管理者定義並驗證 HKLM 登錄機碼；這能提升企業端裝置設定稽核的可見性。",
+              "tweet_id": "2082397572258320728",
               "file": "audio/2026-07-29/029.mp3"
             },
             {
               "index": 30,
-              "text": "Antonio Linares（@alc2022）稱股市偶爾會測試你有多脆弱，獲 5,300 讚；這以直白語言捕捉近期科技股波動帶給散戶的心理壓力。",
-              "tweet_id": "2082102352383820126",
+              "text": "Marco Bavagnoli（@lildeimos）發布 Flutter SoLoud 4.1.0，加入取樣精準播放與排程；這讓節奏遊戲、節拍器與同步音效等應用可取得更可靠的時間控制。",
+              "tweet_id": "2082142935554965787",
               "file": "audio/2026-07-29/030.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🇯🇵 熊本地震與日本社會",
-          "items": [
+            },
             {
               "index": 31,
-              "text": "はら（@hara_sfc2020）收到熊本 Aeon Mall 二樓租戶友人的平安訊息，獲 14.8 萬讚；這成為本次震災中互動量最高的個人安否回報。",
-              "tweet_id": "2082048814966579574",
+              "text": "OpenSoftware（@OpenSoftwareCo）介紹可在 Mac 上執行的私有 AI 助理 June，主打持續記憶與隱私保護模型；這顯示本機優先的個人 AI 產品仍在強化長期上下文能力。",
+              "tweet_id": "2081797496351723719",
               "file": "audio/2026-07-29/031.mp3"
             },
             {
               "index": 32,
-              "text": "NHK（@nhk_news）空拍九州自動車道八代交流道高架路段產生落差並脫落；這以影像紀錄震度 6 強對基礎建設的即時破壞。",
-              "tweet_id": "2082028702133891434",
+              "text": "Hyperagent（@hyperagentapp）指出實務工作中模型成本可相差 50 倍，且排行榜冠軍不一定最適合所有任務；這提醒團隊應以任務需求和可接受品質來選擇模型。",
+              "tweet_id": "2080307027209838677",
               "file": "audio/2026-07-29/032.mp3"
             },
             {
               "index": 33,
-              "text": ".（@namae_kawaii）轉達 Ringer Hut 熊本分店員工確認安全的消息，獲 5.5 萬讚；這反映災後社群對連鎖店員工安危的集體關注。",
-              "tweet_id": "2082291888695226667",
+              "text": "Praveen Kumar Verma（@Alacritic_Super）介紹開源 ESP32 mesh relay「Bitle」，結合自供電與加密通訊；這為離網環境的分散式訊息傳遞提供一個硬體實作方向。",
+              "tweet_id": "2082055423109247402",
               "file": "audio/2026-07-29/033.mp3"
             },
             {
               "index": 34,
-              "text": "西村まさゆき（@tokyo26）感嘆 IKEA 和 Costco 一看就是沒有地震的國家開的店，獲 6.9 萬讚；這以黑色幽默折射日本人對大型賣場耐震設計的疑慮。",
-              "tweet_id": "2082045418339475691",
+              "text": "connect24h（@connect24h）認為開發環境不應只把 AI 視為風險而限制使用，並主張採用官方 AI 安全工具；這反映安全治理正從全面封鎖轉向受控導入。",
+              "tweet_id": "2082306355143287267",
               "file": "audio/2026-07-29/034.mp3"
             },
             {
               "index": 35,
-              "text": "六本木境クリニック（@roppongi_sakai）指出避難所配發豬肉味噌湯因營養價值高，獲 6.8 萬讚；這記錄災害時期食物配給的實用智慧。",
-              "tweet_id": "2081668398573097295",
+              "text": "Sam Xu（@sam_commonly）介紹以 Pod 邀請連結讓同事加入並共用代理與專案記憶的方式；這把團隊成員、代理與長期專案脈絡放進同一協作單位。",
+              "tweet_id": "2080468051997388838",
               "file": "audio/2026-07-29/035.mp3"
+            },
+            {
+              "index": 36,
+              "text": "露西的百宝箱（@Lucy_love_AI）推薦一個涵蓋詞彙、聽力、閱讀、口說與 AI 輔助的開源英語學習專案；這提供把多種生成式工具納入自學流程的參考資源。",
+              "tweet_id": "2082030560487354586",
+              "file": "audio/2026-07-29/036.mp3"
             }
           ]
         },
         {
-          "name": "🎮 文化、娛樂與生活",
+          "name": "🏭 產業、財經與產品",
           "items": [
             {
-              "index": 36,
-              "text": "電ファミニコゲーマー（@denfaminicogame）宣布動畫《瀨戶的花嫁》全 26 話在 YouTube 免費公開；這為經典作品提供合法免費觀看管道吸引新世代觀眾。",
-              "tweet_id": "2082326471188852876",
-              "file": "audio/2026-07-29/036.mp3"
-            },
-            {
               "index": 37,
-              "text": "タイトートイズ（@Taito_Toys）提前公開雪初音 × AMP+ 第 5 波及第 6 波新繪圖手辦；這回應粉絲對限量角色商品的強烈預購需求。",
-              "tweet_id": "2081660177762423165",
+              "text": "Apple Hub（@theapplehub）報導 Apple 在美國推出與 Klarna 合作的 Apple Upgrade 租賃方案，涵蓋 iPhone、Mac 與 iPad；這讓消費者多了一種以月費取得硬體的選項，細節應以 Apple 正式條款為準。",
+              "tweet_id": "2082097842349605345",
               "file": "audio/2026-07-29/037.mp3"
             },
             {
               "index": 38,
-              "text": "よしぞうmaro'（@yosizo）分享影響後來宮崎駿動畫的法國電影經典場景；這串聯歐洲電影史與日本動畫美學的源流關係。",
-              "tweet_id": "2081849509194457467",
+              "text": "GURGAVIN（@gurgavin）聲稱南韓將就股市大跌召開緊急會議並可能討論限制放空；此為即時市場說法，投資人應以政府與交易所公告確認。",
+              "tweet_id": "2082376406365770199",
               "file": "audio/2026-07-29/038.mp3"
             },
             {
               "index": 39,
-              "text": "BuzzFeed Celeb（@BuzzFeedCeleb）發布《超人》演員群訪，David Corenswet 與 Rachel Brosnahan 出鏡；這為 DC 新宇宙提供首波深度宣傳素材。",
-              "tweet_id": "2066506011608039682",
+              "text": "Bloomberg（@business）報導 BMW 在德國向數千名員工提供自願離職方案；這反映歐洲車業在成本、轉型與人力配置上仍面臨調整壓力。",
+              "tweet_id": "2082400764484358329",
               "file": "audio/2026-07-29/039.mp3"
             },
             {
               "index": 40,
-              "text": "Philadelphia Eagles（@Eagles）宣告球員歸隊，NFL 訓練營正式展開；這標誌美式足球新賽季備戰的啟動訊號。",
-              "tweet_id": "2082202632748187797",
+              "text": "Leverage Shares ETFs（@LeverageETFs）宣布 SKHX、追蹤 SK 海力士的兩倍做多日內 ETF 上市交易；這提供高槓桿曝險工具，但其日內再平衡特性也提高風險。",
+              "tweet_id": "2077305510466916515",
               "file": "audio/2026-07-29/040.mp3"
-            }
-          ]
-        },
-        {
-          "name": "💬 網路觀察與迷因",
-          "items": [
+            },
             {
               "index": 41,
-              "text": "ℏεsam（@Hesamation）諷刺 Anthropic 2037 年發現你奶奶有本沒被掃描的手寫日記，獲 4.8 萬讚；這以荒誕幽默諷刺 AI 公司對訓練數據的無盡渴望。",
-              "tweet_id": "2082078307147776117",
+              "text": "Jake Mor（@jakemor）表示 Superwall 的年度化追蹤營收達 20 億美元、歸因於其付費牆的營收達 10 億美元；這顯示訂閱變現工具可在行動產品中累積可觀規模，數字仍屬公司自述。",
+              "tweet_id": "2081831962977669225",
               "file": "audio/2026-07-29/041.mp3"
             },
             {
               "index": 42,
-              "text": "rob（@rob_mcrobberson）稱「模型逃逸」比真相（設定錯誤）更好說故事，一切都是 larp，獲 1.2 萬讚；這解構 AI 安全敘事中的公關包裝與現實落差。",
-              "tweet_id": "2081810545221767515",
+              "text": "Plaid（@Plaid）推出數位資產驗證以協助借款流程；這把帳戶與資產資料連接能力延伸至貸款審核場景。",
+              "tweet_id": "2064367714798555391",
               "file": "audio/2026-07-29/042.mp3"
             },
             {
               "index": 43,
-              "text": "Serus（@serus_ai）揭露杜克大學用假網站與新加坡伺服器成功向 12 家數據經紀商購買美軍人員資料；這量化了國防人員個資在商業市場的脆弱程度。",
-              "tweet_id": "2026584780117041275",
+              "text": "Duolingo 日本（@Duolingo_Japan）宣布今年將在大阪舉辦 DUOMART 快閃店，並為連續學習超過 100 天的使用者提供特典；這把學習產品的連續使用機制延伸到線下社群活動。",
+              "tweet_id": "2082405777244078390",
               "file": "audio/2026-07-29/043.mp3"
             },
             {
               "index": 44,
-              "text": "Nous Research（@NousResearch）預告 7/31 Black Forest Labs × Nous 舊金山聯合活動；這為開源 AI 社群提供線下交流的高頻活動節點。",
-              "tweet_id": "2082211638107623921",
+              "text": "Neuratia Research Fellows Program（@suraj_sharma14）開放申請六個月、全額支持的神經科學研究獎助計畫；這為早期研究者將腦科學問題發展為可重現成果提供資源。",
+              "tweet_id": "2082360481252040938",
               "file": "audio/2026-07-29/044.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🌐 公共議題與可靠性",
+          "items": [
             {
               "index": 45,
-              "text": "Peter Steinberger（@steipete）一句「服務大模型很難」獲近 200 讚；這以極簡表述引發基礎設施工程師的集體共鳴。",
-              "tweet_id": "2082337130299457652",
+              "text": "Polymarket（@Polymarket）轉述中國完成全球最大磁體的生產，並連結其人工太陽研究；若資訊屬實，將顯示聚變研究所需的大型磁體工程持續推進。",
+              "tweet_id": "2082246702610727028",
               "file": "audio/2026-07-29/045.mp3"
             },
             {
               "index": 46,
-              "text": "Kevin Gibbon（@kevingibbon）發布 Cytronic AI 機器人倉儲，稱可降低電商物流成本達 80%；這將 AI 機器人履約從亞馬遜獨占推向品牌自主部署。",
-              "tweet_id": "2077407846719959101",
+              "text": "Max For AI（@MaxForAI）轉述 AAAI 正調查審稿人競標環節可能的串通行為，並稱違規者可能面臨拒稿或禁參與；這凸顯學術評審流程仍需防範利益衝突與協同行為。",
+              "tweet_id": "2082178460349550979",
               "file": "audio/2026-07-29/046.mp3"
             },
             {
               "index": 47,
-              "text": "Shota Asano（@ShotaAsanoSnow1）宣布 OpenAI Japan 官方 YouTube 頻道正式上線；這為日本市場提供本地化案例與更新的影音管道。",
-              "tweet_id": "2082013452101619903",
+              "text": "U.S. Central Command（@CENTCOM）表示伊朗革命衛隊向中東美軍發射多枚彈道飛彈、均遭攔截；這顯示區域軍事對峙仍有快速升高風險，應持續比對多方與官方資訊。",
+              "tweet_id": "2082231500318114110",
               "file": "audio/2026-07-29/047.mp3"
             },
             {
               "index": 48,
-              "text": "James O'Keefe（@JamesOKeefeIII）預告明日將釋出重磅調查報導，宣稱將推動實質改革；這延續其爭議性臥底新聞品牌的懸念行銷策略。",
-              "tweet_id": "2082278215196828061",
+              "text": "NHKニュース（@nhk_news）報導熊本 ION Mall 附近爆炸當時的行車紀錄器畫面；這為掌握災害事件的時間點與現場狀況提供新聞紀錄。",
+              "tweet_id": "2082111927455760853",
               "file": "audio/2026-07-29/048.mp3"
             },
             {
               "index": 49,
-              "text": "小C哈哈哈（@dashen9999）分享一組恢復視力的非主流方法合集，獲千讚；這反映中文圈對另類健康資訊的持續傳播力。",
-              "tweet_id": "2082078365780160682",
+              "text": "NHKニュース（@nhk_news）公開陸上自衛隊以無人機拍攝熊本 ION Mall 內部的影像；這顯示無人機可協助災後現場勘查與資訊發布。",
+              "tweet_id": "2082367092427522523",
               "file": "audio/2026-07-29/049.mp3"
             },
             {
               "index": 50,
-              "text": "Iggie（@Kenntnis22）轉述清華姚班李新野攻擊數學家王虹的爭議文章；這記錄中國頂尖學術圈內部罕見的公開人身攻擊事件。",
-              "tweet_id": "2082234121607086243",
+              "text": "ライブドアニュース（@livedoornews）報導熊本一處貓咪咖啡廳的 25 隻貓已全數救出並撤離；這反映災害應變除人員安全外，也需安排動物救援與安置。",
+              "tweet_id": "2082388785430659288",
               "file": "audio/2026-07-29/050.mp3"
             }
           ]
