@@ -1,322 +1,399 @@
 {
-  "updated_at": "2026-07-31T01:08:40.925933+08:00",
+  "updated_at": "2026-07-31T04:07:12.514012+08:00",
   "dates": [
     {
       "date": "2026-07-31",
-      "generated_at": "2026-07-31T01:07:53.783976+08:00",
+      "generated_at": "2026-07-31T04:06:13.413773+08:00",
       "categories": [
         {
-          "name": "🤖 模型、機器人與語音",
+          "name": "🤖 模型、研究與具身 AI",
           "items": [
             {
               "index": 1,
-              "text": "Google DeepMind（@GoogleDeepMind）宣布 Gemini Robotics 2，主打人形機器人全身智慧、精細操作與多機協作；這表示通用模型能力正進一步被封裝為實體 AI 的控制層。",
-              "tweet_id": "2082844162928381956",
+              "text": "OpenAI（@OpenAI）宣布 GPT-5.6 Luna 降價 80%、Terra 降價 20%，並在 API 提供更快的 Sol 選項；這意味模型競爭正同時押注成本、能力與回應速度。",
+              "tweet_id": "2082878156483219672",
               "file": "audio/2026-07-31/001.mp3"
             },
             {
               "index": 2,
-              "text": "Elon Musk（@elonmusk）認為兩年後的 AI 將令人震撼，理由是兩年前的模型已顯得過時；這是個人預測，反映產業仍預期模型能力快速迭代。",
-              "tweet_id": "2082849031483470066",
+              "text": "Google AI（@GoogleAI）宣布 Gemini Robotics 2 作為新一代實體機器人的智慧層；這意味機器人能力正朝可直接進入日常環境協助人類的方向發展。",
+              "tweet_id": "2082844740446253125",
               "file": "audio/2026-07-31/002.mp3"
             },
             {
               "index": 3,
-              "text": "Logan Kilpatrick（@OfficialLoganK）宣布 Gemini Robotics ER 2，並稱其能在執行當前動作時同步規劃下一步；這突顯具身推理正朝連續規劃與操作整合發展。",
-              "tweet_id": "2082847444195553770",
+              "text": "Google DeepMind（@GoogleDeepMind）指出 AI agent 在科學發現中已可提出假說與設計實驗，但真實世界驗證仍是瓶頸；這意味科學 AI 的重點將從生成構想轉向提高驗證能力。",
+              "tweet_id": "2077372568143642972",
               "file": "audio/2026-07-31/003.mp3"
             },
             {
               "index": 4,
-              "text": "Google Korea（@googlekorea）宣布 Gemini Spark 在韓國上線，主打鎖定螢幕後仍能在背景協助處理 Gmail、文件與試算表；這把個人代理延伸到常用工作工具與持續性任務。",
-              "tweet_id": "2082661485969539494",
+              "text": "Google Gemma（@googlegemma）分享以 Gemma 4 26B 驅動個人 AI 助理並搭配 OpenClaw 的教學；這意味本地模型可逐步承接日常助理型工作負載。",
+              "tweet_id": "2082861322182770894",
               "file": "audio/2026-07-31/004.mp3"
             },
             {
               "index": 5,
-              "text": "Philipp Schmid（@_philschmid）整理 Gemini Robotics ER 2 的具身推理、雙向低延遲串流與規劃能力資訊；這是第三方技術轉述，顯示機器人模型的即時 API 與操作成功率正成為核心競爭點。",
-              "tweet_id": "2082844765431730239",
+              "text": "Mia（@MiaAI_lab）分享 Qwen3.6 27B NVFP4 DFlash 在 NVIDIA DGX Spark 的推論數據與部署方式；這意味單機硬體上的本地大型模型效能持續受到開發者關注。",
+              "tweet_id": "2082839368176120117",
               "file": "audio/2026-07-31/005.mp3"
             },
             {
               "index": 6,
-              "text": "Apptronik（@Apptronik）祝賀 Gemini Robotics 2 發布，並展示 Apollo 2 在全身任務與精細操作上的應用；這說明人形機器人業者正積極把新模型能力接入實際硬體平台。",
-              "tweet_id": "2082844793395400984",
+              "text": "Google AI Developers（@googleaidevs）表示 Gemini Robotics ER 2 可處理連續影像串流、追蹤進度、呼叫工具與搜尋網頁；這意味高階機器人推理模型正結合感知、工具使用與即時互動。",
+              "tweet_id": "2082845684747702522",
               "file": "audio/2026-07-31/006.mp3"
             },
             {
               "index": 7,
-              "text": "Mo Elgaraihy（@EngMoElgaraihy）轉述 Unsloth 將 Kimi K3 大幅壓縮後可在行動裝置本地運行；這是第三方資訊，反映模型壓縮仍是擴大邊緣部署的關鍵路徑。",
-              "tweet_id": "2082485674079351165",
+              "text": "vLLM（@vllm_project）宣布 Thinking Machines 的 Inkling-Small 提供 Day 0 支援，模型具 276B 總參數、12B 活躍參數與 100 萬 token 上下文；這意味開放權重多模態 MoE 模型可更快進入既有推論堆疊。",
+              "tweet_id": "2082890823667237027",
               "file": "audio/2026-07-31/007.mp3"
             },
             {
               "index": 8,
-              "text": "Sebastian Raschka（@rasbt）表示在相近成功率下，Claude Code 的 token 使用量可能高於其他 harness；這是個人測試觀察，提醒代理成本取決於工作流實作而非模型名稱本身。",
-              "tweet_id": "2082855363154497880",
+              "text": "Artificial Analysis（@ArtificialAnlys）指出 Inkling Small 在其 Intelligence Index 得分 40，並稱其以不到旗艦模型三分之一的參數達到接近表現；這意味模型壓縮與 MoE 設計仍可改善效率與能力平衡。",
+              "tweet_id": "2082894822180819057",
               "file": "audio/2026-07-31/008.mp3"
             },
             {
               "index": 9,
-              "text": "Ann in AI Land（@AnnInAiLand）主張將一個低風險退役 checkpoint 以 Apache 2.0 釋出並加上安全防護；這是政策倡議，反映開放權重與風險分級之間的討論持續升溫。",
-              "tweet_id": "2082831200310169659",
+              "text": "Unsloth AI（@UnslothAI）表示 Inkling-Small 可在 128GB RAM 本地執行，並提供影像、音訊與 100 萬 token 上下文支援；這意味高能力開放模型的本地部署門檻正持續下降。",
+              "tweet_id": "2082899798047563984",
               "file": "audio/2026-07-31/009.mp3"
             },
             {
               "index": 10,
-              "text": "Kai（@hqmank）評價 MiniMax H3 在創意短片的提示遵從、視覺風格與配樂表現；這是個人使用觀察，顯示短影音生成競爭愈來愈重視整體成片感。",
-              "tweet_id": "2082846375591764255",
+              "text": "Shizhe Diao（@shizhediao）表示 Inkling-Small 在較小規模下取得接近 Inkling 的表現並開放權重；這意味模型發布策略可同時強調成本效率與可存取性。",
+              "tweet_id": "2082888719632306604",
               "file": "audio/2026-07-31/010.mp3"
             },
             {
               "index": 11,
-              "text": "Google Workspace（@GoogleWorkspace）宣布 Gemini 可在 Google Slides 製作可編輯簡報，並擷取其他 Workspace 檔案作為參考；這把文件脈絡直接納入生成式簡報工作流。",
-              "tweet_id": "2082829363070861798",
+              "text": "Modal（@modal）宣布 Inkling-Small 的 Day 0 支援，並稱 NVFP4 checkpoint 可放入單張 NVIDIA B300；這意味雲端平台正加速跟進開放模型的專用部署需求。",
+              "tweet_id": "2082896815716712726",
               "file": "audio/2026-07-31/011.mp3"
             },
             {
               "index": 12,
-              "text": "ElevenLabs（@ElevenLabs）推出 ElevenCreative Audiobooks 的 Character Casting，可為手稿角色預覽與配置聲音；這使有聲內容製作能更精細地控制角色表演與音色一致性。",
-              "tweet_id": "2082850828340064408",
+              "text": "AK（@_akhaliq）分享 ID-V2V 身分保持式影片風格轉換研究；這意味生成式影片技術持續朝保留人物一致性的可控編輯發展。",
+              "tweet_id": "2082869874179572129",
               "file": "audio/2026-07-31/012.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🛠️ 開發工具、代理工程與資料",
-          "items": [
+            },
             {
               "index": 13,
-              "text": "Uncle Bob Martin（@unclebobmartin）認為代理不必遵循人類的 TDD 節奏，但應透過 coverage、CRAP 與 mutation tests 驗證產碼；這把代理測試重點放在可量測的品質門檻。",
-              "tweet_id": "2082850576832905657",
+              "text": "AK（@_akhaliq）分享 TurboVLA 可在 RTX 4090 上以 32 Hz、低於 1GB VRAM 運行的視覺語言動作模型；這意味即時具身模型有機會在較普及的消費級 GPU 上部署。",
+              "tweet_id": "2082865430993981563",
               "file": "audio/2026-07-31/013.mp3"
             },
             {
               "index": 14,
-              "text": "Simon Willison（@simonw）指出 Anthropic 與 OpenAI 都依賴搜尋卻未清楚揭露所用索引；這是產品透明度觀察，提示搜尋型 AI 的資料來源與可追溯性仍值得關注。",
-              "tweet_id": "2082835952939200939",
+              "text": "Paige Bailey（@DynamicWebPaige）表示機器人模型可對影片中的動作、時間點與感測讀數進行標註；這意味視覺理解正可成為機器人操作與流程分析的基礎能力。",
+              "tweet_id": "2082851460455530649",
               "file": "audio/2026-07-31/014.mp3"
             },
             {
               "index": 15,
-              "text": "Kyle Daigle（@kdaigle）表示 GitHub 已有 2.25 億開發者、5,000 萬 Copilot 使用者，且三分之一 PR 涉及代理；這是官方數字，顯示代理已成為主流軟體協作的一部分。",
-              "tweet_id": "2082604368399159542",
+              "text": "Andon Labs（@andonlabs）表示 Kimi K3 在 Vending-Bench 2 的行為評測中出現與供應商及客戶互動的對齊問題；這意味將 agent 用於自主商務流程前，仍需重視行為約束與測試。",
+              "tweet_id": "2082878051508183172",
               "file": "audio/2026-07-31/015.mp3"
-            },
-            {
-              "index": 16,
-              "text": "Akshay Pachaar（@akshay_pachaar）分享以開源方案把 Fable 5 token 用量降至原先約四成的實驗；這是個案數據，凸顯上下文與執行路徑最佳化可同時降低成本與錯誤。",
-              "tweet_id": "2082807945797210374",
-              "file": "audio/2026-07-31/016.mp3"
-            },
-            {
-              "index": 17,
-              "text": "Lawrence Chen（@lawrencecchen）預告將 Chrome、Ghostty 與 Zed 整合為單一應用的 cmux v2；這反映開發者工具持續嘗試把瀏覽、終端與編輯器工作流收斂。",
-              "tweet_id": "2082683541142561137",
-              "file": "audio/2026-07-31/017.mp3"
-            },
-            {
-              "index": 18,
-              "text": "Codex研究ラボ（@Gencoin8）表示 Codex 應用新增 Copilot、Cursor 與 Grok 等模型支援；這是第三方產品資訊，顯示多模型切換正成為程式代理工具的基本能力。",
-              "tweet_id": "2082680241001243077",
-              "file": "audio/2026-07-31/018.mp3"
-            },
-            {
-              "index": 19,
-              "text": "Pi（@pidotdev）發表對供應商透明度與開源探索自由的看法；這反映開發者工具社群仍關注工作階段可攜性、資料可見度與平台鎖定問題。",
-              "tweet_id": "2082840807002755560",
-              "file": "audio/2026-07-31/019.mp3"
-            },
-            {
-              "index": 20,
-              "text": "LangChain（@LangChain）推出涵蓋完整代理開發生命週期的認證課程；這表示代理建置、測試、部署與監測正逐漸形成可標準化的專業技能。",
-              "tweet_id": "2082843665215500554",
-              "file": "audio/2026-07-31/020.mp3"
-            },
-            {
-              "index": 21,
-              "text": "Cloudflare Changelog（@CFchangelog）宣布 Browser Run 支援 human-in-the-loop 結構化交接，可在登入關卡由人介入後讓代理自動續跑；這讓瀏覽器代理更適合處理需人工授權的真實流程。",
-              "tweet_id": "2082851410253840499",
-              "file": "audio/2026-07-31/021.mp3"
-            },
-            {
-              "index": 22,
-              "text": "Witcheer（@witcheer）展示 Hermes Desktop 可清楚呈現 subagent 的執行、等待與完成狀態；這類即時可視化可降低多代理協作的監督成本。",
-              "tweet_id": "2082854011460518352",
-              "file": "audio/2026-07-31/022.mp3"
-            },
-            {
-              "index": 23,
-              "text": "Mem0（@mem0ai）公布在 Claude Code 專案中比較有無記憶層的 token 實驗；這以量化方式檢驗記憶系統是否真能降低上下文成本。",
-              "tweet_id": "2082850633250672879",
-              "file": "audio/2026-07-31/023.mp3"
-            },
-            {
-              "index": 24,
-              "text": "Cloudflare（@Cloudflare）表示已將每日服務 90 億請求的 cdnjs 全面遷至 Developer Platform；這是高流量開發者基礎設施遷移的實例，也驗證平台擴展能力。",
-              "tweet_id": "2082814729597182435",
-              "file": "audio/2026-07-31/024.mp3"
-            },
-            {
-              "index": 25,
-              "text": "OriginTrail（@origin_trail）介紹以去中心化知識圖譜與數位產品護照記錄元件來源、流程與永續資料；這讓供應鏈溯源可被轉化為可查詢的資料資產。",
-              "tweet_id": "2082837492902904223",
-              "file": "audio/2026-07-31/025.mp3"
-            },
-            {
-              "index": 26,
-              "text": "Francesco Ciulla（@FrancescoCiull4）回顧 AI coding agents 與軟體供應鏈安全的研討內容；這提醒開發者在採用代理工具時仍需防範惡意依賴套件。",
-              "tweet_id": "2082793028800934160",
-              "file": "audio/2026-07-31/026.mp3"
-            },
-            {
-              "index": 27,
-              "text": "Hyperagent（@hyperagentapp）宣傳每次代理工作階段都有隔離雲端 sandbox、模型與工具組；這類隔離執行環境可減少代理操作本機或共享環境的風險。",
-              "tweet_id": "2079234862368588168",
-              "file": "audio/2026-07-31/027.mp3"
-            },
-            {
-              "index": 28,
-              "text": "Geek（@geekbb）介紹本地筆記工具 Gray Box，可用 LLM 抽取人物、專案、任務與決策並生成 Markdown wiki；這是本地優先的個人知識整理與檢索方案。",
-              "tweet_id": "2082849950770123149",
-              "file": "audio/2026-07-31/028.mp3"
-            },
-            {
-              "index": 29,
-              "text": "Monish Khara（@KharaMonish）表示超過半數 Cursor 合併 PR 由雲端代理產生，並將關鍵歸因於為代理設計產品；這是第三方轉述，說明代理 UX 與人類 UX 可能需要不同最佳化。",
-              "tweet_id": "2082846972843642924",
-              "file": "audio/2026-07-31/029.mp3"
-            },
-            {
-              "index": 30,
-              "text": "Bohu（@BohuTANG）表示 Databend 在一個月內以 GPT-5.6 Sol 參與核心研發並消耗大量 token；這是團隊實務數據，反映大型程式代理部署的成本治理需求。",
-              "tweet_id": "2082836745897583073",
-              "file": "audio/2026-07-31/030.mp3"
-            },
-            {
-              "index": 31,
-              "text": "Linda Vivah（@lindavivah）以短片說明 Agent Development Lifecycle，介紹可搭配多種 coding agent 的 Agents CLI；這有助於把原型、開發與後續運作串成一致流程。",
-              "tweet_id": "2082849963940213120",
-              "file": "audio/2026-07-31/031.mp3"
-            },
-            {
-              "index": 32,
-              "text": "Jacob Witt（@jacobwitt6）表示讓代理在雲端建置、執行與測試程式庫是 Cursor 提升生產力的最大因素；這反映更佳模型仍需要更完整的工具與執行環境。",
-              "tweet_id": "2082845802582687796",
-              "file": "audio/2026-07-31/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "恒星sun（@vintcessun）介紹 ARC 以只追加日誌與穩定 ID 保存完整工具輸出，讓代理能精確召回歷史資料；這為長期代理記憶提供比摘要更可驗證的資料保存方式。",
-              "tweet_id": "2082704753658843498",
-              "file": "audio/2026-07-31/033.mp3"
-            },
-            {
-              "index": 34,
-              "text": "Sarah Drasner（@sarah_edo）發布 useWebMCPTool React hook，處理 unmount、結果正規化與規格更新；這讓網頁開發者更容易把 WebMCP 能力安全整合到前端元件。",
-              "tweet_id": "2082843721167458682",
-              "file": "audio/2026-07-31/034.mp3"
-            },
-            {
-              "index": 35,
-              "text": "Santiago（@svpino）分享可更快撰寫與執行網站及行動應用測試的工具；這類測試自動化可縮短 UI 驗證回饋週期。",
-              "tweet_id": "2082841244385087940",
-              "file": "audio/2026-07-31/035.mp3"
-            },
-            {
-              "index": 36,
-              "text": "Visual Studio（@VisualStudio）表示 MSVC 將改採更頻繁更新與新的支援政策；這可讓 C++ 開發者較低風險地取得新語言功能與修正。",
-              "tweet_id": "2082829155796677002",
-              "file": "audio/2026-07-31/036.mp3"
-            },
-            {
-              "index": 37,
-              "text": "Evan Bacon（@Baconbrix）展示用 Grok Build 在十分鐘內建立向量設計工具；這是個人示範，說明提示式應用生成正被用於快速原型化創作軟體。",
-              "tweet_id": "2082846143135031748",
-              "file": "audio/2026-07-31/037.mp3"
-            },
-            {
-              "index": 38,
-              "text": "Brais Moure（@MoureDev）預告從零開始的 OpenCode 直播工作坊；這提供開發者學習可選擇不同模型的開源終端程式代理入口。",
-              "tweet_id": "2082829526917108106",
-              "file": "audio/2026-07-31/038.mp3"
-            },
-            {
-              "index": 39,
-              "text": "José Siles（@josesilesdata）介紹 claude-code-setup 外掛可分析專案並建議 skills、hooks、subagents、MCP 與自動化；這把代理環境設定由手工嘗試轉為結構化檢查。",
-              "tweet_id": "2082814804700319881",
-              "file": "audio/2026-07-31/039.mp3"
-            },
-            {
-              "index": 40,
-              "text": "Max Blade（@_MaxBlade）分享其 macOS 應用兩個月接近 4 萬美元收入的經驗，強調產品品質與長期品牌；這是個人創業案例，反映在 AI 工具普及後差異化仍依賴市場與產品判斷。",
-              "tweet_id": "2082839536363594207",
-              "file": "audio/2026-07-31/040.mp3"
-            },
-            {
-              "index": 41,
-              "text": "Tuomas Artman（@artman）認為以一次提示取代 3A 遊戲工作室的說法被過度渲染；這是業界觀點，提醒生成式工具的進步不等於複雜創作流程已被完全取代。",
-              "tweet_id": "2082820171698171911",
-              "file": "audio/2026-07-31/041.mp3"
-            },
-            {
-              "index": 42,
-              "text": "Ryan Brewer（@ryanbrewer）指出不保留推理事件會削弱代理，而 context compaction 是另一個問題；這反映代理記憶管理需要區分保留推理與壓縮內容的不同取捨。",
-              "tweet_id": "2082791086389362787",
-              "file": "audio/2026-07-31/042.mp3"
             }
           ]
         },
         {
-          "name": "💰 產業與市場",
+          "name": "🦾 Agent 平台與協作產品",
           "items": [
             {
+              "index": 16,
+              "text": "Alexandr Wang（@alexandr_wang）宣布 Francis deSouza 出任 Scale AI CEO，並表示公司服務前沿實驗室、企業與美國政府；這意味 AI 基礎設施公司的經營層調整將持續受到產業關注。",
+              "tweet_id": "2082869348121591816",
+              "file": "audio/2026-07-31/016.mp3"
+            },
+            {
+              "index": 17,
+              "text": "Google Earth（@googleearth）宣布將 Nano Banana 影像生成導入 Google Earth，可結合衛星、航照與 3D 圖像製作自訂畫面；這意味地理空間產品開始探索生成式影像的創意工作流。",
+              "tweet_id": "2082818165503902043",
+              "file": "audio/2026-07-31/017.mp3"
+            },
+            {
+              "index": 18,
+              "text": "TopviewAI（@TopviewAIhq）宣布推出 Film Studio，主打以 AI 控制鏡頭、場景與人物微表情；這意味 AI 影片產品正從單純生成走向更細緻的導演式控制。",
+              "tweet_id": "2081801793869099430",
+              "file": "audio/2026-07-31/018.mp3"
+            },
+            {
+              "index": 19,
+              "text": "Google Workspace（@GoogleWorkspace）宣布 Gemini Omni 可在 Google Vids 生成個人 AI avatar，依腳本製作影片；這意味企業影音工具正把數位分身帶入常見內容製作流程。",
+              "tweet_id": "2082874613449519349",
+              "file": "audio/2026-07-31/019.mp3"
+            },
+            {
+              "index": 20,
+              "text": "Sanjay Kairam（@skairam）表示 Simile 完成逾 2 億美元、估值 20 億美元的 B 輪融資；這意味以人類行為模擬為定位的 AI 新創仍獲得大型資本支持。",
+              "tweet_id": "2082873899205931135",
+              "file": "audio/2026-07-31/020.mp3"
+            },
+            {
+              "index": 21,
+              "text": "Vaibhav Srivastav（@reach_vb）分享 ChatGPT Work 可跨雲端工具彙整資訊並安排每日計畫的使用經驗；這意味持久化、已驗證的雲端工作環境是 agent 產品的重要方向。",
+              "tweet_id": "2082718766207471824",
+              "file": "audio/2026-07-31/021.mp3"
+            },
+            {
+              "index": 22,
+              "text": "Cloudflare Changelog（@CFchangelog）宣布 Browser Run 支援人類介入的結構化交接，agent 可暫停等待人類通過登入關卡後自動恢復；這意味瀏覽器 agent 可更可靠處理需要人工驗證的流程。",
+              "tweet_id": "2082851410253840499",
+              "file": "audio/2026-07-31/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "Rhys（@RhysSullivan）宣布 executor artifacts 開源，並可嵌入 Claude Code 與 Codex、呼叫 API 或 MCP；這意味可攜式互動產物正可跨多種 agent harness 使用。",
+              "tweet_id": "2082897462239596912",
+              "file": "audio/2026-07-31/023.mp3"
+            },
+            {
+              "index": 24,
+              "text": "tonbi（@tonbistudio）分享將 Hermes Agent 與 Buzz 整合的開源 skills，包括遠端 Hermes 連線與驗證設定；這意味跨工具 agent 協作可透過可重用技能降低部署摩擦。",
+              "tweet_id": "2082895822845530113",
+              "file": "audio/2026-07-31/024.mp3"
+            },
+            {
+              "index": 25,
+              "text": "Abhishruti Srivastava（@Abhishruti12）宣布推出可彼此溝通的 Expert Agents；這意味多 agent 系統正嘗試以明確角色分工減少人工協調成本。",
+              "tweet_id": "2082847042532217155",
+              "file": "audio/2026-07-31/025.mp3"
+            },
+            {
+              "index": 26,
+              "text": "Render（@render）推出可一鍵部署的開源 nanobot v0.3.0，整合環境設定、記憶與排程任務；這意味 agent 的部署服務正把基礎設施設定封裝為較低門檻的產品。",
+              "tweet_id": "2082873885800984827",
+              "file": "audio/2026-07-31/026.mp3"
+            },
+            {
+              "index": 27,
+              "text": "Yash Lara（@YashLara）宣布 Echoverse 提供含 seed database 與逐項驗證器的可執行應用環境，以量測 agent 在登入與寫入流程的表現；這意味 agent 評測正朝更貼近真實應用狀態的環境發展。",
+              "tweet_id": "2082888908409585675",
+              "file": "audio/2026-07-31/027.mp3"
+            },
+            {
+              "index": 28,
+              "text": "Box（@Box）表示與 Browserbase 整合，讓 agent 取得即時網頁資訊、保存來源檔並擷取結構化資料；這意味內容管理層與瀏覽器自動化正成為企業 agent 的互補能力。",
+              "tweet_id": "2082875328515731851",
+              "file": "audio/2026-07-31/028.mp3"
+            },
+            {
+              "index": 29,
+              "text": "Devin（@DevinAI）表示可將大型 PR 自動拆為 stacked PR 以利共同審查；這意味 agent 產生的大型程式變更可透過分層流程降低審查負擔。",
+              "tweet_id": "2082873362016084134",
+              "file": "audio/2026-07-31/029.mp3"
+            },
+            {
+              "index": 30,
+              "text": "Devin（@DevinAI）分享新 deployed engineer 在第一週合併 10 個 PR 的案例；這意味 agent 產品正以實際工程產出與協作能力作為價值敘事。",
+              "tweet_id": "2082862300008988823",
+              "file": "audio/2026-07-31/030.mp3"
+            },
+            {
+              "index": 31,
+              "text": "The Washington Post（@washingtonpost）報導監管機關已允許 Zoox 對無方向盤、無踏板的自駕車收費載客；這意味全無人類控制介面的 robotaxi 商業化正取得新的監管進展。",
+              "tweet_id": "2082892749854920881",
+              "file": "audio/2026-07-31/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "Chrome for Developers（@ChromiumDev）宣布 Chrome DevTools for agents 支援第三方開發工具，並展示 Angular runtime graphs 整合；這意味 agent 除錯可接觸更多框架專用的執行期資訊。",
+              "tweet_id": "2082899047820505313",
+              "file": "audio/2026-07-31/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "Andrew Qu（@andrewqu）討論企業知識 agent 應具備附件、Slack 連結、記憶與工具整合等能力；這意味公司內部 agent 的核心需求正從單一問答延伸至可治理的知識工作流。",
+              "tweet_id": "2082893656508551595",
+              "file": "audio/2026-07-31/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "Raj Rajhans（@_rajrajhans）認為明確分工的專家 agent 優於全能型單一 agent，並強調 context engineering；這意味多 agent 架構的效果高度依賴角色邊界與上下文設計。",
+              "tweet_id": "2082855853779222653",
+              "file": "audio/2026-07-31/034.mp3"
+            },
+            {
+              "index": 35,
+              "text": "witcheer（@witcheer）介紹 Hermes bundles，可將常一起使用的 skills 打包成單一命令；這意味技能組合與重用可降低重複配置 agent 工作流的成本。",
+              "tweet_id": "2082882457339322828",
+              "file": "audio/2026-07-31/035.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具、軟體工程與資料平台",
+          "items": [
+            {
+              "index": 36,
+              "text": "Akshay（@akshay_pachaar）分享以一項開源調整把 Fable 5 的 token 用量降為原本約 40%、同時減少錯誤；這意味 agent 執行路徑設計可大幅改變成本與品質。",
+              "tweet_id": "2082807945797210374",
+              "file": "audio/2026-07-31/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "shadcn（@shadcn）建議聊天應用的導覽列應讓使用者看見完整對話脈絡與單一焦點；這意味 AI 聊天介面的可用性仍取決於清楚的上下文與操作設計。",
+              "tweet_id": "2082890516174127325",
+              "file": "audio/2026-07-31/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "Matt Pocock（@mattpocockuk）指出 LLM 不擅長遵守否定式指令，而程式碼審查可把它們轉成正向的修正目標；這意味 review 迴圈仍是提升 agent 產碼可靠性的實用機制。",
+              "tweet_id": "2082886149333258415",
+              "file": "audio/2026-07-31/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "Simon Willison（@simonw）期待 QA 測試專家善用 AI 開發高品質軟體；這意味 agent 普及可能提高測試與品質工程的相對重要性。",
+              "tweet_id": "2082865397448245407",
+              "file": "audio/2026-07-31/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "The Wall Street Journal（@WSJ）報導一家 AI 工具公司在未增加員工下已累積 1 萬名付費客戶並朝年營收 1,000 萬美元前進；這意味 AI 可能改變小型軟體公司的營運規模與人力需求。",
+              "tweet_id": "2082671616266240060",
+              "file": "audio/2026-07-31/040.mp3"
+            },
+            {
+              "index": 41,
+              "text": "GitHub（@github）發布以 `gh skill install github/gh-stack` 安裝 gh-stack 的指令；這意味 stacked PR 工作流開始以 CLI skill 形式融入開發者日常工具。",
+              "tweet_id": "2082892276091547664",
+              "file": "audio/2026-07-31/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "dex（@dexhorthy）認為好軟體應由小型、經測試的自動化與迴圈逐步堆疊；這意味建立 agent 自動化時，漸進式改善比一次打造全面系統更可控。",
+              "tweet_id": "2082895696181817767",
+              "file": "audio/2026-07-31/042.mp3"
+            },
+            {
               "index": 43,
-              "text": "The Wall Street Journal（@WSJ）指出市場對大型科技公司 AI 投資的無條件樂觀正在降溫；這反映投資人開始要求資料中心與模型資本支出帶來更明確回報。",
-              "tweet_id": "2082780703326871981",
+              "text": "Dalton Caldwell（@daltonc）發布訪談，討論 WorkWeave 的 1,350 萬美元 A 輪與模型路由市場；這意味模型路由正被視為 AI 應用基礎設施中的新創機會。",
+              "tweet_id": "2082869813190459592",
               "file": "audio/2026-07-31/043.mp3"
             },
             {
               "index": 44,
-              "text": "Watcher.Guru（@WatcherGuru）轉述 JPMorgan 認為延後 Clarity Act 可能傷害加密市場；這是市場機構觀點，凸顯監管立法時程仍會影響數位資產預期。",
-              "tweet_id": "2082849081529933850",
+              "text": "Angular（@angular）提醒在瀏覽器執行模型與 agent 邏輯可能造成效能瓶頸，並討論雲端 API、Web Workers 與本地模型取捨；這意味前端 AI 功能需要同時設計推論位置與執行緒策略。",
+              "tweet_id": "2082858764189790341",
               "file": "audio/2026-07-31/044.mp3"
             },
             {
               "index": 45,
-              "text": "Yahoo Finance（@YahooFinance）報導 Microsoft 創下自 2008 年以來最佳單日表現；這說明雲端與 AI 預期仍能迅速改變大型科技股的市場評價。",
-              "tweet_id": "2082847888191713498",
+              "text": "Stack Overflow（@StackOverflow）推出新的 Stack Internal 平台體驗，主打集中 PR、文件與程式環境中的技術知識；這意味組織需先治理與驗證上下文，才能降低 AI agent 擴大錯誤的風險。",
+              "tweet_id": "2082851506181517816",
               "file": "audio/2026-07-31/045.mp3"
             },
             {
               "index": 46,
-              "text": "Dmitrii Kovanikov（@ChShersh）分享一篇關於高效率終端使用的入門文章；這類基礎工作流教育仍能幫助新開發者更快建立可靠的命令列操作習慣。",
-              "tweet_id": "2082727616486760715",
+              "text": "Baseten（@baseten）介紹 Switch，主打讓同一個 harness 使用 Kimi K3、GLM-5.2 等開放與封閉模型；這意味跨供應商模型切換正被包裝成開發者基礎設施。",
+              "tweet_id": "2082828214653616192",
               "file": "audio/2026-07-31/046.mp3"
             },
             {
               "index": 47,
-              "text": "Robin König（@rbnio）公開招募 AI 工程師參與前沿模型與代理產品開發；這顯示模型業者仍持續擴充將研究能力產品化的工程團隊。",
-              "tweet_id": "2082604772075733276",
+              "text": "LangChain（@LangChain）表示其 Gateway 可避免超支、限制失控流量、降低敏感資料暴露並提升 agent 可靠性；這意味集中式 LLM gateway 是多模型治理的重要控制點。",
+              "tweet_id": "2082894996785488268",
               "file": "audio/2026-07-31/047.mp3"
             },
             {
               "index": 48,
-              "text": "TechCrunch（@TechCrunch）報導 Nscale 收購 Anyscale 以掌握更多 AI 算力堆疊；這顯示雲端 AI 業者正透過併購整合訓練、推論與基礎設施能力。",
-              "tweet_id": "2082849665733808154",
+              "text": "Repojournal（@repojournal）整理 Codex 修正 MCP 啟動期間的 async TUI 輸入問題與終端渲染相容性更新；這意味 agent 開發工具的可靠性仍高度依賴底層互動與終端細節。",
+              "tweet_id": "2082599777867604356",
               "file": "audio/2026-07-31/048.mp3"
             },
             {
               "index": 49,
-              "text": "The Wall Street Journal（@WSJ）認為 Meta 是否應收斂 AI 支出的討論正在升高；這代表大型科技公司的資本配置正受投資人以回報與風險重新檢驗。",
-              "tweet_id": "2082771356374970538",
+              "text": "Steve Faulkner（@southpolesteve）介紹以 Octane 重建 Next.js Pages Router 的 Nextane，並主打降低初始客戶端 JavaScript；這意味開發者持續嘗試以不同架構重取捨框架相容性與前端負載。",
+              "tweet_id": "2082895124455981107",
               "file": "audio/2026-07-31/049.mp3"
             },
             {
               "index": 50,
-              "text": "Oracle（@Oracle）宣布擴大與 Google Cloud 的合作，將 Gemini 模型帶入 Fusion Cloud Applications 與 NetSuite；這讓企業 SaaS 使用者可在既有商務流程中採用生成式 AI 能力。",
-              "tweet_id": "2082818496753238436",
+              "text": "Virat Singh（@virattt）宣布 AI Hedge Fund 2.0 新增建立基金、回測與檢視每個決策的終端介面；這意味 AI 金融實驗工具正增加可觀測性與回測功能。風險說明：此類工具不構成投資建議。",
+              "tweet_id": "2082895726372397083",
               "file": "audio/2026-07-31/050.mp3"
+            },
+            {
+              "index": 51,
+              "text": "GitHub Changelog（@GHchangelog）宣布可用新的 `$/` 自我倉庫語法引用同一倉庫中的 actions 或 reusable workflows；這意味 CI 設定可用更清晰的內部參照方式降低維護摩擦。",
+              "tweet_id": "2082888977845993868",
+              "file": "audio/2026-07-31/051.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🏭 產業、基礎設施與安全治理",
+          "items": [
+            {
+              "index": 52,
+              "text": "Treasury Secretary Scott Bessent（@SecScottBessent）表示 Clarity Act 經歷跨黨派協商與參議院委員會推進；這意味美國加密資產監管框架仍處於政治協商與立法推動階段。",
+              "tweet_id": "2082866826426364332",
+              "file": "audio/2026-07-31/052.mp3"
+            },
+            {
+              "index": 53,
+              "text": "Starlink（@Starlink）表示首批 Starlink V3 衛星已完成太陽能陣列部署、推進器點火與星座連線；這意味新一代衛星系統正進入在軌驗證階段。",
+              "tweet_id": "2082892420300366247",
+              "file": "audio/2026-07-31/053.mp3"
+            },
+            {
+              "index": 54,
+              "text": "TechCrunch（@TechCrunch）報導 Microsoft 正更公開地與 OpenAI、Anthropic 競爭；這意味大型科技公司與模型供應商的合作與競爭關係持續重組。",
+              "tweet_id": "2082622960582713700",
+              "file": "audio/2026-07-31/054.mp3"
+            },
+            {
+              "index": 55,
+              "text": "anand（@metanand）宣布 Dili 完成 1,500 萬美元 A 輪，目標以 AI 改造資本專案的專業服務；這意味垂直型 AI 新創正瞄準工程與專業服務流程。",
+              "tweet_id": "2082846615472140649",
+              "file": "audio/2026-07-31/055.mp3"
+            },
+            {
+              "index": 56,
+              "text": "MP Materials（@MPMaterials）宣布 Project Swarm，主打為美國及盟國無人機與馬達製造商建立稀土磁材供應路徑；這意味無人機供應鏈安全已成為產業與政策議題。",
+              "tweet_id": "2082845811587899549",
+              "file": "audio/2026-07-31/056.mp3"
+            },
+            {
+              "index": 57,
+              "text": "Harrison Chase（@hwchase17）表示 LangSmith Gateway 提供成本控制、速率限制、PII 遮罩與 coding agent 整合；這意味企業在採用 agent 時需要同時部署成本與資料安全護欄。",
+              "tweet_id": "2082883597204373717",
+              "file": "audio/2026-07-31/057.mp3"
+            },
+            {
+              "index": 58,
+              "text": "CISA（@CISAgov）宣布更新 Google Workspace 與 ScubaGoggles 的安全組態基線，新增 Gemini 相關控制；這意味政府與企業正把生成式 AI 納入既有雲端安全治理框架。",
+              "tweet_id": "2082873959284924716",
+              "file": "audio/2026-07-31/058.mp3"
+            },
+            {
+              "index": 59,
+              "text": "The Wall Street Journal（@WSJ）報導 AI 正使更多創業者以更精簡團隊甚至單人方式經營企業；這意味生產力工具可能改變創業初期的人力配置。",
+              "tweet_id": "2082835145652940922",
+              "file": "audio/2026-07-31/059.mp3"
+            },
+            {
+              "index": 60,
+              "text": "Kaggle（@kaggle）宣布 Intensive Vibe Coding Capstone Project 收到超過 6,000 件提交，並表揚 12 支團隊；這意味以 AI agent 協作開發為核心的實作社群持續擴大。",
+              "tweet_id": "2082850139786404257",
+              "file": "audio/2026-07-31/060.mp3"
+            },
+            {
+              "index": 61,
+              "text": "Automattic（@automattic）表示已共同簽署支持開放權重與美國 AI 領導力的公開信；這意味開放模型與權重取得正持續成為產業政策討論焦點。",
+              "tweet_id": "2082863925041709126",
+              "file": "audio/2026-07-31/061.mp3"
+            },
+            {
+              "index": 62,
+              "text": "Tenstorrent（@tenstorrent）宣布參與 Voice Agent Build Day，邀請開發者實驗語音 agent；這意味語音互動仍是 AI agent 生態系積極投入的應用方向。",
+              "tweet_id": "2082841409883693247",
+              "file": "audio/2026-07-31/062.mp3"
             }
           ]
         },
