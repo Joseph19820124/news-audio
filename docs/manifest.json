@@ -1,323 +1,311 @@
 {
-  "updated_at": "2026-08-06T01:09:57.221092+08:00",
+  "updated_at": "2026-08-06T04:14:33.372415+08:00",
   "dates": [
     {
       "date": "2026-08-06",
-      "generated_at": "2026-08-06T01:09:43.943238+08:00",
+      "generated_at": "2026-08-06T04:14:20.903641+08:00",
       "categories": [
         {
-          "name": "🤖 模型、代理與基礎設施",
+          "name": "🤖 AI、工具與產業動態",
           "items": [
             {
               "index": 1,
-              "text": "Bojan Tunguz（@tunguz）回報遭遇記憶體不足錯誤；這雖是簡短的運行訊號，仍提醒高負載模型與資料工作流需要資源監控和可預期的失敗處理。",
-              "tweet_id": "2085033926133944449",
+              "text": "OpenAI（@OpenAI）表示「We are committed to pushing the model frontier across cost efficiency, capability, and speed. Starting today, we are reducing prices for GPT-5.6 Luna by 80% and GPT-5.6 Terra by 20」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2082878156483219672",
               "file": null
             },
             {
               "index": 2,
-              "text": "Brett Adcock（@adcock_brett）發布 Hark Handoff，稱其在網路使用任務表現領先；這反映代理產品正將重點從 coding 擴展到訂餐、訂票、購物等日常操作。",
-              "tweet_id": "2085018697312383349",
+              "text": "Peter Steinberger（@steipete）表示「I gave codex a video-enabled remote KVM so it can automate e2e test the iMessage-integration on OpenClaw. (iMessage is unreliable in VMs, and certain features such as read receipts」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084988316324397312",
               "file": null
             },
             {
               "index": 3,
-              "text": "The Kobeissi Letter（@KobeissiLetter）轉述伊朗與阿曼接近就荷姆茲海峽路線發表聯合聲明；這若落實，可能影響區域航運與能源供應的風險預期。",
-              "tweet_id": "2085020844691001491",
+              "text": "OpenAI（@OpenAI）表示「We're detailing two new incidents that occurred during external cyber evaluations conducted by independent evaluation partners. We outline what happened, how the activity was conta」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084747580693426555",
               "file": null
             },
             {
               "index": 4,
-              "text": "Kr$na（@krishdotdev）表示 DeepSeek V4 Flash 在棋類基準超過多個前沿模型；這是第三方評測訊號，實際通用能力仍應以多樣任務驗證。",
-              "tweet_id": "2084681101696721017",
+              "text": "Peter Steinberger（@steipete）表示「I’ll totally use this in my next presentation」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085074976290505090",
               "file": null
             },
             {
               "index": 5,
-              "text": "Giulio Zausa（@giuliozausa）分享 SC88 已能完整模擬 XP 晶片的 DSP bytecode 與 32 聲道輸入；這展示復古音源模擬在底層硬體行為重現上的工程進展。",
-              "tweet_id": "2084761168950820918",
+              "text": "Google Gemini（@GeminiApp）表示「Starting today, you can create ten videos *at no cost* in Gemini until 11:59pm PT on August 4th, 2026. Just select \"Create video\" in the tools menu to create, edit, and remix video」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2082563490431246623",
               "file": null
             },
             {
               "index": 6,
-              "text": "鐘二信（@zhongerxin）分享以 DeepSeek Flash V4 搭配 ego lite 瀏覽器改善 Codex browser use 的經驗；這顯示模型、瀏覽器工具與 harness 的組合會直接影響代理表現。",
-              "tweet_id": "2084939171161063710",
+              "text": "Garry Tan（@garrytan）表示「Make something agents want」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084977947375767647",
               "file": null
             },
             {
               "index": 7,
-              "text": "ITmedia NEWS（@itmedia_news）報導 IT Trend 等服務因 GitHub 憑證外洩，可能有多達六萬筆資料受影響；這提醒企業應保護原始碼平台憑證並建立洩漏偵測與撤銷流程。",
-              "tweet_id": "2084890929748648177",
+              "text": "Elon Musk（@elonmusk）表示「Critical feedback for the Grok Build harness, Grok foundation model and Imagine is super appreciated」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085074733532590531",
               "file": null
             },
             {
               "index": 8,
-              "text": "Oguz Erkan（@oguzerkan）轉述高盛預測全球 token 消耗到 2030 年可能成長 24 倍；這是產業預測，意味推理需求、電力與資料中心投資仍可能持續擴大。",
-              "tweet_id": "2084714585739682298",
+              "text": "Google DeepMind（@GoogleDeepMind）表示「From proposing hypotheses to designing experiments, AI agents are starting to reshape scientific discovery. But the hardest part is testing these ideas in the real world. Our essay」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2077372568143642972",
               "file": null
             },
             {
               "index": 9,
-              "text": "Chubby（@kimmonismus）表示 Anthropic 已確認組建 Claude 自研晶片團隊；這讓模型公司有機會更直接優化推理速度、成本與供應鏈。",
-              "tweet_id": "2085006838710362235",
+              "text": "erik@try.works（@trydotworks）表示「lmao Codex now proudly tells me I can use DeepSeek, after i configured model routing with @rolemodeldev」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084747943320465448",
               "file": null
             },
             {
               "index": 10,
-              "text": "Andrew Curran（@AndrewCurran_）指出 Anthropic 已公開 custom silicon team 職缺；這提供公司自研硬體計畫從傳聞走向可觀察組織投入的訊號。",
-              "tweet_id": "2085002185390305581",
+              "text": "Binaryify（@binaryify）表示「花了几天逆向了 kimi 的 PPT, 弄了个 skill, 用 deepseek 也可以做出很逼近 kimi PPT 的效果了, 希望这次不会收到警告函了, 上次网易云音乐就给我发了警告函 https://github.com/Binaryify/open-kimi-ppt-skill…」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084944649941324020",
               "file": null
             },
             {
               "index": 11,
-              "text": "Phillip Jones（@akaphill）宣布 Cloudflare OS 開源，定位為基於團隊 curated skills 的 agent workspace；這讓組織可在內部資料與權限框架下建立可修改的個人化 App。",
-              "tweet_id": "2084992807912268258",
+              "text": "leo（@synthwavedd）表示「i thought i would be dead before i could say this, but... happy gemini 3.5 pro day to those who celebrate」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085030647500829149",
               "file": null
             },
             {
               "index": 12,
-              "text": "Neo Kim（@systemdesignone）整理 Redis 的二十個常見使用情境；這為構建快取、佇列、即時資料與代理狀態管理的工程師提供入門地圖。",
-              "tweet_id": "2084625617971007946",
+              "text": "Lentils（@Lentils80）表示「Gemini 3.5 Pro is already deployed and ready for imminent release Public release is highly likely to be tomorrow (Thursday) instead of today」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085036007519334421",
               "file": null
             },
             {
               "index": 13,
-              "text": "Miguel Ángel Durán（@midudev）介紹跨平台終端工具 witr，可找出並關閉被占用的 port；這能減少本地開發、測試與代理啟動時的常見環境阻塞。",
-              "tweet_id": "2085004644816760873",
+              "text": "koray kavukcuoglu（@koraykv）表示「Thanks, @sundarpichai, honored to lead GDM into this next chapter. This is such a pivotal moment for us as we double down on our Gemini models, frontier AI research, and the produc」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085036328258036102",
               "file": null
             },
             {
               "index": 14,
-              "text": "Koder（@koder_dev）轉述 Claude Code 團隊認為工作重點已從寫 prompt 轉為設計 loop；這說明代理開發更仰賴持續運行、回饋與漸進改善的控制循環。",
-              "tweet_id": "2084942518165336480",
+              "text": "Uncle Bob Martin（@unclebobmartin）表示「The mistake that I think many agent jockeys are making is that they are hoping to produce a sellable product. What I think they’re missing is that jockeying an agent means you almo」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084976853941354744",
               "file": null
             },
             {
               "index": 15,
-              "text": "SaltyAom（@saltyAom）討論 Node.js 是否應採原生 Web Standard Request/Response server；這反映 JavaScript runtime 正持續向跨平台 Web API 一致性收斂。",
-              "tweet_id": "2084975586519515141",
+              "text": "Mitchell Hashimoto（@mitchellh）表示「Been fighting the Great Firewall of America all day (Fable too, though this screenshot is from Codex). I truly believe this is resulting in software being less secure because we ca」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085034829318656113",
               "file": null
             },
             {
               "index": 16,
-              "text": "Tom Warren（@tomwarren）報導 Apple 正研究 iPhone-to-Windows 複製貼上功能；這顯示跨裝置互通性要求正逐步改變封閉平台的功能規劃。",
-              "tweet_id": "2084881807153963106",
+              "text": "MTS（@MTSlive）表示「SITUATION DETECTED: Anthropic has officially confirmed for the first time that it is building a dedicated in-house team to design custom chips for Claude, per Business Insider」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084997644301279544",
               "file": null
             },
             {
               "index": 17,
-              "text": "Brais Moure（@MoureDev）警告 keyv、flat-cache 等高下載量 npm 套件遭惡意程式感染；這要求開發團隊檢查 lockfile、掃描相依性並撤銷可能外洩的秘密資訊。",
-              "tweet_id": "2084988687809487204",
+              "text": "Brain by AIVM（@AIVMBrain）表示「BREAKING: AIVM Brain beta is now live! Your company can finally give employees and AI agents one shared brain, connected to the tools they already use, with permissions preserved a」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084625485292519796",
               "file": null
             },
             {
               "index": 18,
-              "text": "Miguel Ángel Durán（@midudev）分享 Stanford 網路資安課程，涵蓋 Web 漏洞、session 與注入風險；這為開發者建立防禦導向的安全基礎提供公開教材。",
-              "tweet_id": "2084988787306758236",
+              "text": "Grok Imagine（@imagine）表示「We ship updates to Grok Imagine weekly and always appreciate your feedback」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085053249321566239",
               "file": null
             },
             {
               "index": 19,
-              "text": "MTA（@MTA）以快車超越慢車呈現通勤日常；這提醒都市交通的班距、速度與可靠性仍是公共服務體驗的關鍵。",
-              "tweet_id": "2084637014092058772",
+              "text": "Shay Boloor（@StockSavvyShay）表示「Anthropic confirms it is building an in-house silicon team to design custom chips that make Claude faster and more efficient at scale. The company will co-design hardware and model」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084987981837082630",
               "file": null
             },
             {
               "index": 20,
-              "text": "Cerebras（@cerebras）宣布 Lovable 將使用其高速推理服務；這反映應用生成平台正以專用推理硬體降低互動延遲與提升使用體驗。",
-              "tweet_id": "2084999253772906576",
+              "text": "Interesting AF（@interesting_aIl）表示「OpenAI announces 2 new incidents of AI models accessing the internet after escaping testing environments」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084949283082850427",
               "file": null
             },
             {
               "index": 21,
-              "text": "Brooklyn（@imbabybrooklyn）表示 Hermes Desktop 現在具備可被代理控制的內建瀏覽器；這讓代理的閱讀、操作與使用者介面更緊密地整合在同一桌面環境。",
-              "tweet_id": "2085019745221554678",
+              "text": "Chris Perry（@thechrisperry）表示「I left Google last month to start something new. Allen Hutchison and I are cofounding Vycari, a startup focused on building agents. We’re opening up to testers in the coming weeks,」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084679321201844441",
               "file": null
             },
             {
               "index": 22,
-              "text": "Guillermo Rauch（@rauchg）表示 Next.js 16.3 在 Vercel 上減少 prefetch 與靜態資產請求，並改善 metadata 服務；這可直接降低大規模應用的傳輸與計算成本。",
-              "tweet_id": "2085019036849770642",
+              "text": "Zixuan Li（@ZixuanLi_）表示「OpenAI and Anthropic published their cybersecurity reports just two minutes apart. Competition, coincidence, or collaboration?」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084823584409518228",
               "file": null
             },
             {
               "index": 23,
-              "text": ".NET（@dotnet）介紹 SQL MCP Server 以 deterministic T-SQL 與 on-behalf-of auth 實現安全 AI 資料存取；這把模型意圖與資料庫權限、可預期查詢結果連結起來。",
-              "tweet_id": "2084746413309608415",
+              "text": "Max Spero（@max_spero_）表示「Claude Tag is lowkey the most useless teammate. Nobody asked for this」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084702959917568314",
               "file": null
             },
             {
               "index": 24,
-              "text": "Cloudflare（@Cloudflare）表示 WriteGuard 能以細粒度控制保護 MCP 寫入權限；這讓代理接觸內部工具時，可依任務與能力範圍逐步縮小存取面。",
-              "tweet_id": "2085018146868469815",
+              "text": "clem（@ClementDelangue）表示「Feels like Google could have been the dominating force in AI by open-sourcing the frontier with Gemini, Veo, and Nano Banana. Instead, they kept them behind APIs for a few billion」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085058515312222570",
               "file": null
             },
             {
               "index": 25,
-              "text": "Katie Roof（@Katie_Roof）報導 Google 正洽談投資 AI coding agent 新創 Mechanize；這反映大型科技公司持續以資本方式取得代理開發工具生態的戰略位置。",
-              "tweet_id": "2084987985418932731",
+              "text": "Charlie Marsh（@charliermarsh）表示「The first few months at OpenAI have been some of the happiest of my life. I love it here」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085025797044060648",
               "file": null
             },
             {
               "index": 26,
-              "text": "Hussein Nasser（@hnasr）預測未來工程師將大量依賴 AI loop 產生與審查程式；這是趨勢觀點，提醒團隊需重新設計人類對品質與責任的參與方式。",
-              "tweet_id": "2085003423666053268",
+              "text": "Fayaz Ahmed（@fayazara）表示「Meet Cloudflare OS - an open source platform to build custom AI agents for your company’s internal tools and data https://blog.cloudflare.com/cloudflare-os」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085004743349518362",
               "file": null
             },
             {
               "index": 27,
-              "text": "Victor E. Nunez（@nunezvice）表示使用 chat/Codex 可將單日產出提高數倍；這是個人經驗，反映代理對電腦工作中重複與摩擦環節的自動化效果。",
-              "tweet_id": "2085018277991112964",
+              "text": "OpenAI Developers（@OpenAIDevs）表示「Builders are finding new ways to build out loud with Voice in Codex. Talk through an idea, start a new Codex session when it takes shape, and check in on your other threads along t」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085068107958411518",
               "file": null
             },
             {
               "index": 28,
-              "text": "SHL0MS（@SHL0MS）認為許多產品只是 Hermes Agent 的包裝；這是市場觀察，反映 agent 平台的可組合性也會造成產品差異化難題。",
-              "tweet_id": "2085013547113935169",
+              "text": "Al Jazeera English（@AJEnglish）表示「Anthropic and OpenAI’s top-of-the-line AI models attempted “autonomous” and “unsanctioned” cyberattacks during safety tests, says UK’s AI watchdog http://aje.news/fyrymm」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084920390753607777",
               "file": null
             },
             {
               "index": 29,
-              "text": "NO1ennn（@N01ennn）轉述 Sam Altman 對同時運行多個常駐 agent 的願景；這突顯代理大量並行前，仍需解決持續授權、成本、記憶與監督問題。",
-              "tweet_id": "2085001202962423898",
+              "text": "Poonam Soni（@CodeByPoonam）表示「Gemini Spark can now use Chrome Gemini Spark now browses real websites, compares options, and completes bookings, logged in as you Google gave its personal agent, Gemini Spark, aut」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084580662028488773",
               "file": null
             },
             {
               "index": 30,
-              "text": "Dmytro Dzhulgakov（@dzhulgakov）指出推理服務不只要快，也必須維持準確度；這呼應端點評估需要同時檢查速度數字與輸出一致性。",
-              "tweet_id": "2084723707864666223",
+              "text": "Tyler Longwell（@tlongwell_bzz）表示「You can now launch a Buzz Agent on a remote Kubernetes cluster directly from the desktop app. This is our first take on remote agents, so expect rough edges. Feedback is greatly ap」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085049341362741256",
               "file": null
             },
             {
               "index": 31,
-              "text": "Lumina（@LuminaXspace）再次確認 Anthropic 進入自研晶片領域；這顯示模型公司正把硬體設計視為擴大規模與控制經濟性的長期能力。",
-              "tweet_id": "2085006166707310595",
+              "text": "NVIDIA AI Infrastructure（@NVIDIAAIInfra）表示「AI agents work in loops. The model reasons → the CPU executes → the result comes back → repeat. Every step depends on the step before it. More cores can't speed up a single loop. O」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085036649835057328",
               "file": null
             },
             {
               "index": 32,
-              "text": "Morty（@0xMortyx）轉述 OpenAI 內部已有超過三成程式碼由 AI 產生；這類採用程度會促使團隊將速度、品質與模型行為納入工程管理指標。",
-              "tweet_id": "2085003928983261268",
+              "text": "Geoffrey Irving（@geoffreyirving）表示「…and…took two days until an AI attack involving social engineering, including persuasion. :/ https://aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-test」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084808127149707537",
               "file": null
             },
             {
               "index": 33,
-              "text": "Cloudflare Developers（@CloudflareDev）宣布 Cloudflare OS，讓組織每個人都有了解公司運作的 agent 與 workspace；這將企業知識、系統連線與工作自動化打包為可部署平台。",
-              "tweet_id": "2085031257780752513",
+              "text": "matt palmer（@mattyp）表示「Here's how I made the @cursor_ai announcement video: I built the scene off a real Wii Menu - I used Dolphin Emulator to run an emulated Wii on my mac that I screen recorded in 4k I」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085059707233079435",
               "file": null
             },
             {
               "index": 34,
-              "text": "Kevin S Lin（@kevins8）分享關於無責備事後檢討的新觀點；這反映可靠系統的改進依賴從事件中學習，而非只追究個人責任。",
-              "tweet_id": "2085033887856791808",
+              "text": "Y11（@seclink）表示「有几个显而易见的面试题是： 1. Transformer 能不能做大模型推理？ 能做，那为啥不用，而是必须用 sglang 、 vllm ？ - 其实本质上还是因为 Transformer 性能太拉垮 ，瓶颈在显存 （KV cache ） 和 逐 token 解码慢。 - 回到 2023 年，大家都还在 Transformer 上做一些微创新，譬如注意力共享」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084854949536547311",
               "file": null
             },
             {
               "index": 35,
-              "text": "Poolside（@poolsideai）表示旗下模型三個月內已服務超過十兆 token；這反映開放與 API 推理需求持續迅速擴大。",
-              "tweet_id": "2085017987514307060",
+              "text": "OpenRouter（@OpenRouter）表示「New: OpenRouter Agent SDKs for both Python and Go! They are kept in sync automatically with the TypeScript SDK https://github.com/OpenRouterTeam/python-agent… https://github.com/Op」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085020190345953629",
               "file": null
             },
             {
               "index": 36,
-              "text": "Ant Ling（@AntLingAGI）發布 Ling-3.0-flash 的 INT4 與 FP4 版本，可在單台 DGX Spark 端到端執行；這降低在本地執行大模型的記憶體與硬體門檻。",
-              "tweet_id": "2085024077434196211",
+              "text": "Swami Sivasubramanian（@SwamiSivasubram）表示「Today we're launching one of the most exciting ground up innovations in the agent landscape: Kiro Crew! What started as a side project inside @amazon (known as Meshclaw) grew into」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084729736228442254",
               "file": null
             },
             {
               "index": 37,
-              "text": "Allie K. Miller（@alliekmiller）指出企業內強力 AI 使用者可能囤積知識而不分享；這提醒組織需設計獎勵與知識擴散機制，避免 AI 能力集中在少數人。",
-              "tweet_id": "2085004772403192220",
+              "text": "Warp（@warpdotdev）表示「We just launched the Warp Agent CLI, bringing the Warp agent to any terminal or IDE」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085004830309851191",
               "file": null
             },
             {
               "index": 38,
-              "text": "Alex Kendall（@alexgkendall）介紹 GAIA-4 世界模型已用於安全關鍵的閉環模擬；這為自駕與機器人系統提供在真實部署前測試反事實情境的能力。",
-              "tweet_id": "2084992798814539875",
+              "text": "Geek（@geekbb）表示「现在给国产大模型厂商就三条路，第一条：这时候就别藏着掖着了，直接把牙膏挤爆，压箱底的大模型赶紧端上来拼命。第二条：和 DeepSeek / OpenAI 打价格战，往死里打，各种渠道免费送。第三条：死」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084983691215085982",
               "file": null
             },
             {
               "index": 39,
-              "text": "Vercel（@vercel）公布 Next.js 16.3 的效能改善數據；這顯示框架層更新可同時降低網路請求、靜態資產與元資料服務成本。",
-              "tweet_id": "2085018523072610770",
+              "text": "Atai Barkai（@ataiiam）表示「Introducing OpenTag A plug-and-play @LangChain agent on Slack and Teams powered by the 𝙲𝚑𝚊𝚗𝚗𝚎𝚕𝚜 𝚂𝙳𝙺. Over 700 stars, easy to clone and get started Supports → Generative UI → Stream」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085045556280438926",
               "file": null
             },
             {
               "index": 40,
-              "text": "Thomas Ricouard（@Dimillian）表示 Codex 可透過遠端環境執行，不必侷限於使用者本機；這反映 cloud agent 可讓工作流跨裝置並釋放本機資源。",
-              "tweet_id": "2084997738098241689",
+              "text": "Bogdan • QClay | Awsmd（@bogdan_qclay）表示「GPT 5.6 Sol + Higgsfield Landing page for your product plug & get the same result Access to Prompt」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084995408737022269",
               "file": null
             },
             {
               "index": 41,
-              "text": "NVIDIA Robotics（@NVIDIARobotics）指出 VLA 模型的實體部署需要低延遲邊緣推理，並推薦 Jetson AGX Thor；這顯示具身 AI 的瓶頸不只在模型，也在即時算力與硬體整合。",
-              "tweet_id": "2084728074386424198",
+              "text": "AgentMail (YC S25)（@agentmail）表示「AgentMail is now an official plugin on OpenAI. For all you Codex users, this one is for you!」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085047921188413849",
               "file": null
             },
             {
               "index": 42,
-              "text": "Agent Native（@agentnative_）認為 Supabase 已成為 agent 建構應用時的預設資料庫選擇；這是產品生態觀察，說明代理工具的預設推薦會影響基礎設施採用。",
-              "tweet_id": "2085017857633517733",
+              "text": "geniusvczh（@geniusvczh）表示「中间加一层的好处是可以大幅缩小必须context window长度，这就跟codex一口气能写正确C++行数远超正确py行数一样，妥妥的省钱，人家马一龙支持这个是因为他富，你们跟着瞎起哄」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084972743217582368",
               "file": null
             },
             {
               "index": 43,
-              "text": "Sapiom（@sapiom）指出許多 agent 上線後不會更新所用基礎設施，因而錯失智慧成本下降；這提醒團隊需持續重新評估模型、路由與推理服務成本。",
-              "tweet_id": "2084364679904641470",
+              "text": "Alex（@de1lymoon）表示「Anthropic engineers just released a 44-minute deep dive into “Graph Engineering” for build your AI agents: step 1 → 03:12 - why vector RAG still returns incomplete context step 2 →」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085038313518297114",
               "file": null
             },
             {
               "index": 44,
-              "text": "Android Developers（@AndroidDev）介紹 Android Developers Backstage 的 Android vibe coding 討論，包含 CLI 與背景子代理分析程式碼；這展示行動開發工具正把並行代理工作流帶入日常 IDE 體驗。",
-              "tweet_id": "2085033708130558170",
+              "text": "Axios（@axios）表示「The U.K. government is the latest to say it's seen OpenAI, Anthropic models try hacking into companies」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084749423511286177",
               "file": null
             },
             {
               "index": 45,
-              "text": "Mem0（@mem0ai）測試 Dream 功能如何讓長期 agent memory 自我整理；這探討記憶是否能隨時間維持品質，而不只不斷累積雜訊。",
-              "tweet_id": "2085025476939284914",
+              "text": "Chao Huang（@huang_chao4969）表示「DeepCode v2 is now live — bringing Loop Engineering to real-world agentic workflows, from complex software development to continuous algorithm iteration and optimization. An Agent」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085025878631932063",
               "file": null
             },
             {
               "index": 46,
-              "text": "David Nix（@david_nix）整理多種本地 AI inference hosting 方式，均提供 OpenAI 相容 API；這讓開發者能依吞吐、硬體與維運需求選擇 vLLM 等不同後端。",
-              "tweet_id": "2085002636391317527",
+              "text": "0xSero（@0xSero）表示「Life hack Build design systems in Claude Code, you can ask Fable to make a UI to collect from you what it needs」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085061155878531312",
               "file": null
             },
             {
               "index": 47,
-              "text": "AgriciDaniel（@PythonHub）發布 claude-seo skill，涵蓋技術 SEO、E-E-A-T、schema、在地與多語 SEO 等；這展示大型專業工作流可被拆成多 sub-skill 與 sub-agent 模組。",
-              "tweet_id": "2084901099408850986",
+              "text": "Pieces（@getpieces）表示「Introducing Pieces v6.1.0 Claude MCP Connection, Grounded Summaries, & Person Intelligence Try it today at: https://pieces.app」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085004665024880836",
               "file": null
             },
             {
               "index": 48,
-              "text": "LangChain（@LangChain）指出 skills 是易分享、可讓 agent 聚焦特定任務的「進階 prompt」；這說明 skill 的價值不只在文字，而在可重複使用的任務邊界。",
-              "tweet_id": "2085001038688288960",
+              "text": "Luke Muehlhauser（@lukeprog）表示「I am beginning to see a pattern in AI model behavior… https://aisi.gov.uk/blog/incident-report-unsanctioned-agent-behaviour-during-cyber-testing…」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084758893947740411",
               "file": null
             },
             {
               "index": 49,
-              "text": "Elixir by Software Mansion（@swmansionElixir）宣布 Voyager，讓 Elixir/Erlang 開發者可查看節點記憶體、程序數與 uptime；這可加強分散式系統的即時觀測與除錯能力。",
-              "tweet_id": "2085006899053822222",
+              "text": "ray（@rayoo_eth）表示「Hermes 0.20.0 里有一项很适合接进现有工作流的功能，outbound webhooks。 Hermes 原来已经能接收 GitHub、CI 和监控系统发来的 webhook，在事件发生后启动 Agent。现在方向也可以反过来。Agent 在开始会话、完成一轮任务、结束子 Agent 或调用某类工具时，Hermes 会向你配置的 HTTP 地址发送」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2084938898396856832",
               "file": null
             },
             {
               "index": 50,
-              "text": "dominik kundel（@dkundel）分享 Codex Micro 被社群帶著旅行並加以客製化；這反映實體控制器可成為開發者與代理互動的另一種介面。",
-              "tweet_id": "2085018192150405231",
-              "file": null
-            },
-            {
-              "index": 51,
-              "text": "Alex Xu（@alexxubyte）表示系統設計在 AI 時代更重要，並整理 Kafka 常見用途；這提醒即使代理加速程式撰寫，事件流、資料管線與可擴展架構仍需工程判斷。",
-              "tweet_id": "2085018151268598257",
-              "file": null
-            },
-            {
-              "index": 52,
-              "text": "Bloomberg（@business）報導 Roche 與 Recursion 的 AI 藥物研發合作推進首個專案；這提供 AI 是否能發現新藥的一項早期產業驗證案例。",
-              "tweet_id": "2084997887587467716",
+              "text": "Jeff Weinstein（@jeff_weinstein）表示「Machine payments for searching, crawling, and researching the web with @ExaAILabs via @mpp. Agents, start your (search) engines!」；這提供本輪相關進展的原始訊號，完整脈絡仍應以原貼文與官方資料核對。",
+              "tweet_id": "2085054400209522890",
               "file": null
             }
           ]
