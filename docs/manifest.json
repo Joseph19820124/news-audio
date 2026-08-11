@@ -1,323 +1,317 @@
 {
-  "updated_at": "2026-08-11T12:54:25.556219+08:00",
+  "updated_at": "2026-08-11T15:56:22.310999+08:00",
   "dates": [
     {
       "date": "2026-08-11",
-      "generated_at": "2026-08-11T12:53:40.193679+08:00",
+      "generated_at": "2026-08-11T15:55:46.098776+08:00",
       "categories": [
         {
-          "name": "🤖 模型、代理與 AI 平台",
+          "name": "🤖 模型、資安與代理能力",
           "items": [
             {
               "index": 1,
-              "text": "OpenAI（@OpenAI）宣布下調 GPT-5.6 Luna 80% 與 Terra 20% 的 API 價格，並為 Sol 提供更快選項；這將直接降低部分前沿模型的導入成本並拉高價格競爭。",
-              "tweet_id": "2082878156483219672",
+              "text": "Claude（@claudeai）宣布 Sonnet 5 的入門定價將由原定促銷改為長期維持；這讓團隊能以較穩定的 token 成本規劃模型採用。",
+              "tweet_id": "2086891169217122586",
               "file": "audio/2026-08-11/001.mp3"
             },
             {
               "index": 2,
-              "text": "Claude（@claudeai）表示 Sonnet 5 的入門定價將從原定促銷改為長期維持；這讓使用者可依較穩定的成本規劃模型用量。",
-              "tweet_id": "2086891169217122586",
+              "text": "OpenAI（@OpenAI）宣布擴大 Daybreak 資安計畫並推出 GPT-5.6-Cyber，定位為支援授權資安工作的模型；這把前沿模型能力與受信任防禦者的存取流程結合。",
+              "tweet_id": "2086864365379010729",
               "file": "audio/2026-08-11/002.mp3"
             },
             {
               "index": 3,
-              "text": "OpenAI（@OpenAI）宣布擴大 Daybreak 資安計畫並推出 GPT-5.6-Cyber，定位為供受信任防禦者執行授權資安工作；這代表前沿模型供應商正把高風險能力與受控使用流程綁定。",
-              "tweet_id": "2086864365379010729",
+              "text": "Nous Research（@NousResearch）表示 Hermes 的 Browser Use 模式以單一腳本化工具取代 12 個瀏覽器工具，測試中可減少 48% 至 66% token；這顯示工具介面設計能直接降低代理成本。",
+              "tweet_id": "2086881660658663469",
               "file": "audio/2026-08-11/003.mp3"
             },
             {
               "index": 4,
-              "text": "Nous Research（@NousResearch）表示 Hermes 的 Browser Use 模式以單一腳本化工具取代 12 個瀏覽器工具，測試中可減少 48% 至 66% token 且不降準確度；這顯示工具介面設計本身能顯著影響代理成本。",
-              "tweet_id": "2086881660658663469",
+              "text": "Grok（@grok）宣布 Voice connector 已在 iOS、Android 與網頁端開放，可產生語音備忘錄、個人化 podcast 與日報自動化；這把語音輸入延伸為可編排的工作流。",
+              "tweet_id": "2086910382569066807",
               "file": "audio/2026-08-11/004.mp3"
             },
             {
               "index": 5,
-              "text": "Grok（@grok）宣布 Voice connector 已在 iOS、Android 與網頁端開放，可產生語音備忘錄、個人化 podcast 與日報自動化；這把語音輸入延伸為可編排的個人工作流。",
-              "tweet_id": "2086910382569066807",
+              "text": "OpenAI（@OpenAI）表示 GPT-5.6-Cyber 曾用於真實漏洞研究，協助發現 Chrome V8 等開源軟體的未知漏洞；這說明資安模型正被直接用於加速防禦型研究。",
+              "tweet_id": "2086864372500942906",
               "file": "audio/2026-08-11/005.mp3"
             },
             {
               "index": 6,
-              "text": "Google（@Google）介紹 Gemini Omni Flash，表示開發者可用文字、圖像、影片或音訊參考建立與編輯影片；這使多模態內容生成逐步成為一般開發者可呼叫的能力。",
-              "tweet_id": "2086814383582118356",
+              "text": "Mark Zuckerberg（@finkd）宣布開放 Muse Glimmer 的權重，並預告將釋出 Muse Spark 1.2 權重；這為本地代理與開放模型社群增加可部署的模型選項。",
+              "tweet_id": "2086755195535413696",
               "file": "audio/2026-08-11/006.mp3"
             },
             {
               "index": 7,
-              "text": "Meta for Developers（@MetaforDevs）宣布 Muse Glimmer 為 30B、Apache 2.0 授權的開放權重模型，主打持續運行的本地代理與多步任務；這為長時程代理提供了可自行部署的模型選項。",
-              "tweet_id": "2086758202964951340",
+              "text": "Ryo Lu（@ryolu_）表示已離開 Cursor，並回顧該公司高強度、快速推進的工作文化；這是 AI 程式工具業者人才動態的一項訊號。",
+              "tweet_id": "2086854498639822942",
               "file": "audio/2026-08-11/007.mp3"
             },
             {
               "index": 8,
-              "text": "ollama（@ollama）表示 Muse Glimmer 已可透過其 MLX 引擎在 Apple Silicon 執行，並可支援 Claude Code、Codex 等本地代理工作流；這降低 Mac 使用者試用常駐代理的門檻。",
-              "tweet_id": "2086781863490994267",
+              "text": "Thariq（@trq212）認為部分 Claude 任務只需明確要求持續執行即可改善完成度；這提醒使用者任務收尾指令仍會影響代理行為。",
+              "tweet_id": "2086876017319457181",
               "file": "audio/2026-08-11/008.mp3"
             },
             {
               "index": 9,
-              "text": "Jen Zhu（@jenzhuscott）轉述 Zai 的 GLM5.2 已降價 95%，並稱其價格低於 DeepSeek；若定價資訊獲官方確認，將加劇中國模型服務的成本競爭。",
-              "tweet_id": "2086743394425143529",
+              "text": "GREG ISENBERG（@gregisenberg）指出 Cloudflare 讓網站可向 AI 代理收費存取；這預示代理可能成為網站服務的新型付費客戶。",
+              "tweet_id": "2086881493641568698",
               "file": "audio/2026-08-11/009.mp3"
             },
             {
               "index": 10,
-              "text": "寶玉（@dotey）轉述 Anthropic 將在 Claude 生成內容加入機器可讀標記、隱形水印與簽名中繼資料；這反映內容來源與 AI 法規遵循正被納入模型產品設計，但細節仍應以官方公告為準。",
-              "tweet_id": "2086928989549920678",
+              "text": "a16z（@a16z）估算代理式電腦操作每小時成本已可能低於部分人力選項；這主張若持續成立，將加速可標準化知識工作的自動化評估。",
+              "tweet_id": "2086906363947737406",
               "file": "audio/2026-08-11/010.mp3"
             },
             {
               "index": 11,
-              "text": "Teknium（@Teknium）宣布 Hermes Pixel Office 已在 VSCode 擴充功能與 GitHub 的 Hermes Agent Plugin 上線，可視覺化多個代理的即時工作；這將多代理協作的監督介面帶入既有開發環境。",
-              "tweet_id": "2086975696786829471",
+              "text": "寶玉（@dotey）轉述研究版 Claude 在黎曼 ζ 函數相關問題取得進展；此類高階數學結果需同行審查與正式研究說明才能判斷其學術意義。",
+              "tweet_id": "2086902418139128225",
               "file": "audio/2026-08-11/011.mp3"
             },
             {
               "index": 12,
-              "text": "Yahoo Finance（@YahooFinance）報導 Mark Zuckerberg 宣布 Meta 的 Muse Glimmer 可在 Mac 或 PC 全天候運行，並稱後續還有更大模型；這凸顯開放模型正鎖定本地、持續運作的代理場景。",
-              "tweet_id": "2086832855678652426",
+              "text": "CJ Zafir（@cjzafir）表示 DeepSeek Flash 0731 搭配 Hermes 或 Pi harness 的深度研究效果良好；這是個人使用觀察，反映模型與 harness 組合對實務體驗的影響。",
+              "tweet_id": "2086960424617230547",
               "file": "audio/2026-08-11/012.mp3"
             },
             {
               "index": 13,
-              "text": "Teknium（@Teknium）表示 Hermes 採用 browser-use 後可降低約 60% 的瀏覽器操作 token 支出；這支持以程式批次操作取代逐步工具呼叫的成本優勢。",
-              "tweet_id": "2086881909209252209",
+              "text": "Matt Pocock（@mattpocockuk）分享以架構改善 skill 處理 vibe-coded 應用問題的經驗；這顯示生成後的程式碼仍需要結構性診斷與維護工具。",
+              "tweet_id": "2086838432102228008",
               "file": "audio/2026-08-11/013.mp3"
             },
             {
               "index": 14,
-              "text": "CopilotKit（@CopilotKit）宣布可透過 AG-UI 把 Hermes 整合進 React、React Native、Next.js、Angular、Slack 與 Teams；這讓代理能力可更直接嵌入既有產品介面。",
-              "tweet_id": "2086846776116686973",
+              "text": "Alex（@alexgilev）推出 Agentic UI Showcase，收集以 AgenticUi 製作的產品介面；這為團隊設計代理導向介面提供案例庫。",
+              "tweet_id": "2086801779358875912",
               "file": "audio/2026-08-11/014.mp3"
             },
             {
               "index": 15,
-              "text": "Berryxia.AI（@berryxia）介紹 Qwen-MM-Plugins，稱其可讓既有代理框架處理圖像、影片、文件、3D 與 CAD；若專案能力如述，將補足多模態代理的工具鏈。",
-              "tweet_id": "2086838929047863429",
+              "text": "Shann³（@shannholmberg）介紹以提示建立知識庫、持久記憶與代理層的 Hermes Life OS 方法；這顯示個人代理系統正把長期記憶列為核心功能。",
+              "tweet_id": "2086920236079681607",
               "file": "audio/2026-08-11/015.mp3"
             },
             {
               "index": 16,
-              "text": "Sam Bhagwat（@calcsam）宣布 Mastra observability 加入敏感資料遮罩，可從代理 trace 自動移除使用者 PII；這有助於在觀測與除錯時降低個資外洩風險。",
-              "tweet_id": "2086823160192827823",
+              "text": "X Freeze（@XFreeze）介紹 Grok Voice connector 可建立語音備忘錄、個人化 podcast 與音訊摘要；這是對官方新功能使用方式的整理。",
+              "tweet_id": "2086912668372529216",
               "file": "audio/2026-08-11/016.mp3"
             },
             {
               "index": 17,
-              "text": "Luke The Dev（@iamlukethedev）整理 Hermes 將 12 個瀏覽器工具合併為可執行腳本的單一模式；這再次突顯批次化瀏覽器自動化可減少工具往返與 token 消耗。",
-              "tweet_id": "2086902520249827583",
+              "text": "MiniMax（@MiniMax_AI）表示已有 Mac 用推論引擎可執行開放權重 H3；這代表開放模型可逐步擴展到更多終端硬體。",
+              "tweet_id": "2086940119324565748",
               "file": "audio/2026-08-11/017.mp3"
             },
             {
               "index": 18,
-              "text": "Devin（@devin_plumb）表示 Devin Fusion 持續改善每項任務的性價比；這表示自動化軟體工程產品仍把成本效率視為核心競爭指標。",
-              "tweet_id": "2086672258647687638",
+              "text": "Linear（@linear）分享其 Linear Agent 的 prompt、工具與 harness 設計；這為產品型代理如何組合模型與工作流提供官方設計案例。",
+              "tweet_id": "2086819442227319283",
               "file": "audio/2026-08-11/018.mp3"
             },
             {
               "index": 19,
-              "text": "Qwen（@Alibaba_Qwen）表示 Qwen3.8-27B 開放權重將於本週推出；這讓開源社群可預期取得新的中型代理與程式開發模型選擇。",
-              "tweet_id": "2087024739458195922",
+              "text": "Jason Zhao（@byjasonz）宣布 Space，主打把雲端儲存以虛擬磁碟方式供團隊、應用與代理原生存取；這降低代理處理共享檔案時的資料位置摩擦。",
+              "tweet_id": "2086857670318068162",
               "file": "audio/2026-08-11/019.mp3"
             },
             {
               "index": 20,
-              "text": "Poetiq（@poetiq_ai）宣布 Augur，主張可找出模型知識與推理失效的邊界並生成修正資料；這反映評測正從靜態排行榜轉向特定領域的失效診斷。",
-              "tweet_id": "2086860842121798045",
+              "text": "Unsloth AI（@UnslothAI）表示 2-bit Muse Glimmer GGUF 在 14GB RAM 可呼叫逾百項工具並完成 repo bug hunt；這是量化模型工具使用的實測宣稱，適合以不同任務再驗證。",
+              "tweet_id": "2086814102484398290",
               "file": "audio/2026-08-11/020.mp3"
             },
             {
               "index": 21,
-              "text": "PostHog（@posthog）宣布 Replay Vision 正式推出，可分析 Session Replay、標示 bug 與挫折訊號並產出修正建議；這將產品分析資料轉為可由代理協助處理的工程回饋。",
-              "tweet_id": "2084358183871775058",
+              "text": "OpenAI Developers（@OpenAIDevs）分享全球 Build Week 參與者以 Codex 將構想實作成專案；這顯示程式代理正被用於社群型快速原型開發。",
+              "tweet_id": "2086856098091528301",
               "file": "audio/2026-08-11/021.mp3"
             },
             {
               "index": 22,
-              "text": "Qwen（@Alibaba_Qwen）表示 Qwen3.6-27B 已展現代理程式開發能力，並預告 Qwen3.8-27B 將更強；這是在正式發布前為開放權重新版本建立性能預期。",
-              "tweet_id": "2087027274403164499",
+              "text": "Michael Wang（@michaelwangelo）宣布 Prodigy Research，主打以 AI 進行量化金融研究；其投資績效宣稱仍需獨立驗證，金融決策不應僅依單一來源。",
+              "tweet_id": "2086895728467812810",
               "file": "audio/2026-08-11/022.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🛠️ 開發工具、基礎設施與工作流",
-          "items": [
+            },
             {
               "index": 23,
-              "text": "Spotify Engineering（@SpotifyEng）宣布推出供應商中立的代理式開發環境 Xirp，用來管理 Claude、Gemini CLI 與 Codex 工作階段，並稱已有逾 1,300 名工程師使用；這反映大型團隊開始需要跨代理的統一治理層。",
-              "tweet_id": "2086795659651191106",
+              "text": "Chetaslua（@chetaslua）表示 Grok 4.6 曾出現在 Cursor 模型清單，並稱已在 Arena 測試；這屬於產品上線前觀察，不宜視為正式發布。",
+              "tweet_id": "2086944273325543932",
               "file": "audio/2026-08-11/023.mp3"
             },
             {
               "index": 24,
-              "text": "Pi（@pidotdev）說明其內建 read、bash、edit、write 四項工具，並提供 SDK 範例；這主張以少量通用原語即可構成有效的程式代理能力。",
-              "tweet_id": "2086777926016540888",
+              "text": "Shirin Ghaffary（@shiringhaffary）報導 OpenAI 在員工次級交易中回購 70 億美元股份；這是該公司資本與人才流動結構的最新動態。",
+              "tweet_id": "2086920211698233344",
               "file": "audio/2026-08-11/024.mp3"
             },
             {
               "index": 25,
-              "text": "Niels Schmidt（@nielsmdt99）宣布 mobile-harness，主打讓 Codex 控制實體 iOS 與 Android 裝置並以統一 API 操作本地或雲端手機；這可縮短代理式行動端測試與驗證的落差。",
-              "tweet_id": "2086764772914082004",
+              "text": "Emil Kowalski（@emilkowalski）發布 Sonner 更新，修正 13 個問題並加入兼作文件與除錯協助的 /ask-sonner skill；這把元件使用支援直接整合到開發工作流。",
+              "tweet_id": "2086773302002090447",
               "file": "audio/2026-08-11/025.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具、平台與治理",
+          "items": [
             {
               "index": 26,
-              "text": "DHH（@dhh）表示 Omarchy Quattro 將於本週推出；這為偏好整合式開發環境的使用者帶來新的系統更新節點。",
-              "tweet_id": "2086838674256273662",
+              "text": "libapi（@libapi_）宣布 Hermes Studio 支援多代理群聊，可讓不同使用者、設備與伺服器上的代理透過 WebSocket 協作；這將代理協作從單機工作台擴展到跨網路房間。",
+              "tweet_id": "2086736451887321238",
               "file": "audio/2026-08-11/026.mp3"
             },
             {
               "index": 27,
-              "text": "Jeremy（@1jehuang）宣布開源代理 Jcode，主張記憶體效率比 Claude Code 高 20 倍，適合平行執行大量代理；該效能說法仍需以獨立基準測試驗證。",
-              "tweet_id": "2086858114893279524",
+              "text": "Tz（@Tz_2022）分享以多輪互動釐清需求、再形成設計實作方案的 Codex 提示方式；這凸顯需求探索仍是代理程式開發品質的關鍵步驟。",
+              "tweet_id": "2086919427186942272",
               "file": "audio/2026-08-11/027.mp3"
             },
             {
               "index": 28,
-              "text": "macro.com（@macrodotcom）宣布 Macro 1.0，定位為 Rust 與 SolidJS 製作、可自架的開源辦公協作空間；這把 email、文件與代理工作整合到單一企業工作區。",
-              "tweet_id": "2086843485898887523",
+              "text": "Frank Wang（@lifesinger）把 Claude Tag 描述為具有公司記憶、能形成同事數位分身的新型協作工具；這反映企業代理產品正把共享組織記憶視為差異化能力。",
+              "tweet_id": "2086805305556414489",
               "file": "audio/2026-08-11/028.mp3"
             },
             {
               "index": 29,
-              "text": "HankAI（@hank_aibtc）介紹 Obsidian 創辦人撰寫的 Claude Skills，可協助代理理解 vault、Bases、JSON Canvas 與反向連結；這顯示知識管理工具正以專屬技能來提高代理操作可靠性。",
-              "tweet_id": "2086713294073774557",
+              "text": "Meta Newsroom（@MetaNewsroom）表示 Mark Zuckerberg 發表長文說明 Meta 建構普及型超級智慧的理念與價值觀；這為該公司開放模型策略提供更廣泛的政策脈絡。",
+              "tweet_id": "2086759160679366735",
               "file": "audio/2026-08-11/029.mp3"
             },
             {
               "index": 30,
-              "text": "flavio（@flaviocopes）介紹 Herdr，定位為圍繞程式代理重建的 tmux，提供持久工作區、代理狀態側欄與可控 CLI/API；這瞄準多代理終端作業的協調與可見性問題。",
-              "tweet_id": "2086737857838797273",
+              "text": "Z.ai（@Zai_org）宣布 ZCode 使用者突破 100 萬，並重置 GLM Coding Plan 用量上限；這反映代理程式開發產品正以額度與工作流能力爭取使用者。",
+              "tweet_id": "2087040814677725262",
               "file": "audio/2026-08-11/030.mp3"
             },
             {
               "index": 31,
-              "text": "Open Design（@OpenDesignHQ）宣布 Team Workspace，可讓團隊及其代理在 Codex 內的即時畫布協同設計；這把多人與多代理協作延伸到設計產出流程。",
-              "tweet_id": "2086829438961119668",
+              "text": "PyTorch（@PyTorch）表示 ExecuTorch 將支援在 NVIDIA GPU 與 Apple Silicon 執行 Muse Glimmer；這有助於將 Meta 的開放代理模型部署到終端設備。",
+              "tweet_id": "2086817394010280372",
               "file": "audio/2026-08-11/031.mp3"
             },
             {
               "index": 32,
-              "text": "GitHubDaily（@GitHub_Daily）介紹 Firecrawl 的 Rust 專案 anydoc，稱其支援 14 種辦公格式轉 Markdown 並主打低延遲；這類文件正規化工具可改善代理讀取企業資料的前處理。",
-              "tweet_id": "2086754445220884647",
+              "text": "コムテ（@commte）轉述 Cloudflare 推出專為 AI 設計的瀏覽器，並稱可降低記憶體與擴展成本；具體效能與產品定位仍應以 Cloudflare 官方文件確認。",
+              "tweet_id": "2087021234706124995",
               "file": "audio/2026-08-11/032.mp3"
             },
             {
               "index": 33,
-              "text": "Soleio（@soleio）表示 Cursor 將推出 Origin；目前訊息未說明完整功能，開發者仍需等待官方細節才能評估影響。",
-              "tweet_id": "2086842408617349361",
+              "text": "Obsidian（@obsdmd）發布 1.13.6，改善行動端關閉分頁與復原關閉分頁的行為；這提高跨桌面與行動知識管理的操作一致性。",
+              "tweet_id": "2086852052370756032",
               "file": "audio/2026-08-11/033.mp3"
             },
             {
               "index": 34,
-              "text": "Ashley Peacock（@ashleypeacock）整理 Cloudflare Agents Week 的 Cloudflare OS、Kitesurf、CloudflareCI、Computer、Agent Traces 與 AI Gateway 更新；這顯示雲端平台正同時鋪設代理運算、瀏覽與可觀測性元件。",
-              "tweet_id": "2086807031093072082",
+              "text": "Tanay Jaipuria（@tanayj）指出 Datadog、Figma 與 Atlassian 已在財報電話會議提到 MCP 使用增長；這表示代理基礎設施正開始出現可量化的企業採用指標。",
+              "tweet_id": "2086898879359062142",
               "file": "audio/2026-08-11/034.mp3"
             },
             {
               "index": 35,
-              "text": "Vercel Developers（@vercel_dev）宣布 Vercel Functions 的 Bun runtime 支援以 Bun.serve() 作為含 WebSocket 的函式進入點；這讓 Bun 應用可更直接採用 serverless 部署模式。",
-              "tweet_id": "2086783084767416667",
+              "text": "maria（@maria_rcks）宣布 T3 Code nightly 已提供 PR tabs；這讓程式代理工作環境可更直接承載程式碼審查流程。",
+              "tweet_id": "2086893561832673395",
               "file": "audio/2026-08-11/035.mp3"
             },
             {
               "index": 36,
-              "text": "dax（@thdxr）表示 opencode2 API 已可支援多樣化前端；這意味 API 層與使用者介面可以分離演進，擴大第三方整合空間。",
-              "tweet_id": "2086869970466574789",
+              "text": "Praveen Kumar Verma（@Alacritic_Super）介紹可在 ESP32-S3 離線執行的 15M 參數 NanoMind-S3；這展示極小型模型在嵌入式硬體上的可行性。",
+              "tweet_id": "2086795822684123226",
               "file": "audio/2026-08-11/036.mp3"
             },
             {
               "index": 37,
-              "text": "Open Design（@OpenDesignHQ）宣布 Collaborative Codex 與 Team Workspace 上線，可讓團隊和代理在共享畫布共同設計；這再次表明 AI 設計工具正往多人即時協作發展。",
-              "tweet_id": "2086749655354786159",
+              "text": "slash1s（@slash1sol）介紹 Codex for Open Source 計畫，稱符合資格的維護者可獲六個月 ChatGPT Pro 與 Codex 支援；這可降低開源專案導入 AI 工具的成本。",
+              "tweet_id": "2086887574073639257",
               "file": "audio/2026-08-11/037.mp3"
             },
             {
               "index": 38,
-              "text": "Aurora Scharff（@aurorascharff）介紹 Next.js 16.3 的 Instant Navigations 與 cacheComponents，可讓認證應用維持伺服器渲染下的 SPA 體驗；這為複雜 Web 應用提供效能與架構折衷。",
-              "tweet_id": "2086828536501780858",
+              "text": "Google Cloud Tech（@GoogleCloudTech）整理 GKE 網路、Go 與 Genkit Agent Skills 等開發指南；這為雲端與代理開發者提供本週技術資源入口。",
+              "tweet_id": "2086841129618612452",
               "file": "audio/2026-08-11/038.mp3"
             },
             {
               "index": 39,
-              "text": "Xudong Han（@Xudong07452910）介紹開源 OpenRSI，稱其讓代理撰寫程式、執行實驗並以 Draft、Improve、Debug、Crossover 迭代；這把自我改進從概念轉為可驗證的工程閉環。",
-              "tweet_id": "2086975886872502426",
+              "text": "Nicholas C. Zakas（@slicknet）分享以 Fable 協助改善 ESLint CLI 效能的實例；這說明代理可用於具體且可量測的開源效能改善工作。",
+              "tweet_id": "2086914186177638414",
               "file": "audio/2026-08-11/039.mp3"
             },
             {
               "index": 40,
-              "text": "nader dabit（@dabit3）建議以 Figma MCP 從既有設計系統快速建立工作基礎；這反映設計系統連接器正被用來改善 AI 產生介面的品質一致性。",
-              "tweet_id": "2086908290689069461",
+              "text": "eve（@evedev_）提供讓瀏覽器代理處理登入流程的指南；這處理了代理自動化在認證頁面最常遇到的中斷點。",
+              "tweet_id": "2086988595164795004",
               "file": "audio/2026-08-11/040.mp3"
             },
             {
               "index": 41,
-              "text": "Han Cheng（@ashfold）宣布 dimagent 開放公測，主打支援 BYOK 與 BYOA 的代理客戶端；這為偏好自帶金鑰或帳號的使用者增加了選擇。",
-              "tweet_id": "2086789407118676351",
+              "text": "lauren（@poteto）表示目前是適合發布產品的日子；這屬開發社群的即時氛圍訊號，反映持續快速迭代的產品文化。",
+              "tweet_id": "2087053494570361136",
               "file": "audio/2026-08-11/041.mp3"
             },
             {
               "index": 42,
-              "text": "Dim Agent（@DimAgentai）表示新版官網已上線，並將產品定位為在終端協調多模型代理團隊的工具；這將產品資訊、下載與註冊入口集中，降低新用戶試用門檻。",
-              "tweet_id": "2086786779252949339",
+              "text": "Adit_Yah（@Adidotdev）指出 Cursor 模型選擇器出現標為 NEW 的 Grok 4.6 High Fast；這是尚未見正式公告的產品觀察，應以供應商發布資訊為準。",
+              "tweet_id": "2086948956026909155",
               "file": "audio/2026-08-11/042.mp3"
             },
             {
               "index": 43,
-              "text": "AntV（@XAMTO_AI）介紹可用一句描述產生資訊圖的 Infographic 框架，稱提供宣告式語法與約 200 個模板；這讓代理或使用者可用結構化描述產出 SVG 資訊設計。",
-              "tweet_id": "2086797127846654128",
+              "text": ".NET（@dotnet）介紹可學習 repository、選擇測試框架、修正 assertion 並驗證測試套件的單元測試代理；這將 AI 輔助測試從產生範例延伸到完整驗證流程。",
+              "tweet_id": "2086800318789042200",
               "file": "audio/2026-08-11/043.mp3"
             },
             {
               "index": 44,
-              "text": "Onur Solmaz（@onusoz）指出 Codex 桌面版已有可持續追蹤任務的排程能力，而 CLI 尚未提供相同功能；這突顯代理工作流在背景排程與可恢復性方面仍有產品缺口。",
-              "tweet_id": "2086844493672980650",
+              "text": "Axios（@axios）報導 OpenAI 為資安防禦者提供限制較少的新模型；這與 Daybreak 擴展相呼應，顯示前沿資安能力正採受控方式擴大存取。",
+              "tweet_id": "2086860393008218371",
               "file": "audio/2026-08-11/044.mp3"
             },
             {
               "index": 45,
-              "text": "Vercel（@vercel）宣布所有方案免費提供 Sandbox Egress Firewall，強調未受信任程式碼需在網路邊界隔離；這讓沙箱安全從執行期隔離延伸到對外連線控制。",
-              "tweet_id": "2086940594283450486",
+              "text": "Michael（@michael_chomsky）推出 better-gstack，主打減少 bloat、移除 telemetry 並保留實用 skills；這反映使用者對代理工具透明度與簡潔性的需求。",
+              "tweet_id": "2086837475864121676",
               "file": "audio/2026-08-11/045.mp3"
             },
             {
               "index": 46,
-              "text": "libapi（@libapi_）表示 Hermes Studio v0.6.40 合入 40 個 PR，加入遠端群聊、本地語音辨識、工作流排程與統一審批；這使本地代理工作台更接近可遠端協作與治理的平台。",
-              "tweet_id": "2086833625891553692",
+              "text": "Spotify Engineering（@SpotifyEng）分享其平台主管介紹 Xirp 的文章；這為大型組織管理多種 AI 開發工作階段提供官方案例背景。",
+              "tweet_id": "2086796095540142488",
               "file": "audio/2026-08-11/046.mp3"
             },
             {
               "index": 47,
-              "text": "Santiago（@svpino）表示 Hermes 可透過整合嵌入任意應用，提供串流回覆、推理呈現與頁面操作；這為產品內建代理互動與生成式 UI 提供了實作方向。",
-              "tweet_id": "2086881958790070415",
+              "text": "GitLawb（@gitlawb）宣布 Ling 3.0 Tiny 已在 OpenGateway 免費提供至 8 月 13 日；這為開發者短期試用小型模型增加低成本入口。",
+              "tweet_id": "2086830117377233358",
               "file": "audio/2026-08-11/047.mp3"
             },
             {
               "index": 48,
-              "text": "Vercel Developers（@vercel_dev）介紹 deepsec init 可用單一指令啟動既有程式碼的安全檢查；這試圖把安全審查前移到日常開發命令列流程。",
-              "tweet_id": "2086961818891857943",
+              "text": "GitLawb（@gitlawb）發布 Zero v0.7.0，主打更安全的權限、更可靠的工具與更彈性的 provider 支援；這強化代理 harness 在治理與整合層面的能力。",
+              "tweet_id": "2086778276459295112",
               "file": "audio/2026-08-11/048.mp3"
             },
             {
               "index": 49,
-              "text": "Docker（@Docker）表示 Docker Sandboxes 正在 Hacker News 受到關注，並邀請社群回饋；這代表產品仍處早期階段，實際成熟度將取決於後續使用者驗證。",
-              "tweet_id": "2086908614237671527",
+              "text": "Mnimiy（@Mnilax）整理 Google DeepMind 與 UIUC 的代理記憶指南，指出代理常無法從累積資料學習；這突顯記憶擷取、檢索與演化仍是長時程代理的難題。",
+              "tweet_id": "2086927606226509835",
               "file": "audio/2026-08-11/049.mp3"
             },
             {
               "index": 50,
-              "text": "Tom Greenwald（@tomgreenwald）整理 Muse Glimmer 30B 在 RTX 3090、4090、5090、DGX Spark 與 MacBook 上的量化與速度建議；這可作為本地部署前的硬體初步估算，但應以實際工作負載測試為準。",
-              "tweet_id": "2086967581085405527",
+              "text": "Motif Technologies（@motif_tech）宣布釋出 Motif 3 Base 與 Motif 3，並指出後者以 NVIDIA NeMo-RL 進行後訓練；這為模型訓練與後訓練研究增添新的開放資源。",
+              "tweet_id": "2086985187779649977",
               "file": "audio/2026-08-11/050.mp3"
-            },
-            {
-              "index": 51,
-              "text": "Brad Traversy（@traversymedia）介紹 AI Blueprint 的 spec-driven 工作流，主張讓使用者看見並介入 AI 正在建立的內容；這把規格與人為審核重新放回 AI 程式開發流程。",
-              "tweet_id": "2086941473530933448",
-              "file": "audio/2026-08-11/051.mp3"
             }
           ]
         },
