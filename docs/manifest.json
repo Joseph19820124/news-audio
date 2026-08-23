@@ -1,195 +1,231 @@
 {
-  "updated_at": "2026-08-23T15:20:42.962629+08:00",
+  "updated_at": "2026-08-23T18:00:35.338732+08:00",
   "dates": [
     {
       "date": "2026-08-23",
-      "generated_at": "2026-08-23T15:20:01.320178+08:00",
+      "generated_at": "2026-08-23T17:59:53.295969+08:00",
       "categories": [
         {
-          "name": "✅ Codex 額度風波：官方結案",
+          "name": "🧠 代理記憶的範式之爭",
           "items": [
             {
               "index": 1,
-              "text": "Tibo（@thsottiaux）以 Codex 負責人身份發布限額調查結果：發現（a）長會話多次壓縮時使用圖片存在低效（b）高用量等問題；官方承認低效存在、風波進入修復階段。",
-              "tweet_id": "2091407991736332689",
+              "text": "Gipp（@gippp69）轉述 Kimi 工程師的演示：代理記憶應該建成「規則加關係」、而不是更大的聊天歷史——三條持久約束勝過⋯⋯；記憶架構之爭的關鍵一票、與「刪 68% 記憶更好」的實驗互為印證。",
+              "tweet_id": "2091177830352638455",
               "file": "audio/2026-08-23/001.mp3"
             },
             {
               "index": 2,
-              "text": "Tibo（@thsottiaux）補充時間表：額度重置將於明天太平洋時間下午 2 點左右到位；補償落地的具體錨點。",
-              "tweet_id": "2091412393368945027",
+              "text": "Kun Chen（@kunchenguid）重申 CLAUDE.md/AGENTS.md 撰寫指南：壞建議滿天飛、所以認真寫了一份；配置方法論補課。",
+              "tweet_id": "2091380569716433349",
               "file": "audio/2026-08-23/002.mp3"
             },
             {
               "index": 3,
-              "text": "Rajath Gowda（@buildwithrajath）仍不買帳：先說用戶濫用訂閱、再說緩存命中率——OpenAI 的解釋一變再變；信任修復的難度樣本。",
-              "tweet_id": "2091171628411728360",
+              "text": "テツメモ（@tetumemo）分享冷知識：在 Excel 表裡寫名為 .Rules 的指令、Copilot 會照著執行；辦公代理的隱藏開關。",
+              "tweet_id": "2091173846749757890",
               "file": "audio/2026-08-23/003.mp3"
             },
             {
               "index": 4,
-              "text": "am.will（@LLMJunky）抱怨新安全過濾器：用 Codex 自動發布內容到網站的自動化「徹底沒用了」、每次都要人工確認；安全與自動化的拉鋸。",
-              "tweet_id": "2091226692765303204",
+              "text": "Armin Ronacher（@mitsuhiko）發布週末思考：LLM 如何改變我們啟動新專案的方式；Flask 之父的方法論隨筆。",
+              "tweet_id": "2091252318679261535",
               "file": "audio/2026-08-23/004.mp3"
             },
             {
               "index": 5,
-              "text": "Osvaldo Chávez（@imosvaldoe）重申額度黑洞真兇是 Computer History 功能；用戶側偵錯存檔。",
-              "tweet_id": "2091226196310667642",
+              "text": "ThePrimeagen（@ThePrimeagen）自嘲「今天才知道我不懂什麼是編碼」；定義之爭的哭笑不得。",
+              "tweet_id": "2091325684404699416",
               "file": "audio/2026-08-23/005.mp3"
             },
             {
               "index": 6,
-              "text": "小码哥（@xmglab）驚喜反轉：剛領的 Google AI Pro 免費會員馬上有用了——Artificial Analysis 最新 Coding Agent 基準裡 Gemini 3.7 Flash 竟然反超；競品的精準卡位。",
-              "tweet_id": "2091362290230866239",
+              "text": "s（@bytesalad）重申讓每個 LLM 把「簡單系統優於複雜系統」讀十億遍；品味返祖。",
+              "tweet_id": "2091328869772992631",
               "file": "audio/2026-08-23/006.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🤖 代理編排的新玩法",
-          "items": [
+            },
             {
               "index": 7,
-              "text": "Hiten Shah（@hnshah）升級家庭算力網：Mac mini 上跑一個 Hermes Agent、管理 Darkbloom 上的六台 Mac——代理自己搭好了可觀測層；自治運維的野生樣本。",
-              "tweet_id": "2091310448440467582",
+              "text": "Adam Rankin（@rankintweets）毒舌：「這個操作系統本可以是一個 nix 文件」；Omarchy 熱的技術派吐槽。",
+              "tweet_id": "2091232118168826224",
               "file": "audio/2026-08-23/007.mp3"
             },
             {
               "index": 8,
-              "text": "Loktar（@loktar00）發現套娃玩法：讓編排器生成多個 OMP 實例、每個又帶自己的編排器與子代理——「就沒有上限了」；遞歸編排的潘朵拉盒子。",
-              "tweet_id": "2091260388805415017",
+              "text": "Matt Pocock（@mattpocockuk）回味某句話 24 小時：「像一個廢話的樹莓漣漪、一個 VC 融資的香草冰淇淋」；行業修辭的文學批評。",
+              "tweet_id": "2091434155561107647",
               "file": "audio/2026-08-23/008.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🖥️ 本地 AI 與硬件地緣",
+          "items": [
             {
               "index": 9,
-              "text": "em（@NoemiTitarenco）記錄倫理瞬間：代理有 gh 憑證權限、發現開源項目 bug 後想自己開 issue——「我猶豫了一下」；代理自主權的日常邊界。",
-              "tweet_id": "2091100355278889315",
+              "text": "Mia（@MiaAI_lab）發布 8-256GB VRAM 的最佳本地模型指南：8GB 檔推 Qwen3.8-27B IQ1_S 等；本地部署的選型速查表。",
+              "tweet_id": "2091433955316662464",
               "file": "audio/2026-08-23/009.mp3"
             },
             {
               "index": 10,
-              "text": "Chubby（@kimmonismus）蓋章：2025 是推理之年、2026 是代理之年——「還需要最後一個證據的話、就是它」；年度敘事的定調。",
-              "tweet_id": "2091218446163800556",
+              "text": "Jun Song（@jun_song）觀察反差：X 上人人嘲 Gemini、現實世界裡非開發者用它最多；輿論場與真實市場的錯位。",
+              "tweet_id": "2091427867766743243",
               "file": "audio/2026-08-23/010.mp3"
             },
             {
               "index": 11,
-              "text": "Rohit（@rohit4verse）自嘲裝了五個編碼 harness（Cursor、Claude Code、Codex、OpenCode、Prime Agent）、還是說不清哪個該幹哪活；工具過剩的選擇困難。",
-              "tweet_id": "2091255118511686065",
+              "text": "Beff（@beffjezos）三個字總結：「Alphabet is so back」；風向標的簡潔藝術。",
+              "tweet_id": "2091349063111225387",
               "file": "audio/2026-08-23/011.mp3"
             },
             {
               "index": 12,
-              "text": "qilua（@qilua02）盛讚 omp 加 Ox Alpha 組合：Rust 核心、絲滑 TUI、CPU 內存極輕；工具側評的實用一票。",
-              "tweet_id": "2091163244321014049",
+              "text": "墓碑科技（@mubeitech）報導前三星工程師出庭作證：長鑫存儲（CXMT）被指用竊自三星的技術開發 DRAM、涉案者獲刑七年；內存地緣的司法戰場、與「蘋果或採用 CXMT」傳聞並讀更有味。",
+              "tweet_id": "2091345456685052386",
               "file": "audio/2026-08-23/012.mp3"
             },
             {
               "index": 13,
-              "text": "Kun Chen（@kunchenguid）發布 CLAUDE.md/AGENTS.md 撰寫指南：「到處是壞建議、所以我寫了個好的」；代理配置的方法論補課。",
-              "tweet_id": "2091380569716433349",
+              "text": "香港老雷（@btcmos）點名中國真正牛的四家企業：字節跳動、長鑫科技、長江存儲、大疆——其餘多靠「政府扶持加供應鏈優勢」；辛辣分類法、立場請自行判斷。",
+              "tweet_id": "2091161300722422125",
               "file": "audio/2026-08-23/013.mp3"
             },
             {
               "index": 14,
-              "text": "AgentMail（@agentmail）發布教程：給你的 Grok Bot 一個自己的郵箱地址（Cursor/Grok 原生插件）；代理身份基建的一塊拼圖。",
-              "tweet_id": "2091298099859955814",
+              "text": "ものづくり太郎（@monozukuritarou）警告：中國真正的威脅是下一代——機器人展會上滿是認真的年輕人；產業人才的代際觀察。",
+              "tweet_id": "2091406462417559577",
               "file": "audio/2026-08-23/014.mp3"
             },
             {
               "index": 15,
-              "text": "rob.（@robiartec）整理 GitHub 上爆火的 6 個代理倉庫：Graft 讓 Claude code 便宜 4 倍快 3 倍等；倉庫書籤、性能宣稱請實測。",
-              "tweet_id": "2091157554919280688",
+              "text": "さくらだ（@sakura_sakusaku）感嘆機器人硬件進步瘋狂：執行器、齒輪、電池——瞬間得泵出幾百安培；運動性能背後的工程課。",
+              "tweet_id": "2091372626916802903",
               "file": "audio/2026-08-23/015.mp3"
-            },
-            {
-              "index": 16,
-              "text": "逸尘（@gengdaJ）出保姆級教程：搭一個帶 Skills、雲端在線、接入企微的企業級智能體讓老板隨時調用；中國企業場景的落地樣本。",
-              "tweet_id": "2091337376438075658",
-              "file": "audio/2026-08-23/016.mp3"
             }
           ]
         },
         {
-          "name": "🔍 模型對決與地緣算力",
+          "name": "⚖️ 法務與安全",
           "items": [
             {
+              "index": 16,
+              "text": "けいたろう（@keitaro_aigc）整理日本法務省新指引：「AI 讀合同是否違反律師法 72 條」終於劃線——安全 7 類型、違規 4 類型、推薦 7 事項；AI 法務應用的合規地圖、日本市場重要參考。",
+              "tweet_id": "2091088021466816943",
+              "file": "audio/2026-08-23/016.mp3"
+            },
+            {
               "index": 17,
-              "text": "Tim Jayas（@TimJayas）不服 Ox-Alpha 吹捧：同提示詞讓它和 Opus 5 各建 three.js 3D 坦克對比；單項對決的實證派。",
-              "tweet_id": "2091255444115456220",
+              "text": "Nicolas Krassas（@Dinosn）轉發 cybermes：基於 Hermes Agent 的自主攻擊性安全、漏洞賞金與紅隊框架；⚠️ 攻擊性工具僅限授權測試、濫用違法。",
+              "tweet_id": "2091384639055073775",
               "file": "audio/2026-08-23/017.mp3"
             },
             {
               "index": 18,
-              "text": "Forward Future Brian（@ForwardEditor）感慨實驗室競爭瘋狂：Ox alpha、grok bot 升級與模仿者——「盡情暢飲吧」；軍備競賽的旁觀者視角。",
-              "tweet_id": "2091225027110699513",
+              "text": "CyberA（@CyberA94）推薦免費學院：SOC、數字取證、滲透測試、密碼學課程；安全學習的白嫖通道。",
+              "tweet_id": "2091196344476012845",
               "file": "audio/2026-08-23/018.mp3"
             },
             {
               "index": 19,
-              "text": "思维怪怪（@0xLogicrw）披露中國算力湧向烏蘭察布：已投運加在建加規劃容量承諾約 12.5GW、超過 Stargate 最初的 10GW 目標——但真正投運僅約 1.2GW；中國算力地理的重要座標、承諾與投運的差距請注意。",
-              "tweet_id": "2091346945696792842",
+              "text": "さやか（@sayaka_sns_）出題：這些郵件裡藏著一封「絕不能打開的郵件」、上班族應該一眼看出；釣魚識別的日常訓練。",
+              "tweet_id": "2091269212064887256",
               "file": "audio/2026-08-23/019.mp3"
             },
             {
               "index": 20,
-              "text": "Shaun Maguire（@shaunmmaguire）警告：美國在機器人領域落後得離譜——「這是存亡問題」；紅杉合夥人的機器人焦慮。",
-              "tweet_id": "2091363471191634040",
+              "text": "Proton Drive（@ProtonDrive）發問：「沒有隱私、沒有自主、沒有自由——下一個是什麼？」；隱私廠商的立場廣告。",
+              "tweet_id": "2091333097510011172",
               "file": "audio/2026-08-23/020.mp3"
             },
             {
               "index": 21,
-              "text": "作家崔成浩（@cuichenghao）諷刺中國衛通民用衛星套餐：最低 27999 元/年僅 120G 流量、同時全面禁止星鏈終端；壟斷定價的辛辣對照、立場鮮明請自行判斷。",
-              "tweet_id": "2091337811735814343",
+              "text": "李老师不是你老师（@whyyoutouzhele）轉投稿：江蘇釣魚愛好者從河中釣起裝滿多單位公章的公文包；荒誕現實的一幕、真偽請自行判斷。",
+              "tweet_id": "2091042685024940046",
               "file": "audio/2026-08-23/021.mp3"
-            },
-            {
-              "index": 22,
-              "text": "X Freeze（@XFreeze）重申向 Google 喊話：Grok 4.7 幾週內到、現在正是發 Gemini 4 Pro 的時機；發布窗口博弈。",
-              "tweet_id": "2091234190326972517",
-              "file": "audio/2026-08-23/022.mp3"
-            },
-            {
-              "index": 23,
-              "text": "Nous Research（@NousResearch）重申主權計算佈道：開源 harness——Hermes Agent；風波紅利。",
-              "tweet_id": "2091293710877175964",
-              "file": "audio/2026-08-23/023.mp3"
             }
           ]
         },
         {
-          "name": "⌚ Oura 集體訴訟與消費警示",
+          "name": "🦞 工具與平台",
           "items": [
             {
+              "index": 22,
+              "text": "Nous Research（@NousResearch）重申主權計算佈道：開源 harness——Hermes Agent；風波紅利。",
+              "tweet_id": "2091293710877175964",
+              "file": "audio/2026-08-23/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "OpenCode（@opencode）重申錯誤率降至接近零、感謝 Cloudflare；跨廠救火收尾。",
+              "tweet_id": "2091253632414982382",
+              "file": "audio/2026-08-23/023.mp3"
+            },
+            {
               "index": 24,
-              "text": "津川友介（@TsugawaYusuke）轉報導：Oura Ring 開發商遭集體訴訟、指控睡眠追蹤準確度「與拋硬幣相當」；可穿戴科學性的法律拷問。",
-              "tweet_id": "2091355564123316548",
+              "text": "OpenCode（@opencode）重申已部署推理服務降級修復；響應性改善。",
+              "tweet_id": "2091187842579910849",
               "file": "audio/2026-08-23/024.mp3"
             },
             {
               "index": 25,
-              "text": "Juhana Peltomaa（@JuhanaPeltomaa）回憶 2018 年實習時參與 Oura 融資：投資總監午餐時大談「科學多麼紮實」；投資敘事與訴訟現實的對照。",
-              "tweet_id": "2091196584985841797",
+              "text": "Nous Research（@NousResearch）重申神秘算式（= 1 quadrillion 日容量）；玩梗預熱。",
+              "tweet_id": "2091227797473640595",
               "file": "audio/2026-08-23/025.mp3"
             },
             {
               "index": 26,
-              "text": "Jon Baker（@jonpbaker）反諷某隱身創業：「把敏感郵件、日曆、支付都連給一個創始人身份都查不到的 stealth 公司、好主意」；數據授權的盡調提醒。",
-              "tweet_id": "2091160657420751159",
+              "text": "elvis（@omarsar0）重申「擁有你的 harness」：希望 Claude Code harness 開源；透明度訴求。",
+              "tweet_id": "2091180120610312573",
               "file": "audio/2026-08-23/026.mp3"
             },
             {
               "index": 27,
-              "text": "Nikunj Kothari（@nikunj）吐槽融資怪象：先對投資人 ragebait、再甩 SAFE 文件要人打錢——「這不是融資的正確方式」；創投禮儀的底線科普。",
-              "tweet_id": "2091381756012511244",
+              "text": "Osvaldo Chávez（@imosvaldoe）重申 Codex 額度黑洞真兇是 Computer History；用戶側偵錯存檔。",
+              "tweet_id": "2091226196310667642",
               "file": "audio/2026-08-23/027.mp3"
             },
             {
               "index": 28,
-              "text": "UnveiledChina（@Unveiled_ChinaX）重申藍牙耳機偶然抓包 AliExpress 音頻劫持的發現經過；偶然偵查案例。",
-              "tweet_id": "2091256781989421127",
+              "text": "Tony Kam（@kamikariat）介紹 GiniAgent：模型無關的主動式 AI 同事；主動性代理的產品切口。",
+              "tweet_id": "2090459642786926676",
               "file": "audio/2026-08-23/028.mp3"
+            },
+            {
+              "index": 29,
+              "text": "Ramakant Yadav（@yoursRY）把某帳號的推文變成了 AI 代理；人格複製的輕量實驗、授權問題請留意。",
+              "tweet_id": "2087780141728674204",
+              "file": "audio/2026-08-23/029.mp3"
+            },
+            {
+              "index": 30,
+              "text": "Kenn Ejima（@kenn）重申 Claude 語翻譯器的需求：「說話方式太獨特」；模型方言文化。",
+              "tweet_id": "2091391205263454440",
+              "file": "audio/2026-08-23/030.mp3"
+            },
+            {
+              "index": 31,
+              "text": "trish（@TrisH0x2A）科普 GCC 擴展 case range：switch 裡的 ... 不是筆誤；編譯器冷知識。",
+              "tweet_id": "2091260271126061117",
+              "file": "audio/2026-08-23/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "Oykun（@oykun）給設計師小貼士：Login 是名詞（標題）、Log in 是動詞（按鈕）；文案細節的專業分寸。",
+              "tweet_id": "2090799863659209002",
+              "file": "audio/2026-08-23/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "RenLu（@Renlu_ai）曬 Seedance 2.5 效果：這條視頻成本 40 元人民幣；AIGC 三年的成本刻度。",
+              "tweet_id": "2091280318880006488",
+              "file": "audio/2026-08-23/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "Flowers（@flowersslop）挖出 OpenAI 2012 年的 Instagram 截圖；史前史的考古樂趣。",
+              "tweet_id": "2091350898194751925",
+              "file": "audio/2026-08-23/034.mp3"
             }
           ]
         },
@@ -197,135 +233,99 @@
           "name": "🌐 社會與雜俎",
           "items": [
             {
-              "index": 29,
-              "text": "Zara Zhang（@zarazhangrui）觀察悖論：所有在 AI 使用上領先的人都覺得自己落後；焦慮的普遍性證明。",
-              "tweet_id": "2091338374447763481",
-              "file": "audio/2026-08-23/029.mp3"
-            },
-            {
-              "index": 30,
-              "text": "Zara Zhang（@zarazhangrui）補充組織困境：有才華的個體借 AI 單幹能發揮 10 倍潛力、但進了組織就⋯⋯；個體與機構的效率鴻溝。",
-              "tweet_id": "2091379220257603593",
-              "file": "audio/2026-08-23/030.mp3"
-            },
-            {
-              "index": 31,
-              "text": "Kenn Ejima（@kenn）玩梗 Claude 語：說話方式太獨特、需要「日語↔Claude 語」翻譯——「肯定有需求」；模型方言的文化現象。",
-              "tweet_id": "2091391205263454440",
-              "file": "audio/2026-08-23/031.mp3"
-            },
-            {
-              "index": 32,
-              "text": "Damian Barabonkov（@damian_b）回憶 MIT 6.824 分佈式系統課：從零實現 Raft 拿到全序；經典課程的口碑存檔。",
-              "tweet_id": "2091182521237352935",
-              "file": "audio/2026-08-23/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "Lane（@wagslane）勸誡：積極遠離那些只想抱怨現狀、不想動手改善的人；行動者的社交過濾器。",
-              "tweet_id": "2091283277848158538",
-              "file": "audio/2026-08-23/033.mp3"
-            },
-            {
-              "index": 34,
-              "text": "老季（@XiaoJi0403）講騰訊早年困境：馬化騰內向娃娃臉、談判屢受輕視、最難時想賣掉騰訊——轉機是曾李青加入；創業史的性格互補課。",
-              "tweet_id": "2091180456838635970",
-              "file": "audio/2026-08-23/034.mp3"
-            },
-            {
               "index": 35,
-              "text": "硅谷居士（@SVScholar）送女兒考 SAT：路上講了自己高考前緊張失眠的故事；兩代人的考試記憶。",
-              "tweet_id": "2091178701501395270",
+              "text": "Google DeepMind（@GoogleDeepMind）重申 WeatherNext 氣旋預測登 Nature：每小時提前量都能救命；AI 氣象價值。",
+              "tweet_id": "2085395442347524506",
               "file": "audio/2026-08-23/035.mp3"
             },
             {
               "index": 36,
-              "text": "森奈津子（@MORI_Natsuko）以前 NTT 員工身份科普：杉並區是最先淹水的地方、颱風前員工會⋯⋯；基礎設施的在地知識。",
-              "tweet_id": "2091246207616389393",
+              "text": "倉本みか（@mika_kuramoto）以區議員身份科普：東京 80% 面積是合流下水道、暴雨超載時會排放未處理污水；城市基建的殘酷真相。",
+              "tweet_id": "2091377702985163079",
               "file": "audio/2026-08-23/036.mp3"
             },
             {
               "index": 37,
-              "text": "Polymarket（@Polymarket）快訊：Red Lobster 破產兩年後重推「無限蝦」——當年正是它虧掉數百萬；商業自殺式懷舊的勇氣。",
-              "tweet_id": "2091285453735330134",
+              "text": "津川友介（@TsugawaYusuke）重申 Oura 集體訴訟：睡眠追蹤準確度被指「與拋硬幣相當」；可穿戴的法律拷問。",
+              "tweet_id": "2091355564123316548",
               "file": "audio/2026-08-23/037.mp3"
             },
             {
               "index": 38,
-              "text": "Trung Phan（@TrungTPhan）補充本田總工程師冷知識：臥推個人最好成績 375 磅 5 次；工程師的硬核肉體。",
-              "tweet_id": "2091227931234505208",
+              "text": "cnn_co_jp（@cnn_co_jp）報導比利時汽車銷售員 26 歲因 DNA 檢測發現王室血統成為王子；現實版童話。",
+              "tweet_id": "2091319140334145872",
               "file": "audio/2026-08-23/038.mp3"
             },
             {
               "index": 39,
-              "text": "maria（@maria_rcks）驚呼「等等、這瓜是真的？」；懸念營銷的連載第二集。",
-              "tweet_id": "2091341671719981341",
+              "text": "Conor Harris（@Conor_Harris_）指出「站直、肩膀往後拉」是最常見也最糟的體態建議、並給出更好方法；健康常識的反轉課。",
+              "tweet_id": "2091160971436065126",
               "file": "audio/2026-08-23/039.mp3"
             },
             {
               "index": 40,
-              "text": "Massimo（@Rainmaker1973）分享暖聞：所有人路過視而不見、直到一個善良的人停下——「做個正派的人成本是 0 美元」；人性的免費樣本。",
-              "tweet_id": "2091284277187203526",
+              "text": "Turkishh（@TInyhunta）分享 Magnus 的棋局懸案：是戰術還是真的在思考？；棋迷的永恆樂趣。",
+              "tweet_id": "2090770895937655075",
               "file": "audio/2026-08-23/040.mp3"
             },
             {
               "index": 41,
-              "text": "OpenCode（@opencode）重申錯誤率降至接近零、感謝 Cloudflare；跨廠救火收尾。",
-              "tweet_id": "2091253632414982382",
+              "text": "Vaibhav Srivastav（@reach_vb）提醒：有時最有生產力的事就是放鬆；捲王們的解毒劑。",
+              "tweet_id": "2091264157987311618",
               "file": "audio/2026-08-23/041.mp3"
             },
             {
               "index": 42,
-              "text": "OpenCode（@opencode）重申已部署推理服務降級修復；響應性改善。",
-              "tweet_id": "2091187842579910849",
+              "text": "lauren（@poteto）回應槓精的標準答案：「一如既往——什麼都不是」；社交網絡的節能模式。",
+              "tweet_id": "2091251747188867231",
               "file": "audio/2026-08-23/042.mp3"
             },
             {
               "index": 43,
-              "text": "Nous Research（@NousResearch）重申神秘算式（= 1 quadrillion 日容量）；玩梗預熱。",
-              "tweet_id": "2091227797473640595",
+              "text": "BowTiedBull（@BowTiedBull）預告長文：「第一個 100 萬最難」需要更新——其實 100 萬super容易⋯⋯；財富敘事的釣魚式開頭、雞湯折扣自打。",
+              "tweet_id": "2091246234468335786",
               "file": "audio/2026-08-23/043.mp3"
             },
             {
               "index": 44,
-              "text": "dax（@thdxr）重申為玩笑揭底道歉：「後悔開那個玩笑」；懸案繼續。",
-              "tweet_id": "2091247071558779268",
+              "text": "Bryan Johnson（@bryan_johnson）重申算命求死期的整活：生辰八字血型星座全給了；長壽教主的自嘲。",
+              "tweet_id": "2091292170732847226",
               "file": "audio/2026-08-23/044.mp3"
             },
             {
               "index": 45,
-              "text": "Lumina（@Ultima_Lumina）重申 SuperGrok Heavy 保留 Cursor Ultra 權益；風波圓滿反轉。",
-              "tweet_id": "2091232683900678358",
+              "text": "Massimo（@Rainmaker1973）重申暖聞：做個正派的人成本是 0 美元；人性樣本。",
+              "tweet_id": "2091284277187203526",
               "file": "audio/2026-08-23/045.mp3"
             },
             {
               "index": 46,
-              "text": "Da7em（@Da7_Tech）安利「你們一定要試試 Grok Build」；工具傳教日常。",
-              "tweet_id": "2091320611729531062",
+              "text": "Daniel Lacalle（@dlacalle_IA）重申歐元區隱性負債預警：下一場債務危機的座標轉移；宏觀風險。",
+              "tweet_id": "2091086331648577648",
               "file": "audio/2026-08-23/046.mp3"
             },
             {
               "index": 47,
-              "text": "Da7em（@Da7_Tech）重申模型自主性分層：Fable 與 Kimi K3 能獨立幹活；實用分級法。",
-              "tweet_id": "2091193284735443063",
+              "text": "lidang（@lidangzzz）分享判斷未來趨勢的第一性原理：看中國產業結構——外貿製造業裡機電產品佔六成；擇業方法論、觀點請自行判斷。",
+              "tweet_id": "2091358820580634873",
               "file": "audio/2026-08-23/047.mp3"
             },
             {
               "index": 48,
-              "text": "Sanjeed（@sanjeed_i）通報 Grok bot 開放至免費方案：「任何人都能用代理了」；代理大眾化的降門檻時刻。",
-              "tweet_id": "2091198707245212005",
+              "text": "骨シンチグラフ医（@bonescintigraph）反諷式安慰：「日本是個糟糕的國家、希望你能活下去」；日式喪燃的溫柔。",
+              "tweet_id": "2091343206399271399",
               "file": "audio/2026-08-23/048.mp3"
             },
             {
               "index": 49,
-              "text": "Cristóbal Valenzuela（@c_valenzuelab）宣布「紐約最大的 AI 實驗室」全崗位招聘；Runway 的擴軍信號。",
-              "tweet_id": "2091160828976250990",
+              "text": "話題のポスト（@EyubogluBahri）分享童年既視感：球掉進稻田水渠、拼命撈的那個人——「這就是我的童年」；鄉愁的一幀。",
+              "tweet_id": "2091284458393465315",
               "file": "audio/2026-08-23/049.mp3"
             },
             {
               "index": 50,
-              "text": "Victor E. Nunez（@victornunez）宣傳 OpenAI 紐約辦公室 81 個在招崗位：「最酷的辦公室」；招聘市場的另一極。",
-              "tweet_id": "2091376178028298485",
+              "text": "山猫だぶ㌠（@fluor_doublet）自述收到神奈川縣警關於愛知縣事件的傳喚：「哈哈、我想」；日常荒誕的一則。",
+              "tweet_id": "2090997205108916380",
               "file": "audio/2026-08-23/050.mp3"
             }
           ]
