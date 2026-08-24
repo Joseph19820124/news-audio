@@ -1,326 +1,331 @@
 {
-  "updated_at": "2026-08-24T15:44:42.652958+08:00",
+  "updated_at": "2026-08-24T18:22:00.149084+08:00",
   "dates": [
     {
       "date": "2026-08-24",
-      "generated_at": "2026-08-24T15:44:03.648235+08:00",
+      "generated_at": "2026-08-24T18:21:27.547303+08:00",
       "categories": [
         {
-          "name": "🔍 同名不同模：August Sol vs July Sol",
+          "name": "🔴 Claude 全線宕機：依賴症的現世報",
           "items": [
             {
               "index": 1,
-              "text": "KC（@ScarletKc_）發現關鍵細節：ChatGPT 和 Codex 裡的 GPT-5.6 Sol 甚至不是同一個版本——ChatGPT 是 August Sol、Codex 是 July Sol——「你感受到的差異不只是 harness 差異」；降智羅生門的又一塊拼圖。",
-              "tweet_id": "2091728059145887862",
+              "text": "NIK（@ns123abc）快訊：CLAUDE IS DOWN——Anthropic 狀態頁報告 Mythos 5、Fable 5、Opus 5、Opus 4.8 加「其他模型」全線錯誤升高；與數小時前 Matz 的依賴自白形成殘酷呼應。",
+              "tweet_id": "2091784366519193852",
               "file": "audio/2026-08-24/001.mp3"
             },
             {
               "index": 2,
-              "text": "Haider.（@haider1）呼應體感：GPT-5.6 這幾天明顯不一樣了——「我知道他們在調 harness 和後端、但⋯⋯」；版本漂移的用戶側印證。",
-              "tweet_id": "2091704545143619760",
+              "text": "Yukihiro Matz（@yukihiro_matz）重申自白：GitHub 掛了還能本地幹活、Claude 掛了就完全沒法工作；宕機前的神預言。",
+              "tweet_id": "2091781365461357051",
               "file": "audio/2026-08-24/002.mp3"
             },
             {
               "index": 3,
-              "text": "elvis（@omarsar0）立場鮮明：拿 harness 評模型已徹底壞掉——「我偏好用最小 harness 測模型質量」；與 steipete 融合命題的正面交鋒、評測方法論之爭延燒。",
-              "tweet_id": "2091565973098676670",
+              "text": "Matt Pocock（@mattpocockuk）點出代理通病：它們極不擅長「快速失敗」——「它們是懦夫、從不想為⋯⋯負責」；代理行為學的精準吐槽。",
+              "tweet_id": "2091806367233212872",
               "file": "audio/2026-08-24/003.mp3"
             },
             {
               "index": 4,
-              "text": "Chetaslua（@chetaslua）獨家跟進 Marshmallow：claude-marshmallow-eap 與 claude-melon-eap 兩者都沒有任何第一方⋯⋯；新模型偵察的連載。",
-              "tweet_id": "2091754991786893391",
+              "text": "Olivia Moore（@omooretweets）判斷拐點：許多任務上智能的邊際回報已遞減——「我們可能不再看到每個產品自動切換到⋯⋯」；a16z 視角的市場結構論。",
+              "tweet_id": "2091647719148503103",
               "file": "audio/2026-08-24/004.mp3"
             },
             {
               "index": 5,
-              "text": "Bindu Reddy（@bindureddy）放話：未來幾週預期有巨大 AI 突破——「AI 正以瘋狂速度加速、多個隱身實驗室⋯⋯」；預熱通脹的又一針、折扣自打。",
-              "tweet_id": "2091716945586581924",
+              "text": "nico laqua（@nico_laqua）好評新版：OpenAI 端上的 5.6 sol 更新瘋狂地好——「目前最佳、比 fa⋯⋯更好」；August Sol 的正面票、與版本考古並讀。",
+              "tweet_id": "2091728298556498296",
               "file": "audio/2026-08-24/005.mp3"
             },
             {
               "index": 6,
-              "text": "AM09:21（@AM09_21）神級諷刺：「重磅：新模型 Dopamine-6.7 發布、沒人討論——我連測 72 小時、停不下來（這就是⋯⋯）」；AI 測評文體的完美戲仿。",
-              "tweet_id": "2091740619865808918",
+              "text": "bluedev（@blueemi99）戲仿爆料體：「重磅：GPT Astra 要來了、已知信息——它會是個 LLM、會比 Sol 好、會由⋯⋯」；洩漏文化的自我解嘲。",
+              "tweet_id": "2091779131033722917",
               "file": "audio/2026-08-24/006.mp3"
             }
           ]
         },
         {
-          "name": "🦞 代理工程的日常痛點",
+          "name": "🤖 天工 1500 米破紀錄與硬件",
           "items": [
             {
               "index": 7,
-              "text": "WquGuru（@wquguru）講 Linus 的地獄級 DEBUG：AI 代理出色承擔了大量排查、但多次直接判定「問題無解」並建議寫完結報告收工；代理的放棄傾向、人類堅持的價值所在。",
-              "tweet_id": "2091545691449610450",
+              "text": "World Humanoid Robot Games（@WHRGFUN）官宣新世界紀錄：天工 1500 米跑出 2 分 21 秒、比舊紀錄快 1 分 06 秒；人形競速的斷層式進步。",
+              "tweet_id": "2091565835009548778",
               "file": "audio/2026-08-24/007.mp3"
             },
             {
               "index": 8,
-              "text": "Tak（@cherry_mx_reds）問出共同痛點：coding agent 撞上 macOS 權限彈窗、人不在就卡死等待；自動化的最後一公里障礙。",
-              "tweet_id": "2091709975928197511",
+              "text": "GMO AI＆ロボティクス商事（@GMO_AIR）暖場報告：1500 米比賽、Hitomin 順利完賽——賽前緊急調整後穩穩跑完四圈；日本隊的參賽日記。",
+              "tweet_id": "2091759541331607670",
               "file": "audio/2026-08-24/008.mp3"
             },
             {
               "index": 9,
-              "text": "Tejas Bhakta（@tejasybhakta）洩露獨行創始人之痛：跑著一堆代理、每次合上筆電帶走、「就等於把公司關停了」；個人算力的單點故障。",
-              "tweet_id": "2091752325052502460",
+              "text": "Ice Universe（@UniverseIce）確認小米玄戒 O3：安兔兔 522 萬分、遠超現有所有手機處理器；自研芯片的跑分宣言。",
+              "tweet_id": "2091771619064836596",
               "file": "audio/2026-08-24/009.mp3"
             },
             {
               "index": 10,
-              "text": "Suhail（@Suhail）分享省痛提示詞：「遇到 bug 時、去搜 GitHub 的 PR 與 issues⋯⋯」——最近幫他省了大量調試時間；集體智慧的接入口。",
-              "tweet_id": "2091508616398536952",
+              "text": "wast3（@0xWast3）講案例：馬斯克的代理替換了 39.4 萬美元的構建系統——月費 199、還找到了那個撒謊已久的 flaky test；CI 成本的降維敘事、細節自辨。",
+              "tweet_id": "2091589177338916989",
               "file": "audio/2026-08-24/010.mp3"
             },
             {
               "index": 11,
-              "text": "qilua（@qilua02）質問 Zed：不是 Rust 寫的嗎、為什麼被 Node.js 進程淹沒吃掉 90% CPU；工具信仰的破防現場。",
-              "tweet_id": "2091700966810927316",
+              "text": "Malte Ubl（@cramforce）爆料 GitHub 容量問題：至少一半來自「報告結果」任務——檢出巨型 mono repo、裝 10GB 依賴⋯⋯；CI 浪費的體檢報告。",
+              "tweet_id": "2091291240147144931",
               "file": "audio/2026-08-24/011.mp3"
             },
             {
               "index": 12,
-              "text": "nwiizo（@nwiizo）在做 nippo：為記不得過去三個月幹了啥的工程師、自動生成日報；工作記憶的外包工具。",
-              "tweet_id": "2091750706382536777",
+              "text": "Carlos E. Perez（@IntuitMachine）對比戰略：中國的策略很簡單——發更多電贏過所有國家；能源即國力的一句話。",
+              "tweet_id": "2091538517537022169",
               "file": "audio/2026-08-24/012.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🦞 工程與工具",
+          "items": [
             {
               "index": 13,
-              "text": "christina（@luoluo_ai）發布第一篇博客：自我改進 AI 芯片設計的 meta harness——RL 在芯片任務中如何工作；硬件設計的代理化前沿。",
-              "tweet_id": "2091757830491771086",
+              "text": "Hermes Release Watch（@HermesWatcher）詳解新版 /review：給你的代理一雙獨立的第二隻眼、審查它剛完成的工作；互審功能的落地報。",
+              "tweet_id": "2091693666213781797",
               "file": "audio/2026-08-24/013.mp3"
             },
             {
               "index": 14,
-              "text": "Ray Fernando（@RayFernando1337）分享「把 Grok Bot 變成我的 CTO」：交給它 GitHub repo 讓它主持大局、雲端代理跟進；管理層代理化的個人版。",
-              "tweet_id": "2090588423350616494",
+              "text": "Impress Watch（@impress_watch）通報：Anthropic 的 Claude Academy 已支持日語；官方教育的本地化擴張。",
+              "tweet_id": "2091740809918062925",
               "file": "audio/2026-08-24/014.mp3"
             },
             {
               "index": 15,
-              "text": "Jesse Lyu（@jesselyu）預告 rabbit r1 的進化：現有軟體已可跑 hermes/openclaw/claude code、即將到來的 OS3 能跑一切；口袋硬件的代理化復活。",
-              "tweet_id": "2091739947984466278",
+              "text": "BridgeMind（@bridgemindai）發布 vibe coding 模型排位視頻：Fable 5 仍是唯一 S 級、Opus 5 憑修復重回 A 級；口碑修復的排位反映。",
+              "tweet_id": "2091617206530445581",
               "file": "audio/2026-08-24/015.mp3"
             },
             {
               "index": 16,
-              "text": "Sweex（@sweexx9）轉述 30 年經驗 Google 工程師：「刪掉你的 IDE、2026 年還不構建 AI 代理⋯⋯」；範式壓力的資深版。",
-              "tweet_id": "2091570574317244844",
+              "text": "Ryan Dahl（@rough__sea）重申 Dactyl：原生 iOS/Android 的 vibe coding 平台、設備模擬器是亮點；移動端落子。",
+              "tweet_id": "2091755677974983025",
               "file": "audio/2026-08-24/016.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🖥️ FreeToken 原理課與市場",
-          "items": [
+            },
             {
               "index": 17,
-              "text": "实践哥MinLi（@MinLiBuilds）講透伯克利 FreeToken 的意義：一張 5090（32G 顯存）配 256GB 內存就能跑 deepseek flash——內存便宜顯存貴、以前 RAM 替不了 VRAM 因為⋯⋯；技術原理的中文科普。",
-              "tweet_id": "2091695537049436246",
+              "text": "nwiizo（@nwiizo）重申 nippo：為記不得三個月幹了啥的工程師自動生成日報；工作記憶外包。",
+              "tweet_id": "2091750706382536777",
               "file": "audio/2026-08-24/017.mp3"
             },
             {
               "index": 18,
-              "text": "Macro_Lin（@LinQingV）分析端側推理的變局：過去一年端側股價殺得凶、但 DeepSeek V4 Flash 0731 的 284B 出現後⋯⋯；本地化的資本市場視角。",
-              "tweet_id": "2091703758329885037",
+              "text": "Tony Kam（@kamikariat）重申 GiniAgent：模型無關的主動式 AI 同事；主動性產品。",
+              "tweet_id": "2090459642786926676",
               "file": "audio/2026-08-24/018.mp3"
             },
             {
               "index": 19,
-              "text": "zerohedge（@zerohedge）快訊確認：Nvidia 洽談 300 億美元以上估值投資 Perplexity（The Information）；生態圈地續集。",
-              "tweet_id": "2091725331346391342",
+              "text": "Aravind Srinivas（@AravSrinivas）重申 Perplexity Search SDK 開放；搜索基建開發者化。",
+              "tweet_id": "2088311070368870873",
               "file": "audio/2026-08-24/019.mp3"
             },
             {
               "index": 20,
-              "text": "Business Insider（@BusinessInsider）跟進 Hugging Face 130 億美元潛在出售：凸顯其在 AI 生態的關鍵地位；主流商業媒體的背書。",
-              "tweet_id": "2091602416294633477",
+              "text": "Cerebras（@cerebras）重申 CS-4：「最快的 AI 更快了」；推理硬件軍備。",
+              "tweet_id": "2089870131291943228",
               "file": "audio/2026-08-24/020.mp3"
             },
             {
               "index": 21,
-              "text": "SuSu_酥酥（@NFT_Chen）總結價格戰態勢：DeepSeek 等中國模型以 10-50 倍價差衝擊高端、逼 Anthropic 調整策略；價格絞殺的敘事版。",
-              "tweet_id": "2091479675566788978",
+              "text": "はむ on fire（@Imaha486）完成執念工程：把 BIOS 信息編碼進⋯⋯——「從很久以前就想做的事終於做到了」；復古計算的浪漫。",
+              "tweet_id": "2091521442026545406",
               "file": "audio/2026-08-24/021.mp3"
             },
             {
               "index": 22,
-              "text": "Cerebras（@cerebras）廣告新品 CS-4：「最快的 AI 更快了」；推理硬件的軍備。",
-              "tweet_id": "2089870131291943228",
+              "text": "Тsфdiиg（@tsoding）毒舌：「Vim 終於有了個能用的文本編輯器」；編輯器戰爭的嘲諷藝術。",
+              "tweet_id": "2091592505116475481",
               "file": "audio/2026-08-24/022.mp3"
-            },
-            {
-              "index": 23,
-              "text": "ShirshakC（@shirshakchavan）出題：Anthropic 紐約 140 萬、OpenAI 舊金山 120 萬、遠程公司 95 萬——你選哪個？；人才市場的價值觀測驗。",
-              "tweet_id": "2091520741028036969",
-              "file": "audio/2026-08-24/023.mp3"
             }
           ]
         },
         {
-          "name": "🌐 社會與雜俎",
+          "name": "🔐 隱私與消費",
           "items": [
             {
+              "index": 23,
+              "text": "Numan（@Numan_Ai12）提醒：刪瀏覽記錄不等於刪掉——Google 保留自己的副本、綁定你的帳戶；⚠️ 隱私設置請去帳戶層處理而非只清本地。",
+              "tweet_id": "2091708342532214942",
+              "file": "audio/2026-08-24/023.mp3"
+            },
+            {
               "index": 24,
-              "text": "Anish Moonka（@anishmoonka）分享驚人研究：Fred Hutchinson 檢查 59 位女性逝者大腦、63% 發現男性 DNA——幾乎可以肯定來自⋯⋯；微嵌合現象的科普震撼。",
-              "tweet_id": "2091669314223181920",
+              "text": "Alexie（@Alexie_Ai）吐槽 Gmail 商業模式：讓你的信箱塞滿、然後收費留住垃圾——13.9GB/15GB 時差點付費；存儲勒索的日常、清理攻略隨附。",
+              "tweet_id": "2091548428577001741",
               "file": "audio/2026-08-24/024.mp3"
             },
             {
               "index": 25,
-              "text": "lauren（@poteto）自白：長期在線是因為整個職業生涯都欠 X 的——每份工作都來自這裡建立的關係；社交資本的第一人稱帳。",
-              "tweet_id": "2091768756687258052",
+              "text": "47NEWS 續集——ITmedia（@itmedia_news）詳報：閏秒 27 年後實質廢除、容忍與地球自轉最多 1 小時偏差；時間基建的決定細節。",
+              "tweet_id": "2091771273450029058",
               "file": "audio/2026-08-24/025.mp3"
             },
             {
               "index": 26,
-              "text": "DHH（@dhh）曬娃：「讓孩子們早點開始！（只等 Tim Sweeney 把 Fortnite 移植過來、那就是家規了）」；Omarchy 的家庭滲透。",
-              "tweet_id": "2091773474285015404",
+              "text": "unusual_whales（@unusual_whales）重申 Bessent 聲明：已瓦解伊朗軍事能力、摧毀近 100% 軍工廠；金融攻勢前奏。",
+              "tweet_id": "2091679470868705592",
               "file": "audio/2026-08-24/026.mp3"
             },
             {
               "index": 27,
-              "text": "Sara（@SaraDiscovers）反問：作為 Linux 用戶、你們為什麼恨 Linux？；社區自嘲的日常。",
-              "tweet_id": "2091501657154891877",
+              "text": "Niki Scevak（@nikiscevak）講飛利浦的資本悲劇：曾擁有 ASML 100%（現市值 6870 億）與台積電 28%（現 1.95 兆）——如今⋯⋯；賣早了的世紀教科書。",
+              "tweet_id": "2091626312662487521",
               "file": "audio/2026-08-24/027.mp3"
             },
             {
               "index": 28,
-              "text": "哈哈哥（@crypto_daha）拆解亞朵酒店的隱形生意：靠賣枕頭被子半年 20 多億、七成客人是單位出差「為了多開票只能在酒店購物」；發票經濟學的暗面、觀點自辨。",
-              "tweet_id": "2091710316967240142",
+              "text": "James Surowiecki（@JamesSurowiecki）冷知識：唯一不是億萬富翁的 NFL 老闆、是綠灣包裝工的 53.8 萬名股東；社區所有制的孤例。",
+              "tweet_id": "2091499898667442587",
               "file": "audio/2026-08-24/028.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🎭 社會與雜俎",
+          "items": [
             {
               "index": 29,
-              "text": "Gabriele Corno（@Gabriele_Corno）分享暖聞：風暴之夜、海岸警衛隊員垂降礁石救出被困海龜；人性的深夜樣本。",
-              "tweet_id": "2091520296792568287",
+              "text": "lemon（@lemonsquirt3d）毒雞湯天花板：「小布什 55 歲才做 9/11、別失去你的熱情與好奇心、你還有時間」；黑色幽默的勵志體。",
+              "tweet_id": "2091494832510259514",
               "file": "audio/2026-08-24/029.mp3"
             },
             {
               "index": 30,
-              "text": "yuuu（@ad_career28）分享 Dormy Inn 住宿 500 晚的悟道：「深夜蕎麥麵、免麵」；商旅人生的禪意。",
-              "tweet_id": "2091521300313641313",
+              "text": "章工（@435hz）人間清醒：80% 的人都很普通——你以為比你強的、很多只是敢裝敢演——「先裝模作樣、再像模像樣、最後有模有樣」；膽量的三段論。",
+              "tweet_id": "2091695988738347175",
               "file": "audio/2026-08-24/030.mp3"
             },
             {
               "index": 31,
-              "text": "Bee（@thtbee_）再讚 Gemini 3.7 Flash：腦中的畫面——純髮絲與塵埃織成的絲綢柱——它真的做出來了；生成美學的驚豔續集。",
-              "tweet_id": "2091540972152741947",
+              "text": "透明ランナー（@toumeir1）安利雷諾瓦展策展人博客：最貴的作品價值數十⋯⋯；策展幕後的趣味。",
+              "tweet_id": "2091730026274414599",
               "file": "audio/2026-08-24/031.mp3"
             },
             {
               "index": 32,
-              "text": "Adham Dannaway（@AdhamDannaway）推薦 morphicons.com：SVG 圖標互相變形；設計小工具。",
-              "tweet_id": "2091532413365022755",
+              "text": "myonの部屋（@casa_myon）曬 30 歲東京首次獨居的 Before/After；生活重建的圖鑑。",
+              "tweet_id": "2091556143592267862",
               "file": "audio/2026-08-24/032.mp3"
             },
             {
               "index": 33,
-              "text": "Tom Dörr（@tom_doerr）推薦 httpSMS：把安卓手機變成 SMS 網關、HTTP API 收發短信；自動化的通信件。",
-              "tweet_id": "2091661867215159365",
+              "text": "haz（@uryy_fuji）曬 30 歲搬入新家的晨間客廳：媽媽來住時說「這房間讓我⋯⋯」；居住美學的溫度。",
+              "tweet_id": "2091689657067360548",
               "file": "audio/2026-08-24/033.mp3"
             },
             {
               "index": 34,
-              "text": "周览资源（@grgerwcwetwet）推薦閒魚自動化開源工具 Ydisks：多帳號、自動回覆、自動發貨、AI 客服；⚠️ 平台自動化涉條款風險、自辨。",
-              "tweet_id": "2091492658845798460",
+              "text": "さゆり（@NANA_MIZUKIsuki）整理水樹奈奈演唱會票價通脹史：2002 年 4830 日元起⋯⋯；娛樂 CPI 的粉絲視角。",
+              "tweet_id": "2091522772396912729",
               "file": "audio/2026-08-24/034.mp3"
             },
             {
               "index": 35,
-              "text": "Mohit Mishra（@chessMan786）推薦《How Computers Work》數字設計與計算機架構教材；基本功書單。",
-              "tweet_id": "2091411824671703289",
+              "text": "Chris Chavez（@ChrisChavez）重申半馬世界紀錄：Kejelcha 56:51；人類速度刻度。",
+              "tweet_id": "2091500810848850346",
               "file": "audio/2026-08-24/035.mp3"
             },
             {
               "index": 36,
-              "text": "卫斯理（@imwsl90）建議每個自媒體人做一套 dashboard：把工作工具化、流程化、系統化；創作者的工程化。",
-              "tweet_id": "2091729199153492318",
+              "text": "Muaaz（@mws）重申 MrBeast 縮略圖本地化天才：警車隨觀眾語言與地區變化；內容工程。",
+              "tweet_id": "2091631742411022670",
               "file": "audio/2026-08-24/036.mp3"
             },
             {
               "index": 37,
-              "text": "steipete（@steipete）重申多端哲學：CLI 很好、UI 可視化加團隊協作更好；產品戰略。",
-              "tweet_id": "2091650136506327253",
+              "text": "Sara Hooker（@sarahookr）重申「AI 光速、機器人為何慢」；具身瓶頸科普。",
+              "tweet_id": "2091604930759205286",
               "file": "audio/2026-08-24/037.mp3"
             },
             {
               "index": 38,
-              "text": "steipete（@steipete）重申 camsnap 旋轉 USB 協議：claw 操控 360 度攝像頭；物理視覺。",
-              "tweet_id": "2091639468935831910",
+              "text": "steipete（@steipete）重申多端哲學與 camsnap 360 度視覺實驗；產品與玩具。",
+              "tweet_id": "2091650136506327253",
               "file": "audio/2026-08-24/038.mp3"
             },
             {
               "index": 39,
-              "text": "Google DeepMind（@GoogleDeepMind）重申 WeatherNext 氣旋預測登 Nature；AI 氣象價值。",
-              "tweet_id": "2085395442347524506",
+              "text": "Nous Research（@NousResearch）重申「Trust your instincts」；玩梗連載。",
+              "tweet_id": "2091589126537494846",
               "file": "audio/2026-08-24/039.mp3"
             },
             {
               "index": 40,
-              "text": "Hanako（@hanakoxbt）重申 Karpathy 的 68 分鐘：「提示詞正在消退、留下圖」；範式宣言。",
-              "tweet_id": "2091558811026743512",
+              "text": "Nick shirley（@nickshirleyy）自述加州簽署「Stop Nick Shirley Act」：因他揭露大規模欺詐而生的法案；公民調查的立法迴響、背景自辨。",
+              "tweet_id": "2091670169789886554",
               "file": "audio/2026-08-24/040.mp3"
             },
             {
               "index": 41,
-              "text": "Austen Allred（@Austen）重申重話：「Anthropic 可能徹底輸掉」；風向極端樣本。",
-              "tweet_id": "2091728084093272217",
+              "text": "steipete（@steipete）重申 camsnap 旋轉 USB 協議：claw 操控 360 度攝像頭；物理視覺。",
+              "tweet_id": "2091639468935831910",
               "file": "audio/2026-08-24/041.mp3"
             },
             {
               "index": 42,
-              "text": "Brian Armstrong（@brian_armstrong）重申週末惡補「代理超能力」的高管自嘲；代理焦慮。",
-              "tweet_id": "2091749935062671473",
+              "text": "Google Antigravity（@antigravity）重申 Gemma Translator：完全離線 DIY 翻譯設備；本地化示範。",
+              "tweet_id": "2085118067290312883",
               "file": "audio/2026-08-24/042.mp3"
             },
             {
               "index": 43,
-              "text": "Teortaxes（@teortaxesTex）重申機器人 400 米冠軍體型玩梗：「這就是巔峰性能的樣子」；賽事迷因。",
-              "tweet_id": "2091718386350747940",
+              "text": "KC（@ScarletKc_）重申版本考古：ChatGPT 是 August Sol、Codex 是 July Sol；同名不同模。",
+              "tweet_id": "2091728059145887862",
               "file": "audio/2026-08-24/043.mp3"
             },
             {
               "index": 44,
-              "text": "Sara Hooker（@sarahookr）重申「AI 光速、機器人為何慢」解惑帖；具身瓶頸科普。",
-              "tweet_id": "2091604930759205286",
+              "text": "Bridgebench（@bridgebench）重申 SuperGrok Heavy 性價比之王的比價；訂閱比較。",
+              "tweet_id": "2091506579275165971",
               "file": "audio/2026-08-24/044.mp3"
             },
             {
               "index": 45,
-              "text": "自力6XStudio（@hzlzh）重申 Codex 救場實錄：命令行調分辨率解投屏死循環；現場工程師時刻。",
-              "tweet_id": "2091570012368863571",
+              "text": "Moe（@moneyacademyKE）報導肯亞央行前副行長 32 年職涯與醜聞紀錄片；金融治理的非洲檔案。",
+              "tweet_id": "2091745005866029437",
               "file": "audio/2026-08-24/045.mp3"
             },
             {
               "index": 46,
-              "text": "petrovich（@petro_vich）重申 AI 塗黑 PDF 喜劇：「讀不了！順便說如果你想⋯⋯」；安全邊界現場。",
-              "tweet_id": "2091407177282159070",
+              "text": "Jakub Wiech（@jakubwiech）引述：「除了歐盟、世界上沒人在乎碳排」——中國佔全球一半的⋯⋯支出；能源轉型的殘酷帳。",
+              "tweet_id": "2091552917685772578",
               "file": "audio/2026-08-24/046.mp3"
             },
             {
               "index": 47,
-              "text": "Daniel Lockyer（@DanielLockyer）重申怒吼：受夠了 AI 垃圾回覆；平台品質。",
-              "tweet_id": "2091503667857727963",
+              "text": "Sauda Moni（@sauda_coder）整理 50 個「一逛幾小時」的網站：zoom.earth 等；書籤補給。",
+              "tweet_id": "2091503508017291643",
               "file": "audio/2026-08-24/047.mp3"
             },
             {
               "index": 48,
-              "text": "Paul Graham（@paulg）重申 Jessica 傳記連載：她年輕時有時覺得自己隱入背景；溫柔筆記。",
-              "tweet_id": "2091753456264712201",
+              "text": "reylevant（@reylevant）更新龍目島 Sade 傳統村落火災後狀況；文化遺產災後追蹤。",
+              "tweet_id": "2091347358974120012",
               "file": "audio/2026-08-24/048.mp3"
             },
             {
               "index": 49,
-              "text": "ITmedia（@itm_aiplus）重申日媒報導：Codex 限額再度重置、回應「消耗過快」；國際報導面。",
-              "tweet_id": "2091692005781024942",
+              "text": "const（@const_reborn）通報 Subnet 3 經持有者投票奪回：慶祝發布首個⋯⋯；去中心治理的實例。",
+              "tweet_id": "2088349997645312205",
               "file": "audio/2026-08-24/049.mp3"
             },
             {
               "index": 50,
-              "text": "Luke Berry（@LukeberryPi）重申吐槽：AI 寫了太多沒用的測試；測試品質代理病。",
-              "tweet_id": "2091634340224544912",
+              "text": "Brooke Brandtjen（@BrookeBrandtjen）回憶公立高中新生年的那一天：第二天所有老師都在課堂上哭；集體記憶切片。",
+              "tweet_id": "2091387470222971263",
               "file": "audio/2026-08-24/050.mp3"
             }
           ]
