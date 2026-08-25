@@ -1,16 +1,16 @@
 {
-  "updated_at": "2026-08-25T10:08:40.803949+08:00",
+  "updated_at": "2026-08-25T12:24:21.107543+08:00",
   "dates": [
     {
       "date": "2026-08-25",
-      "generated_at": "2026-08-25T10:08:18.069757+08:00",
+      "generated_at": "2026-08-25T12:23:18.279891+08:00",
       "categories": [
         {
           "name": "🤖 AI 模型與研究",
           "items": [
             {
               "index": 1,
-              "text": "Nous Research（@NousResearch）宣布與 SpaceXAI 合作，Grok 4.6 在 Nous Portal 未來一週五折並主打長時程 agent 場景；模型商正以價格戰搶佔開發者。",
+              "text": "Nous Research（@NousResearch）宣布與 SpaceXAI 合作，Grok 4.6 在 Nous Portal 未來一週五折並主打長時程 agent 工作；模型商正以價格戰搶佔 agent 開發者。",
               "tweet_id": "2091953856234062313",
               "file": "audio/2026-08-25/001.mp3"
             },
@@ -22,248 +22,242 @@
             },
             {
               "index": 3,
-              "text": "OpenCode（@opencode）表示神秘模型 Ox Alpha 四天內消耗 26T tokens；匿名前沿模型的免費試用需求極為旺盛。",
-              "tweet_id": "2091946582790766899",
+              "text": "Meituan LongCat（@Meituan_LongCat）官方確認 LongCat-2.0 登陸 opencode 並徵集使用回饋；中國大模型出海直接對接海外開發者工具鏈。",
+              "tweet_id": "2091889538121756815",
               "file": "audio/2026-08-25/003.mp3"
             },
             {
               "index": 4,
-              "text": "Mehul Mohan（@mehulmpt）指出 Ox Alpha 每日 100 兆免費 token 配額仍未被用滿；他推論這波 AI 應用滲透仍處於極早期。",
-              "tweet_id": "2091986790106505378",
+              "text": "OpenCode（@opencode）表示神秘模型 Ox Alpha 四天內消耗 26T tokens；匿名前沿模型的免費試用需求極為旺盛。",
+              "tweet_id": "2091946582790766899",
               "file": "audio/2026-08-25/004.mp3"
             },
             {
               "index": 5,
-              "text": "Orange AI（@oran_ge）指出 Flash 級模型能力普遍上揚，新模型 August 主打小型快速高性能並在 Cola 限時免費兩天；輕量模型競爭進入白熱化。",
-              "tweet_id": "2091826731565101524",
+              "text": "lifcc（@mylifcc）深度使用 1B tokens 後認為 Ox Alpha 不適合生產環境，有 Grok 4.6 或 K3 級模型就不需要它；免費熱潮下的第一批負評出現。",
+              "tweet_id": "2091889032783413380",
               "file": "audio/2026-08-25/005.mp3"
             },
             {
               "index": 6,
-              "text": "BridgeMind（@bridgemindai）認為 Grok 4.6（1.5T 參數）在複雜任務上有明顯天花板，並指 Grok 4.7 將達 2.1T 參數；規模仍是前沿競爭的關鍵變數。",
-              "tweet_id": "2092016484704797108",
+              "text": "Qwen（@Alibaba_Qwen）官方回應 Qwen3.8-27B 登上 Code Arena 總榜第 9，是前十中唯一的小尺寸模型；小模型性價比敘事獲官方蓋章。",
+              "tweet_id": "2092090827690610914",
               "file": "audio/2026-08-25/006.mp3"
             },
             {
               "index": 7,
-              "text": "Yann LeCun（@ylecun）認為 LLM 能寫論文卻不能打掃房間，主張研究超越 LLM 的方法與架構；再度強調其世界模型路線的立場。",
-              "tweet_id": "2091596538099196076",
+              "text": "David Hendrickson（@TeksEdge）驚嘆本地 Q4 量化的 Qwen3.8-27B 在 Code Arena 擊敗 Gemini 3.7 Flash 與 Opus 4.8；筆電級模型追平三個月前的旗艦。",
+              "tweet_id": "2092039899956535554",
               "file": "audio/2026-08-25/007.mp3"
             },
             {
               "index": 8,
-              "text": "Apodex（@Apodex_AI）發布 Apodex 1.1 模型家族並開源 harness 與權重；瞄準科研與專業工作的 agentic 智能規模化。",
-              "tweet_id": "2091916791308313018",
+              "text": "Z.ai for Startups（@ZaiforStartups）表示 GLM-5.3 Max 推移了 Code Arena WebDev 的帕累托前沿；主打新創與生產環境 agent 負載的性價比。",
+              "tweet_id": "2092067085912547501",
               "file": "audio/2026-08-25/008.mp3"
             },
             {
               "index": 9,
-              "text": "实践哥MinLi（@MinLiBuilds）指出 Apodex 1.1 mini 的底模即 Qwen3.5-35B-A3B；Qwen 已成為開源科研生態的事實底座。",
-              "tweet_id": "2091932088803197433",
+              "text": "Bindu Reddy（@bindureddy）評價 DeepSeek Flash Vision 為開源新王：比 Kimi K3 便宜 10 倍、性能勝 GLM-5.3 且支援圖像；她稱這是其團隊首個投入生產的開源模型。",
+              "tweet_id": "2092086156221657348",
               "file": "audio/2026-08-25/009.mp3"
             },
             {
               "index": 10,
-              "text": "David Hendrickson（@TeksEdge）介紹騰訊 EVIE-Preview-4.5B 視覺文件檢索模型，可完全本地搜尋 PDF、圖表與掃描件；本地化文件智能再添利器。",
-              "tweet_id": "2091924068681625781",
+              "text": "White（@White1637402）發現 Google 在 Arena 悄悄更換 Gemini 3.7 Flash 檢查點，同名但明顯更敏銳；stealth 更新讓基準測試時效性存疑。",
+              "tweet_id": "2092079654916247620",
               "file": "audio/2026-08-25/010.mp3"
             },
             {
               "index": 11,
-              "text": "Fastino Labs（@fastinoAI）發布 GLiNER2.5，在 16 項分類與抽取基準上平均 F1 超越前代；輕量抽取模型持續進化。",
-              "tweet_id": "2091916391268180000",
+              "text": "Paweł Huryn（@PawelHuryn）以自建 bug 修復基準實測：Gemini 3.7 Flash 修 22 題花 8.43 美元，GPT-5.6 Luna 修 33 題僅 1.8 美元；廉價檔模型的實戰差距比榜單更直白。",
+              "tweet_id": "2091979928288002164",
               "file": "audio/2026-08-25/011.mp3"
             },
             {
               "index": 12,
-              "text": "SuSu_酥酥（@NFT_Chen）實測 Anthropic 新模型 Marshmallow 的 3D 世界生成，認為優於 Opus 5 且價格更低；並推測 Anthropic 正加碼 3D RL。",
-              "tweet_id": "2091764673767198730",
+              "text": "elie（@eliebakouch）發現 Marin 社群 535B/A23B 模型的訓練還在進行中，wandb 上可看到 18T token 訓練曲線；開放訓練過程的透明度令社群興奮。",
+              "tweet_id": "2091909572558569854",
               "file": "audio/2026-08-25/012.mp3"
             },
             {
               "index": 13,
-              "text": "SuSu_酥酥（@NFT_Chen）轉述 Ramp 帳單數據稱 Claude Fable 5 僅佔 Anthropic 產品線收入約 11.4%、token 量 6%；旗艦定價策略效果存疑，惟樣本僅限 Ramp 覆蓋企業，尚難定論。",
-              "tweet_id": "2091793849433923726",
+              "text": "LLM勉強会（@llm_jp）發布約 332 億參數的 Dense 模型 LLM-jp-4 33B，含基座、Thinking 版與 DPO 資料集；日本學研體系持續補齊完全開放模型。",
+              "tweet_id": "2092082040116224484",
               "file": "audio/2026-08-25/013.mp3"
             },
             {
               "index": 14,
-              "text": "Max For AI（@MaxForAI）整理 Epoch ECI 數據指中國前沿模型仍落後美國約 4-5 個月，但在 Coding 與 Agent 場景差距快速縮小；開源追趕效應顯現。",
-              "tweet_id": "2091994535908028614",
+              "text": "Sizer（@0xSizer）推薦 Karpathy 把 OpenAI 與 Tesla 八年經驗濃縮成的免費兩小時講座，涵蓋 Agents、Loops、Graphs 到自我改進系統；高價 bootcamp 的內容護城河正在消失。",
+              "tweet_id": "2091916096202785177",
               "file": "audio/2026-08-25/014.mp3"
             },
             {
               "index": 15,
-              "text": "Thinking Machines（@thinkymachines）宣布 Tinker 開放權重模型安全研究補助，最高 5 萬美元 credits；安全研究資源正向開源社群傾斜。",
-              "tweet_id": "2091979709915795759",
+              "text": "Max For AI（@MaxForAI）轉述 François Chollet 給零基礎學 LLM 者的路線：直接讀《Deep Learning with Python》15、16 章；大師級入門路徑意外樸素。",
+              "tweet_id": "2091990537889054769",
               "file": "audio/2026-08-25/015.mp3"
             },
             {
               "index": 16,
-              "text": "Google DeepMind（@GoogleDeepMind）表示 WeatherNext 模型在《Nature》發表，颱風路徑與強度預測達最先進水準並平均多爭取 24 小時預警；AI 氣象預報進入實用階段。",
-              "tweet_id": "2085395442347524506",
+              "text": "Higgsfield AI（@higgsfield_ai）發布 AI 動畫短片並開源全部 prompts 與素材，作為百萬美元全球影展的示範；AI 影視創作的方法論開始公開化。",
+              "tweet_id": "2091925625275813962",
               "file": "audio/2026-08-25/016.mp3"
             },
             {
               "index": 17,
-              "text": "Artificial Analysis（@ArtificialAnlys）宣布 Optima 支援 Qwen3.8 27B 自訂基準測試；筆電可跑的模型也能被系統性評估選型。",
-              "tweet_id": "2091938232380576219",
+              "text": "Framer（@Framer_X）評價 WAN 3.0 支援 20 個參考素材與 30 秒生成，是 Seedance 的有力低價競品；影片生成的競爭焦點轉向可控性。",
+              "tweet_id": "2092014420075413519",
               "file": "audio/2026-08-25/017.mp3"
             },
             {
               "index": 18,
-              "text": "vLLM（@vllm_project）祝賀 SemiAnalysis 發布 AgentX 1.0 開源多輪 agentic coding 基準，取自約 300 萬美元的真實 trace；agent 評測走向大規模實證。",
-              "tweet_id": "2092040745842774377",
+              "text": "huangserva（@servasyy_ai）比較同樣 30 秒的 Seedance 2.0 Fast 影片：Dreamina 收 0.78 美元、其他平台 3.21 美元；價差直接決定創作者能負擔的試錯次數。",
+              "tweet_id": "2092095573860233230",
               "file": "audio/2026-08-25/018.mp3"
             },
             {
               "index": 19,
-              "text": "Y Combinator（@ycombinator）指出逾 20 家 YC 新創近期在 NeurIPS、ICLR、ICML 發表論文；AI 研究不再是大型實驗室的專利。",
-              "tweet_id": "2092041032104022506",
+              "text": "OpenRouter（@OpenRouter）上線圖像模型的可視化基準頁，逐一比較各模型在高難度 prompt 下的表現；多模態選型有了直觀工具。",
+              "tweet_id": "2091902367705043239",
               "file": "audio/2026-08-25/019.mp3"
             },
             {
               "index": 20,
-              "text": "MiniMax（@MiniMax_AI）宣布 Awesome MiniMax H3 Integrations 索引上線，涵蓋 24GB VRAM 本地部署到企業級 vLLM 服務；H3 生態擴張加速。",
-              "tweet_id": "2092050619964285104",
+              "text": "OpenRouter（@OpenRouter）與 Menlo Ventures 的 Deedy 對談 AI 經濟學：token 價格降四成、用量成長四倍，過早優化成本可能是錯誤決策；智能降價百倍後的行為變化成焦點。",
+              "tweet_id": "2091912561310757350",
               "file": "audio/2026-08-25/020.mp3"
             },
             {
               "index": 21,
-              "text": "Kotoba（@kotoba_tech）展示語音對語音即時翻譯的 on-the-fly 聲音克隆，模型邊聽邊把使用者音色帶進目標語言；即時口譯體驗再進一步。",
-              "tweet_id": "2091942422930710886",
+              "text": "Ashpreet Bedi（@ashpreetbedi）預告明日展示 ARC-AGI-3 公開集 100% 成績並開源 arcade 專案；推理基準的天花板再被觸及，細節尚待驗證。",
+              "tweet_id": "2092002398805856339",
               "file": "audio/2026-08-25/021.mp3"
             }
           ]
         },
         {
-          "name": "🦾 Agent 與自動化",
+          "name": "🦾 Agent 與用量政策",
           "items": [
             {
               "index": 22,
-              "text": "@jason（@Jason）認為 Grok Bot 是爆款並預測一年內達 1 億用戶；他視其為非技術者的終極 agent 入門工具。",
-              "tweet_id": "2092038690595864844",
+              "text": "Tibo（@thsottiaux）宣布明日起恢復 ChatGPT Work 與 Codex Plus 帳戶的 5 小時用量限制，理由是平滑算力負載以維持方案的慷慨度；重度用戶需重新規劃工作流。",
+              "tweet_id": "2092058556707344708",
               "file": "audio/2026-08-25/022.mp3"
             },
             {
               "index": 23,
-              "text": "Jediah Katz（@jediahkatz）表示團隊注意到 @bot 用量上限消耗過快、正在優化效率；官方直接向用戶徵集 agent id 以調校。",
-              "tweet_id": "2092018934362866144",
+              "text": "Nicholas Dunzelman（@nicdunz）擔憂太多莫名其妙的小問題在暗中消耗用量額度；質疑還有多少類似問題未被發現。",
+              "tweet_id": "2091686571385016652",
               "file": "audio/2026-08-25/023.mp3"
             },
             {
               "index": 24,
-              "text": "X Freeze（@XFreeze）轉述 Grok Bot 即將推出可分享模板，一鍵複製整套 workflow；agent 配置的網路效應可能因此起飛。",
-              "tweet_id": "2091974843474608160",
+              "text": "howie.serious（@howie_serious）轉述 SemiAnalysis 對訂閱額度的測算：200 美元的 ChatGPT 會員可用掉約 1.4 萬美元的 token、Claude 約 8 千美元；AI 工廠正以補貼換取 agent 落地。",
+              "tweet_id": "2092055475466784866",
               "file": "audio/2026-08-25/024.mp3"
             },
             {
               "index": 25,
-              "text": "Radek Sienkiewicz（@velvet_shark）分享將每日 OpenClaw workflow 遷至 Grok @bot 五天的實測，67 個任務中 40 個全自動完成；自動化率可觀但仍有 17 件需人工介入。",
-              "tweet_id": "2091920960299360588",
+              "text": "seekinganythingbutalpha（@ivanalog_com）認為 Fable 用量爭議有一半是 Claude 自己的責任：自動「智能路由」常把簡單請求轉到 Opus 5，可能佔用量五成；路由透明度成為信任問題。",
+              "tweet_id": "2091952765933101450",
               "file": "audio/2026-08-25/025.mp3"
             },
             {
               "index": 26,
-              "text": "Browser Use（@browser_use）宣布整合進 SpaceXAI 的 Grok Build；agent 可在本地或雲端瀏覽器代辦任務與測試網站。",
-              "tweet_id": "2092006566681833944",
+              "text": "Abdelrahman Alkerdawy（@AbdoKerdawy）獲 Cursor 免費 Pro+ 與 Ultra 後實測同模型不同訂閱的差異，核心問題是是否還需付 200 美元的 Claude Max；訂閱組合最佳化成為顯學。",
+              "tweet_id": "2091903364288122994",
               "file": "audio/2026-08-25/026.mp3"
             },
             {
               "index": 27,
-              "text": "Alan Chen（@alanchen）整理 xAI 公布的 Starlink 營運數據：Grok Voice 每日處理逾 1.5 萬通客服電話、每週完成逾 3 千張訂單，同日開放 Think Fast 2.0；語音 agent 進入規模化商用。",
-              "tweet_id": "2092009966152692060",
+              "text": "meng shao（@shao__meng）整理 Matthew Berman 對 Tibo 的深度訪談，內容涵蓋 ChatGPT 與 Codex 合併、額度重置與推理加速；核心矛盾是模型能力快過人類工作界面、組織敢不敢打斷賺錢的既有形態。",
+              "tweet_id": "2092072947615932840",
               "file": "audio/2026-08-25/027.mp3"
             },
             {
               "index": 28,
-              "text": "Hermes Release Watch（@HermesWatcher）指出 Hermes Cron 更新讓排程 agent 具備記憶；直指自動化任務「跑得起來卻逐漸走樣」的核心痛點。",
-              "tweet_id": "2091982635677757714",
+              "text": "Max For AI（@MaxForAI）轉述 Tibo 談 OpenAI 的 bottom-up 文化：員工有想法就能拉隊直接 ship；解釋了行業級創新頻繁從該公司冒出的原因。",
+              "tweet_id": "2092007804337021369",
               "file": "audio/2026-08-25/028.mp3"
             },
             {
               "index": 29,
-              "text": "Jane Manchun Wong（@wongmjane）發現 Stripe 正開發 Link balance，讓 AI agent 免手動批准即可消費並支援預先授權購買；agent 商務的金流基建成形中。",
-              "tweet_id": "2091967611345289447",
+              "text": "Kun Chen（@kunchenguid）認為 Grok Bot 設計最天才處是反轉角色：不是 agent 在你電腦上跑，而是雲端 agent 需要時把你的電腦當工具用；主從關係的倒置重塑架構思路。",
+              "tweet_id": "2092068697745866983",
               "file": "audio/2026-08-25/029.mp3"
             },
             {
               "index": 30,
-              "text": "Tong Xiang Galaxy（@tongxgalaxy）宣布加入 Stripe 的 agentic commerce 團隊並公開徵集企業用例；支付巨頭押注 agent 經濟。",
-              "tweet_id": "2091940686043939277",
+              "text": "Kun Chen（@kunchenguid）分享與 pidotdev 達成的 harness 架構突破，解決 agent 在背景循環（如每 5 分鐘檢查 PR）時的事件觸發難題；長駐型 agent 的工程細節逐漸沉澱。",
+              "tweet_id": "2091988752847823133",
               "file": "audio/2026-08-25/030.mp3"
             },
             {
               "index": 31,
-              "text": "Ivan Novikov（@d0znpp）認為用 Grok @bot 自主執行資安工作前所未有地容易，每月 60 美元含專屬 VM；也反映各 agent 平台對安全任務配合度的差異。",
-              "tweet_id": "2091947596050825300",
+              "text": "geoff（@GeoffreyHuntley）主張 harness 的 /permission 功能是反模式：與其限制模型能存取什麼，不如用拋棄式開發環境並假設它能存取一切；agent 安全思路之爭延燒。",
+              "tweet_id": "2092089024223785339",
               "file": "audio/2026-08-25/031.mp3"
             },
             {
               "index": 32,
-              "text": "Marshall Gould（@MarshallJGould）展示讓 agent 直接操作實體 iPhone 的方案；agent 的操作邊界正從虛擬環境延伸到實體裝置。",
-              "tweet_id": "2091930902083297448",
+              "text": "geoff（@GeoffreyHuntley）感嘆憑領域知識就能在幾天內重建過去需要數年的公司產品；經驗的槓桿被 AI 放大到陌生的量級。",
+              "tweet_id": "2092091589380481160",
               "file": "audio/2026-08-25/032.mp3"
             },
             {
               "index": 33,
-              "text": "Warp（@warpdotdev）表示正將 agents 遷移上雲以提升品質與控管成本，並公開環境、harness 與權限的設定即代碼格式；agent 基建的標準化再進一步。",
-              "tweet_id": "2092009119184035943",
+              "text": "Gabe Greenberg（@gabegreenberg）反駁「harness 工程已解決」的說法：在複雜生產問題上大規模管理 agent 艦隊仍極其困難；並公開邀約一對一辯論。",
+              "tweet_id": "2092085388047163833",
               "file": "audio/2026-08-25/033.mp3"
             },
             {
               "index": 34,
-              "text": "Avi Chawla（@_avichawla）解析 harness 對成本的影響，同模型同任務下包裝層差異可讓 token 消耗差近 3 倍；harness 設計成為隱形成本中心。",
-              "tweet_id": "2091998031491305720",
+              "text": "Uncle Bob Martin（@unclebobmartin）分享其目前的 agent 迴圈：跑應用、讓 agent 診斷寫入 issues.md、修復、審計、再修復；資深工程師的 AI 工作流每週都在演化。",
+              "tweet_id": "2091890518942679110",
               "file": "audio/2026-08-25/034.mp3"
             },
             {
               "index": 35,
-              "text": "elvis（@omarsar0）推薦 Agent Playground，可在單一瀏覽器讓 Claude Code、Codex、DeepSeek 執行同一任務並比較時間、成本與 token；harness 對比測試工具化。",
-              "tweet_id": "2091951905291284614",
+              "text": "Moriya（@Yamori_ds）解析 Devin 最新架構：按來源區分 context 層、以 Fusion 分支處理，是 agent 系統設計的教科書級參考；商用 agent 的內部架構逐漸透明。",
+              "tweet_id": "2092044032327204969",
               "file": "audio/2026-08-25/035.mp3"
             },
             {
               "index": 36,
-              "text": "Amto（@XAMTO_AI）指出 Scientific Agent Skills 已達 3.4 萬 stars，覆蓋科研、模擬、量化與技術寫作；skill 化讓 AI 研究助理更不易跑題。",
-              "tweet_id": "2091868626639044847",
+              "text": "Michael Guo（@Michaelzsguo）首次把大型專案交給 Pi Agent 加本地 Qwen3.8-27B 開發 Omabot，並讓 Codex 在 Herdr 中指導審閱其工作；本地模型加雲端審查的混合分工成型。",
+              "tweet_id": "2092057548824117481",
               "file": "audio/2026-08-25/036.mp3"
             },
             {
               "index": 37,
-              "text": "娜美知识库（@fhwofjow51260）整理八字、風水、塔羅等玄學 skill 已被接入 Claude Code 與 Codex 並外掛古籍知識庫；skill 生態正向各垂直領域蔓延。",
-              "tweet_id": "2091867578843181377",
+              "text": "Luke The Dev（@iamlukethedev）用 Hermes HUD mode 當西洋棋教練：對局中直接問下一步，agent 能看懂盤面即時指導；螢幕感知 agent 的日常用例湧現。",
+              "tweet_id": "2092062076386812370",
               "file": "audio/2026-08-25/037.mp3"
             },
             {
               "index": 38,
-              "text": "株式会社estie（@estie_corp）分享以 Cockpit repository 管理團隊級 Claude Code 共享 context 與 skills 四個月的心得；團隊層級的 agent 治理成為新課題。",
-              "tweet_id": "2091752630162993183",
+              "text": "Notion Japan（@NotionJP）展示在 Notion 集中管理 skills 並下載到 Claude Code、Codex、Cursor、Gemini 與 Grok；skill 資產的跨工具治理需求成型。",
+              "tweet_id": "2092024153776042195",
               "file": "audio/2026-08-25/038.mp3"
             },
             {
               "index": 39,
-              "text": "Bruno Borges（@brunoborges）發布 javaevolved Agent Plugin，自動偵測專案實際 Java 版本並約束 AI 建議範圍；版本感知讓 AI 輔助更可靠。",
-              "tweet_id": "2091947872992317676",
+              "text": "Oikon（@oikon48）指出 Claude Team/Enterprise 的 MCP connector 企業管理認證正式 GA，成員免個別 OAuth 即可連接工具；agent 資料連接的集中治理落地。",
+              "tweet_id": "2092072718627909656",
               "file": "audio/2026-08-25/039.mp3"
             },
             {
               "index": 40,
-              "text": "Yusuke Wada（@yusukebe）提出禁止外部 PR、改由 AI 主動建立修復 PR 的維護構想；開源維護者正探索 AI 時代的貢獻新流程。",
-              "tweet_id": "2091807992090128661",
+              "text": "Oikon（@oikon48）摘錄 Claude Code 2.1.243 更新：/usage 新增 per-loop 統計與 modelPicker 設定；失控迴圈的可觀測性增強。",
+              "tweet_id": "2092070709015294249",
               "file": "audio/2026-08-25/040.mp3"
             },
             {
               "index": 41,
-              "text": "Zhenjia Zhou（@zhenjiazhou）深度分析 DeepSeek Harness 的「一切皆插件」設計，認為當下看似過度工程但方向有意義；harness 架構論戰持續。",
-              "tweet_id": "2090447072302621168",
+              "text": "meng shao（@shao__meng）介紹 Addy Osmani 的 web-quality-audit skill，為 agent 注入 Lighthouse 式五維審計方法論；資深工程師的方法論正被封裝成可分發資產。",
+              "tweet_id": "2092084637749424430",
               "file": "audio/2026-08-25/041.mp3"
-            },
-            {
-              "index": 42,
-              "text": "Gangqiang Yao（@yaogangqiang）以 Pi contributor 身分指出一篇熱門分享把未經 review 的社區 PR 包裝成官方方案；提醒讀者留意二手技術資訊的準確性。",
-              "tweet_id": "2091751515686096935",
-              "file": "audio/2026-08-25/042.mp3"
             }
           ]
         },
@@ -271,176 +265,129 @@
           "name": "🛠️ 開發工具",
           "items": [
             {
+              "index": 42,
+              "text": "Varun Mohan（@_mohansolo）宣布 Antigravity 補上內建終端與版本控制支援；agent IDE 的日常開發體驗持續補課。",
+              "tweet_id": "2092088406100848961",
+              "file": "audio/2026-08-25/042.mp3"
+            },
+            {
               "index": 43,
-              "text": "Claude Code Changelog（@ClaudeCodeLog）指出 Claude Code 2.1.243 發布，含 60 項 CLI 變更；/usage 新增 per-loop 統計，可揪出失控或過度多話的迴圈。",
-              "tweet_id": "2092037167216292188",
+              "text": "Pranit（@fazxes）發布 fx v0.0.6：Auto mode 更省更快、審批流程快 23%、支援遠端 HTTP MCP；Vercel 系 coding agent 快速迭代。",
+              "tweet_id": "2092075869107879973",
               "file": "audio/2026-08-25/043.mp3"
             },
             {
               "index": 44,
-              "text": "dax（@thdxr）宣布 opencode2 首批開發文件上線，涵蓋 plugins、TUI plugins、API client、embedding 與 Cloudflare；opencode2 自身也能讀懂文件直接代辦。",
-              "tweet_id": "2092040801605808351",
+              "text": "Bruno（@use_bruno）在 4.1 版加入 Mock Server：本地真實 HTTP 服務、可由 OpenAPI 規格生成且存於磁碟可進 git；API 工具鏈的離線工作流補齊。",
+              "tweet_id": "2091961556632240484",
               "file": "audio/2026-08-25/044.mp3"
             },
             {
               "index": 45,
-              "text": "Visual Studio Code（@code）宣布可一鍵管理 GitHub Copilot、本地模型與自帶 key 模型的顯示、隱藏與釘選；IDE 的模型管理體驗持續打磨。",
-              "tweet_id": "2091889263264592036",
+              "text": "Buf（@bufbuild）總結多年改善 Protobuf 開發體驗的成果，主張 schema-first 開發值得重新審視；曾放棄 Protobuf 的團隊被點名回流。",
+              "tweet_id": "2091842273071821080",
               "file": "audio/2026-08-25/045.mp3"
             },
             {
               "index": 46,
-              "text": "Google Antigravity（@antigravity）宣布更新內嵌終端與 Git 版控，可直接執行測試、檢視 working tree diff 並提交；agent IDE 補齊日常開發閉環。",
-              "tweet_id": "2092035820773421295",
+              "text": "Viking（@vikingmute）推薦開源的 Zen Desktop：以本地代理在網路層攔截廣告與追蹤器，覆蓋所有瀏覽器與桌面應用，連 Spotify 音頻廣告都能擋；系統級攔截方案受關注。",
+              "tweet_id": "2091891295644189060",
               "file": "audio/2026-08-25/046.mp3"
             },
             {
               "index": 47,
-              "text": "ElevenLabs（@ElevenLabs）發布 ElevenLabs CLI v1，把整套 API 帶進終端機；語音開發流程進一步 CLI 化。",
-              "tweet_id": "2091916523132616961",
+              "text": "lumxss（@bkdgiffug）介紹 GitHub 上 51K+ 星的開源 PowerShell 腳本，一鍵清除 Win11 預裝軟體、遙測與 Copilot 等元件；用戶對系統膨脹的不滿具象化為工具熱度。",
+              "tweet_id": "2092009555706142782",
               "file": "audio/2026-08-25/047.mp3"
             },
             {
               "index": 48,
-              "text": "Mahesh（@MaheshtheDev）分享 Cloudflare wrangler CLI 在 Durable Object 遷移中被 agent 自主運用的經歷；稱其為最 agentic 的 CLI。",
-              "tweet_id": "2091934059970822471",
+              "text": "Jimmy Revived（@JimmyRevived）推薦 6 萬+ 星的開源專案 TrendRadar：聚合全網熱點、AI 過濾並多渠道推送，還可接 MCP 查詢歷史新聞；資訊獲取正被自動化管線取代。",
+              "tweet_id": "2091773855388033385",
               "file": "audio/2026-08-25/048.mp3"
             },
             {
               "index": 49,
-              "text": "Voice Cursor（@VoiceCursor）發布 1.0 並主打 Intelligent Editing，以語音直接下達修改指令而非回到鍵盤修稿；聽寫工具重新定義編輯迴路。",
-              "tweet_id": "2091715512397078726",
+              "text": "CrazyShyyt（@CrazyShyyt）介紹讓 CUDA 代碼直接跑在 Apple Silicon 上的專案，MacBook 可執行為 H100 叢集寫的粒子模擬；CUDA 生態圍牆出現缺口，性能對等性仍待驗證。",
+              "tweet_id": "2091755500199350470",
               "file": "audio/2026-08-25/049.mp3"
             },
             {
               "index": 50,
-              "text": "Mark Dalgleish（@markdalgleish）觀察多個高知名度帳號因 agent 友好性從 Tailwind 轉向 StyleX；認為 AI 使用模式可能重塑前端工具選型。",
-              "tweet_id": "2092021745020788801",
+              "text": "Ryan Dahl（@rough__sea）分享 celld 的開發方式：公開 repo 是更大私有 repo 的匯出產物；AI 時代的開源專案結構出現新形態。",
+              "tweet_id": "2092091242377265562",
               "file": "audio/2026-08-25/050.mp3"
             },
             {
               "index": 51,
-              "text": "Tommy D. Rossi（@__morse）預告 gpuix 下一版將透過 WASM 讓應用直接在瀏覽器執行；GPU UI 框架的可及性再提升。",
-              "tweet_id": "2091894388574032149",
+              "text": "DHH（@dhh）表示開放日曆一看已有 19 場 Omarchy 全球聚會排定；Linux 桌面社群的自組織熱度罕見。",
+              "tweet_id": "2091943369853296709",
               "file": "audio/2026-08-25/051.mp3"
             },
             {
               "index": 52,
-              "text": "Neon（@neondatabase）主張 Postgres on S3 的正確設計是讓 WAL 成為 source of truth，並發布儲存架構深度解析；雲原生資料庫架構討論升溫。",
-              "tweet_id": "2091954613742457096",
+              "text": "小互（@xiaohu）指出 ChatGPT 支援生成透明背景圖像並推出自訂貼紙包功能，可直接分享到社交平台；圖像生成走向日常社交場景。",
+              "tweet_id": "2092083241851531510",
               "file": "audio/2026-08-25/052.mp3"
             },
             {
               "index": 53,
-              "text": "Ren（@Ryrenz）介紹 6.2K stars 的 PDF Craft，可把掃描版舊書整本轉成 Markdown 或 EPUB 並處理表格與公式；舊書數位化門檻大降。",
-              "tweet_id": "2091784072724910201",
+              "text": "Geek Lite（@QingQ77）介紹 open-sheet 框架：不讓 agent 碰儲存格座標，改寫成 React 按名字引用公式、由框架解析為 A1 並輸出活公式 xlsx；解決 agent 寫試算表易錯的老問題。",
+              "tweet_id": "2091908137326395683",
               "file": "audio/2026-08-25/053.mp3"
-            },
-            {
-              "index": 54,
-              "text": "Thijs（@cdngdev）用 Apple Maps 資料把整個舊金山變成可遊玩的開放世界遊戲；地圖數據的創意應用出圈。",
-              "tweet_id": "2091909073038082139",
-              "file": "audio/2026-08-25/054.mp3"
             }
           ]
         },
         {
-          "name": "🏭 產業與人事",
+          "name": "🏭 產業與政策",
           "items": [
             {
+              "index": 54,
+              "text": "Axios（@axios）報導 Meta 聘用 OpenAI 老將 Luke Metz；頂級研究人才的跨陣營流動持續。",
+              "tweet_id": "2091726272854425777",
+              "file": "audio/2026-08-25/054.mp3"
+            },
+            {
               "index": 55,
-              "text": "Charles Rollet（@CharlesRollet1）報導 Thomson Reuters 為降低對 Claude 依賴、基於阿里 Qwen 自建模型；其 CTO 稱依賴前沿實驗室如同租房。",
-              "tweet_id": "2091929539433890088",
+              "text": "Mark Gurman（@markgurman）報導智慧戒指廠 Oura 擬募資 30 億美元，最快 9 月以逾 160 億美元估值上市；穿戴健康賽道迎來重量級 IPO。",
+              "tweet_id": "2092067904217125138",
               "file": "audio/2026-08-25/055.mp3"
             },
             {
               "index": 56,
-              "text": "NVIDIA Newsroom（@nvidianewsroom）宣布 SpaceXAI 大規模部署首款為 agent 打造的 CPU「Vera」；從地面到軌道統一架構的 agentic 算力敘事成形。",
-              "tweet_id": "2091910170796298448",
+              "text": "Molly O'Shea（@MollySOShea）發布 Rocket Lab 創辦人 Peter Beck 專訪：單季營收 2.34 億美元、積壓訂單 23.6 億美元；他半開玩笑稱目標是全球制霸。",
+              "tweet_id": "2091882591230050806",
               "file": "audio/2026-08-25/056.mp3"
             },
             {
               "index": 57,
-              "text": "Brody Ford（@BrodyFord_）報導 Nvidia 已通知大客戶資料中心 AI 伺服器漲價 15% 以上；算力成本壓力向下游傳導。",
-              "tweet_id": "2091236474851340573",
+              "text": "Kristie Lu Stout（@klustout）報導 Shein 香港 IPO 估值傳低於 300 億美元，較 2022 年千億美元巔峰大幅縮水；快時尚電商的資本故事降溫。",
+              "tweet_id": "2088082738012405972",
               "file": "audio/2026-08-25/057.mp3"
             },
             {
               "index": 58,
-              "text": "Steve Moser（@SteveMoser）分析疑似 Apple Private Cloud Compute 伺服器硬體，含多節點機箱與自研 SoC 運算卡；蘋果自建推理基建輪廓漸清晰。",
-              "tweet_id": "2091915951792955625",
+              "text": "Petri Kuittinen（@KuittinenPetri）抱怨其芬蘭大學防火牆封鎖 DeepSeek 與 Qwen 等中國 AI 服務、卻放行 OpenAI；他認為此類選邊將令歐盟淪為 AI 租戶階級。",
+              "tweet_id": "2091952048036298895",
               "file": "audio/2026-08-25/058.mp3"
             },
             {
               "index": 59,
-              "text": "Sasha Rush（@srush_nlp）宣布離開 Cursor 並回顧參與 Composer 開發的經歷；前沿編輯器公司的人才流動受關注。",
-              "tweet_id": "2091966830726230513",
+              "text": "デジタル庁（@digital_jpn）宣布「My Number App」上線，將數位認證功能整合進 My Number Portal 一站完成本人確認；日本政府數位身分基建再進一步。",
+              "tweet_id": "2092071063383621671",
               "file": "audio/2026-08-25/059.mp3"
             },
             {
               "index": 60,
-              "text": "苍何（@canghe）轉述字節 TRAE 與扣子將併入豆包並推出「豆包工作」統一品牌；中國 AI 辦公賽道競爭升級，消息尚待官方確認。",
-              "tweet_id": "2091811461811331500",
+              "text": "Kalshi（@Kalshi）指出印度股市相對 S&P 500 的表現正逼近史上最差；新興市場資金轉移壓力浮現。",
+              "tweet_id": "2091558583448305905",
               "file": "audio/2026-08-25/060.mp3"
             },
             {
               "index": 61,
-              "text": "Y Combinator（@ycombinator）祝賀 Mundo 完成 2,000 萬美元 A 輪；該公司為前沿實驗室建置多模態感知數據集與評測。",
-              "tweet_id": "2091941108138066197",
+              "text": "Epoch AI（@EpochAIResearch）研究發現美國 GDP 統計遺漏了 Nvidia 創造的大部分價值，過去一年 GDP 增速被低估約 0.3 個百分點；AI 對宏觀經濟的貢獻被系統性低估。",
+              "tweet_id": "2091959069980688660",
               "file": "audio/2026-08-25/061.mp3"
-            },
-            {
-              "index": 62,
-              "text": "AYi（@AYi_AInotes）分析小米玄戒 AI 盒子：三顆自研芯片、150W 本地跑 120B 模型，關鍵在 O100 的 1.22TB/s 近存帶寬；本地推理硬體軍備賽開打。",
-              "tweet_id": "2091912459862827021",
-              "file": "audio/2026-08-25/062.mp3"
-            },
-            {
-              "index": 63,
-              "text": "Bill Staples（@bstaples）呼應 Anthropic《AI-Native SDLC Playbook》「代碼不再是瓶頸」的判斷；並追問下一個瓶頸將出現在哪個環節。",
-              "tweet_id": "2091961256043581828",
-              "file": "audio/2026-08-25/063.mp3"
-            },
-            {
-              "index": 64,
-              "text": "Gergely Orosz（@GergelyOrosz）暗示某公司 2023 年自建的雲端開發環境如今成為其自研 AI harness 與背景 agent 的底座；早期基建投資正在回收紅利。",
-              "tweet_id": "2092013797280026989",
-              "file": "audio/2026-08-25/064.mp3"
-            },
-            {
-              "index": 65,
-              "text": "unusual_whales（@unusual_whales）轉述 NYT 報導 SEC 已對 Aschenbrenner 的 Situational Awareness 基金交易展開調查並向多家銀行發出傳票；AI 名人基金面臨監管檢視，調查結果未定。",
-              "tweet_id": "2091989699091206276",
-              "file": "audio/2026-08-25/065.mp3"
-            },
-            {
-              "index": 66,
-              "text": "Pratik Gandhi（@pratikg）表示 darkbloomai 網路 12 小時內新增 300 多台 Mac、達 792 個節點；分散式 Mac 算力網路一夜翻倍。",
-              "tweet_id": "2091908475794440592",
-              "file": "audio/2026-08-25/066.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🔒 資安",
-          "items": [
-            {
-              "index": 67,
-              "text": "The Hacker News（@TheHackersNews）報導 Keycloak 重大漏洞 CVE-2026-18963，未認證攻擊者可繞過郵件 token 重設任意帳號密碼（含管理員）；受影響用戶應儘速修補。",
-              "tweet_id": "2091865792128360625",
-              "file": "audio/2026-08-25/067.mp3"
-            },
-            {
-              "index": 68,
-              "text": "Alex（@xaitax）表示近兩個月將前沿模型加入攻防工作流後，已提交 10 個獨特的 Windows 11 canary 0day；AI 輔助漏洞研究的產能提升值得防守方警惕。",
-              "tweet_id": "2091957983731495091",
-              "file": "audio/2026-08-25/068.mp3"
-            },
-            {
-              "index": 69,
-              "text": "岚叔（@LufzzLiz）轉述 XDA 作者讓 Qwen3.8 27B 逆向其合法購買的軟體、約 30 分鐘產出可運行的授權繞過原型；本地模型的濫用風險需要正視。",
-              "tweet_id": "2091870460023803920",
-              "file": "audio/2026-08-25/069.mp3"
             }
           ]
         },
@@ -448,69 +395,33 @@
           "name": "💰 財經",
           "items": [
             {
-              "index": 70,
-              "text": "Nick Timiraos（@NickTimiraos）轉述 Druckenmiller 批評財政部長 Bessent 在市場正常運作時動用回購壓抑殖利率；資深交易者質疑政策干預的正當性。",
-              "tweet_id": "2092023686148817227",
-              "file": "audio/2026-08-25/070.mp3"
-            },
-            {
-              "index": 71,
-              "text": "The Kobeissi Letter（@KobeissiLetter）指出美國財政部多次宣示干預後殖利率仍未回落，回購已加倍至每次 40 億美元以上；市場與財政部的角力升級。",
-              "tweet_id": "2091993738306629848",
-              "file": "audio/2026-08-25/071.mp3"
-            },
-            {
-              "index": 72,
-              "text": "Walter Bloomberg（@DeItaone）報導美國戰略石油儲備上週減少約 370 萬桶至 2.897 億桶，為 1982 年以來最低；能源安全緩衝持續變薄。",
-              "tweet_id": "2091908862752297038",
-              "file": "audio/2026-08-25/072.mp3"
-            },
-            {
-              "index": 73,
-              "text": "Christophe Barraud（@C_Barraud）引述人民日報稱中國上半年 GDP 增長 4.7%，落在全年 4.5-5% 目標區間；在貿易摩擦與內需疲弱下仍達標。",
-              "tweet_id": "2091747810672566687",
-              "file": "audio/2026-08-25/073.mp3"
+              "index": 62,
+              "text": "Watcher.Guru（@WatcherGuru）報導 Michael Saylor 的 Strategy 比特幣投資未實現利潤達 40 億美元；企業囤幣策略在本輪上漲中大幅回血。",
+              "tweet_id": "2092084065851564088",
+              "file": "audio/2026-08-25/062.mp3"
             }
           ]
         },
         {
-          "name": "🌐 地緣與政策",
+          "name": "🌐 地緣與貿易",
           "items": [
             {
-              "index": 74,
-              "text": "zerohedge（@zerohedge）轉述 FOX 消息稱 Bessent 將公布對伊朗次級制裁細節並發出切斷經濟往來的最後通牒；制裁升級牽動油市神經。",
-              "tweet_id": "2091918113532981652",
-              "file": "audio/2026-08-25/074.mp3"
+              "index": 63,
+              "text": "zerohedge（@zerohedge）轉述 Bessent 公布全面計畫、要讓伊朗成為「經濟棄兒」；次級制裁的執行細節牽動能源與金融市場。",
+              "tweet_id": "2091935341686980833",
+              "file": "audio/2026-08-25/063.mp3"
             },
             {
-              "index": 75,
-              "text": "zerohedge（@zerohedge）轉述英國海軍通報阿曼外海一艘油輪遭拋射物擊中；霍爾木茲周邊航運風險再起，事件細節尚待證實。",
-              "tweet_id": "2092015443716293097",
-              "file": "audio/2026-08-25/075.mp3"
+              "index": 64,
+              "text": "Bloomberg Opinion（@opinion）指出美加談判破裂後加拿大祭出 50% 報復性關稅；雙邊消耗戰考驗誰更能承受痛感。",
+              "tweet_id": "2091975874555895897",
+              "file": "audio/2026-08-25/064.mp3"
             },
             {
-              "index": 76,
-              "text": "FinancialJuice（@financialjuice）報導中國與約旦呼籲恢復霍爾木茲海峽正常通行；航道安全成為多方外交焦點。",
-              "tweet_id": "2091877202090418182",
-              "file": "audio/2026-08-25/076.mp3"
-            },
-            {
-              "index": 77,
-              "text": "unusual_whales（@unusual_whales）轉述 AP 報導美國擬撤銷多達 20 萬份商務與旅遊簽證，規模為史上最大；簽證政策急轉將影響跨境商務往來。",
-              "tweet_id": "2092010922424279449",
-              "file": "audio/2026-08-25/077.mp3"
-            },
-            {
-              "index": 78,
-              "text": "Morse Report（@MorseReport）報導川普政府擬對每份新 H-1B 申請徵收 10.3 萬美元費用；科技業引才成本面臨劇變，規則尚在提案階段。",
-              "tweet_id": "2091926384038097245",
-              "file": "audio/2026-08-25/078.mp3"
-            },
-            {
-              "index": 79,
-              "text": "CNN Breaking News（@cnnbrk）報導最高法院允許川普部分執行限制郵寄投票的行政命令，但後續法律挑戰可能影響期中選舉前的實施；選務規則進入司法拉鋸。",
-              "tweet_id": "2091999430064890147",
-              "file": "audio/2026-08-25/079.mp3"
+              "index": 65,
+              "text": "Bloomberg（@business）報導委內瑞拉代理總統 Rodríguez 宣布撤除城市警察檢查站，拆解過去十年查維茲主義的監控工具之一；政治轉向訊號受關注。",
+              "tweet_id": "2092060677829497030",
+              "file": "audio/2026-08-25/065.mp3"
             }
           ]
         },
