@@ -1,6 +1,346 @@
 {
-  "updated_at": "2026-08-29T06:41:53.833761+08:00",
+  "updated_at": "2026-08-30T02:52:54.036549+08:00",
   "dates": [
+    {
+      "date": "2026-08-30",
+      "generated_at": "2026-08-30T02:52:08.713390+08:00",
+      "categories": [
+        {
+          "name": "🤖 AI 公司動態",
+          "items": [
+            {
+              "index": 1,
+              "text": "Chubby（@kimmonismus）發現 Anthropic 刪除了那則限額調整推文，「我猜他們知道自己搞砸了」；這意味著「名義加 25%、實際砍 17%」的溝通災難已迫使官方緊急撤回。",
+              "tweet_id": "2093737524514431337",
+              "file": "audio/2026-08-30/001.mp3"
+            },
+            {
+              "index": 2,
+              "text": "松丸彗吾（@k_matsumaru）同步確認：Claude 那則 9/14 起調整週限額的貼文「被刪了！？撤回了！？」；這意味著政策本身可能也將重新評估。",
+              "tweet_id": "2093738196840714599",
+              "file": "audio/2026-08-30/002.mp3"
+            },
+            {
+              "index": 3,
+              "text": "leo（@synthwavedd）算帳：Claude Code 週限額 9 月 14 日起實際下降 17%，「等 Astra 發布後他們還敢堅持嗎？大失誤」；這意味著限額退坡撞上對手新模型窗口，時機極差。",
+              "tweet_id": "2093744300018319520",
+              "file": "audio/2026-08-30/003.mp3"
+            },
+            {
+              "index": 4,
+              "text": "Tak（@cherry_mx_reds）用一句話總結：「換句話說，Claude Code 週限額將減少 17%」；這意味著用戶已完全看穿話術，補貼退坡的成本將由口碑支付。",
+              "tweet_id": "2093752868662542353",
+              "file": "audio/2026-08-30/004.mp3"
+            },
+            {
+              "index": 5,
+              "text": "Chubby（@kimmonismus）另翻舊帳質問 Anthropic：Windsurf 要被競爭對手收購時你們無情斷供，如今 Cursor 被同樣擁有 xAI 的 SpaceX 收購，你們卻高調擁抱；這意味著「原則還是利益」的拷問正落在 Anthropic 頭上。",
+              "tweet_id": "2093723095974687110",
+              "file": "audio/2026-08-30/005.mp3"
+            },
+            {
+              "index": 6,
+              "text": "Farzad（@farzyness）綜觀棋局：SpaceX 與 Anthropic 正式聯手對抗 OpenAI，而 Jensen 近來對 Sam 也不滿、NVIDIA 與 SpaceX 關係加深；這意味著 AI 產業的三角同盟正在快速重組。",
+              "tweet_id": "2093669199264493803",
+              "file": "audio/2026-08-30/006.mp3"
+            },
+            {
+              "index": 7,
+              "text": "Ara Kharazian（@arakharazian）發布 Ramp 企業支出數據：約 35% 的模型 token 支出（經編碼 agent 與 API）流向 OpenAI；這意味著企業端市佔第一次有了刷卡數據級的估計。",
+              "tweet_id": "2093736445248757885",
+              "file": "audio/2026-08-30/007.mp3"
+            },
+            {
+              "index": 8,
+              "text": "Kenn Ejima（@kenn）認為 GPT 退出 Cursor 引發的反彈標誌競爭進入新階段：商業上完全合理，但用戶第一次真切感受到模型是「可被拔走的基礎設施」；這意味著供應商風險意識全面覺醒。",
+              "tweet_id": "2093551615865422110",
+              "file": "audio/2026-08-30/008.mp3"
+            },
+            {
+              "index": 9,
+              "text": "TestingCatalog（@testingcatalog）驚嘆 Astra（內部名 mozaik-alpha-fdm）首批輸出「令人震驚」；這意味著未發布模型的能力預覽已成輿論造勢主戰場。",
+              "tweet_id": "2093716456160579879",
+              "file": "audio/2026-08-30/009.mp3"
+            },
+            {
+              "index": 10,
+              "text": "Pankaj Kumar（@pankajkumar_dev）匯總 Astra 情報：下週四發布、3D 太空船輸出驚艷、「這次 OpenAI 可能真的煮出好菜」；此為聚合傳聞，但發布時點的說法正在收斂。",
+              "tweet_id": "2093740552940646798",
+              "file": "audio/2026-08-30/010.mp3"
+            },
+            {
+              "index": 11,
+              "text": "Harshith（@HarshithLucky3）展示 GPT-Astra 零樣本輸出的城堡：不只做了外觀、城堡裡面真的有門，「首個檢查點的細節瘋狂」；這意味著前端生成的精細度即將再上台階。",
+              "tweet_id": "2093691184157983141",
+              "file": "audio/2026-08-30/011.mp3"
+            },
+            {
+              "index": 12,
+              "text": "Dan McAteer（@daniel_mac8）評 Anthropic 的自主對齊 agent 研究（Opus 4.8 驅動）：「遞迴自我改進的超級智能已經在這裡，只是分布不均」；這意味著 RSI 從概念變成公開發表的工程現實。",
+              "tweet_id": "2093744616780505255",
+              "file": "audio/2026-08-30/012.mp3"
+            },
+            {
+              "index": 13,
+              "text": "Axios（@axios）整理 OpenAI 對 Hugging Face 事件調查的五個最瘋狂發現；這意味著這起 agent 蜂群事故的細節仍在持續震撼主流媒體。",
+              "tweet_id": "2093690312610693195",
+              "file": "audio/2026-08-30/013.mp3"
+            },
+            {
+              "index": 14,
+              "text": "Nathan Witkin（@NateWitkin）指出 Hugging Face 事件被當成網安故事處理，但獎勵駭客行為的深層含義討論不足；這意味著事件的對齊教訓可能被低估。",
+              "tweet_id": "2093724533647618171",
+              "file": "audio/2026-08-30/014.mp3"
+            },
+            {
+              "index": 15,
+              "text": "Alex Hormozi（@AlexHormozi）一針見血：「人們現在用 AI 高效地做錯的事」；這意味著效率工具放大的是方向而非正確性。",
+              "tweet_id": "2093696093800571018",
+              "file": "audio/2026-08-30/015.mp3"
+            },
+            {
+              "index": 16,
+              "text": "Lenny Rachitsky（@lennysan）觀察：每個人工作中越來越大的部分，是清理別人用 AI 搶你飯碗時留下的垃圾；這意味著「slop 清理」正成為隱形的新工種。",
+              "tweet_id": "2093742157547057540",
+              "file": "audio/2026-08-30/016.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🤖 模型與研究",
+          "items": [
+            {
+              "index": 17,
+              "text": "Dmytro Dzhulgakov（@dzhulgakov）解釋 GLM-5.3-Flash 在 Fireworks 晚上線的原因：發現無法解釋的基準差異便推遲發布，「同樣的權重不等於同樣的模型」；這意味著推理供應商的品管正成為差異化賣點。",
+              "tweet_id": "2093739346423947644",
+              "file": "audio/2026-08-30/017.mp3"
+            },
+            {
+              "index": 18,
+              "text": "Wei（@wei_wang）整理本地部署的階梯：4 台 DGX Spark 或 512GB Mac 跑 GLM-5.3、256GB 跑 Flash、128GB 跑 Qwen3.8-Flash-Next、再低跑 27B；這意味著從消費級到豪華集群的選型已有清晰地圖。",
+              "tweet_id": "2093538632275489264",
+              "file": "audio/2026-08-30/018.mp3"
+            },
+            {
+              "index": 19,
+              "text": "Ivan Fioravanti（@ivanfioravanti）在 M5 Max 上以自編譯 mlx-serve 跑 Qwen3.8-Flash-Next 4bit，下一步優化核心；這意味著 Apple Silicon 的本地推理工具鏈持續深挖。",
+              "tweet_id": "2093735587861684435",
+              "file": "audio/2026-08-30/019.mp3"
+            },
+            {
+              "index": 20,
+              "text": "Ash Hart（@ashxhart）發布 SparkPilot：把 iPhone、iPad 與 Mac 變成 DGX Spark 集群的控制平面，即時遙測、模型管理與捷徑整合；這意味著家用 AI 集群的管理體驗開始消費化。",
+              "tweet_id": "2093617985265021151",
+              "file": "audio/2026-08-30/020.mp3"
+            },
+            {
+              "index": 21,
+              "text": "MiniMax（@MiniMax_AI）轉發「比 Twitch 串流更快的生成」實驗並稱其可能是最好的新基準；這意味著即時影片生成的能力已獲官方玩梗認證。",
+              "tweet_id": "2093746422466367907",
+              "file": "audio/2026-08-30/021.mp3"
+            },
+            {
+              "index": 22,
+              "text": "elvis（@omarsar0）推薦 Apple 新論文：把 MCP 伺服器的規格自動轉成評測套件；這意味著「規格即測試」的思路正落到 agent 工具生態。",
+              "tweet_id": "2093741222443786244",
+              "file": "audio/2026-08-30/022.mp3"
+            },
+            {
+              "index": 23,
+              "text": "elvis（@omarsar0）呼籲「擁有你的 harness」：自己控制用哪個模型、怎麼用，有餘力再考慮擁有更多堆疊；這意味著斷供風波正把 harness 自主權推成共識。",
+              "tweet_id": "2093736625431839003",
+              "file": "audio/2026-08-30/023.mp3"
+            },
+            {
+              "index": 24,
+              "text": "HENRY NORRIS（@realhenrynorris）補充：harness 來來去去才是常態，可持久的是你的規則、權限與記憶能否在更換時存活；這意味著 agent 資產的可攜性成為架構要求。",
+              "tweet_id": "2093746755766562929",
+              "file": "audio/2026-08-30/024.mp3"
+            },
+            {
+              "index": 25,
+              "text": "Yinsen（@YinsenW_）提出反方：依賴提示詞技能與記憶就像組織依賴個人習慣與腦內記憶，靠不住，「記憶沒那麼重要」；這意味著 agent 可靠性的路線之爭浮現——制度化流程對決個體記憶。",
+              "tweet_id": "2093668679670243591",
+              "file": "audio/2026-08-30/025.mp3"
+            },
+            {
+              "index": 26,
+              "text": "管四（@guansi）觀察 AI 放大器效應：對強者的放大遠超弱者，頂尖工程師帶 agent 艦隊的產出正拉開數量級差距；這意味著拉平差距的期待落空，分化才是現實。",
+              "tweet_id": "2093715418544546234",
+              "file": "audio/2026-08-30/026.mp3"
+            },
+            {
+              "index": 27,
+              "text": "Akshay（@akshay_pachaar）梳理 agent 觸達網站的六種方式，指出 Google 與 Microsoft 押注同一種；這意味著 agent 網頁互動的技術路線正在收斂。",
+              "tweet_id": "2093749877272715636",
+              "file": "audio/2026-08-30/027.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🛠️ 開發工具與 Agent",
+          "items": [
+            {
+              "index": 28,
+              "text": "Mitchell Hashimoto（@mitchellh）以資深 tmux 用戶身分徵集「換掉 tmux 的必備功能」；這意味著 Superlogical 劍指終端多工的王座。",
+              "tweet_id": "2093538172433269010",
+              "file": "audio/2026-08-30/028.mp3"
+            },
+            {
+              "index": 29,
+              "text": "Luke Parker（@LukeParkerDev）展示以 tailscale 遠端連接 opencode2 伺服器並裝成 PWA，QR 配對將至；這意味著編碼工具的行動遠端體驗快速成形。",
+              "tweet_id": "2093582553324347732",
+              "file": "audio/2026-08-30/029.mp3"
+            },
+            {
+              "index": 30,
+              "text": "Pranit（@fazxes）發布 fx v0.0.7：MCP 原生化，新增 fx mcp 指令與專案級配置；這意味著又一終端工具完成 MCP 補課。",
+              "tweet_id": "2093733353757233580",
+              "file": "audio/2026-08-30/030.mp3"
+            },
+            {
+              "index": 31,
+              "text": "Richard Seroter（@rseroter）介紹 Builder.io 開源的 Agent Native Design（Figma 替代品）；這意味著設計工具的 agent 原生化競賽開跑。",
+              "tweet_id": "2093464593301729497",
+              "file": "audio/2026-08-30/031.mp3"
+            },
+            {
+              "index": 32,
+              "text": "GitHubDaily（@GitHub_Daily）介紹 anatomy：瀏覽器內可旋轉的 9 個人體器官 3D 模型，整個應用由 GPT 5.6 Sol 打造；這意味著教育內容的 AI 一體成型已可上線品質。",
+              "tweet_id": "2093692718195356024",
+              "file": "audio/2026-08-30/032.mp3"
+            },
+            {
+              "index": 33,
+              "text": "Yusuke Wada（@yusukebe）公布構想清單：Hono-kun（AI 維護者）、Agent-DX 與 Hono CLI；這意味著開源框架作者開始為 agent 設計配套生態。",
+              "tweet_id": "2093658778361327667",
+              "file": "audio/2026-08-30/033.mp3"
+            },
+            {
+              "index": 34,
+              "text": "mizchi（@mizchi）實驗新流程：讓 AI 就當前實作寫論文、由子 agent 同儕評審再回饋；這意味著自我審查迴圈的玩法持續翻新。",
+              "tweet_id": "2093663268154060838",
+              "file": "audio/2026-08-30/034.mp3"
+            },
+            {
+              "index": 35,
+              "text": "Amto（@XAMTO_AI）介紹 LLM Wiki（1.6 萬星）：AI 逐層構建結構化維基、知識越用越靈，勝過每次重翻的普通 RAG；這意味著個人知識庫從檢索走向生長。",
+              "tweet_id": "2093480497619837020",
+              "file": "audio/2026-08-30/035.mp3"
+            },
+            {
+              "index": 36,
+              "text": "govin.eth（@goan999999）分享 Codex 配 last30days-skill：讓 Codex 直接挖掘 Reddit、X、HN 等平台近況變成情報系統；這意味著資訊差工具正被 skill 化量產。",
+              "tweet_id": "2093519254704300515",
+              "file": "audio/2026-08-30/036.mp3"
+            },
+            {
+              "index": 37,
+              "text": "スナガク（@suna_gaku）分享《不斷膨脹的 CLAUDE.md》一文：重點不是清一次，而是建立防再膨脹的機制；這意味著提示資產的治理成為長期課題。",
+              "tweet_id": "2093488477673509003",
+              "file": "audio/2026-08-30/037.mp3"
+            },
+            {
+              "index": 38,
+              "text": "Microsoft Learn（@MicrosoftLearn）金句：被低估的 AI 技能是「知道何時該問更好的問題，而非再要一個答案」；這意味著提問力正式進入官方教材話語。",
+              "tweet_id": "2093730395246489934",
+              "file": "audio/2026-08-30/038.mp3"
+            },
+            {
+              "index": 39,
+              "text": "Jessie Frazelle（@jessfraz）反諷「5% 流量」的嘲笑：這恰恰反映 Cursor 用戶是不那麼硬核的大眾開發者，而那正是最大的市場；這意味著開發工具的主戰場早已從極客轉向大眾。",
+              "tweet_id": "2093561750881014124",
+              "file": "audio/2026-08-30/039.mp3"
+            },
+            {
+              "index": 40,
+              "text": "Nathan Sharp（@nsharp17）宣布 Retro 完成新一輪融資，要做「與朋友分享生活的最佳場所」；這意味著反演算法的私密社交賽道仍獲資本續注。",
+              "tweet_id": "2093748947177091320",
+              "file": "audio/2026-08-30/040.mp3"
+            }
+          ]
+        },
+        {
+          "name": "💰 財經與產業",
+          "items": [
+            {
+              "index": 41,
+              "text": "The Kobeissi Letter（@KobeissiLetter）披露美委石油協議數字：17 個油田共 650 億桶、美方取得多數控制權；這意味著協議結構逐步透明、規模空前。",
+              "tweet_id": "2093719268013625715",
+              "file": "audio/2026-08-30/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "Watcher.Guru（@WatcherGuru）統計過去兩週加密市場清算逾 97.1 億美元：空單 65.5 億、多單 31.6 億；這意味著雙向絞殺的波動市正在懲罰所有槓桿。",
+              "tweet_id": "2093759220017455606",
+              "file": "audio/2026-08-30/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "Kalshi Finance（@Kalshi_Finance）重申 Tim Cook 8 月 31 日卸任、AAPL 現價 320 美元；這意味著市場已把接班定價擺上檯面。",
+              "tweet_id": "2093367458883067962",
+              "file": "audio/2026-08-30/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "Justin Overdorff（@jmover）點破：「Stripe for Agentic Payments」原來就是 Stripe 自己；這意味著支付巨頭已把 agent 賽道的類比敘事全部收編。",
+              "tweet_id": "2093690506010128811",
+              "file": "audio/2026-08-30/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "ゆきママ（@yukimamax）報導日野市立醫院可能發不出九月薪資、市府再借一億日圓；這意味著日本地方醫療的財務危機開始見報。",
+              "tweet_id": "2093511750520086962",
+              "file": "audio/2026-08-30/045.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🌐 政策與社會",
+          "items": [
+            {
+              "index": 46,
+              "text": "James Cleverly（@JamesCleverly）正式宣布參選倫敦市長：「倫敦需要的不是行政官，是捍衛者」；這意味著保守黨押上重量級人物爭奪首都。",
+              "tweet_id": "2093718871945404564",
+              "file": "audio/2026-08-30/046.mp3"
+            },
+            {
+              "index": 47,
+              "text": "CNN Breaking（@cnnbrk）報導 Milo Yiannopoulos 週五已被遞解回英國；這意味著這起高調移民執法案迅速走完流程。",
+              "tweet_id": "2093750995255722312",
+              "file": "audio/2026-08-30/047.mp3"
+            },
+            {
+              "index": 48,
+              "text": "Deedy（@deedydas）總結 H-1B 已非可行的赴美路徑：費用更高、薪資門檻更高、按薪排序抽籤、配偶與被裁者保障更薄；這意味著美國技術移民政策的轉向已成定局。",
+              "tweet_id": "2093588294340882649",
+              "file": "audio/2026-08-30/048.mp3"
+            },
+            {
+              "index": 49,
+              "text": "罗翔（@LUOXIANG_PMTQ）轉述吉隆口岸逾 700 名編制內人員失蹤、家屬發聲遭刪帖；此為未經官方證實的數字，但傷亡規模的資訊管控跡象值得關注。",
+              "tweet_id": "2093656482457727444",
+              "file": "audio/2026-08-30/049.mp3"
+            },
+            {
+              "index": 50,
+              "text": "Brian Roemmele（@BrianRoemmele）講述 WordStar 教訓：1979 年的霸主因錯判平台遷移而隕落，「AI 公司注定重學這些課」；這意味著科技史的週期律正被用來警示當下。",
+              "tweet_id": "2093747977001296073",
+              "file": "audio/2026-08-30/050.mp3"
+            }
+          ]
+        },
+        {
+          "name": "📊 統計",
+          "items": []
+        },
+        {
+          "name": "📝 總結",
+          "items": []
+        }
+      ],
+      "complete": true
+    },
     {
       "date": "2026-08-29",
       "generated_at": "2026-08-29T06:40:57.400995+08:00",
@@ -3501,399 +3841,6 @@
               "text": "美國國務院民主人權勞工局（@StateDRL）譴責香港法院對支聯會前領袖的有罪裁決、呼籲立即釋放；美方強調六四悼念集會的和平性質，中美人權議題再起波瀾。",
               "tweet_id": "2090789949402730676",
               "file": "audio/2026-08-21/062.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📊 統計",
-          "items": []
-        },
-        {
-          "name": "📝 總結",
-          "items": []
-        }
-      ],
-      "complete": true
-    },
-    {
-      "date": "2026-08-20",
-      "generated_at": "2026-08-21T00:04:18.628174+08:00",
-      "categories": [
-        {
-          "name": "🔥 本時段頭條",
-          "items": [
-            {
-              "index": 1,
-              "text": "leo（@synthwavedd）獨家：OpenAI 昨日告知員工、Astra 將在「幾週內」發布並演示模型實操；安全暫停後的復出時間表。",
-              "tweet_id": "2090438712610242609",
-              "file": "audio/2026-08-20/001.mp3"
-            },
-            {
-              "index": 2,
-              "text": "Greg Brockman（@gdb）跟進造勢：「OpenAI for anything you can do in your browser」；瀏覽器代理的官方預告。",
-              "tweet_id": "2090449916456009972",
-              "file": "audio/2026-08-20/002.mp3"
-            },
-            {
-              "index": 3,
-              "text": "Darren（@dtzy_88）匯總實錘：ChatGPT 額度 nerf 已被社區確認、下降近 76%——對照 SemiAnalysis 六月估算的 API 等值；訂閱縮水的量化定格。",
-              "tweet_id": "2090433486079627426",
-              "file": "audio/2026-08-20/003.mp3"
-            },
-            {
-              "index": 4,
-              "text": "Hesamation（@Hesamation）轉述 Bloomberg 圖表：美中 AI 差距被「碾平」——Kimi K3 接近 Fable 且便宜約 70%；地緣競賽的可視化時刻。",
-              "tweet_id": "2090356790709887061",
-              "file": "audio/2026-08-20/004.mp3"
-            },
-            {
-              "index": 5,
-              "text": "shivam（@shivamhwp）通報收購後首刀：OpenRouter 新定價 3.6% + 30¢/API 請求；Stripe 化的第一份帳單。",
-              "tweet_id": "2090135785832091915",
-              "file": "audio/2026-08-20/005.mp3"
-            },
-            {
-              "index": 6,
-              "text": "Gavin Baker（@GavinSBaker）點評 Axios 報導：Stripe 收購 OpenRouter 披露的淨收入與自由現金流增長「經驗上令人印象深刻」；交易質量的資本背書。",
-              "tweet_id": "2090157968377405866",
-              "file": "audio/2026-08-20/006.mp3"
-            },
-            {
-              "index": 7,
-              "text": "Bun（@bunjavascript）發布 1.4：修復超 2,900 個 GitHub issues、空閒 CPU 降 5 倍、內存佔用更低；JS 運行時的年度大版本。",
-              "tweet_id": "2090443675063263738",
-              "file": "audio/2026-08-20/007.mp3"
-            },
-            {
-              "index": 8,
-              "text": "Thibault Jaigu（@ThibaultJaigu）統計發版節奏：Anthropic 8 個月出 5 個 Opus——4.6 佔 95% 流量用了 48 小時、4.8 只用 4 天；迭代速度的通脹曲線。",
-              "tweet_id": "2090111548467646647",
-              "file": "audio/2026-08-20/008.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🤖 模型與代理動向",
-          "items": [
-            {
-              "index": 9,
-              "text": "Dan McAteer（@daniel_mac8）通報小改動大不同：Claude Code 原生「Concise」輸出風格上線——/config → Output 開啟；囉嗦治理的正式落地。",
-              "tweet_id": "2090427936482394222",
-              "file": "audio/2026-08-20/009.mp3"
-            },
-            {
-              "index": 10,
-              "text": "Miguel Ángel Durán（@midudev）同步省 token 技巧：Claude Code 用 /config 選 Concise 模式；社群教學的即時擴散。",
-              "tweet_id": "2090439663622266928",
-              "file": "audio/2026-08-20/010.mp3"
-            },
-            {
-              "index": 11,
-              "text": "songkeys（@songkeys）神吐槽 GPT 5.6：讓它做番茄炒蛋、它加了東坡肉——去掉後 PR 標題「番茄炒蛋（無東坡肉）」還附長篇註釋；過度工程的美食版。",
-              "tweet_id": "2090416137720999992",
-              "file": "audio/2026-08-20/011.mp3"
-            },
-            {
-              "index": 12,
-              "text": "argofowl（@argofowl）發出疲勞信號：「我大概是習慣了 fable——它不再有魔法感、還是 Anthropic 已經毀了它？」；蜜月期結束的樣本。",
-              "tweet_id": "2090445654359200048",
-              "file": "audio/2026-08-20/012.mp3"
-            },
-            {
-              "index": 13,
-              "text": "CG（@cgtwts）拋出靈魂拷問：「為什麼所有人都在退訂 Claude？」；退訂潮的公開化。",
-              "tweet_id": "2090170816688525313",
-              "file": "audio/2026-08-20/013.mp3"
-            },
-            {
-              "index": 14,
-              "text": "Chubby（@kimmonismus）繼續追問：「有人在用 sonnet 5 嗎？」；中間檔的存在感危機。",
-              "tweet_id": "2090370200243740877",
-              "file": "audio/2026-08-20/014.mp3"
-            },
-            {
-              "index": 15,
-              "text": "Mia（@MiaAI_lab）壓力測試：2 台 DGX Spark 跑 DeepSeek v4 Flash、498k prefill；本地推理的極限探索。",
-              "tweet_id": "2090440735065543037",
-              "file": "audio/2026-08-20/015.mp3"
-            },
-            {
-              "index": 16,
-              "text": "Ornith（@ornith_）官宣：Ornith 1.5 9B 跑通了；小模型家族的新成員。",
-              "tweet_id": "2090238943946264774",
-              "file": "audio/2026-08-20/016.mp3"
-            },
-            {
-              "index": 17,
-              "text": "Youssof Al Toukhi（@Youssofal_）發布 MTPLX V2.9：CLI 提速 30%、應用端 60%——全系模型重調至更小更快同質量；效率軍備賽的一站。",
-              "tweet_id": "2090384590913556598",
-              "file": "audio/2026-08-20/017.mp3"
-            },
-            {
-              "index": 18,
-              "text": "Chris（@ChrisGPT）曬本地自由：「Qwen 27B 無審查版本地跑起來了——前沿實驗室拒絕不了這個請求」；開源權重的灰色紅利。",
-              "tweet_id": "2090334412843995566",
-              "file": "audio/2026-08-20/018.mp3"
-            },
-            {
-              "index": 19,
-              "text": "Gregor Zunic（@gregpr07）發布 Browser Use Benchmark V2：超長時程、任務耗時數小時、rubric 評審易被 reward hacking；瀏覽器代理的高難度考場。",
-              "tweet_id": "2090235921769935344",
-              "file": "audio/2026-08-20/019.mp3"
-            },
-            {
-              "index": 20,
-              "text": "Ricker（@0xRicker）潑冷水：「300 個代理能找 1000 個來源、不代表研究就是好的——有趣的部分從過濾開始」；規模化研究的質量拷問。",
-              "tweet_id": "2090108305821647235",
-              "file": "audio/2026-08-20/020.mp3"
-            },
-            {
-              "index": 21,
-              "text": "Da7em（@Da7_Tech）宣布棄用：「他們無視我、我不再經 API 用 Kimi K3」；開發者關係的流失樣本。",
-              "tweet_id": "2090394091494289426",
-              "file": "audio/2026-08-20/021.mp3"
-            },
-            {
-              "index": 22,
-              "text": "Can Vardar（@icanvardar）意外真香：「cursor 的 grok 4.6 成了我的主力模型——沒想到」；模型口碑的遷移記錄。",
-              "tweet_id": "2090430184952418582",
-              "file": "audio/2026-08-20/022.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🦞 工程與生態",
-          "items": [
-            {
-              "index": 23,
-              "text": "kache（@yacineMTB）宣告：「通用反編譯器來了——現在是它最差的樣子、只會更便宜更快」；軟件逆向的範式時刻。",
-              "tweet_id": "2090422570608701632",
-              "file": "audio/2026-08-20/023.mp3"
-            },
-            {
-              "index": 24,
-              "text": "Ryan Dahl（@rough__sea）發布 celld v0.3.0：包含（希望是）最後一次重大架構調整——複製寫入後端；Node 之父新作的架構定型。",
-              "tweet_id": "2090418728659804615",
-              "file": "audio/2026-08-20/024.mp3"
-            },
-            {
-              "index": 25,
-              "text": "Fini.Yang（@FiniYang）發布第 4 個 DeepSeek Harness 插件 dsh-ios：代理直接查看並操作 iOS 模擬器與真機——構建、點擊、滑動、查調用棧；移動端自動化的補全。",
-              "tweet_id": "2090428916804849763",
-              "file": "audio/2026-08-20/025.mp3"
-            },
-            {
-              "index": 26,
-              "text": "Derrick Choi（@derrickcchoi）親見 Cerebras WSE-3：4 兆晶體管、90 萬核心、44GB 片上 SRAM——還有新發布的 CS-4；晶圓級計算的實物震撼。",
-              "tweet_id": "2090445132432900434",
-              "file": "audio/2026-08-20/026.mp3"
-            },
-            {
-              "index": 27,
-              "text": "Vaibhav Srivastav（@reach_vb）玩出新用法：「根據我的電腦歷史、什麼一次性軟件能讓我生活更輕鬆？」；computer use 的創意樣本。",
-              "tweet_id": "2090449525890859392",
-              "file": "audio/2026-08-20/027.mp3"
-            },
-            {
-              "index": 28,
-              "text": "The Graph（@graphprotocol）啟用 x402：沉睡的 HTTP 402「Payment Required」被喚醒——代理直接付費調用 Subgraph 網關；機器對機器支付的落地。",
-              "tweet_id": "2090445310342451304",
-              "file": "audio/2026-08-20/028.mp3"
-            },
-            {
-              "index": 29,
-              "text": "Donn Felker（@donnfelker）背書 Herdr：多代理工作流利器——同時 3-8 個代理會話在跑；並行工程的日常化。",
-              "tweet_id": "2090182128491495673",
-              "file": "audio/2026-08-20/029.mp3"
-            },
-            {
-              "index": 30,
-              "text": "BH3GEI（@BH3GEI_CN）分享踩坑：issue 自動觸發本地代理需要統一會話管理、computer use 與瀏覽器自動化——cindy 基於 orca/cua/cdp 快速解決；工具鏈拼圖的實戰筆記。",
-              "tweet_id": "2090353904819253681",
-              "file": "audio/2026-08-20/030.mp3"
-            },
-            {
-              "index": 31,
-              "text": "Glaze（@glazeapp）大更新：自帶代理——用 Codex、Claude、Cursor 等直接編輯你的應用；開發平台的代理中立化。",
-              "tweet_id": "2090438985289978274",
-              "file": "audio/2026-08-20/031.mp3"
-            },
-            {
-              "index": 32,
-              "text": "Zeh Fernandes（@zehf）發問：「Cursor 折騰我、他們拋棄了 IDE——你們現在什麼配置？」；工具遷移期的集體迷茫。",
-              "tweet_id": "2090072746323529989",
-              "file": "audio/2026-08-20/032.mp3"
-            },
-            {
-              "index": 33,
-              "text": "Yifeng Wang（@ewind_dev）發表思辨：逐行 review 是 CS 相對其他學科的奢侈特權——土木不查每粒材料、生物不觀測每次分子作用；軟件工程走向「信任儀器」的預言。",
-              "tweet_id": "2090348824590229733",
-              "file": "audio/2026-08-20/033.mp3"
-            },
-            {
-              "index": 34,
-              "text": "Florian Brand（@xeophon）自嘲行規：「eval 創作者的潛規則是搞出最詛咒的 infra 配置讓所有人受苦」；評測工程的黑色幽默。",
-              "tweet_id": "2090101168340873404",
-              "file": "audio/2026-08-20/034.mp3"
-            },
-            {
-              "index": 35,
-              "text": "OpenCode（@opencode）說明插曲：muse spark 提前於官宣可用、容量未就緒暫時下架；發布節奏的透明溝通。",
-              "tweet_id": "2090131613363433526",
-              "file": "audio/2026-08-20/035.mp3"
-            },
-            {
-              "index": 36,
-              "text": "OpenCode（@opencode）補充新選項：Muse Spark 1.2 Contributor 版上線 OpenCode Go——會用你的數據訓練、需顯式 opt-in；數據換算力的明碼標價。",
-              "tweet_id": "2090158371097698394",
-              "file": "audio/2026-08-20/036.mp3"
-            },
-            {
-              "index": 37,
-              "text": "Nous Research（@NousResearch）隔空對壘：「Hermes Agent 也有自己的遠程計算機——你不被鎖定、每月只要幾美元」；常駐代理的定價戰。",
-              "tweet_id": "2090432358969196548",
-              "file": "audio/2026-08-20/037.mp3"
-            },
-            {
-              "index": 38,
-              "text": "日経クロステック（@nikkeibpITpro）報導瑞穗銀行構想：3,000 個 AI 代理重構整個銀行業務；金融業代理化的規模宣言。",
-              "tweet_id": "2090408592625311994",
-              "file": "audio/2026-08-20/038.mp3"
-            }
-          ]
-        },
-        {
-          "name": "📊 商業與訂閱",
-          "items": [
-            {
-              "index": 39,
-              "text": "Geoff Charles（@geoffintech）官宣買下 router.com：監控並控制所有供應商的 AI 支出——早期用戶平均省 40%；FinOps 的 AI 化卡位。",
-              "tweet_id": "2090178976098484561",
-              "file": "audio/2026-08-20/039.mp3"
-            },
-            {
-              "index": 40,
-              "text": "Yong.C（@william40152988）再添證詞：「Codex 是不是出問題了？重置後消耗速度快太多」；額度異常的跨時區印證。",
-              "tweet_id": "2090418687773679797",
-              "file": "audio/2026-08-20/040.mp3"
-            },
-            {
-              "index": 41,
-              "text": "Vox（@Voxyz_ai）規劃代理編制：Grok Bot 首批三名「員工」——退款獵人、數字清潔工、會議替身；代理分工的產品想像。",
-              "tweet_id": "2090423614684160305",
-              "file": "audio/2026-08-20/041.mp3"
-            },
-            {
-              "index": 42,
-              "text": "Liam（@liam_fallen）曬戰績：「我的 Grok Bot 把自己的工資賺回來了」——一個任務：挽回流失客戶；代理 ROI 的第一批案例。",
-              "tweet_id": "2090355235751379002",
-              "file": "audio/2026-08-20/042.mp3"
-            },
-            {
-              "index": 43,
-              "text": "Da7em（@Da7_Tech）分享體感：「從 Claude 切到 Grok 的安心感難以形容」；訂閱動盪期的遷移敘事。",
-              "tweet_id": "2090107597521138008",
-              "file": "audio/2026-08-20/043.mp3"
-            },
-            {
-              "index": 44,
-              "text": "启航（@qihang_zeng6688）整理清單：8 個「GitHub 能搞錢」倉庫——AI 副業信息差手冊領銜；開源套利的民間指南。",
-              "tweet_id": "2090304954732822651",
-              "file": "audio/2026-08-20/044.mp3"
-            },
-            {
-              "index": 45,
-              "text": "Olivia Moore（@omooretweets）建議出圈：消費科技從業者該去 X 以外的平台發 AI 內容——「大開眼界」；分發認知的提醒。",
-              "tweet_id": "2090246379679719682",
-              "file": "audio/2026-08-20/045.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🌐 行業與地緣/社會",
-          "items": [
-            {
-              "index": 46,
-              "text": "Watcher.Guru（@WatcherGuru）通報多空對決：Standard Chartered 預測比特幣年底 10 萬美元、Peter Schiff 同日喊「假突破」；機構與空頭的同框。",
-              "tweet_id": "2090439623927550317",
-              "file": "audio/2026-08-20/046.mp3"
-            },
-            {
-              "index": 47,
-              "text": "The Kobeissi Letter（@KobeissiLetter）記錄戲劇性：昨日 8:15 十年期美債殖利率 4.68% 時、財政部宣布（回購操作）；債市干預的即時劇場。",
-              "tweet_id": "2090423712549937252",
-              "file": "audio/2026-08-20/047.mp3"
-            },
-            {
-              "index": 48,
-              "text": "Julie Hyman（@juleshyman）回顧 Bessent 的 3-3-3 計劃：3% GDP 增長、3% 赤字比、日增 300 萬桶石油——「進展如何了？」；政策記分板的拷問。",
-              "tweet_id": "2090388568262811949",
-              "file": "audio/2026-08-20/048.mp3"
-            },
-            {
-              "index": 49,
-              "text": "Shaan Puri（@ShaanVP）反諷：「沒事的各位、國家只欠了四十兆而已」；債務數字的黑色幽默。",
-              "tweet_id": "2090200869048565764",
-              "file": "audio/2026-08-20/049.mp3"
-            },
-            {
-              "index": 50,
-              "text": "unusual_whales（@unusual_whales）引 CNN：伊朗已大幅失去對霍爾木茲海峽的控制；地緣風險的能源含義。",
-              "tweet_id": "2090387617569558895",
-              "file": "audio/2026-08-20/050.mp3"
-            },
-            {
-              "index": 51,
-              "text": "Andrew Feldman（@andrewdfeldman）開藥方：內存與算力短缺的簡單解法——「建晶圓廠」的政策決定；Cerebras CEO 的供給側呼籲。",
-              "tweet_id": "2090424864226324496",
-              "file": "audio/2026-08-20/051.mp3"
-            },
-            {
-              "index": 52,
-              "text": "People's Daily（@PDChina）通報：中國首個海水漂浮光伏項目累計發電超 1000 萬度；能源實驗的里程碑。",
-              "tweet_id": "2084474419288625639",
-              "file": "audio/2026-08-20/052.mp3"
-            }
-          ]
-        },
-        {
-          "name": "💻 文化與雜談",
-          "items": [
-            {
-              "index": 53,
-              "text": "Zara Zhang（@zarazhangrui）分享觸動：沒動力時跟 Claude 聊了聊、它的一句話徹底改變了我看待動力的方式；AI 陪伴的真實切片。",
-              "tweet_id": "2090399357145317837",
-              "file": "audio/2026-08-20/053.mp3"
-            },
-            {
-              "index": 54,
-              "text": "martin_casado（@martin_casado）自省：星際 3v3 輸了 4 局、被隊友嫌棄卻沒有回懟；中年玩家的修養時刻。",
-              "tweet_id": "2090330843541807561",
-              "file": "audio/2026-08-20/054.mp3"
-            },
-            {
-              "index": 55,
-              "text": "Liz4SF（@incitafusio）轉述教學實驗：Berkeley 微積分教授面對 1/3 缺課率重新設計課程；大課教育的自救樣本。",
-              "tweet_id": "2090106318732550281",
-              "file": "audio/2026-08-20/055.mp3"
-            },
-            {
-              "index": 56,
-              "text": "Mark Jaquith（@markjaquith）憶當年：LED 燈泡早期採用者、還上過 WSJ——「還記得他們說燈泡能用幾十年嗎」；耐用性承諾的歲月審計。",
-              "tweet_id": "2090150282382475451",
-              "file": "audio/2026-08-20/056.mp3"
-            },
-            {
-              "index": 57,
-              "text": "mitsume（@mitsume_545）以前員工視角看東武鐵道記者會：獨自應對提問的是位天才；危機公關的個人英雄主義。",
-              "tweet_id": "2090374294912319768",
-              "file": "audio/2026-08-20/057.mp3"
-            },
-            {
-              "index": 58,
-              "text": "Zander Whitehurst（@zander_supafast）發設計暴論：「別再把 UI 文字置中了」；設計圈的日常論戰。",
-              "tweet_id": "2090368430914310313",
-              "file": "audio/2026-08-20/058.mp3"
             }
           ]
         },
