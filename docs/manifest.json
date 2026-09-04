@@ -1,344 +1,333 @@
 {
-  "updated_at": "2026-09-04T05:21:50.267927+08:00",
+  "updated_at": "2026-09-04T13:07:49.880536+08:00",
   "dates": [
     {
       "date": "2026-09-04",
-      "generated_at": "2026-09-04T05:21:10.940251+08:00",
+      "generated_at": "2026-09-04T13:07:06.624323+08:00",
       "categories": [
         {
-          "name": "🌠 GPT-6 Astra 正式發布",
+          "name": "🌠 Astra：額度、用例與幕後",
           "items": [
             {
               "index": 1,
-              "text": "OpenAI（@OpenAI）官宣：「This is GPT-6 Astra. 你能在電腦上做的任何事，Astra 都能替你做。而且很快」；等待一週的靴子終於落地。",
-              "tweet_id": "2095595741528125780",
+              "text": "roanoke_gal（@roanoke_gal）曝出用量限制：GPT-6 Pro 的 $200 檔每週僅 200 條消息、$100 檔只有 50 條；轉述數字待官方確認，但稀缺定價的方向明確。",
+              "tweet_id": "2095655684536771003",
               "file": "audio/2026-09-04/001.mp3"
             },
             {
               "index": 2,
-              "text": "OpenAI（@OpenAI）定位宣言：「最智能且最對齊的模型」——在電腦使用、瀏覽、軟件工程、網絡安全與科學上樹立新 SOTA；五大戰場的全面宣示。",
-              "tweet_id": "2095595742975197690",
+              "text": "Ethan Mollick（@emollick）示範真正的知識工作：讓 GPT-6 通讀他數萬封郵件、著作與日曆——組裝出個人畫像；個人數據考古的第一個嚴肅樣本。",
+              "tweet_id": "2095606622055760159",
               "file": "audio/2026-09-04/002.mp3"
             },
             {
               "index": 3,
-              "text": "Sam Altman（@sama）致辭：「GPT-6 Astra 來了。我們希望它開啟新一代的創業、科學發現與建造——我們相信它是世界上最好的模型」；掌門的正式蓋章。",
-              "tweet_id": "2095600005772104059",
+              "text": "Derya Unutmaz（@DeryaTR_）醫學教授實測：一句提示詞讓 Astra 生成 5 分鐘 T 細胞教育影片——「這是我研究了一輩子的細胞」；專家門檻的內容生產民主化。",
+              "tweet_id": "2095659170661904804",
               "file": "audio/2026-09-04/003.mp3"
             },
             {
               "index": 4,
-              "text": "Tibo（@thsottiaux）補充關鍵政策：「正盡可能謹慎且快速地發布——對我們很重要的是帶給所有 Plus 用戶，而不只是頂級方案」；普惠定價的承諾兌現。",
-              "tweet_id": "2095597168816226335",
+              "text": "Kin（@KinGao476942）拆解官方宣傳片：Astra 獨立操作 KiCad 畫 PCB、Unity 搭 3D 城市、Blender 與 FreeCAD 建模；專業軟體全家桶的自動化秀。",
+              "tweet_id": "2095615392874123689",
               "file": "audio/2026-09-04/004.mp3"
             },
             {
               "index": 5,
-              "text": "Greg Brockman（@gdb）發布主線程：「Introducing GPT-6 Astra」；聯合創始人的儀式時刻。",
-              "tweet_id": "2095598855073255644",
+              "text": "Unity（@unity）官方賀電：「感謝展示 Unity 如何與編碼代理協作構建沉浸式 3D 環境」；被展示工具的順水推舟。",
+              "tweet_id": "2095704146452037959",
               "file": "audio/2026-09-04/005.mp3"
             },
             {
               "index": 6,
-              "text": "François Chollet（@fchollet）給出最權威外部數據：ARC-AGI-3 標準 harness 下得 66%——「互動推理問題上的階躍式能力變化」；懷疑論者的罕見背書。",
-              "tweet_id": "2095598451115614371",
+              "text": "Alishba Imran（@alishbaimran_）分享內部視角：入職 OpenAI 後首次參與發布——為 Preparedness 框架新增 3 項評估；安全評估的持續加碼。",
+              "tweet_id": "2095634686106276143",
               "file": "audio/2026-09-04/006.mp3"
             },
             {
               "index": 7,
-              "text": "Theo（@theo）披露內測體驗：「用了幾週——能力前所未見，它能做我從沒想過 LLM 能做的事」；連 Anthropic 鐵粉都轉身。",
-              "tweet_id": "2095596855367455047",
+              "text": "Wenhao Yu（@wyu_nd）研究員發聲：「這是向『能把雄心項目從想法帶到完成』的 AI 邁出的一大步」；一線團隊的定位語。",
+              "tweet_id": "2095596593819074807",
               "file": "audio/2026-09-04/007.mp3"
             },
             {
               "index": 8,
-              "text": "Peter Steinberger（@steipete）曬實績：「幾週來 Astra 主動又好用——vitest、tsx、SwiftPM 上好幾個 PR 是它調試 OpenClaw 時順手找到並修掉的」；主動性的第一手證言。",
-              "tweet_id": "2095600786264973822",
+              "text": "Andrew Curran（@AndrewCurran_）匯總要點：GPT-6 名稱確認、今日限量發布、Brockman 稱已達 AGI、OpenAI 史上最大訓練跑；一條推文的發布備忘錄。",
+              "tweet_id": "2095577282589196323",
               "file": "audio/2026-09-04/008.mp3"
             },
             {
               "index": 9,
-              "text": "Matt Shumer（@mattshumer_）分享首個「holy shit」時刻：讓它在 Unreal Engine 造世界、填滿 Astra 驅動的人類代理讓他們協作；世界模擬的即興演示。",
-              "tweet_id": "2095596175705399482",
+              "text": "Darren（@dtzy_88）確認補償到帳：「Reset 卡已經發了——但我一張都不給 GPT 5.6 Sol 用，好東西留給 Astra」；用戶側的精打細算。",
+              "tweet_id": "2095698506711478295",
               "file": "audio/2026-09-04/009.mp3"
             },
             {
               "index": 10,
-              "text": "Alex Finn（@AlexFinn）轉述發布會：「Brockman 宣稱這是 AGI 時代，Astra 可能是第一個到達的模型」；官方修辭的歷史性升格，聽者自辨。",
-              "tweet_id": "2095581065884909661",
+              "text": "Theo（@theo）徵集問題：「馬上拍 GPT-6 Astra 影片——你們最想知道什麼？」；深度評測的預告。",
+              "tweet_id": "2095686466584334539",
               "file": "audio/2026-09-04/010.mp3"
             },
             {
               "index": 11,
-              "text": "Tibo（@thsottiaux）發布後自問：「我們需要一個新的 AGI 基準了。下一個球門柱移到哪？」；勝利者的幸福煩惱。",
-              "tweet_id": "2095601101701820752",
+              "text": "Tyler Bosmeny（@bosmeny）道出窘境：「終於有了 AGI，卻想不出一個配得上它的提示詞」；能力過剩的甜蜜煩惱。",
+              "tweet_id": "2095610181782798411",
               "file": "audio/2026-09-04/011.mp3"
             },
             {
               "index": 12,
-              "text": "Dan（@DanDr1s）流傳的誇張跑分（ARC-AGI-3 98.6% 等）與 Chollet 官方 66% 相去甚遠；發布日噪音需以官方數據為準。",
-              "tweet_id": "2095578625688924477",
+              "text": "dax（@thdxr）深夜頓悟體：「兄弟們我剛意識到——我就是 AGI，一直都是我」；AGI 話語疲勞的解構式幽默。",
+              "tweet_id": "2095717740367507570",
               "file": "audio/2026-09-04/012.mp3"
             },
             {
               "index": 13,
-              "text": "Sam Altman（@sama）的 2025 年舊推被考古：「GPT-6 將改名 GPT-6-7，不客氣」；預言梗的回收現場。",
-              "tweet_id": "1984025727763935585",
+              "text": "象牙山刘能（@disksing）編發布流程段子：GPT-6 遲遲不上線是因為走不完 GPT-5.6 設計的門禁——環境門、靜態門、編譯門、性能門後還有 consumer gate、race gate；工程師的會心一笑。",
+              "tweet_id": "2095695450762543210",
               "file": "audio/2026-09-04/013.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🔌 發布前夜：史上最大 AI 集體宕機",
-          "items": [
+            },
             {
               "index": 14,
-              "text": "AB Kuai.Dong（@_FORAB）記錄：ChatGPT、Claude、Grok 與 Cursor 同時大規模無法訪問超一小時——「史上最大 AI 集體宕機？」；發布前的詭異靜默。",
-              "tweet_id": "2095530371882582240",
+              "text": "claire vo（@clairevo）自創基準：「Astra 徹底碾壓 Tiny Computer Bench™——成功黑進我在 Amazon 買的蠢玩具電腦」；個人基準時代的俏皮示範。",
+              "tweet_id": "2095625355231142079",
               "file": "audio/2026-09-04/014.mp3"
             },
             {
               "index": 15,
-              "text": "SpaceXAI（@SpaceXAI）致歉：Memphis 計算中心今晨故障影響 Grok 用戶；四家同宕的其中一角有了解釋。",
-              "tweet_id": "2095597264043717014",
+              "text": "Robin Ebers（@robinebers）一句話宣戰：「很高興宣布 GPT-6 Astra 解決了前端」；半開玩笑的職業預言。",
+              "tweet_id": "2095601505764364349",
               "file": "audio/2026-09-04/015.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🛡️ 政策與宏觀",
+          "items": [
             {
               "index": 16,
-              "text": "CJ Avilla（@cjav_dev）確認 Anthropic 側：基礎設施問題導致 Claude Code、API 與 claude.ai 部分宕機；另一角的官方口徑。",
-              "tweet_id": "2095519763581538376",
+              "text": "Emil Michael（@USWREMichael）戰爭部副部長表態：「美國的開放權重/開源是國家安全的當務之急」；開源 AI 的國安敘事登頂。",
+              "tweet_id": "2095707656803790876",
               "file": "audio/2026-09-04/016.mp3"
             },
             {
               "index": 17,
-              "text": "Yam Peleg（@Yampeleg）神吐槽：「gpt-6 發布把整個互聯網幹趴，還挺應景」；宕機與發布的巧合玩梗。",
-              "tweet_id": "2095579433037873452",
+              "text": "Watcher.Guru（@WatcherGuru）報導加美關係：Carney 稱「等美國人準備好了」加拿大就恢復貿易談判；北美貿易的僵持存檔。",
+              "tweet_id": "2095559626729168991",
               "file": "audio/2026-09-04/017.mp3"
             },
             {
               "index": 18,
-              "text": "马天翼（@fkysly）一句話總結：「Claude、Codex、Grok 全掛了，全球生產力停滯了」；AI 依賴度的反向證明。",
-              "tweet_id": "2095530393814675928",
+              "text": "Joseph Wang（@josephwang）解讀 Fed 溝通學：Waller 講清 forward guidance 與 reaction function 的差異——後者告訴市場 Fed 將如何「條件式」行動；央行語言學的實用課。",
+              "tweet_id": "2095493586565427530",
               "file": "audio/2026-09-04/018.mp3"
             },
             {
               "index": 19,
-              "text": "Dane Knecht（@dok2001）澄清：「Cloudflare 目前沒有服務中斷」；排除公共基建嫌疑。",
-              "tweet_id": "2095538619603628388",
+              "text": "Diane Swonk（@DianeSwonk）透露行業氛圍：與 50 位跨行業跨國經濟學家開會（查塔姆守則）；共識醞釀期的側寫。",
+              "tweet_id": "2095558960170283352",
               "file": "audio/2026-09-04/019.mp3"
             },
             {
               "index": 20,
-              "text": "Yong Quan（@yongquanYQ）幸災樂禍：「所有代理都掛了……除了 @DevinAI 🦦」；倖存者的凡爾賽。",
-              "tweet_id": "2095536800966259156",
+              "text": "The Wall Street Journal（@WSJ）爆 Boring Company 融資怪條款：想投資就得幫忙推銷業務；Musk 系公司的另類盡調。",
+              "tweet_id": "2095694455978308056",
               "file": "audio/2026-09-04/020.mp3"
+            },
+            {
+              "index": 21,
+              "text": "Pop Base（@PopBase）報導 GoPro 轉型：與 Starman Optical 合併、進軍 AI 數據中心與國防市場；相機公司的求生記。",
+              "tweet_id": "2095429708657917975",
+              "file": "audio/2026-09-04/021.mp3"
             }
           ]
         },
         {
-          "name": "🤖 生態與代理",
+          "name": "🤖 生態與開源",
           "items": [
             {
-              "index": 21,
-              "text": "OpenClaw（@openclaw）發布 v2026.9.1：Mermaid 圖表加入聊天、安裝流程精簡、更新學會適可而止、長對話更輕——1,186 個 PR、28 個直接提交；風波後的紮實一版。",
-              "tweet_id": "2095574976518816159",
-              "file": "audio/2026-09-04/021.mp3"
-            },
-            {
               "index": 22,
-              "text": "OpenClaw（@openclaw）另宣布 AgentCore Payments GA：代理可用 AWS 插件對付費 API、MCP 服務器做「有界、人類批准」的支付；代理花錢的合規通道打通。",
-              "tweet_id": "2095541230793015684",
+              "text": "Ant Ling（@AntLingAGI）雙開源：金融增強模型 Ling-3.0-flash-Fin + 專家構建的金融搜索代理基準 FinFIRST；垂直領域的模型+評測配套打法。",
+              "tweet_id": "2095533696808051001",
               "file": "audio/2026-09-04/022.mp3"
             },
             {
               "index": 23,
-              "text": "Nous Research（@NousResearch）發布 Hermes Desktop 新功能：一鍵配置本地模型——自動讀硬件、選最佳模型、下載並配置運行時；本地化的最後一公里。",
-              "tweet_id": "2095602995874410664",
+              "text": "Unsloth AI（@UnslothAI）接入 Hermes：Qwen3.8-27B、Qwen3.8-Flash、DeepSeek-V4-Flash 等 GGUF 一鍵本地運行；本地模型的最後一公里再縮短。",
+              "tweet_id": "2095621641888055443",
               "file": "audio/2026-09-04/023.mp3"
             },
             {
               "index": 24,
-              "text": "Nous Research（@NousResearch）發布日玩梗：「突發：Nous Portal 還活著——據報仍以八折供應數百個模型」；宕機日的營銷幽默。",
-              "tweet_id": "2095561055682310638",
+              "text": "0xSero（@0xSero）報數 GLM-5.3-Flash：Agentic Index 第 5、與 GPT-5.6-Sol 打平——「完全開源、8 千美元硬體跑得比 API 還快」；開源性價比的標杆數字。",
+              "tweet_id": "2095512471750496749",
               "file": "audio/2026-09-04/024.mp3"
             },
             {
               "index": 25,
-              "text": "Institute of Foundation Models（@IFM_AI）發布 K2 Horizon：0.9B 到 375B 的六模型互聯艦隊；模型艦隊化的新範式。",
-              "tweet_id": "2095497035806113861",
+              "text": "Inco AI（@inco_ai）公測上線：Kimi K3、MiniMax M3、GLM 5.3 系列的最快推理端點——各榜第一；推理服務商的速度內卷。",
+              "tweet_id": "2095628607737540640",
               "file": "audio/2026-09-04/025.mp3"
             },
             {
               "index": 26,
-              "text": "ClaudeDevs（@ClaudeDevs）預告 Function Hooks：擴展定製 Claude Code 的新方式——「還沒發貨，先看演示」；插件體系的下一步。",
-              "tweet_id": "2095572891941351550",
+              "text": "ComfyUI（@ComfyUI）宣布獨家：成為 MiniMax 生成媒體模型的首個也是唯一商業許可分發方；開源工作流工具的商業化落點。",
+              "tweet_id": "2093100726415507859",
               "file": "audio/2026-09-04/026.mp3"
             },
             {
               "index": 27,
-              "text": "dax（@thdxr）披露驚魂：有人註冊推理服務、與銷售視頻通話確認年花 40 萬美元——實為瘋狂騙局；AI 基建的社工攻擊升級。",
-              "tweet_id": "2095528956468347112",
+              "text": "LinearUncle（@LinearUncle）挖出 Grok Bot 底層：每位用戶獨享一台持久 Firecracker microVM，Namespace 官宣與 Cursor 合作跑雲代理 devboxes；代理基建的技術棧解密。",
+              "tweet_id": "2095437366555251019",
               "file": "audio/2026-09-04/027.mp3"
             },
             {
               "index": 28,
-              "text": "Codez（@0xCodez）再引 Lauren Tan：「20+ GrokBot 代理跑 /loop /goal，睡覺時 bot 還在出貨——SpaceXAI 85% 的工程……」；代理工廠的內部宣傳連載。",
-              "tweet_id": "2095536167399620798",
+              "text": "Flo Crivello（@Altimor）發布 Lindy CC 排程：任何郵件串抄送 lindy@lindy.ai——它找時間、處理往返、發邀請；郵件代理的殺手用例。",
+              "tweet_id": "2095542351137849778",
               "file": "audio/2026-09-04/028.mp3"
             },
             {
               "index": 29,
-              "text": "Paddy Srinivasan（@paddix）重定義標準：「編碼代理的基準不再是回答提示的好壞，而是沒人看著時能否堅守崗位」；無人值守可靠性的命題。",
-              "tweet_id": "2095506850170974362",
+              "text": "Viking（@vikingmute）安利 show-me skill：讓 AI 解釋技術問題時優先畫圖而非堆文字、按問題選圖型；技術溝通的視覺化插件。",
+              "tweet_id": "2095518562261860559",
               "file": "audio/2026-09-04/029.mp3"
             },
             {
               "index": 30,
-              "text": "Context7（@Context7AI）發布 Docs7：自動提供乾淨的代理可讀文檔——原生 WebMCP 與 skills 支持；文檔的代理原生化。",
-              "tweet_id": "2095586624868409756",
+              "text": "神速（@sinsoku_listy）介紹 Forgejo 工作流：本地跑的類 GitHub——在上面給 AI 開 PR；離線代理協作的輕量方案。",
+              "tweet_id": "2095517904100061618",
               "file": "audio/2026-09-04/030.mp3"
             },
             {
               "index": 31,
-              "text": "Ohans Emmanuel（@OhansEmmanuel）開源 pr-lens：「像 Mermaid 但會動、為代理 diff 而生」——JSON 進圖表出；審查可視化的新玩具。",
-              "tweet_id": "2095558450533347706",
+              "text": "Omarchy Mac（@OmarchyMac）發布 v4.0.2：上游安全加固 + 一堆 Apple Silicon 修復（蓋子狀態檢測、ARM 上的 Steam 引導）；Mac 側的快速跟進。",
+              "tweet_id": "2095529777390305786",
               "file": "audio/2026-09-04/031.mp3"
             },
             {
               "index": 32,
-              "text": "James Grugett（@jahooma）宣布 DeepSeek V4 Flash 全球免費：廣告支持的編碼代理 freebuff 內即用；免費模型的商業模式實驗。",
-              "tweet_id": "2095591427627765952",
+              "text": "Ryan Hughes（@ryanrhughes）歡迎新人：kwilczynski 入職 Omarchy 第 0 天已發布 3 個自定義內核構建；開源僱傭的即戰力樣本。",
+              "tweet_id": "2095541053122113905",
               "file": "audio/2026-09-04/032.mp3"
             },
             {
               "index": 33,
-              "text": "Tw93（@HiTw93）分享 Mole 1.13 帳本：11 萬行生產 Swift、7.3 萬行測試、3,347 個用例——「AI 讓我更快，但架構、邊界、回歸仍由我負責」；人機分工的成熟表述。",
-              "tweet_id": "2095514573940064687",
+              "text": "Bun（@bunjavascript）連發性能週報：AsyncLocalStorage 快 13%、啟動再快 1ms；毫秒級較真的品牌人設。",
+              "tweet_id": "2095711586161991985",
               "file": "audio/2026-09-04/033.mp3"
             },
             {
               "index": 34,
-              "text": "Orhun Parmaksız（@orhundev）雙彈：終端 Minecraft 啟動器 alloy + 「LLM 能測試 TUI 嗎」論文（實測 197 個真實 TUI 應用）；終端文化的學術與玩具。",
-              "tweet_id": "2095590151195886029",
+              "text": "Nathan Flurry（@NathanFlurry）押注宣言：「2026 是 Durable Streams 之年」——上 Rivet Actors、純 Rust、SSD+S3 分層存儲；基礎設施的下一個關鍵詞。",
+              "tweet_id": "2095517323738427896",
               "file": "audio/2026-09-04/034.mp3"
-            }
-          ]
-        },
-        {
-          "name": "💰 財經與市場",
-          "items": [
+            },
             {
               "index": 35,
-              "text": "Shaun Maguire（@shaunmmaguire）盤點 VC 戰果：Cursor、OpenRouter、Hugging Face 接連退出——a16z、Thrive、Lux 大勝，Founders Fund 與 Valor「世代級的一週」；風投史的瘋狂七日。",
-              "tweet_id": "2095586039138304411",
+              "text": "Sébastien Chopin（@Atinux）給 Nuxt 做了同款文檔站：「也快得飛起」；LLM 友好文檔的框架接力。",
+              "tweet_id": "2095574200048115976",
               "file": "audio/2026-09-04/035.mp3"
             },
             {
               "index": 36,
-              "text": "Josh Wolfe（@wolfejosh）動情回顧：Brandon 當年拍桌力排眾議投 Clem——「BELIEVE before others UNDERSTAND」；HF 退出的投資人敘事。",
-              "tweet_id": "2095538044887539754",
+              "text": "Guillermo Rauch（@rauchg）曬實習生項目：改進 Next.js chunking 帶來互聯網規模的效率提升；大廠實習的槓桿示範。",
+              "tweet_id": "2095640323892629726",
               "file": "audio/2026-09-04/036.mp3"
             },
             {
               "index": 37,
-              "text": "Scott Wu（@ScottWu46）同行致意：「祝賀 Clem 與整個 HF 團隊——對行業真正重要的工作」；Cognition 掌門的風度。",
-              "tweet_id": "2095576131072307654",
+              "text": "Apify（@apify）進駐 Hermes Agent：pip install 即接入最大工具市場；代理工具分發的渠道擴張。",
+              "tweet_id": "2095479050911309827",
               "file": "audio/2026-09-04/037.mp3"
             },
             {
               "index": 38,
-              "text": "CNN（@cnnbrk）快訊：美國抵押貸款利率飆至年內新高、逼近 7%；Waller 加息暗示後的市場定價。",
-              "tweet_id": "2095545263813173313",
+              "text": "tokoroten（@tokoroten）實測 MuseSpark：「基準上與 Opus5 或 5.6sol 相當、快得離譜」——正測試能否用 DeepSeek/Qwen 逃離 Claude Max20x；用戶遷移的經濟學實驗。",
+              "tweet_id": "2095574861678874921",
               "file": "audio/2026-09-04/038.mp3"
             },
             {
               "index": 39,
-              "text": "Bloomberg（@business）解釋荷蘭黃金遷移：從北美搬往倫敦的數十億美元金條；央行信任投票的後續報導。",
-              "tweet_id": "2095553805400060097",
+              "text": "Tianyi Cui（@tianyi）補充選項：DeepSeek Harness 的 creator mode 已 MIT 開源一段時間；被忽略的開源好物。",
+              "tweet_id": "2095587338894352579",
               "file": "audio/2026-09-04/039.mp3"
             },
             {
               "index": 40,
-              "text": "Bloomberg（@business）報導肯尼亞總統下令驅逐 Tata Chemicals：為關鍵礦產尋找新投資者；資源民族主義的非洲新例。",
-              "tweet_id": "2095553707274272781",
+              "text": "Swair（@swairshah）點名可塑軟體：「LLM 時代我用過唯一好的 malleable software 是 bb」——自己給 codex 加了語音集成；可改性作為軟體品質。",
+              "tweet_id": "2095643295020122216",
               "file": "audio/2026-09-04/040.mp3"
-            },
-            {
-              "index": 41,
-              "text": "The New York Times（@nytimes）媒體震盪：Maria Bartiromo 離開 Fox News；主播時代的又一頁。",
-              "tweet_id": "2095586671362236910",
-              "file": "audio/2026-09-04/041.mp3"
-            },
-            {
-              "index": 42,
-              "text": "Chaitanya Ahuja（@chahuja）宣布加入 DoorDash 新成立的 AI Research 團隊；外賣巨頭的研究野心。",
-              "tweet_id": "2095579951588356597",
-              "file": "audio/2026-09-04/042.mp3"
-            },
-            {
-              "index": 43,
-              "text": "凡人小北（@frxiaobei）付費證言：Readmate「比自己用微信讀書 skill+openclaw 每天推送的一堆文字好看 100 倍」——為優雅 App 把持不住；前日誕生產品的首批口碑。",
-              "tweet_id": "2095550289667555342",
-              "file": "audio/2026-09-04/043.mp3"
-            },
-            {
-              "index": 44,
-              "text": "Tim Hwang（@timhwang）神補刀企業收入集中度：「那 1% 客戶裡，很大一部分收入其實由一位叫 Tokens Georg 的工程師驅動」；統計梗的完美回收。",
-              "tweet_id": "2095544741681074565",
-              "file": "audio/2026-09-04/044.mp3"
             }
           ]
         },
         {
-          "name": "🌐 發布日眾生相",
+          "name": "💰 財經與眾生相",
           "items": [
             {
+              "index": 41,
+              "text": "Vlad Tenev（@vladtenev）描繪 Robinhood 進化：第一代散戶客戶正在積累財富、需求隨之成長；券商的用戶生命週期敘事。",
+              "tweet_id": "2095562064924430622",
+              "file": "audio/2026-09-04/041.mp3"
+            },
+            {
+              "index": 42,
+              "text": "Elon Musk（@elonmusk）發布 Cybercab 技術細節：電機不用稀土金屬、續航不變——「極難做到」；供應鏈去風險的工程宣言。",
+              "tweet_id": "2095720611695759704",
+              "file": "audio/2026-09-04/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "Sunita Rao（@sunrao）現場報數：a16z 的 Grok Bot 女性構建之夜 900+ 人報名、排隊繞街區；代理生態的性別多樣性圖景。",
+              "tweet_id": "2095666355186143699",
+              "file": "audio/2026-09-04/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "Jen（@BackseatVC）復盤 NYC Grokbot 聚會：4 天籌辦、真實提示詞卡片、運營細節在線；社區運營的樣板間。",
+              "tweet_id": "2095513989778186260",
+              "file": "audio/2026-09-04/044.mp3"
+            },
+            {
               "index": 45,
-              "text": "OpenAI Developers（@OpenAIDevs）發布開發者視角：「電腦使用、軟件工程與視覺理解的最強模型——聽聽正在用它的建造者怎麼說」；用例敘事的同步鋪開。",
-              "tweet_id": "2095596020638036311",
+              "text": "Tz（@Tz_2022）追蹤宕機根因傳聞：「元凶是 SpaceXAI 孟菲斯計算中心掛了」；未經官方證實的流傳版本，僅供存檔。",
+              "tweet_id": "2095616489164321239",
               "file": "audio/2026-09-04/045.mp3"
             },
             {
               "index": 46,
-              "text": "Vaibhav Srivastav（@reach_vb）員工視角開箱：「SOTA 電腦使用與軟件工程、數學與科學新突破」——並盛讚「設計團隊做飯了！！」；發布物料的顏值認證。",
-              "tweet_id": "2095596137721868488",
+              "text": "Tibo（@thsottiaux）自嘲流量怪：「傳言我們一掛，其他家要吸收的流量太大就跟著全掛」；級聯故障的江湖說法。",
+              "tweet_id": "2095539247923306771",
               "file": "audio/2026-09-04/046.mp3"
             },
             {
               "index": 47,
-              "text": "angel（@angelbrodin）補充定位：「Astra 標誌著工作、編碼、協作、科學發現與網安的新一代智能」；官方口徑的多聲部。",
-              "tweet_id": "2095593536385065200",
+              "text": "Ahmad（@TheAhmadOsman）獅子哲學：「獅子不關心 GPT-6 Astra，因為他擁有 GPU」；主權算力的梗圖化表達。",
+              "tweet_id": "2095598096608571497",
               "file": "audio/2026-09-04/047.mp3"
             },
             {
               "index": 48,
-              "text": "Kol Tregaskes（@koltregaskes）發布前的最後確認：「GPT-6 confirmed. 『6』」；一個數字的懸念終結。",
-              "tweet_id": "2095529847728820463",
+              "text": "ヤマダ（@yamada_sier）職場快照：「什麼爛 PM——你是 PM 就該真的看懂質量評估報告吧」；工具再強、職責不變的提醒。",
+              "tweet_id": "2095644523737251954",
               "file": "audio/2026-09-04/048.mp3"
             },
             {
               "index": 49,
-              "text": "Dan McAteer（@daniel_mac8）發布前傻問：「有人知道 GPT-6 Astra 發布會幾點開始嗎？」；全網等待的可愛切片。",
-              "tweet_id": "2095566418125156566",
+              "text": "Thomas Ricouard（@Dimillian）言簡意賅：「Codex 又跟我說話了」；服務恢復的最短訃告翻篇。",
+              "tweet_id": "2095536142468669771",
               "file": "audio/2026-09-04/049.mp3"
             },
             {
               "index": 50,
-              "text": "Thomas Ricouard（@Dimillian）宕機恢復瞬間：「Codex 又跟我說話了」；斷聯重逢的真情實感。",
-              "tweet_id": "2095536142468669771",
+              "text": "西脇資哲（@waki）舊話重提：「我早就說過我們根本不需要提示詞——說這話可能招罵，但我說了很久了」；語音與意圖時代的先見存檔。",
+              "tweet_id": "2095650664210894988",
               "file": "audio/2026-09-04/050.mp3"
             },
             {
               "index": 51,
-              "text": "Vercel Developers（@vercel_dev）同日基建更新：Cursor Cloud Agents 進駐 Vercel Sandbox——每請求跑在隔離的 Firecracker microVM、工作池可縮至零；代理運行時的又一選項。",
-              "tweet_id": "2095539540782186829",
+              "text": "サカモト（@sakamoto_582）轉述 Anthropic 觀點：AI 原生開發中，人的代碼審查已從逐行找錯「畢業」、轉向更高層的判斷；審查職能的重新定義。",
+              "tweet_id": "2095367506571809145",
               "file": "audio/2026-09-04/051.mp3"
-            },
-            {
-              "index": 52,
-              "text": "Astro（@astrodotbuild）發布 7.3：preview 的 --ignore-lock、自定義鏡像服務的運行時 logger 等；前端框架的日常補給。",
-              "tweet_id": "2095538796649402509",
-              "file": "audio/2026-09-04/052.mp3"
             }
           ]
         },
