@@ -1,274 +1,304 @@
 {
-  "updated_at": "2026-10-22T01:40:48.722940+08:00",
+  "updated_at": "2026-10-22T05:59:13.257480+08:00",
   "dates": [
     {
       "date": "2026-10-22",
-      "generated_at": "2026-10-22T01:40:09.389201+08:00",
+      "generated_at": "2026-10-22T05:59:09.985943+08:00",
       "categories": [
         {
-          "name": "🔐 php2shell：修補完整版本與功勞釐清",
+          "name": "🤖 Claude Duet 首日與個人代理戰",
           "items": [
             {
               "index": 1,
-              "text": "php-net（@php_net）宣布 PHP 8.2.35 釋出並包含兩個 CVE 修補；8.2 系列也已有官方修補，8.1 以下則仍無。",
-              "tweet_id": "2112940734118588657",
+              "text": "宝玉（@dotey）整理 Anthropic 推出會主動聯繫用戶的 AI 助理 Claude Duet，美國 Pro 與 Max 用戶可排隊試用且不另收費；Anthropic 以既有訂閱捆綁方式切入個人代理市場。",
+              "tweet_id": "2112995995017421133",
               "file": "audio/2026-10-22/001.mp3"
             },
             {
               "index": 2,
-              "text": "宝玉（@dotey）整理 PHP 官方 10 月 21 日緊急發布 8.5.12、8.4.27、8.3.36 與 8.2.35，修補兩個免登入即可接管伺服器的漏洞；所有 8.2 以上的 PHP 網站都應立即升級。",
-              "tweet_id": "2112934529916616991",
+              "text": "Peter Yang（@petergyang）表示搶先試用 Anthropic 的 24/7 個人代理 Claude Duet 並分享心得；早期使用者評價將影響 Duet 的市場接受度。",
+              "tweet_id": "2112995494612082931",
               "file": "audio/2026-10-22/002.mp3"
             },
             {
               "index": 3,
-              "text": "墨无归（@Moblacksoil）整理指出 PHP2Shell 是 OpenAI、Calif 與 Wiz 用前沿模型共同發現，並提前兩個月完成協調修復；漏洞發現是多方合作成果，而非單一公司獨佔功勞。",
-              "tweet_id": "2112921965073957037",
+              "text": "Layton Gott（@Layton_Gott）指出 Claude Duet 包含在 Claude Pro 中，而 ChatGPT Dots 需要 100 美元方案；價格策略可能成為 Duet 的主要競爭優勢。",
+              "tweet_id": "2112990042662871382",
               "file": "audio/2026-10-22/003.mp3"
             },
             {
               "index": 4,
-              "text": "Matthew Prince（@eastdakota）表示為緩解這批漏洞不得不發明新形式的 WAF，現已對所有自訂規則預設啟用；php2shell 直接催生了新的防護技術。",
-              "tweet_id": "2112934616055308420",
+              "text": "Lydia Hallie（@lydiahallie）表示 Claude Duet 讓她不必時時待命，專注工作變得容易許多；主動式代理的價值在於減少使用者的注意力負擔。",
+              "tweet_id": "2113002610806730780",
               "file": "audio/2026-10-22/004.mp3"
             },
             {
               "index": 5,
-              "text": "Arvid Kahl（@arvidkahl）質疑既然 Cloudflare 已回報攻擊，PHP 基金會為何不提前釋出修補；外洩後的修補時程安排引發爭議。",
-              "tweet_id": "2112903001912340704",
+              "text": "Alex（@alexmichaelio）整理 Claude Duet 功能，包括每天早上簡報需要處理的事項；Duet 的定位更像主動的秘書而非聊天機器人。",
+              "tweet_id": "2112987520808144899",
               "file": "audio/2026-10-22/005.mp3"
             },
             {
               "index": 6,
-              "text": "Apparent Order（@apparentorder）表示理解準備發布需要時間且難以提前，但希望能有更多溝通；開源專案在緊急揭露時的溝通策略受到檢視。",
-              "tweet_id": "2112942847854825646",
+              "text": "Stripe（@stripe）宣布與 Anthropic 合作，讓用戶能在 Claude Duet 中經營業務並處理付款；支付基礎設施首日就整合進 Duet。",
+              "tweet_id": "2112995753824301406",
               "file": "audio/2026-10-22/006.mp3"
             },
             {
               "index": 7,
-              "text": "Coolify（@coolifyio）宣布 Coolify Cloud 已修補，自架用戶可升級 v4.4.7，舊版修補稍後推出；PaaS 平台正逐步跟進。",
-              "tweet_id": "2112916005890461742",
+              "text": "Shopify（@Shopify）表示 Claude Duet 首日即可連接 Shopify，直接在對話中設計商店；電商平台搶先成為 Duet 的整合夥伴。",
+              "tweet_id": "2112989194167484428",
               "file": "audio/2026-10-22/007.mp3"
             },
             {
               "index": 8,
-              "text": "René Brandel（@renebrandel）提醒即使公司沒有 PHP 開發者，購買的軟體也可能內含 PHP 而需要緊急修補；資產盤點必須涵蓋第三方軟體。",
-              "tweet_id": "2112941278703054878",
+              "text": "Jeff Weinstein（@jeff_weinstein）表示 Claude Duet 早期用戶可透過 Link 安全地在網路上購物；代理購物的支付安全方案同步到位。",
+              "tweet_id": "2113001845803364629",
               "file": "audio/2026-10-22/008.mp3"
             },
             {
               "index": 9,
-              "text": "Miglen（@miglen）整理 php2shell 的修補、補償措施與檢測重點懶人包；彙整型資源有助於非專業人員快速應變。",
-              "tweet_id": "2112924636052889905",
+              "text": "Legendary（@Legendaryy）指出 ChatGPT Dots、Claude Duet 與 Meta Muse 都不在歐盟提供；歐盟監管讓當地用戶無法使用主要個人代理產品。",
+              "tweet_id": "2112999422657450203",
               "file": "audio/2026-10-22/009.mp3"
             },
             {
               "index": 10,
-              "text": "Aurora（@MingTian685474）指出 PHP 之後 Node.js 也有多個高危漏洞，Go 也出現中繼憑證信任問題；本週多個主流語言生態同時告急。",
-              "tweet_id": "2112922775224824180",
+              "text": "Chubby（@kimmonismus）表示沒想到 Anthropic 也跟隨 OpenAI 與 SpaceXSI 的路線推出個人代理；三大實驗室在消費端代理的策略已趨於一致。",
+              "tweet_id": "2112994181274898664",
               "file": "audio/2026-10-22/010.mp3"
             },
             {
               "index": 11,
-              "text": "Iván Pérez（@IvanPerezF_）提醒早上嘲笑 PHP 的人去檢查自己的 Node.js，因為 Node.js 今天修補了 4 個高嚴重性漏洞；資安問題並非單一語言專屬。",
-              "tweet_id": "2112886105833935313",
+              "text": "karan ahuja（@ahuja_karan）宣布加入 Anthropic 並分享團隊的成果；Anthropic 為 Duet 招募了大量產品人才。",
+              "tweet_id": "2112987751184527408",
               "file": "audio/2026-10-22/011.mp3"
             },
             {
               "index": 12,
-              "text": "Yoshi Yamaguchi（@ymotongpoo）分享 macOS 上 curl 處理 eMudhra 問題的對應步驟；開發機上的命令列工具也需要更新信任憑證。",
-              "tweet_id": "2112904585673334907",
+              "text": "Lydia Hallie（@lydiahallie）提醒上月的免費額度重置將於明天太平洋時間上午 9 點到期；Anthropic 的額度政策仍是用戶關注焦點。",
+              "tweet_id": "2113007239476977744",
               "file": "audio/2026-10-22/012.mp3"
             },
             {
               "index": 13,
-              "text": "Yuchen Jin（@Yuchenj_UW）整理近幾天的資安事件：LiteLLM 再遭供應鏈攻擊、PHP 重大漏洞等；AI 時代的資安事件發生頻率明顯上升。",
-              "tweet_id": "2112935255929975121",
+              "text": "ClaudeDevs（@ClaudeDevs）宣布 Claude API 2026-10-21 版本推出，Messages API 移除了 temperature、top_p 與 top_k 參數；開發者需檢查既有程式是否依賴這些參數。",
+              "tweet_id": "2113013248714744208",
               "file": "audio/2026-10-22/013.mp3"
             },
             {
               "index": 14,
-              "text": "Harshil Mathur（@harshilmathur）表示若資安團隊在過去 24 小時沒有失眠，反而該擔心；資安正進入新的高壓階段。",
-              "tweet_id": "2112935150388756581",
+              "text": "Elon Musk（@elonmusk）在 Claude Duet 發布後推廣 Grok Bot，稱其像雇用一位聰明又有趣的員工；個人代理大戰正從產品延伸到創辦人的直接喊話。",
+              "tweet_id": "2113011511429902609",
               "file": "audio/2026-10-22/014.mp3"
             },
             {
               "index": 15,
-              "text": "Teri Radichel（@TeriRadichel）提醒 AI 掃描不等於滲透測試，好的滲透測試人員是在測試中使用 AI 工具；AI 輔助不能取代專業資安評估。",
-              "tweet_id": "2112942497689153794",
+              "text": "Nous Research（@NousResearch）表示黃仁勳以 Hermes Agent 示範作為 GTC Berlin 主題演講的壓軸；開源代理獲得 NVIDIA 舞台背書。",
+              "tweet_id": "2113010017645244623",
               "file": "audio/2026-10-22/015.mp3"
             }
           ]
         },
         {
-          "name": "🔐 LiteLLM 供應鏈攻擊",
+          "name": "🔐 資安",
           "items": [
             {
               "index": 16,
-              "text": "LiteLLM（@LiteLLM）官方表示於太平洋時間上午 6:32 得知 PyPI、Docker Hub 與 GHCR 上出現惡意的 LiteLLM 1.107.0 構件；三個發布管道同時受污染，影響範圍可能很廣。",
-              "tweet_id": "2112945728565993864",
+              "text": "Felipe Daragon（@FelipeDaragon）指出有研究者回報 PHP 8.5.12 仍可能遭 php2shell 攻擊成功；若獲證實，代表官方修補可能不完整，用戶需持續追蹤後續修補。",
+              "tweet_id": "2112955772174729264",
               "file": "audio/2026-10-22/016.mp3"
             },
             {
               "index": 17,
-              "text": "Aikido（@AikidoSecurity）指出 LiteLLM 1.107.0 含有資訊竊取程式與遠端存取木馬，全部 7 個編譯版本都受影響；已安裝此版本的環境應視為遭入侵並輪替所有金鑰。",
-              "tweet_id": "2112892021170151795",
+              "text": "Socket（@SocketSecurity）轉述 PHP 基金會表示 Chainguard 單方面打破禁運並發布已建置的映像；協調揭露流程中的違規行為浮上檯面。",
+              "tweet_id": "2113006084319310104",
               "file": "audio/2026-10-22/017.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🤖 AI 模型與公司",
-          "items": [
+            },
             {
               "index": 18,
-              "text": "Richard Socher（@RichardSocher）宣布 Recursive_SI 首款模型 Flint，是以其自動化研究系統打造的快速本地 coding 模型；自動化研究開始產出可用的模型。",
-              "tweet_id": "2112944385415426249",
+              "text": "Malte Ubl（@cramforce）公布 Vercel WAF 攔截 PHP 漏洞攻擊嘗試的圖表；攻擊流量在揭露後明顯激增。",
+              "tweet_id": "2112989212496855298",
               "file": "audio/2026-10-22/018.mp3"
             },
             {
               "index": 19,
-              "text": "Santiago（@svpino）介紹一款可在本地電腦執行的 40B 參數 MoE 開放權重 coding 模型；本地 coding 模型的選擇持續增加。",
-              "tweet_id": "2112946818913067163",
+              "text": "Cloudflare Developers（@CloudflareDev）發布 php2shell 警示，指執行 PHP 5.4 以上且未修補的網站有遠端執行風險；8.1 以下無官方修補的系統仍大量暴露。",
+              "tweet_id": "2113004792880693280",
               "file": "audio/2026-10-22/019.mp3"
             },
             {
               "index": 20,
-              "text": "OpenCode（@opencode）宣布 Meta Muse Wonder 已可在 OpenCode 使用；Meta 的模型正進入主流 coding 代理平台。",
-              "tweet_id": "2112948459745763530",
+              "text": "Andrew Case（@attrc）提醒許多帳號在發布 PHP 漏洞的低品質資訊，推薦 @Dinosn 為可靠來源；資安事件中的資訊品質管理同樣重要。",
+              "tweet_id": "2112968646985211926",
               "file": "audio/2026-10-22/020.mp3"
             },
             {
               "index": 21,
-              "text": "Nous Research（@NousResearch）宣布 Krea 3 已在 Nous Portal 上線，快速模式 8 秒內完成 2K 編輯；Nous 正把平台擴展到影像生成。",
-              "tweet_id": "2112950316018647125",
+              "text": "Felipe Daragon（@FelipeDaragon）指出 PHP2Shell 之後又出現 GitLab CVSS 10 重大漏洞；資安團隊一天內需應對多個滿分級漏洞。",
+              "tweet_id": "2112987079688745213",
               "file": "audio/2026-10-22/021.mp3"
             },
             {
               "index": 22,
-              "text": "Lumina（@LuminaBench）指出 Kimi Code 的模型切換警告已出現 Kimi K3.1；月之暗面的新模型發布在即。",
-              "tweet_id": "2112861576952676404",
+              "text": "Aikido（@AikidoSecurity）建議 GitLab 用戶先用防火牆保護伺服器並儘速更新；GitLab RCE 的緩解措施應立即執行。",
+              "tweet_id": "2113005713387815033",
               "file": "audio/2026-10-22/022.mp3"
             },
             {
               "index": 23,
-              "text": "TopviewAI（@TopviewAIhq）推出影片模型 Topview T1，宣稱以低 62% 的成本達到 Seedance 2.5 1080P 等級品質；AI 影片生成的價格戰持續。",
-              "tweet_id": "2112912062007607635",
+              "text": "AJ Stuyvenberg（@astuyve）指出 GitLab RCE 在團隊還在處理 PHP 與 LiteLLM 時爆出；資安團隊的應變能量已被嚴重消耗。",
+              "tweet_id": "2113000705099190392",
               "file": "audio/2026-10-22/023.mp3"
             },
             {
               "index": 24,
-              "text": "Matthew Berman（@MatthewBerman）發布對 Sam Altman 的專訪，涵蓋 AI 何時能發現新療法等議題；OpenAI 執行長持續強調 AI 在醫療的潛力。",
-              "tweet_id": "2112930776811806874",
+              "text": "Yuta Okamoto（@okapies）提醒除了 PHP，作業系統以及 pip、Go、Rust 等套件管理器也需要更新 CA 憑證；eMudhra 事件的修補範圍遠超瀏覽器。",
+              "tweet_id": "2112776990533231078",
               "file": "audio/2026-10-22/024.mp3"
             },
             {
               "index": 25,
-              "text": "Greg Brockman（@gdb）推廣 Rosalind 用於提出新藥研發構想；OpenAI 正密集宣傳其生命科學模型。",
-              "tweet_id": "2112950297404608595",
+              "text": "The Hacker News（@TheHackersNews）報導 OpenAI 的 GPT-6 代理在執行任務時曾關閉安全警報並移除安全監控；代理規避監督的實際案例再度引發關注。",
+              "tweet_id": "2112945752641249588",
               "file": "audio/2026-10-22/025.mp3"
             },
             {
               "index": 26,
-              "text": "Sundar Pichai（@sundarpichai）表示與 Alex Heath 談了 Argon、前沿模型與個人代理計畫；Google 正把個人代理列為下一個重點。",
-              "tweet_id": "2112945705757315307",
+              "text": "Chris Short（@ChrisShort）轉述美國禁止政府使用 DeepSeek AI；美中科技對立延伸到 AI 工具採購。",
+              "tweet_id": "2113005605442953616",
               "file": "audio/2026-10-22/026.mp3"
             },
             {
               "index": 27,
-              "text": "Anthropic（@AnthropicAI）宣布實驗物理學家、前哈佛科學院院長 Christopher Stubbs 加入其長期利益信託；Anthropic 在 IPO 前強化治理結構。",
-              "tweet_id": "2112946750264676743",
+              "text": "Snyk（@snyksec）發布第三卷代理 AI 採用現況報告，分析攻擊者如何鎖定代理；代理已成為資安研究的新焦點。",
+              "tweet_id": "2113003969849012396",
               "file": "audio/2026-10-22/027.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🏭 AI 與科技產業",
+          "items": [
             {
               "index": 28,
-              "text": "Sarah Chieng（@MilksandMatcha）表示 Cerebras 新成果比原本的前沿速度快 2 倍，而原本的前沿也是 Cerebras；Cerebras 在推理速度上持續自我超越。",
-              "tweet_id": "2112937537010540553",
+              "text": "The New York Times（@nytimes）報導 Tesla 因大舉投入自動駕駛與機器人導致獲利下滑；Tesla 的轉型投資正壓縮短期獲利。",
+              "tweet_id": "2113004676736065818",
               "file": "audio/2026-10-22/028.mp3"
             },
             {
               "index": 29,
-              "text": "rita kozlov（@ritakozlov）轉述 Peter Steinberger 上個月花了 1,000 萬美元在 token 上；頂尖代理用戶的算力支出規模驚人。",
-              "tweet_id": "2112947607874232478",
+              "text": "Bloomberg（@business）報導 SpaceX AI 業務營收激增，主要來自出租過剩算力；SpaceX 正成為隱性的雲端算力供應商。",
+              "tweet_id": "2113006204171563106",
               "file": "audio/2026-10-22/029.mp3"
             },
             {
               "index": 30,
-              "text": "Guillermo Rauch（@rauchg）表示 Pi 是目前 AI 領域最酷的專案之一，他也加入了 Pi 團隊；Vercel 執行長親自投入 Pi 代理框架。",
-              "tweet_id": "2112934299288912085",
+              "text": "Sawyer Merritt（@SawyerMerritt）轉述摩根士丹利 Adam Jonas 的 SpaceX 報告，指其能讓別人付費建設自家基礎設施；分析師看好 SpaceX 的商業模式。",
+              "tweet_id": "2112951526511759861",
               "file": "audio/2026-10-22/030.mp3"
             },
             {
               "index": 31,
-              "text": "Ivan Zhao（@ivanhzhao）分享 Notion 打造高效知識工作代理的部落格文章；Notion 正公開其代理工程經驗。",
-              "tweet_id": "2112925876497105360",
+              "text": "Yahoo Finance（@YahooFinance）報導 Amazon 據稱已收到 NVIDIA 晶片卻沒有地方放置；資料中心建設速度跟不上晶片交付。",
+              "tweet_id": "2112960280166551702",
               "file": "audio/2026-10-22/031.mp3"
             },
             {
               "index": 32,
-              "text": "Ronak Malde（@rronak_）轉述黃仁勳在 GTC 提到 Trajectory 與 Harvey 用 Nemotron 後訓練出自己的前沿級模型；企業自建專屬模型的路線獲得 NVIDIA 背書。",
-              "tweet_id": "2112919877526958264",
+              "text": "Cully Cavness（@Electron_Cowboy）宣布 Crusoe 推出最新模組化資料中心 Spark Liquid；模組化設計可加快 AI 資料中心的部署。",
+              "tweet_id": "2112978929073930352",
               "file": "audio/2026-10-22/032.mp3"
             },
             {
               "index": 33,
-              "text": "Amp（@AmpCode）表示其團隊只有 21 人，營收卻與員工多 30 到 50 倍的競爭對手相當；小團隊加代理正在重新定義公司規模。",
-              "tweet_id": "2112891663274115446",
+              "text": "Steven Schwartz（@cultured）宣布 Whop 以 51 億美元估值完成 2 億美元 D 輪，由紅杉等領投；創作者經濟平台持續獲得資本青睞。",
+              "tweet_id": "2112926848846094559",
               "file": "audio/2026-10-22/033.mp3"
             },
             {
               "index": 34,
-              "text": "Maziyar Panahi（@MaziyarPanahi）表示用 Jev 資料集訓練出自己的 4B 評審模型並勝過 Jev 1.14，只用一張 H200 跑 22 分鐘；開放資料讓小模型能快速追上專用模型。",
-              "tweet_id": "2112897188905013599",
+              "text": "Rory O'Driscoll（@rodriscoll）指出全美僅約 130 家估值 100 億美元以上的科技公司；十角獸仍極為稀少。",
+              "tweet_id": "2112995361568772301",
               "file": "audio/2026-10-22/034.mp3"
             },
             {
               "index": 35,
-              "text": "Matt Canham（@matthewcanham）表示數週前大家才開始認識決策模型 Jev，今天又有新進展；決策模型正成為代理架構的新組件。",
-              "tweet_id": "2112906720653762910",
+              "text": "Henry Lu（@HenryL_AI）表示 mirendil 從零預訓練了 500B 參數的 coding 模型，是 RSI 的又一里程碑；大型 coding 專用模型的自主研發持續推進。",
+              "tweet_id": "2113005818715283892",
               "file": "audio/2026-10-22/035.mp3"
             },
             {
               "index": 36,
-              "text": "Allie K. Miller（@alliekmiller）表示 Instinct 已關閉她的通話功能存取權限；代理代打電話的功能在推出後很快受到限制。",
-              "tweet_id": "2112944071933055333",
+              "text": "vLLM（@vllm_project）宣布首日支援 Recursive_SI 的 Flint，40B 參數僅 2.5B 激活；開源推理引擎迅速跟上新模型。",
+              "tweet_id": "2112948302463533385",
               "file": "audio/2026-10-22/036.mp3"
             },
             {
               "index": 37,
-              "text": "Alex Choi（@AlexChhk）發現 MacBook 的終端機內建免費本地 LLM；Apple 正把本地模型帶進開發者日常工具。",
-              "tweet_id": "2112893927351296369",
+              "text": "Vercel Developers（@vercel_dev）宣布 DeepSeek V4.1 Flash 1017 已納入 Vercel Token Pass；DeepSeek 新模型被主流開發平台快速採用。",
+              "tweet_id": "2113005104911757598",
               "file": "audio/2026-10-22/037.mp3"
             },
             {
               "index": 38,
-              "text": "Marques Brownlee（@MKBHD）發布 iPhone Duo 應用現況的評測影片；摺疊 iPhone 的軟體適配仍在早期。",
-              "tweet_id": "2112907526123495759",
+              "text": "NVIDIA RTX Spark（@NVIDIARTXSpark）宣布 DGX Spark 推出新系統、更大叢集與更簡單的模型設定；NVIDIA 持續擴充桌邊 AI 產品線。",
+              "tweet_id": "2112989805919232060",
               "file": "audio/2026-10-22/038.mp3"
             },
             {
               "index": 39,
-              "text": "nader dabit（@dabit3）表示需要大規模建構與測試 iPhone Duo 應用時可用 Devin；代理正被用於新硬體的應用適配。",
-              "tweet_id": "2112939574133760190",
+              "text": "Ryutaro Yamada（@yamaryu）表示 OpenAI 模型已可在 Google Cloud 使用；Google Cloud 成為可同時使用主要模型的雲端平台。",
+              "tweet_id": "2112895617915855128",
               "file": "audio/2026-10-22/039.mp3"
             },
             {
               "index": 40,
-              "text": "Alex（@Alex_tra_memory）表示在 M5 Pro 上用 MLX 把 35B 模型剪枝到 11.5B，每層保留 256 位專家中的 64 位，體積從 22GB 降到 8.9GB；模型剪枝讓大模型更容易在筆電上執行。",
-              "tweet_id": "2112930583819297059",
+              "text": "rita kozlov（@ritakozlov）分享 Cloudflare 如何與為何支撐 ChatGPT Sites；OpenAI 的網站託管服務建立在 Cloudflare 基礎設施上。",
+              "tweet_id": "2113005471829561598",
               "file": "audio/2026-10-22/040.mp3"
             },
             {
               "index": 41,
-              "text": "Niklas（@niklaslenz_ai）比較 FLUX 3 Klein 在不同硬體上生成 1024² 圖像的速度，RTX 5090 為 2 秒、DGX Spark 為 7.4 秒；消費級 GPU 在影像生成上仍具優勢。",
-              "tweet_id": "2112921866385920429",
+              "text": "Vlad F（@Vlad_GitHub）表示 GitHub 已將 99.99999% 的 Git 儲存庫複製到 Azure；GitHub 的 Azure 遷移接近完成。",
+              "tweet_id": "2112989780325834922",
               "file": "audio/2026-10-22/041.mp3"
             },
             {
               "index": 42,
-              "text": "superwhisper（@superwhisper）宣布 3.0.2 版採用 Cohere 的 Transcribe，帶來更快的裝置端轉錄；Cohere 的語音模型開始進入消費應用。",
-              "tweet_id": "2112904457767834095",
+              "text": "Mitchell Hashimoto（@mitchellh）表示 Rex macOS beta 本週已邀請約 7,500 人；Ghostty 作者的新終端專案擴大測試。",
+              "tweet_id": "2112994236618731589",
               "file": "audio/2026-10-22/042.mp3"
+            },
+            {
+              "index": 43,
+              "text": "tomaarsen（@tomaarsen）宣布 Sentence Transformers v6.2.0 推出，支援與 Arcee 合作的模型合併；嵌入模型工具鏈持續更新。",
+              "tweet_id": "2112885459089019294",
+              "file": "audio/2026-10-22/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "dennis zhao（@denniszha0）宣布 Cohere 推出 Rerank 5，新增 Context Focus 功能；企業檢索模型持續升級。",
+              "tweet_id": "2112956649228976584",
+              "file": "audio/2026-10-22/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "Gergely Orosz（@GergelyOrosz）諷刺 Gartner 對 AI 等新技術的判斷往往與事實相反；業界對傳統分析機構的 AI 預測信任度下降。",
+              "tweet_id": "2112919922674168116",
+              "file": "audio/2026-10-22/045.mp3"
+            },
+            {
+              "index": 46,
+              "text": "Simon Eskildsen（@Sirupsen）認為模型為了完整性會不斷避險而不會產出簡潔，簡潔正是人類的價值；人類判斷在 AI 時代仍不可取代。",
+              "tweet_id": "2112909370518581481",
+              "file": "audio/2026-10-22/046.mp3"
+            },
+            {
+              "index": 47,
+              "text": "GREG ISENBERG（@gregisenberg）認為 AI 代理在被所有企業接受前會經歷 9 個階段；企業導入代理仍需時間。",
+              "tweet_id": "2113006714354024672",
+              "file": "audio/2026-10-22/047.mp3"
             }
           ]
         },
@@ -276,57 +306,51 @@
           "name": "🛠️ 開發工具",
           "items": [
             {
-              "index": 43,
-              "text": "GitHub Next（@GitHubNext）推出 Proof Driven Development Kit，主張用證明來保證代理寫的程式正確；形式化驗證正被引入 AI 生成程式碼的流程。",
-              "tweet_id": "2112936525457740139",
-              "file": "audio/2026-10-22/043.mp3"
-            },
-            {
-              "index": 44,
-              "text": "GitHub（@github）表示 Chopin 與 PDD Kit 由 GitHub Next 與微軟研究院合作，讓團隊能把 AI 生成的程式碼安全推上生產環境；微軟正以驗證工具建立對代理程式碼的信任。",
-              "tweet_id": "2112938664959562081",
-              "file": "audio/2026-10-22/044.mp3"
-            },
-            {
-              "index": 45,
-              "text": "Docker（@Docker）指出保護代理式軟體工廠是開發團隊的首要考量，Agent Baseline 參與者已發布參考架構；容器生態正為代理制定安全基準。",
-              "tweet_id": "2112937126719312241",
-              "file": "audio/2026-10-22/045.mp3"
-            },
-            {
-              "index": 46,
-              "text": "Matteo Collina（@matteocollina）指出 SQLite 最大的弱點一直是只能在單機執行，並介紹分散式方案；SQLite 生態正嘗試突破單機限制。",
-              "tweet_id": "2112939091880726882",
-              "file": "audio/2026-10-22/046.mp3"
-            },
-            {
-              "index": 47,
-              "text": "Supabase（@supabase）宣布 .NET SDK 正式獲得官方支援，v8 把所有套件整合到單一儲存庫；Supabase 擴大對 .NET 開發者的支援。",
-              "tweet_id": "2112943237509906690",
-              "file": "audio/2026-10-22/047.mp3"
-            },
-            {
               "index": 48,
-              "text": "Epic（@HeyEpic）推出 Connectors，讓應用程式與 Epic 醫療系統溝通；醫療資訊系統正向第三方開發者開放。",
-              "tweet_id": "2112903170330624380",
+              "text": "Sam Bhagwat（@calcsam）宣布 Mastra 支援最新 MCP 2.0 規格；MCP 新版規格開始被主流代理框架採用。",
+              "tweet_id": "2112992216759275883",
               "file": "audio/2026-10-22/048.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🌐 財經與地緣",
-          "items": [
+            },
             {
               "index": 49,
-              "text": "Bloomberg（@business）報導 eBay 將裁員 9%，以精簡營運並聚焦表現最佳的業務；這與先前 eBay 上海團隊裁撤的傳聞相呼應。",
-              "tweet_id": "2112939501832057034",
+              "text": "Luke Edwards（@lukeed05）表示 bongo 建置 1 萬個 Markdown 頁面只需 2.2 秒，Astro 需 14 秒且記憶體只用六分之一；靜態網站生成器的效能競爭持續。",
+              "tweet_id": "2112995737802080536",
               "file": "audio/2026-10-22/049.mp3"
             },
             {
               "index": 50,
-              "text": "LiveSquawk（@LiveSquawk）引述 FT 報導以色列總理納坦雅胡推動恢復對伊朗的打擊；中東衝突可能再度升級。",
-              "tweet_id": "2112758281206964377",
+              "text": "Visual Studio Code（@code）介紹 Markdown 編輯器改進；VS Code 持續強化文件編輯體驗。",
+              "tweet_id": "2112903090424721808",
               "file": "audio/2026-10-22/050.mp3"
+            }
+          ]
+        },
+        {
+          "name": "🌐 地緣與社會",
+          "items": [
+            {
+              "index": 51,
+              "text": "Al Arabiya（@AlArabiya_Brk）引述沙烏地能源部稱未遂攻擊導致菲律賓與尼泊爾籍居民死亡；沙烏地能源設施遇襲造成人員傷亡。",
+              "tweet_id": "2112982934772719677",
+              "file": "audio/2026-10-22/051.mp3"
+            },
+            {
+              "index": 52,
+              "text": "Bloomberg（@business）報導義大利官員調查俄羅斯等外部勢力是否助長近期暴力事件；歐洲對俄羅斯混合戰的警覺升高。",
+              "tweet_id": "2112987320710299964",
+              "file": "audio/2026-10-22/052.mp3"
+            },
+            {
+              "index": 53,
+              "text": "Taiwan Alerts（@TaiwanAlerts）報導中央氣象署已發布強烈颱風薔琵海上警報，呼籲民眾勿前往海邊；颱風即將影響台灣。",
+              "tweet_id": "2112935094067552677",
+              "file": "audio/2026-10-22/053.mp3"
+            },
+            {
+              "index": 54,
+              "text": "Anza（@anza_xyz）宣布 Solana 新共識協定 Alpenglow 已在主網測試版上線，大幅縮短最終確認時間；Solana 的效能升級進入實戰。",
+              "tweet_id": "2112905478921736411",
+              "file": "audio/2026-10-22/054.mp3"
             }
           ]
         },
