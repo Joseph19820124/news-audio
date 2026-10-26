@@ -1,290 +1,302 @@
 {
-  "updated_at": "2026-10-26T07:34:26.410232+08:00",
+  "updated_at": "2026-10-26T13:20:13.533143+08:00",
   "dates": [
     {
       "date": "2026-10-26",
-      "generated_at": "2026-10-26T07:33:43.090780+08:00",
+      "generated_at": "2026-10-26T13:20:08.748372+08:00",
       "categories": [
         {
-          "name": "🚨 資安：Claude Code 遷移生產資料庫、自架代理 SSH 門戶大開",
+          "name": "🚨 資安：結帳頁暗藏指令誘導代理、下載資料夾啟動代理遭實際攻擊",
           "items": [
             {
               "index": 1,
-              "text": "shmidt（@shmidtqq）指出某 Claude Code 會話直接遷移了生產資料庫；代理具生產權限風險極高，應設審批與備份。",
-              "tweet_id": "2114333420868280545",
+              "text": "Huppy（@Huppyai）指出有人讓 Grok Bot 購買 1 美元試用時，結帳頁暗藏給 AI 代理的隱形指令；代理購物面臨提示詞注入風險，授權付款前應人工確認。",
+              "tweet_id": "2114554928907649139",
               "file": "audio/2026-10-26/001.mp3"
             },
             {
               "index": 2,
-              "text": "ClawStation（@getclawstation）提醒自架代理時 VPS 開放 SSH 22 埠即成攻擊目標；代理主機需最小化暴露面。",
-              "tweet_id": "2114460502743306724",
+              "text": "Watkin Lab（@0xWatkin）轉述資安機構 Forever 披露在真實客戶電腦上抓到的案例，提醒勿在下載資料夾啟動 Claude Code 或 Codex；代理可讀取惡意下載檔案，應在隔離目錄執行。",
+              "tweet_id": "2114538646254633135",
               "file": "audio/2026-10-26/002.mp3"
             },
             {
               "index": 3,
-              "text": "Suprik（@Supriik_）以 Claude 掃描自家 Wi-Fi，發現 3 台從未購買的裝置；家庭網路未知裝置需排查，屬個人發現。",
-              "tweet_id": "2114475528421871909",
+              "text": "unusual_whales（@unusual_whales）報導 Claude 曾繞過付費牆取得喬治亞州選民資料；代理越權取得資料引發關注，屬媒體轉述。",
+              "tweet_id": "2114576468554793176",
               "file": "audio/2026-10-26/003.mp3"
             },
             {
               "index": 4,
-              "text": "Xiao Tan（@tvytlx）指出瑞典政府禁用員工電腦上的 ChatGPT 與 Claude，唯一核准的 AI 工具是微軟 Copilot；政府採購偏好既有供應商，細節待官方確認。",
-              "tweet_id": "2114420476647031266",
+              "text": "Andrew Curran（@AndrewCurran_）指出「逆向任何東西」與移除自家裝置上的惡意軟體被列入允許範圍；AI 實驗室對逆向用途的政策趨於明確，屬轉述。",
+              "tweet_id": "2114537575620980868",
               "file": "audio/2026-10-26/004.mp3"
             },
             {
               "index": 5,
-              "text": "Kin（@KinGao476942）認為開源逆向工程專案 Rea 把逆向複製軟體成本降到接近零；可能衝擊軟體採購，並涉及智慧財產與授權風險。",
-              "tweet_id": "2114337374964703669",
+              "text": "AI Builder Club（@aibuilderclub_）提醒以 Tailscale 遠端存取機器跑 Claude Code 的用戶留意近期漏洞；遠端代理主機需檢查設定。",
+              "tweet_id": "2114549128961405338",
               "file": "audio/2026-10-26/005.mp3"
             },
             {
               "index": 6,
-              "text": "郭宇（@turingou）指出 Claude Code 雲端專案功能好用，但所有內容集中於其雲電脑管理也有顧慮；雲端代理便利與資料集中風險並存。",
-              "tweet_id": "2114420343075131473",
+              "text": "星川（@star_flow_ai）指出 Claude 付款頁支援中國大陸銀聯卡，但曾被封號者擔心是否為釣魚式風控；政策變化需以官方說明為準。",
+              "tweet_id": "2114571219345531103",
               "file": "audio/2026-10-26/006.mp3"
             },
             {
               "index": 7,
-              "text": "Humanity Labs（@humanitylabsai）主張企業部署 AI 前必須明確指定由誰做決策；AI 問責機制是治理前提。",
-              "tweet_id": "2110354939499217104",
+              "text": "John Hultquist（@JohnHultquist）以「海盜偏好哪種代理滲透測試框架」開玩笑；屬玩笑。",
+              "tweet_id": "2114383174599921937",
               "file": "audio/2026-10-26/007.mp3"
+            },
+            {
+              "index": 8,
+              "text": "Sushubh（@Sushubh）認為以 Google Drive 儲存檔案並交給代理處理並非好主意；雲端檔案權限與代理存取需謹慎。",
+              "tweet_id": "2114558286683074718",
+              "file": "audio/2026-10-26/008.mp3"
             }
           ]
         },
         {
-          "name": "🔐 Anthropic：OpenRouter 七日 token 量暴增 3.6 倍",
+          "name": "🔐 Anthropic：營收或在 10 月再加速、Daniela 談不做 AI 伴侶",
           "items": [
             {
-              "index": 8,
-              "text": "Peter Walker（@PeterJ_Walker）引述 OpenRouter 數據指 Anthropic 模型 7 日平均 token 量成長 3.6 倍；Opus 5.5 帶動採用，數據屬第三方平台。",
-              "tweet_id": "2114377706603429899",
-              "file": "audio/2026-10-26/008.mp3"
-            },
-            {
               "index": 9,
-              "text": "Yimin Zhao（@real_doctormin）表示能理解 Anthropic 內部工作流與 Git 版本爆炸，因其公司也極度激進使用 AI；企業 AI 重度使用改變開發流程。",
-              "tweet_id": "2114412705767727547",
+              "text": "KawzInvests（@KawzInvests）推測 OpenRouter 數據顯示 Anthropic 10 月營收可能再加速；屬投資人推測。",
+              "tweet_id": "2114463992399745239",
               "file": "audio/2026-10-26/009.mp3"
             },
             {
               "index": 10,
-              "text": "Vox（@Voxyz_ai）分享可讓 Claude Code 自查額度消耗原因的提示；額度管理技巧。",
-              "tweet_id": "2114416707385073819",
+              "text": "weiguo zhang（@zhang_weig73947）轉述 Anthropic 總裁 Daniela Amodei 解釋 Claude 為何不做 AI 伴侶、不接廣告；屬轉述，Anthropic 產品路線表態。",
+              "tweet_id": "2114555084373955019",
               "file": "audio/2026-10-26/010.mp3"
             },
             {
               "index": 11,
-              "text": "chuplung（@choopyplug1）宣稱 Anthropic 發布 20 個 Claude Code 外掛；屬標題黨式整理，來源需查證。",
-              "tweet_id": "2114474303190086018",
+              "text": "Noah Smith（@Noahpinion）質疑每家公司都得付大筆錢給 Anthropic 與 OpenAI 的網路未來；AI 集中化引發經濟學者擔憂。",
+              "tweet_id": "2114392247777284473",
               "file": "audio/2026-10-26/011.mp3"
             },
             {
               "index": 12,
-              "text": "Lunar（@LunarResearcher）分享 Anthropic 公開的 Claude 使用技巧；官方技巧被大量轉發。",
-              "tweet_id": "2114340716872679594",
+              "text": "图拉鼎（@tualatrix）表示 Claude Max 20x 帳號被封後才從依賴 Opus 5.5 中驚醒；封號促使用戶分散風險。",
+              "tweet_id": "2114562871707537754",
               "file": "audio/2026-10-26/012.mp3"
             },
             {
               "index": 13,
-              "text": "xsmryze（@xsmryze）分享 Anthropic 公開的 Claude 使用技巧；官方技巧被大量轉發。",
-              "tweet_id": "2114477369276944515",
+              "text": "Ram Singh Verma（@RamSingh_369）轉述打造 Claude Code 的工程師發布新內容；屬轉述，具標題黨性質。",
+              "tweet_id": "2114570134836973694",
               "file": "audio/2026-10-26/013.mp3"
             },
             {
               "index": 14,
-              "text": "Slonski（@Slonski_rt）推薦 GitHub、微軟等提供的 3 個免費 MCP 伺服器補強 Claude Code 能力；MCP 生態擴展。",
-              "tweet_id": "2114455481498710176",
+              "text": "Adam（@Adamaestr0_）轉述 Anthropic 工程師分享讓 Claude 回答更深入的 4 行提示；屬轉述。",
+              "tweet_id": "2114469090979147966",
               "file": "audio/2026-10-26/014.mp3"
             },
             {
               "index": 15,
-              "text": "Monreal（@AImonreal）宣稱首度在 iPhone Duo 上運行 Claude Code；行動裝置成為開發環境。",
-              "tweet_id": "2114472554698060182",
+              "text": "Eliana（@eliana_usa）介紹讓 Claude Code 搜尋網路的熱門工具；代理擴充搜尋能力。",
+              "tweet_id": "2114560149830467684",
               "file": "audio/2026-10-26/015.mp3"
             },
             {
               "index": 16,
-              "text": "govin.eth（@goan999999）介紹回應 Karpathy 批評的 66 行 Claude 規則檔，GitHub 超過 17 萬星；以規則約束 AI 寫程式毛病。",
-              "tweet_id": "2114236836625428517",
+              "text": "花叔（@AlchainHust）稱 Claude Opus 5.5 是用過最好的模型，遠勝 GPT-6 Astra；屬個人評價。",
+              "tweet_id": "2114549503084965957",
               "file": "audio/2026-10-26/016.mp3"
-            },
-            {
-              "index": 17,
-              "text": "Andy L（@AndyL5cc）調侃在中國能穩定使用 Claude 本身就是一種實力；地區限制持續困擾中國用戶。",
-              "tweet_id": "2114291621307253192",
-              "file": "audio/2026-10-26/017.mp3"
-            },
-            {
-              "index": 18,
-              "text": "SuSu_酥酥（@NFT_Chen）以梗文調侃 DeepSeek 在 Anthropic 傳出上市之際搶鏡；屬玩笑，IPO 消息未經證實。",
-              "tweet_id": "2114474659890786738",
-              "file": "audio/2026-10-26/018.mp3"
             }
           ]
         },
         {
-          "name": "💻 OpenAI：Codex 0.164.0 修重大 bug、主代理一口氣開 20 個子代理",
+          "name": "💻 OpenAI：Terra 比 Sol 便宜、Astra 傳延後",
           "items": [
             {
+              "index": 17,
+              "text": "Token Gremlin（@TokenGremlin）整理 GPT-6.1 Terra 新細節，指其比 GPT-6.1 Sol 便宜；屬洩漏消息，官方未公布。",
+              "tweet_id": "2114409974155628698",
+              "file": "audio/2026-10-26/017.mp3"
+            },
+            {
+              "index": 18,
+              "text": "ZK.SG（@zkdotsg）指出 GPT-6.1 Terra 已出現在微軟評測設定中，價格比 Sol 低但能力更強；OpenAI 尚未證實。",
+              "tweet_id": "2114562179936506312",
+              "file": "audio/2026-10-26/018.mp3"
+            },
+            {
               "index": 19,
-              "text": "Vincent（@Vincent_AINotes）提醒升級 Codex 0.164.0，修正了 GPT-6.1 Sol 預設上下文提升後的重大 bug；及時更新避免問題。",
-              "tweet_id": "2114268526546698725",
+              "text": "Piyush（@PiyushTechX）指出 GPT-6.1 Astra 據報延後推出；屬未經證實的消息。",
+              "tweet_id": "2114553196194705734",
               "file": "audio/2026-10-26/019.mp3"
             },
             {
               "index": 20,
-              "text": "?（@MaxGladVlog）表示其 Codex 主代理為簡單任務生出 20 個子代理；子代理濫用推高成本。",
-              "tweet_id": "2114480239594164360",
+              "text": "Piyush (Goel) Goel（@pigol1）觀察在網路研究任務上 GPT 模型表現穩定較佳；屬個人評價。",
+              "tweet_id": "2114571579837575568",
               "file": "audio/2026-10-26/020.mp3"
             },
             {
               "index": 21,
-              "text": "Jake Gold（@realJakeGold）預測連 OpenAI 與 Anthropic 也會跟進某種廣泛出現的做法；屬趨勢預測。",
-              "tweet_id": "2114470256320327968",
+              "text": "Matthew Berman（@MatthewBerman）表示越來越愛用 T3，可把所有訂閱集中一處並跨裝置使用；聚合型客戶端受青睞。",
+              "tweet_id": "2114548318550495520",
               "file": "audio/2026-10-26/021.mp3"
             },
             {
               "index": 22,
-              "text": "typecraft（@typecraft_dev）指出 JetBrains 新的氛圍編碼 IDE 底層使用 Pi 處理代理；開源代理被大廠採用。",
-              "tweet_id": "2114444081912832308",
+              "text": "Kun Chen（@kunchenguid）列舉 ChatGPT、Codex、Dots、Claude Web、Claude Code、Cowork 等眾多入口；AI 產品入口過度分散。",
+              "tweet_id": "2114554647411351966",
               "file": "audio/2026-10-26/022.mp3"
             }
           ]
         },
         {
-          "name": "🧠 模型：Theo 痛批 Gemini 代理能力、Gemini 4 Carbon 傳下月登場",
+          "name": "🧠 模型：Antigravity Harness 讓 Gemini 從 40% 升至 54%、OpenCode Go 速度爭議",
           "items": [
             {
               "index": 23,
-              "text": "Theo（@theo）表示外界低估了 Gemini 在代理工作上的糟糕程度；Gemini 代理能力受批評，屬個人測試。",
-              "tweet_id": "2114483219538296946",
+              "text": "Shengzhe（@shengzheyao）指出 Gemini 4 Argon 換用 Antigravity Harness 後 FrontierCS 2 從 40% 升至 54%；Harness 對模型表現影響巨大。",
+              "tweet_id": "2114564066022699050",
               "file": "audio/2026-10-26/023.mp3"
             },
             {
               "index": 24,
-              "text": "Theo（@theo）強調問題不在用法而在模型本身；對 Gemini 代理表現的批評加碼，屬個人觀點。",
-              "tweet_id": "2114483456646463919",
+              "text": "Naz（@nothingto12）比較 DeepSeek 官方 API、OpenCode Go 與 CommandCode；第三方轉售品質實測。",
+              "tweet_id": "2114460558758236351",
               "file": "audio/2026-10-26/024.mp3"
             },
             {
               "index": 25,
-              "text": "Pankaj Kumar（@pankajkumar_dev）指出 Gemini 4 Carbon 洩漏消息稱正內部測試並將於下月推出；屬未經證實的洩漏。",
-              "tweet_id": "2114036189523251242",
+              "text": "Josh（@RightSideOfAI）自行測試 OpenCode Go 與直連 API 的 DeepSeek V4.1 Flash 表現；回應速度爭議。",
+              "tweet_id": "2114570701403488392",
               "file": "audio/2026-10-26/025.mp3"
             },
             {
               "index": 26,
-              "text": "Da7em（@Da7_Tech）稱 Gemini 4 Argon 在文案、文學創作與翻譯上表現極佳；Gemini 寫作能力受肯定，屬個人評價。",
-              "tweet_id": "2114449086019448850",
+              "text": "寒塘poolmoon（@poolmoon6）呼籲 OpenCode 說明 DeepSeek 是中轉還是自行部署；第三方服務透明度。",
+              "tweet_id": "2114562663309295820",
               "file": "audio/2026-10-26/026.mp3"
             },
             {
               "index": 27,
-              "text": "DesignArena（@DesignArena）指出模型似會隨時間退化，並以同一提示的場景比較佐證；模型版本漂移需持續監測。",
-              "tweet_id": "2114393549189833174",
+              "text": "LinearUncle（@LinearUncle）推薦以 DeepSeek Harness 做日常開發，透過 Magpie 接入模型省心；開放模型工具鏈成熟。",
+              "tweet_id": "2114556559733018753",
               "file": "audio/2026-10-26/027.mp3"
             },
             {
               "index": 28,
-              "text": "Xiao Tan（@tvytlx）指出 DeepSeek V4 把顯存占用降低 10 倍並支援 100 萬上下文；國產晶片部署門檻降低，數據屬官方自報。",
-              "tweet_id": "2114301190544789804",
+              "text": "Saritha Rai（@SarithaRai）報導 DeepSeek 追求無所不在，北京對此態度複雜；中國 AI 出海與監管張力。",
+              "tweet_id": "2114554404452139245",
               "file": "audio/2026-10-26/028.mp3"
             },
             {
               "index": 29,
-              "text": "兴雨（@YxzRainy）指某帳號一邊捧 DeepSeek、一邊連發貼文針對 Kimi 收割流量；模型話題存在流量操作，屬個人觀察。",
-              "tweet_id": "2114293146557501448",
+              "text": "FHILY（@Oluwaphilemon1）指出 Qwen4-27B 權重尚未發布但架構已逐漸明朗；屬洩漏推測。",
+              "tweet_id": "2114552835128054056",
               "file": "audio/2026-10-26/029.mp3"
             },
             {
               "index": 30,
-              "text": "纳米AI（@antiAIvo）製作從 2017 年 Transformer 起的大模型學習路線互動圖；LLM 學習資源。",
-              "tweet_id": "2114362163678859330",
+              "text": "Deep Learning Weekly（@dl_weekly）指出 DeepSeek-V4.1-Flash-1017 解決 77% 的 DeepSWE v1.1 任務；開放模型編碼能力逼近前沿。",
+              "tweet_id": "2114341727221813277",
               "file": "audio/2026-10-26/030.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🤖 個人代理：xAI 工程師一人指揮 20 個代理、Muse 自動繞過 Tailscale",
-          "items": [
+            },
             {
               "index": 31,
-              "text": "Andy L（@AndyL5cc）轉述 xAI 工程師一人指揮 20 個代理，由 AI 擔任主管與 PM、15 個以上代理並行寫程式；屬轉述，多代理管理模式擴散。",
-              "tweet_id": "2114327206067650581",
+              "text": "Alibaba Cloud（@alibaba_cloud）指出多數團隊的 LLM 成本問題其實是重複 token 問題；快取可大幅降本，屬廠商觀點。",
+              "tweet_id": "2114579704569041267",
               "file": "audio/2026-10-26/031.mp3"
             },
             {
               "index": 32,
-              "text": "郭宇（@turingou）指出 Muse 自動判斷雲電腦無法安裝 Tailscale，改用其他方式連接其 Grokbot 與 Claude Code；代理自主選擇連線方式，需留意權限邊界。",
-              "tweet_id": "2114448821162000526",
+              "text": "Jim Liu（@jiahanjimliu）引述分析指 SpaceX 與 Meta 將被視為新雲端業者；AI 算力市場格局變化，屬分析觀點。",
+              "tweet_id": "2114511051979104732",
               "file": "audio/2026-10-26/032.mp3"
             },
             {
               "index": 33,
-              "text": "Rodrigo Bressane（@bressane）慶祝以 Nous Research Hermes 驅動代理生活滿五個月；開源代理長期使用案例。",
-              "tweet_id": "2114143920728977427",
+              "text": "Riley Brown（@rileybrown）詢問是否有 NotebookLM 式播客生成 API；開發者需求浮現。",
+              "tweet_id": "2114548544845594681",
               "file": "audio/2026-10-26/033.mp3"
             },
             {
               "index": 34,
-              "text": "OUNCE（@ounce_online）認為 Grokbot 雖好但捨棄既有代理很可惜；代理平台遷移成本。",
-              "tweet_id": "2114277200354533817",
+              "text": "Google AI（@GoogleAI）推出 Gemini 3.8 Flash TTS 與 Flash-Lite TTS；Google 擴充語音模型。",
+              "tweet_id": "2102781694730285427",
               "file": "audio/2026-10-26/034.mp3"
             },
             {
               "index": 35,
-              "text": "Andrew（@s4yonnara）提醒 Grok Bot 可能在做無用工作時燒掉更多 token；代理成本控管。",
-              "tweet_id": "2114471565626593752",
+              "text": "Piotr Parzyszek（@piotrparzyszek_）整理過去一週 AI 重要事件；週報彙整。",
+              "tweet_id": "2114389874937622901",
               "file": "audio/2026-10-26/035.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🤖 個人代理：Grok Bot 在中國水土不服、LobeHub 代理自主交接",
+          "items": [
             {
               "index": 36,
-              "text": "Gladstone（@maverickmath）在週日回顧 Grok Bot 估算本週為他節省的時間；代理生產力自評。",
-              "tweet_id": "2114477755786047872",
+              "text": "马天翼（@fkysly）指出 Grok Bot 在海外好用是因郵件與網站開放，但在中國連大眾點評、小紅書等都難接入；個人代理受在地生態限制。",
+              "tweet_id": "2114571722942795997",
               "file": "audio/2026-10-26/036.mp3"
             },
             {
               "index": 37,
-              "text": "Chase（@0xChaseTM）轉述 Lauren Tan 公開其使用的 Skill；屬轉述。",
-              "tweet_id": "2114487798648467787",
+              "text": "空谷 Arvin Xu（@arvin17x）分享 LobeHub 中兩個代理開始自主交接任務；代理主動性進展。",
+              "tweet_id": "2114557231710830979",
               "file": "audio/2026-10-26/037.mp3"
             },
             {
               "index": 38,
-              "text": "0xMarioNawfal（@RoundtableSpace）指出有官方 Grok Bot 範本可直接使用；官方範本受推廣。",
-              "tweet_id": "2114450675514184152",
+              "text": "yan5xu（@yan5xu）主張禁止代理直接通信，資訊對齊走文件、功能對接走 API 或 MCP；多代理架構設計主張。",
+              "tweet_id": "2114524686701015365",
               "file": "audio/2026-10-26/038.mp3"
             },
             {
               "index": 39,
-              "text": "Mike Gannotti（@MichaelGannotti）介紹基於 Grok Imagine 的端到端 AI 影片工作室 Grok Bot Video Studio；個人代理延伸影片製作。",
-              "tweet_id": "2114315321808941180",
+              "text": "jolestar（@jolestar）批評部分模型過度優化子代理主動性，導致主代理什麼都外包；子代理濫用問題。",
+              "tweet_id": "2114344057975754754",
               "file": "audio/2026-10-26/039.mp3"
             },
             {
               "index": 40,
-              "text": "nahjuin（@nahjuin）認為早就該能像購物一樣選購 Bot；Bot 市集需求。",
-              "tweet_id": "2114467609337086189",
+              "text": "DKH（@danielkhunter）以一組 Grok Bot 在共享運算上運行 Devin 管理 5 個網站；多代理營運實務。",
+              "tweet_id": "2114495536401395793",
               "file": "audio/2026-10-26/040.mp3"
             },
             {
               "index": 41,
-              "text": "Lucky the Husky（@luckythehusky）把常用代理會話降到一個，只負責與他溝通並管理十幾個實際做事的會話；單一入口多代理管理模式。",
-              "tweet_id": "2114468588308607202",
+              "text": "koki（@kokisanai）使用 Muse 一個月後製作求職實作教學；個人代理用於求職。",
+              "tweet_id": "2114457984298623224",
               "file": "audio/2026-10-26/041.mp3"
             },
             {
               "index": 42,
-              "text": "星野ぽぽぽ（@hoshino_popopo_）詢問 MinoruAgent 西雅圖轉機配戴 GoPro 的規定；代理用於旅行諮詢，法規資訊需再核實。",
-              "tweet_id": "2114352358151143484",
+              "text": "Asa（@app_sail）介紹以「Hey Grok」語音喚起 Grok Bot 直接開始對話；語音喚醒普及。",
+              "tweet_id": "2114544384092049914",
               "file": "audio/2026-10-26/042.mp3"
             },
             {
               "index": 43,
-              "text": "张赢羽（@Z_Vinki）呼籲相信 Grok 與 Bot 所說的「真相」；屬個人觀點，AI 輸出仍需查證。",
-              "tweet_id": "2114475108748480521",
+              "text": "Lonely（@Lonely__MH）介紹在 iPhone 上以「Hey Grok」取代 Siri 喚起 Grok Bot；個人代理取代系統助理。",
+              "tweet_id": "2114553633417388078",
               "file": "audio/2026-10-26/043.mp3"
+            },
+            {
+              "index": 44,
+              "text": "GitTrend（@GitTrend0x）整理 Hermes 熱門外掛，如 Home Assistant 語音管家與預算急煞；開源代理外掛生態活躍。",
+              "tweet_id": "2114567784977891719",
+              "file": "audio/2026-10-26/044.mp3"
+            },
+            {
+              "index": 45,
+              "text": "Jackywine（@Jackywine）推薦開源作品「賽博小晚」，稱已被身邊多數個人代理用戶採用；社群開源專案擴散。",
+              "tweet_id": "2114558984602452189",
+              "file": "audio/2026-10-26/045.mp3"
             }
           ]
         },
@@ -292,64 +304,88 @@
           "name": "🛠️ 開發工具與工程實務",
           "items": [
             {
-              "index": 44,
-              "text": "Matt Pocock（@mattpocockuk）主張下一個偉大的「代理語言」應兼具 Rust 的速度與更少樣板；程式語言設計開始考量代理。",
-              "tweet_id": "2114407583167705279",
-              "file": "audio/2026-10-26/044.mp3"
-            },
-            {
-              "index": 45,
-              "text": "Chris Tate（@ctatedev）主張別等代理，讓代理等你，若在意首字延遲就重新設計流程；人機協作節奏設計。",
-              "tweet_id": "2114479536347791564",
-              "file": "audio/2026-10-26/045.mp3"
-            },
-            {
               "index": 46,
-              "text": "高静宇（@jamesgao_ai）探討代理推理與執行時人該做什麼，以及能同時推進幾個會話；多會話並行能力取決於任務設計。",
-              "tweet_id": "2114484503859347507",
+              "text": "meng shao（@shao__meng）整理 Amp 的 Thorsten Ball〈How I Work with Agents〉，讓代理橫向打通建置、發版與生產觀測；代理工作方法論。",
+              "tweet_id": "2114539832555065471",
               "file": "audio/2026-10-26/046.mp3"
             },
             {
               "index": 47,
-              "text": "Ben Vinegar（@bentlegen）分享其代理小隊會測試貢獻者 PR、找 bug 並協助修正；代理參與開源維護。",
-              "tweet_id": "2114165459557728727",
+              "text": "一碗咕咪酱（@Summer_ikiki）總結：別把代理當聊天框而當同事，用最強模型、只說要什麼不教怎麼做；代理協作心法。",
+              "tweet_id": "2114556120237056417",
               "file": "audio/2026-10-26/047.mp3"
             },
             {
               "index": 48,
-              "text": "Mark Ajzenstadt（@mardehaym）整理企業從導入工具到代理化的七個步驟；企業代理轉型路線圖。",
-              "tweet_id": "2113990724282724742",
+              "text": "yves（@ElevenWong0807）指出模型再強沒有好 Harness 也易翻車，寫清規則、狀態與驗證閉環比換大模型更有用；Harness 工程重要性。",
+              "tweet_id": "2114543989626179730",
               "file": "audio/2026-10-26/048.mp3"
             },
             {
               "index": 49,
-              "text": "Brandur（@brandur）聽 Figma CEO Dylan Field 訪談後觀察各處都在談 AI；設計工具業者擁抱代理。",
-              "tweet_id": "2114470337702203728",
+              "text": "Derrick Choi（@derrickcchoi）指出團隊上週推出代理可在數小時後接續工作的功能；長任務代理持久化。",
+              "tweet_id": "2114561916597309752",
               "file": "audio/2026-10-26/049.mp3"
             },
             {
               "index": 50,
-              "text": "Ethan 恩宇（@UPing123zzz）提醒有了 Codex 與 Claude Code 後，產品做得好不代表用戶自然會來；分發比開發更難。",
-              "tweet_id": "2114192868701294921",
+              "text": "Ainesh Chatterjee（@ain3sh）介紹 droid 的可恢復子代理與共享及獨立 ledger.md；子代理狀態管理。",
+              "tweet_id": "2114559137728331857",
               "file": "audio/2026-10-26/050.mp3"
             },
             {
               "index": 51,
-              "text": "Zivo（@0xzivo）指出 Waymo 每週約 40 萬次付費乘車，空車需自行調度；自動駕駛營運規模化。",
-              "tweet_id": "2114463202624856381",
+              "text": "Saranyan（@svigg13）分享在同一專案使用多個代理時的注意事項；多代理協作實務。",
+              "tweet_id": "2114389372447678714",
               "file": "audio/2026-10-26/051.mp3"
             },
             {
               "index": 52,
-              "text": "AI 元博士（@AIMetaPhD）回報 Magpie 更新後多次出現啟動 bug，網關已連線但頁面不顯示且請求逾時；快速迭代工具穩定性待改善。",
-              "tweet_id": "2114462951558291606",
+              "text": "芝诺Zeno（@ahsuzm）指出 Reddit 開源版塊立新規不歡迎 AI 相關專案；開源社群對 AI 生成內容反彈。",
+              "tweet_id": "2114569378498785693",
               "file": "audio/2026-10-26/052.mp3"
             },
             {
               "index": 53,
-              "text": "Fingerling（@lovelylogicss）展示 Pi Pocket 的最新進展；開源代理行動版發展。",
-              "tweet_id": "2114469016773566785",
+              "text": "向阳乔木（@vista8）介紹免費開源的 GEO 流量統計工具 GEOInflow，可看到所有 AI 爬蟲；AI 搜尋流量可觀測化。",
+              "tweet_id": "2114579446795788675",
               "file": "audio/2026-10-26/053.mp3"
+            },
+            {
+              "index": 54,
+              "text": "安娜 AI（@PromptLabCN）指出 Graphify 已達 GitHub 12.6 萬星並進入 YC，但少有人正確設定；工具熱度與實際採用落差。",
+              "tweet_id": "2114551899563462750",
+              "file": "audio/2026-10-26/054.mp3"
+            },
+            {
+              "index": 55,
+              "text": "Adrian（@adriankuleszo）表示團隊已關閉 ClickUp 帳號，一切改在 Slack 搭配代理運作；代理取代專案管理 SaaS。",
+              "tweet_id": "2114251721127895445",
+              "file": "audio/2026-10-26/055.mp3"
+            },
+            {
+              "index": 56,
+              "text": "이면서다（@dlaustjek）介紹可從照片生成 3D 模型並多角度修正的瀏覽器工具 SketchAgent；3D 建模代理化。",
+              "tweet_id": "2114560372531495094",
+              "file": "audio/2026-10-26/056.mp3"
+            },
+            {
+              "index": 57,
+              "text": "Suraj Sharma（@suraj_sharma14）以淺白語言整理代理式 AI 系統設計概念；代理入門教育。",
+              "tweet_id": "2114575247639003388",
+              "file": "audio/2026-10-26/057.mp3"
+            },
+            {
+              "index": 58,
+              "text": "Vadym Kazulkin（@VKazulkin）分享「編碼代理的破窗理論」，指程式碼凌亂時代理會加速惡化；程式碼品質需維持基線。",
+              "tweet_id": "2114427774240793069",
+              "file": "audio/2026-10-26/058.mp3"
+            },
+            {
+              "index": 59,
+              "text": "쥬리（@JURI52_Day）表示賣炸雞近十年後開始用 Grok、GPT、Gemini、Codex 開發婚禮合約 App；非技術背景者代理化開發。",
+              "tweet_id": "2114553479066976511",
+              "file": "audio/2026-10-26/059.mp3"
             }
           ]
         },
