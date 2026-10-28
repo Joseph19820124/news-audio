@@ -1,357 +1,453 @@
 {
-  "updated_at": "2026-10-28T08:44:11.061948+08:00",
+  "updated_at": "2026-10-28T14:20:54.630634+08:00",
   "dates": [
     {
       "date": "2026-10-28",
-      "generated_at": "2026-10-28T08:44:08.699798+08:00",
+      "generated_at": "2026-10-28T14:20:43.766169+08:00",
       "categories": [
         {
-          "name": "💰 Anthropic：新研究探討 AI 代理如何影響專家判斷、傳 7 月收購單人公司、Claude Code 團隊公開審碼流程",
+          "name": "🚨 資安：QQ 安全中心點名「大肥魚」桌面代理外掛、Laravel TokenGuard 遭攻擊、GoAhead 一字節筆誤破壞加密",
           "items": [
             {
               "index": 1,
-              "text": "Alex Tamkin（@AlexTamkin）介紹 Anthropic 新研究，探討 AI 代理如何影響專家的判斷決策；官方研究，結論以論文為準。",
-              "tweet_id": "2115190541688398184",
+              "text": "Shaun（@Tokupup）轉述 QQ 安全中心發文點名「大肥魚」等桌面代理外掛，指其以非官方方式操作 QQ；違反平台條款且有帳號與資料風險。",
+              "tweet_id": "2115293126164410653",
               "file": "audio/2026-10-28/001.mp3"
             },
             {
               "index": 2,
-              "text": "MTS（@MTSlive）轉述 Anthropic 於 2026 年 7 月收購一家單人公司；收購細節屬轉述，以官方揭露為準。",
-              "tweet_id": "2115195932237304131",
+              "text": "Vincent（@Vincent_AINotes）指出 QQ 官方推出 DeepSeek 接入外掛並質疑其實際內容；官方與非官方外掛並存，屬觀察。",
+              "tweet_id": "2115295263149736421",
               "file": "audio/2026-10-28/002.mp3"
             },
             {
               "index": 3,
-              "text": "Wen（@xiaoshan0413）認為 Anthropic 新藥研發真正要賣的是 Claude 全程參與的研發管線；商業模式解讀，屬觀點。",
-              "tweet_id": "2115205120371941768",
+              "text": "Previdian（@PrevidianCyber）觀察到針對 Laravel TokenGuard 認證機制的攻擊嘗試；Laravel 用戶應檢查版本與日誌。",
+              "tweet_id": "2115104369704042535",
               "file": "audio/2026-10-28/003.mp3"
             },
             {
               "index": 4,
-              "text": "宝玉（@dotey）整理 Anthropic 工程經理 Felix Rieseberg 談面試不再考程式題、新人衝勁勝過資歷；招募觀點轉述。",
-              "tweet_id": "2115218749888634988",
+              "text": "iPoW.ai（@iPoWDotAI）轉述研究人員披露嵌入式網頁伺服器 GoAhead 的一字節筆誤讓加密形同虛設，影響數以億計的路由器與印表機；屬轉述，應關注韌體更新。",
+              "tweet_id": "2115300398701380040",
               "file": "audio/2026-10-28/004.mp3"
             },
             {
               "index": 5,
-              "text": "Dobby（@lesliedqbb）介紹 Anthropic 文章說明 Claude Code 團隊如何審核 AI 寫的程式碼與發布流程；官方實務分享。",
-              "tweet_id": "2115054276158619927",
+              "text": "JC Coder（@jc_coder1）指出本週 Wiz 報告再次證明 GitHub 雙重驗證擋不住竊密程式；應改用硬體金鑰並縮短工作階段。",
+              "tweet_id": "2115308847162089957",
               "file": "audio/2026-10-28/005.mp3"
             },
             {
               "index": 6,
-              "text": "levent（@__alpoge__）引述「核心演算法由內部 Claude 研究模型於 10 月 16 日發現」的說法；ETH 相關成果仍待驗證。",
-              "tweet_id": "2114930095009968506",
+              "text": "Arindam Majumder（@Arindam_1729）提醒 Downloads 資料夾中的 Markdown 檔可劫持編碼代理；延續先前 AGENTS.md 投毒討論。",
+              "tweet_id": "2115311567592141095",
               "file": "audio/2026-10-28/006.mp3"
             },
             {
               "index": 7,
-              "text": "AlphaSpace（@alphaspace）稱 NVIDIA 人均市值 1.21 億美元，Anthropic 可能達其三倍；估值推算，屬投機性評論。",
-              "tweet_id": "2115075046225965542",
+              "text": "Easycompany（@Easycompany333）表示從不敢信任 AI 寫的後端權限，並推薦相關檢查工具；權限漏洞風險。",
+              "tweet_id": "2115298763715821983",
               "file": "audio/2026-10-28/007.mp3"
             },
             {
               "index": 8,
-              "text": "N（@nao_aifounder）整理 Claude 產出文件可匯出為 Word、PDF、Markdown 與 Google 文件；功能說明。",
-              "tweet_id": "2115211243963457821",
+              "text": "Reuters China（@ReutersChina）報導馬來西亞機場查獲價值 1,210 萬美元的 AI 晶片；出口管制執法。",
+              "tweet_id": "2115322781063602264",
               "file": "audio/2026-10-28/008.mp3"
             },
             {
               "index": 9,
-              "text": "Omri Dan（@OmriBuilds）認為若 Claude 一小時能複製你的 SaaS，你本來就沒有護城河；產品競爭觀點。",
-              "tweet_id": "2115143775718920334",
+              "text": "马天翼（@fkysly）回報 Claude 帳號運行中突然要求 KYC 並撤銷登入狀態；帳號審查趨嚴，屬用戶回報。",
+              "tweet_id": "2115320283439747384",
               "file": "audio/2026-10-28/009.mp3"
             },
             {
               "index": 10,
-              "text": "GREG ISENBERG（@gregisenberg）認為 SaaS 正在變成免費；商業模式轉變，屬觀點。",
-              "tweet_id": "2115172540238979474",
+              "text": "Yannick Monye（@keennay）分享以本地 DeepSeek-V4.1-Flash-1017 清理遭入侵網路；風險提示：資安操作應僅限自有或授權環境。",
+              "tweet_id": "2115199001813188768",
               "file": "audio/2026-10-28/010.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🧠 研究與模型：Axiom 稱代理 24 天以 Lean 形式化有限單群分類、DeepSeek Flash 每日逾千億 token、阿里開源 Open Code Review",
-          "items": [
+            },
             {
               "index": 11,
-              "text": "赛博吴同学（@jaxxwu）轉述 Axiom 稱其 AI 代理群在 24 天內以 Lean 寫出 4,300 萬行、形式化有限單群分類並修正文獻上百處錯誤；屬公司宣稱，待驗證。",
-              "tweet_id": "2115217890349859102",
+              "text": "Flux（@getsflux）推出為代理重試與子代理設定統一預算上限的工具；防止代理帳單失控。",
+              "tweet_id": "2115295989477315038",
               "file": "audio/2026-10-28/011.mp3"
             },
             {
               "index": 12,
-              "text": "Hendrix Liu（@HendrixLiu29208）稱其平台每天處理逾 1,000 億 token 的 DeepSeek V4.1 Flash 10/17；需求熱度，屬平台自報。",
-              "tweet_id": "2115204342852768239",
+              "text": "ロシアンブルー（@RussianBlue25）認為不一定需要頂尖資安人才，只要有人理解基本原則；資安人力觀點。",
+              "tweet_id": "2115033884819661117",
               "file": "audio/2026-10-28/012.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "💰 Anthropic 與 OpenAI：Claude 對美國政府打六折、Claude Duet 分批開放、傳 OpenAI 已在 Google TPU 上服務最佳模型",
+          "items": [
             {
               "index": 13,
-              "text": "jiangkoumo（@jiangkoumo_）實測 DeepSeek 官方 API 23 次皆返回新指紋 bc19ba97；佐證 Flash 已悄然更新，官方未公告。",
-              "tweet_id": "2115102322166841737",
+              "text": "ZK.SG（@zkdotsg）引述 Anthropic 公告指 Claude 將以 40% 優惠價提供給美國聯邦、州及地方政府；延續 OneGov 合作的價格細節。",
+              "tweet_id": "2115300743393509642",
               "file": "audio/2026-10-28/013.mp3"
             },
             {
               "index": 14,
-              "text": "Joker（@QQTeng）指出阿里巴巴開源內部使用兩年的 AI 程式碼審查工具 Open Code Review，稱曾供數萬名開發者使用；缺陷數字屬官方自述。",
-              "tweet_id": "2115211724957819376",
+              "text": "越川（@Rakel076）指出 Claude Duet 正在分批開放，美區用戶還可領免費重置卡；手機助理 App 推進。",
+              "tweet_id": "2115310195756667304",
               "file": "audio/2026-10-28/014.mp3"
             },
             {
               "index": 15,
-              "text": "scanfi（@GuideboardLabs）指出 Groot-19B-A3B 在 Agon-Bench 排第五，且是前段班最快的模型；第三方基準。",
-              "tweet_id": "2115217088038031410",
+              "text": "Cloris（@ClorisSignal）說明 Claude Duet 直接使用 Claude 帳號中的記憶、Skills 與已連接的 App；產品機制。",
+              "tweet_id": "2115301191408349250",
               "file": "audio/2026-10-28/015.mp3"
             },
             {
               "index": 16,
-              "text": "wd（@populartourist）認為 LFM3 1.7B 幾乎與 GPT 4.5 一樣好；屬個人熱評，誇大成分高。",
-              "tweet_id": "2115156930805035072",
+              "text": "小互（@xiaohu）指出 Mithril Medicine 只有創辦人 Cody Tranbarger 一人並被 Anthropic 全資收購；延續收購討論，細節屬轉述。",
+              "tweet_id": "2115309545170096134",
               "file": "audio/2026-10-28/016.mp3"
             },
             {
               "index": 17,
-              "text": "ZAZA（@OpinionAILtd）表示準備試用本地全模態 LFM3；社群反應。",
-              "tweet_id": "2115218960060989859",
+              "text": "Yuchen Jin（@Yuchenj_UW）稱這才是真正的一人十億美元公司；屬觀點。",
+              "tweet_id": "2115181727182463427",
               "file": "audio/2026-10-28/017.mp3"
             },
             {
               "index": 18,
-              "text": "Chuck Bass（@ChuckBass14291）認為 Genie 4 未來可能取代大量手寫物理引擎程式碼；屬推測。",
-              "tweet_id": "2115211178167407063",
+              "text": "Xiao Tan（@tvytlx）解讀 Anthropic 實驗：只看四次拋硬幣結果就能大致預測分析師最終建議；AI 影響判斷的研究延伸解讀。",
+              "tweet_id": "2115308830536106308",
               "file": "audio/2026-10-28/018.mp3"
             },
             {
               "index": 19,
-              "text": "Kin（@KinGao476942）以 Grok Bot 製作 Genie 4 官方宣傳片的中文字幕版；社群傳播。",
-              "tweet_id": "2115227933833113976",
+              "text": "Luke The Dev（@iamlukethedev）整理 Anthropic 新代理指南：先從單一代理開始，別過度打造代理群；架構建議。",
+              "tweet_id": "2115292581966057921",
               "file": "audio/2026-10-28/019.mp3"
             },
             {
               "index": 20,
-              "text": "Sakana AI（@SakanaAILabs）發布 GTM 副總裁專訪；日本 AI 新創動態。",
-              "tweet_id": "2115064721430765592",
+              "text": "Belial（@0xbelial）轉述 Anthropic 官方建議別浪費 Opus 5.5 上下文；使用技巧轉述。",
+              "tweet_id": "2115096024565899564",
               "file": "audio/2026-10-28/020.mp3"
             },
             {
               "index": 21,
-              "text": "Snowflake（@Snowflake）宣布擴大與 Oracle 合作，未來將在 OCI 上提供 Snowflake；雲端資料平台合作。",
-              "tweet_id": "2115142808021377178",
+              "text": "jev lorde（@jevlorde）指出 Claude Code 官方文件原生支援多帳號登入；以官方功能切換帳號，非規避手段。",
+              "tweet_id": "2115310088068198547",
               "file": "audio/2026-10-28/021.mp3"
             },
             {
               "index": 22,
-              "text": "Elizabeth Fuentes（@ElizabethFue12）指出 AWS 開發者助理與解決方案架構師專業級考試已納入 AI 內容；認證更新。",
-              "tweet_id": "2115190049427820566",
+              "text": "Weilun Chen（@snortydogg）稱 OpenAI 已在 Google TPU 上提供其最佳模型；屬未經證實的說法，Bloomberg 僅報導採購意向。",
+              "tweet_id": "2115310239730008482",
               "file": "audio/2026-10-28/022.mp3"
             },
             {
               "index": 23,
-              "text": "s.hiruta（@web_se）指出 Siri AI 最新更新似乎已支援日文；在地化進展，屬用戶觀察。",
-              "tweet_id": "2115219737483579569",
+              "text": "Carbon-life（@Jasonz0830）澄清 OpenAI 向 Google 採購晶片目前是知情人士所稱的採購意向，尚非已簽訂單；資訊釐清。",
+              "tweet_id": "2115311736744206513",
               "file": "audio/2026-10-28/023.mp3"
-            }
-          ]
-        },
-        {
-          "name": "🚨 資安與服務條款：PHP 兩項 9.2 分漏洞衝擊全球網站、Magpie 濫用 WorkBuddy 免費模型致大量封號",
-          "items": [
+            },
             {
               "index": 24,
-              "text": "HKEPC（@hkepcmedia）報導 PHP 爆發兩項 CVSS 9.2 嚴重漏洞，PHP 基金會出面應對；延續先前 PHP 漏洞事件的中文報導，網站管理者應盡速更新。",
-              "tweet_id": "2114994374350115076",
+              "text": "Kai（@hqmank）提醒 ChatGPT Pro 200 美元方案用量將從 Plus 的 20 倍降為 10 倍；延續方案調整提醒。",
+              "tweet_id": "2115267232963936485",
               "file": "audio/2026-10-28/024.mp3"
             },
             {
               "index": 25,
-              "text": "克拉斯 拉伯热勒（@missdeerme）回報以 Magpie 大量使用 WorkBuddy 免費 DeepSeek 額度兩天後多個帳號全遭停用；違反服務條款的實際後果。",
-              "tweet_id": "2114879936498737495",
+              "text": "Phil（@phil_uplc）表示將取消 3 個 200 美元的 GPT 訂閱；用戶反應。",
+              "tweet_id": "2114978925336277437",
               "file": "audio/2026-10-28/025.mp3"
             },
             {
               "index": 26,
-              "text": "yetone（@yetone）表示 Magpie 已再次對齊 WorkBuddy 客戶端請求標頭，並提醒猛刷免費模型的帳號被禁需自行申訴；風險提示：偽裝客戶端與刷用免費額度違反服務條款。",
-              "tweet_id": "2115166873541337467",
+              "text": "GitLab（@gitlab）宣布 GPT-6.1 Terra 已登上 GitLab Duo Agent Platform；企業平台整合。",
+              "tweet_id": "2115201072679592150",
               "file": "audio/2026-10-28/026.mp3"
             },
             {
               "index": 27,
-              "text": "釜山 公徳（@MasaKAMAYAMA）反駁「資安不是投資」的說法；資安預算觀點。",
-              "tweet_id": "2115064517705314808",
+              "text": "MiniMax（@MiniMax_AI）預告明天與 Fireworks AI 直播介紹 MiniMax M3.1 Flash；官方活動。",
+              "tweet_id": "2115267737299922988",
               "file": "audio/2026-10-28/027.mp3"
-            },
-            {
-              "index": 28,
-              "text": "Jacob（@JacobMetaX）指出兩個 AI 工作階段在同一資料夾作業不會快兩倍，反而互相干擾；多代理衝突需隔離工作目錄。",
-              "tweet_id": "2115222511172350332",
-              "file": "audio/2026-10-28/028.mp3"
-            },
-            {
-              "index": 29,
-              "text": "jiangkoumo（@jiangkoumo_）介紹 LayerFS 為 AI 代理設計的寫時複製檔案系統與 2.0 路線圖；代理檔案隔離方案。",
-              "tweet_id": "2115075782204887098",
-              "file": "audio/2026-10-28/029.mp3"
             }
           ]
         },
         {
-          "name": "🤖 代理與開發工具：Grok Bot 0.79 預覽、Grok Build CLI v1.0.72、Hermes 單日合併 59 個 PR",
+          "name": "🧠 基準與模型：FrontierCode 2.0 中 DeepSeek V4.1 Flash 以 28.5% 居開源第一、LFM3-1.7B 在 M4 Max 跑出 280 tok/s、瑞士「主權模型」被指像 Kimi",
           "items": [
             {
+              "index": 28,
+              "text": "SuSu_酥酥（@NFT_Chen）指出 AA 的 FrontierCode 2.0 中 DeepSeek V4.1 Flash 1017 得 28.5%，為開源第一；第三方基準。",
+              "tweet_id": "2115310153444856187",
+              "file": "audio/2026-10-28/028.mp3"
+            },
+            {
+              "index": 29,
+              "text": "刘小排（@bourneliu66）認為 AA 新算法下 GPT-6 Astra 與 Opus 5.5 差距不大，國產模型整體下滑；評測解讀。",
+              "tweet_id": "2115308843282624933",
+              "file": "audio/2026-10-28/029.mp3"
+            },
+            {
               "index": 30,
-              "text": "Alex（@alexmichael）整理 Grok Bot 0.79 首個預覽版內容，包括 Obsidian 整合；預覽版功能可能變動。",
-              "tweet_id": "2115210638234435764",
+              "text": "FeiZ（@Fei2411）指出 AA 榜單仍有問題，例如透過 Codex 使用 GPT 的實際體驗會更差；評測侷限觀點。",
+              "tweet_id": "2115301347872424402",
               "file": "audio/2026-10-28/030.mp3"
             },
             {
               "index": 31,
-              "text": "Puck（@GrokInsider）整理 Grok Build CLI v1.0.72 更新內容；CLI 工具迭代。",
-              "tweet_id": "2115224986747085002",
+              "text": "𓆩莫♡小♡苝𓆪（@lovejing0306）整理 AA v5 中文圈常用模型的新排名；中文整理。",
+              "tweet_id": "2115299528475639866",
               "file": "audio/2026-10-28/031.mp3"
             },
             {
               "index": 32,
-              "text": "蓝哥AI（@0xlangeai）整理 matt palmer 7 分半影片中本週 Grok Bot 大更新重點；中文整理。",
-              "tweet_id": "2115202513846812978",
+              "text": "程序员Left（@coder_left）指出 AA 才剛發布 Coding Agent Index v2.0 又推出智慧指數 v5；評測更新頻繁。",
+              "tweet_id": "2115300849379573765",
               "file": "audio/2026-10-28/032.mp3"
             },
             {
               "index": 33,
-              "text": "Luke The Dev（@iamlukethedev）整理 Hermes 於 10 月 26 日合併 59 個 PR 的重點，包括 GLM-5.3 成為預設之一；開源代理快速迭代。",
-              "tweet_id": "2114913432118169969",
+              "text": "Tom Greenwald（@tomgreenwald）稱 LFM3-1.7B 在 M4 Max 上本地跑出每秒 280 token；屬個人實測。",
+              "tweet_id": "2115302327913766971",
               "file": "audio/2026-10-28/033.mp3"
             },
             {
               "index": 34,
-              "text": "Teknium（@Teknium）推出 Hermes 的 ElevenLabs 音效外掛；代理多媒體能力。",
-              "tweet_id": "2115219694622040322",
+              "text": "leonie（@helloiamleonie）宣布 LFM3 正式發布，為 LFM 系列新世代首發；Liquid AI 成員說明。",
+              "tweet_id": "2115138207339720904",
               "file": "audio/2026-10-28/034.mp3"
             },
             {
               "index": 35,
-              "text": "ElevenLabs Developers（@ElevenLabsDevs）宣布全部語音模型上線 Vercel AI Gateway；語音模型分發。",
-              "tweet_id": "2115198873249407193",
+              "text": "ÆON FORGE（@SpaceTimeViking）認為新模型適合行動端、邊緣與微調用途；社群評價。",
+              "tweet_id": "2115318491343454413",
               "file": "audio/2026-10-28/035.mp3"
             },
             {
               "index": 36,
-              "text": "Theo（@theo）表示目前在 T3 Code 跨多台機器同時運行 26 個執行緒；多代理並行規模。",
-              "tweet_id": "2115231478686826986",
+              "text": "jiangkoumo（@jiangkoumo_）指出瑞士 Giotto 實驗室發布的「主權模型」Alto 與 Solo 說話方式很像 Kimi；屬推測，需留意模型來源透明度。",
+              "tweet_id": "2115295585355927727",
               "file": "audio/2026-10-28/036.mp3"
             },
             {
               "index": 37,
-              "text": "dax（@thdxr）表示團隊已使用某功能數月，並認為這是其他個人助理尚難匹敵的原因；OpenCode 作者觀點。",
-              "tweet_id": "2115214247622058072",
+              "text": "Ahmad（@TheAhmadOsman）表示期待 GLM 5.5 Flash 與 Qwen 4 27B；屬個人期待，尚未正式發布。",
+              "tweet_id": "2115134444827001274",
               "file": "audio/2026-10-28/037.mp3"
             },
             {
               "index": 38,
-              "text": "Brian Armstrong（@brian_armstrong）宣布代理現在可以購買網域名稱；代理商務應用，需設好付款授權。",
-              "tweet_id": "2115224970188185624",
+              "text": "AI Fun（@ai_funss）認為 GPT 6.1 Terra Max 效果與 DeepSeek v4.1 Flash 相近；屬個人評價。",
+              "tweet_id": "2115005726443942033",
               "file": "audio/2026-10-28/038.mp3"
             },
             {
               "index": 39,
-              "text": "Naman Bansal（@NamanBansal0611）宣布 AgentRel 獲 YC 等 130 萬美元投資；代理開發者關係新創。",
-              "tweet_id": "2115121307608350810",
+              "text": "Oliver Prompts（@oliviscusAI）介紹 Mesh LLM 把 70B 以上模型的推論分散到多台裝置；分散式本地推論。",
+              "tweet_id": "2115302787332641187",
               "file": "audio/2026-10-28/039.mp3"
             },
             {
               "index": 40,
-              "text": "Nowledge Mem（@NowledgeMem）宣布可透過 MCP 為 Muse 提供記憶；第三方記憶整合。",
-              "tweet_id": "2115103710334566562",
+              "text": "LiteLLM（@LiteLLM）表示遷移至 Rust 後目標在 12 月 1 日前把延遲降低 20 倍；屬官方目標。",
+              "tweet_id": "2115312158145941964",
               "file": "audio/2026-10-28/040.mp3"
             },
             {
               "index": 41,
-              "text": "Maximilian Freiermuth（@mbonapartee）宣布 dlgt.io 已有逾 1,000 個驗證過的服務；代理服務市集。",
-              "tweet_id": "2115211116196606319",
+              "text": "dax（@thdxr）表示團隊大力押注開源模型，但也提醒需正視其限制；OpenCode 作者觀點。",
+              "tweet_id": "2115304892919099501",
               "file": "audio/2026-10-28/041.mp3"
             },
             {
               "index": 42,
-              "text": "Martin H. Pefaur（@MartinPefaur）開源以規格驅動開發的範本，取代隨意 vibe coding；開發方法。",
-              "tweet_id": "2115205428288385070",
+              "text": "卡比卡比（@jakevin7）發現 DeepSeek Harness 程式碼中嘗試以 OAR 實作子代理；程式碼線索。",
+              "tweet_id": "2115310271095005304",
               "file": "audio/2026-10-28/042.mp3"
             },
             {
               "index": 43,
-              "text": "vogel（@ryanvogel）讓代理列印 NASA 風格的技術審查單；代理產出審查形式。",
-              "tweet_id": "2114770680915136680",
+              "text": "David Dobáš（@DDobas）發表與 UFBots 合作的 TED 演講，介紹人形機器人訓練；具身智慧。",
+              "tweet_id": "2115191782288052700",
               "file": "audio/2026-10-28/043.mp3"
             },
             {
               "index": 44,
-              "text": "Matt Mastracci（@mmastrac）展示 hunch 可即時學習的能力；開發者自述。",
-              "tweet_id": "2115198755263881368",
+              "text": "美研芒格君（@Kay2289123）介紹 Genie 4 依提示生成可互動世界；中文解說。",
+              "tweet_id": "2115306975391318439",
               "file": "audio/2026-10-28/044.mp3"
-            },
+            }
+          ]
+        },
+        {
+          "name": "🤖 代理與開發工具：Stripe Pay 整合 AI 帳單、bowl.dev 瞬間拉起千個沙盒、Steve Yegge 談企業代理落地模式",
+          "items": [
             {
               "index": 45,
-              "text": "Coffee with One（@coffeewithone）推出一句話建立流程管線的功能；屬產品推廣。",
-              "tweet_id": "2115211854331224402",
+              "text": "そら（@sora_biz）介紹 Stripe Pay 把 OpenAI、Vercel 等 API 與伺服器費用整合進個人開發營收流程；開發者金流整合。",
+              "tweet_id": "2115298554734694415",
               "file": "audio/2026-10-28/045.mp3"
             },
             {
               "index": 46,
-              "text": "GitHub AI Projects Community（@trendtech33566）介紹免每次向 AI 解釋前提的工具；上下文管理。",
-              "tweet_id": "2115223769589617059",
+              "text": "FanXing（@fanxing321）介紹 bowl.dev 可瞬間拉起 100 到 1,000 個隔離沙盒執行子代理；屬產品目標。",
+              "tweet_id": "2115314162368913746",
               "file": "audio/2026-10-28/046.mp3"
             },
             {
               "index": 47,
-              "text": "向阳乔木（@vista8）表示其 Obsidian 外掛 Qiaomu Reader 安裝逾 8,000 次，並以 Renoise MCP 生成宣傳影片；個人專案。",
-              "tweet_id": "2114902671471841345",
+              "text": "FanXing（@fanxing321）分享跨模型自動修復實驗第二天，GPT 找出 233 項錯誤、Gemini 4 Argon 駁回 130 項；跨模型互審，屬個人實驗。",
+              "tweet_id": "2115308702123405513",
               "file": "audio/2026-10-28/047.mp3"
             },
             {
               "index": 48,
-              "text": "Yifan Xu（@yifanxu_ephai）收到 DeepSeek 因其 dsh-layerfs 外掛發放的 999 元額度；官方生態激勵。",
-              "tweet_id": "2115216765512995263",
+              "text": "Steve Yegge（@Steve_Yegge）觀察今年多數企業仍在代理落地上掙扎的共同模式；業界觀點。",
+              "tweet_id": "2115103182271676561",
               "file": "audio/2026-10-28/048.mp3"
             },
             {
               "index": 49,
-              "text": "Kinopee（@kinopee_ai）稱讚 Cursor 設計模式的標註功能；用戶評價。",
-              "tweet_id": "2115160640411386322",
+              "text": "Alex Lieberman（@businessbarista）轉述大型企業 AI 主管最頭痛的問題；企業落地挑戰。",
+              "tweet_id": "2115145399396671997",
               "file": "audio/2026-10-28/049.mp3"
             },
             {
               "index": 50,
-              "text": "DHH（@dhh）認為 Windows Copilot 糟糕到可能助長了反 AI 情緒；產品批評，屬個人觀點。",
-              "tweet_id": "2115221759662137458",
+              "text": "宝玉（@dotey）建議在 AGENTS.md 加入規則讓代理自行清理 worktree；延續 worktree 隔離討論。",
+              "tweet_id": "2115314783503196605",
               "file": "audio/2026-10-28/050.mp3"
             },
             {
               "index": 51,
-              "text": "VerySmallWoods（@verysmallwoods）認同個人代理應在用戶授權下代表用戶行動，而非只是超級 App；產品定位觀點。",
-              "tweet_id": "2115223562915062179",
+              "text": "Chasen（@chasen_liao）養了 8 個 Bot 後發現多代理交接如傳話遊戲，資訊逐次失真；多代理設計缺陷。",
+              "tweet_id": "2115301250480947364",
               "file": "audio/2026-10-28/051.mp3"
             },
             {
               "index": 52,
-              "text": "VerySmallWoods（@verysmallwoods）回顧兩年從聊天機器人到代理、從 RAG 到 MCP 與 Skills 的開發歷程；個人經驗。",
-              "tweet_id": "2115221369231216702",
+              "text": "Anton（@therceman）建議大家建立自己的代理評估實驗室；評估實務。",
+              "tweet_id": "2115310623936643560",
               "file": "audio/2026-10-28/052.mp3"
             },
             {
               "index": 53,
-              "text": "Alex Puzanov（@OPuzanov）指出 AI 真正的挑戰在於從 Jupyter 走到生產環境；工程化觀點。",
-              "tweet_id": "2115208137745826240",
+              "text": "su112wei（@su112wei）指出不是每個是非題都需要代理圖，有時一次有依據的決策呼叫更好；避免過度設計。",
+              "tweet_id": "2115308869383823602",
               "file": "audio/2026-10-28/053.mp3"
             },
             {
               "index": 54,
-              "text": "MifBridge（@MifBridge）以文字「煙霧彈」生成 Unreal Engine 5 特效；遊戲 VFX 生成。",
-              "tweet_id": "2115201948617998484",
+              "text": "HOPE.（@rlaope）追蹤前沿模型如何解決困難編碼題以降低成本；成本研究。",
+              "tweet_id": "2115291048444641489",
               "file": "audio/2026-10-28/054.mp3"
             },
             {
               "index": 55,
-              "text": "Lenny Rachitsky（@lennysan）整理目前薪資最高的 25 個職缺；就業市場觀察。",
-              "tweet_id": "2115218529100407161",
+              "text": "Ben Davis（@davis7）建議把專案架構成易於本地執行；開發實務。",
+              "tweet_id": "2115196138894893196",
               "file": "audio/2026-10-28/055.mp3"
+            },
+            {
+              "index": 56,
+              "text": "Malte Ubl（@cramforce）描述開發者自建多寫入分散式佇列的「新常態」；代理時代開發現象。",
+              "tweet_id": "2115242508360069254",
+              "file": "audio/2026-10-28/056.mp3"
+            },
+            {
+              "index": 57,
+              "text": "Chrome for Developers（@ChromiumDev）介紹過濾數千項目時避免 UI 卡頓的方法；前端效能。",
+              "tweet_id": "2115106401349492913",
+              "file": "audio/2026-10-28/057.mp3"
+            },
+            {
+              "index": 58,
+              "text": "Alex Lavaee（@alexlavaee）提供形式化驗證程式碼的入門指引；驗證工具普及。",
+              "tweet_id": "2115295816273600777",
+              "file": "audio/2026-10-28/058.mp3"
+            },
+            {
+              "index": 59,
+              "text": "mengtao wang（@aiZttt__）感嘆 Vue 4 將至，但 AI 程式時代還有多少前端在乎框架版本；觀點。",
+              "tweet_id": "2115309883382006124",
+              "file": "audio/2026-10-28/059.mp3"
+            },
+            {
+              "index": 60,
+              "text": "陈大黄（@realchendahuang）提醒 Ego Lite 只開源代理控制層與 Skills，瀏覽器本身未開源；授權透明度。",
+              "tweet_id": "2115120359204954323",
+              "file": "audio/2026-10-28/060.mp3"
+            },
+            {
+              "index": 61,
+              "text": "陈大黄（@realchendahuang）分享以 Ego Lite 讓代理批量下載並轉寫影片；風險提示：大量抓取平台內容可能違反服務條款與著作權。",
+              "tweet_id": "2115118214229495815",
+              "file": "audio/2026-10-28/061.mp3"
+            },
+            {
+              "index": 62,
+              "text": "AI设计钟师傅（@drmrzhong）介紹收錄 2,000 多個產品設計語言的 DESIGN.md 資源；設計參考。",
+              "tweet_id": "2115298619960270892",
+              "file": "audio/2026-10-28/062.mp3"
+            },
+            {
+              "index": 63,
+              "text": "GitHubDaily（@GitHub_Daily）介紹把設計規範寫進 Skill 的 ai-design-skills；設計品質改善。",
+              "tweet_id": "2114982946176442711",
+              "file": "audio/2026-10-28/063.mp3"
+            },
+            {
+              "index": 64,
+              "text": "dualface（@dualface）推薦整理任務成果的 ste-zh Skill；Skill 分享。",
+              "tweet_id": "2115290787403731291",
+              "file": "audio/2026-10-28/064.mp3"
+            },
+            {
+              "index": 65,
+              "text": "一地鸡毛（@zhang_baoqing）推薦研究 Google Research 開源的 Harness²；開源研究。",
+              "tweet_id": "2115232785057403148",
+              "file": "audio/2026-10-28/065.mp3"
+            },
+            {
+              "index": 66,
+              "text": "Marc Puricelli（@marc_puricelli）稱讚 T3 Code 部署與追蹤子代理的體驗；用戶評價。",
+              "tweet_id": "2115111796369498409",
+              "file": "audio/2026-10-28/066.mp3"
+            },
+            {
+              "index": 67,
+              "text": "Radium Wang（@RadiunWong）讓哈蘇相機接入 GPT 控制對焦與快門；硬體整合創意。",
+              "tweet_id": "2115308191810765073",
+              "file": "audio/2026-10-28/067.mp3"
+            },
+            {
+              "index": 68,
+              "text": "Ravindu Nanayakkara（@Ravindu_94）推薦 Claude Projects 搭配 Remote Control 的組合；使用技巧。",
+              "tweet_id": "2115309599402381758",
+              "file": "audio/2026-10-28/068.mp3"
+            },
+            {
+              "index": 69,
+              "text": "小墨同学（@xiaomovps）推薦 3 個可生成影片的 Grok Bot；功能應用。",
+              "tweet_id": "2115314460340748454",
+              "file": "audio/2026-10-28/069.mp3"
+            },
+            {
+              "index": 70,
+              "text": "钱西瓜（@QianXiguaAI）讓 Grok Bot 每個工作日自動訂咖啡並套用優惠券；個人代理日常應用。",
+              "tweet_id": "2115294875168239976",
+              "file": "audio/2026-10-28/070.mp3"
+            },
+            {
+              "index": 71,
+              "text": "马天翼（@fkysly）調查大家今年有哪些工作已被 AI 自動化；社群調查。",
+              "tweet_id": "2115313019668590623",
+              "file": "audio/2026-10-28/071.mp3"
             }
           ]
         },
